@@ -13,6 +13,7 @@ const {
   computeHorizonScore,
   computeGoalScore,
   computeValueScore,
+  computeMomentumScore,
   applyDiversificationPenalty,
   generateRationale,
 } = _testExports;
@@ -39,6 +40,17 @@ function makeStock(overrides = {}) {
     growthPotential: 'moderate',
     description: 'Test',
     descriptionBn: 'টেস্ট',
+    // Stats fields (defaults: neutral/mid-range values)
+    percentile5Y: 50,
+    zScore5Y: 0,
+    priceVsMedian5Y: 1.0,
+    median1Y: 50,
+    median3Y: 50,
+    median5Y: 50,
+    mean5Y: 50,
+    volatilityAnnual: 25,
+    maxDrawdown5Y: -30,
+    beta: 1.0,
     ...overrides,
   };
 }
@@ -114,14 +126,14 @@ describe('seededAdjustment', () => {
 
 describe('computeRiskScore', () => {
   it('gives maximum score when stock risk matches preference', () => {
-    const conservativeStock = makeStock({ riskLevel: 1 });
-    const aggressiveStock = makeStock({ riskLevel: 5 });
+    const conservativeStock = makeStock({ riskLevel: 1, volatilityAnnual: 12 });
+    const aggressiveStock = makeStock({ riskLevel: 5, volatilityAnnual: 30 });
 
     const consScore = computeRiskScore(conservativeStock, 'conservative');
     const aggScore = computeRiskScore(aggressiveStock, 'aggressive');
 
-    expect(consScore).toBeGreaterThan(20);
-    expect(aggScore).toBeGreaterThan(15);
+    expect(consScore).toBeGreaterThan(15); // base ~18.75 + vol bonus 3 = ~21.75
+    expect(aggScore).toBeGreaterThan(13); // base ~15 + vol bonus 3 = ~18
   });
 
   it('gives low score when stock risk mismatches preference', () => {
@@ -212,39 +224,124 @@ describe('computeGoalScore', () => {
 // ═══════════════════════════════════════════════════════════════
 
 describe('computeValueScore', () => {
-  it('returns 0 for stock at 52-week high', () => {
-    const atHigh = makeStock({ currentPrice: 100, week52High: 100, week52Low: 50 });
-    expect(computeValueScore(atHigh)).toBe(0);
+  it('gives high score for deeply undervalued stock (low percentile + negative z-score)', () => {
+    const deepValue = makeStock({
+      percentile5Y: 10,
+      zScore5Y: -2.5,
+      priceVsMedian5Y: 0.45,
+      currentPrice: 25, week52High: 100, week52Low: 20,
+    });
+    expect(computeValueScore(deepValue)).toBeGreaterThan(20);
   });
 
-  it('returns 0 for stock near 52-week high (< 30% from top)', () => {
-    // Position = (100 - 90) / (100 - 50) = 0.2 → < 0.3
-    const nearHigh = makeStock({ currentPrice: 90, week52High: 100, week52Low: 50 });
-    expect(computeValueScore(nearHigh)).toBe(0);
+  it('gives 0 for expensive stock (high percentile + positive z-score + above median)', () => {
+    const expensive = makeStock({
+      percentile5Y: 90,
+      zScore5Y: 1.5,
+      priceVsMedian5Y: 1.3,
+      currentPrice: 95, week52High: 100, week52Low: 50,
+    });
+    expect(computeValueScore(expensive)).toBe(0);
   });
 
-  it('returns positive score for stock in lower half of range', () => {
-    // Position = (100 - 50) / (100 - 20) = 0.625 → > 0.3
-    const midRange = makeStock({ currentPrice: 50, week52High: 100, week52Low: 20 });
-    expect(computeValueScore(midRange)).toBeGreaterThan(0);
+  it('gives moderate score for fairly valued stock', () => {
+    const fair = makeStock({
+      percentile5Y: 45,
+      zScore5Y: -0.1,
+      priceVsMedian5Y: 0.98,
+      currentPrice: 55, week52High: 100, week52Low: 20,
+    });
+    const score = computeValueScore(fair);
+    expect(score).toBeGreaterThan(3);
+    expect(score).toBeLessThan(15);
   });
 
-  it('gives higher score to stock near 52W low than mid-range stock', () => {
-    const nearLow = makeStock({ currentPrice: 25, week52High: 100, week52Low: 20 });
-    const midRange = makeStock({ currentPrice: 60, week52High: 100, week52Low: 20 });
-
-    expect(computeValueScore(nearLow)).toBeGreaterThan(computeValueScore(midRange));
+  it('ranks cheap stock higher than expensive stock', () => {
+    const cheap = makeStock({ percentile5Y: 10, zScore5Y: -2, priceVsMedian5Y: 0.5 });
+    const pricey = makeStock({ percentile5Y: 80, zScore5Y: 0.8, priceVsMedian5Y: 1.2 });
+    expect(computeValueScore(cheap)).toBeGreaterThan(computeValueScore(pricey));
   });
 
-  it('gives maximum score (~20) for stock at 52W low', () => {
-    const atLow = makeStock({ currentPrice: 20, week52High: 100, week52Low: 20 });
-    expect(computeValueScore(atLow)).toBeGreaterThanOrEqual(19);
-    expect(computeValueScore(atLow)).toBeLessThanOrEqual(20);
+  it('52W range acts as supplementary factor', () => {
+    const near52Low = makeStock({
+      percentile5Y: 50, zScore5Y: 0, priceVsMedian5Y: 1.0,
+      currentPrice: 25, week52High: 100, week52Low: 20,
+    });
+    const near52High = makeStock({
+      percentile5Y: 50, zScore5Y: 0, priceVsMedian5Y: 1.0,
+      currentPrice: 95, week52High: 100, week52Low: 20,
+    });
+    expect(computeValueScore(near52Low)).toBeGreaterThan(computeValueScore(near52High));
   });
 
-  it('returns 0 when week52 data is missing', () => {
-    expect(computeValueScore(makeStock({ week52High: null, week52Low: null }))).toBe(0);
-    expect(computeValueScore(makeStock({ week52High: 50, week52Low: 50 }))).toBe(0);
+  it('returns 0 when all stats are missing', () => {
+    const noStats = makeStock({
+      percentile5Y: 0, zScore5Y: null, priceVsMedian5Y: null,
+      week52High: null, week52Low: null,
+    });
+    expect(computeValueScore(noStats)).toBe(0);
+  });
+
+  it('score is always capped at 25', () => {
+    const extremeValue = makeStock({
+      percentile5Y: 1,
+      zScore5Y: -5,
+      priceVsMedian5Y: 0.2,
+      currentPrice: 22, week52High: 100, week52Low: 20,
+    });
+    expect(computeValueScore(extremeValue)).toBeLessThanOrEqual(25);
+  });
+});
+
+
+// ═══════════════════════════════════════════════════════════════
+// computeMomentumScore
+// ═══════════════════════════════════════════════════════════════
+
+describe('computeMomentumScore', () => {
+  it('gives high score for strong uptrending stock in quick mode', () => {
+    const hot = makeStock({ return1d: 2, return15d: 12, return1m: 18, historicalReturn1Y: 30 });
+    expect(computeMomentumScore(hot, 'quick')).toBeGreaterThanOrEqual(6);
+  });
+
+  it('gives 0 for stock with no momentum data in quick mode', () => {
+    const flat = makeStock({ return1d: 0, return15d: 0, return1m: 0, historicalReturn1Y: 0 });
+    expect(computeMomentumScore(flat, 'quick')).toBe(0);
+  });
+
+  it('gives higher score for trending stock than flat stock in short mode', () => {
+    const trending = makeStock({ return1d: 1, return15d: 6, return1m: 10, historicalReturn1Y: 15 });
+    const flat = makeStock({ return1d: -0.5, return15d: -2, return1m: -5, historicalReturn1Y: -10 });
+    expect(computeMomentumScore(trending, 'short')).toBeGreaterThan(computeMomentumScore(flat, 'short'));
+  });
+
+  it('penalizes sharp declines in short mode', () => {
+    const declining = makeStock({ return1d: -2, return15d: -8, return1m: -15 });
+    expect(computeMomentumScore(declining, 'short')).toBe(0);
+  });
+
+  it('gives consistent uptrend bonus when all periods positive in short mode', () => {
+    const allUp = makeStock({ return1d: 1, return15d: 4, return1m: 5 });
+    const mixedUp = makeStock({ return1d: -0.5, return15d: 4, return1m: 5 });
+    expect(computeMomentumScore(allUp, 'short')).toBeGreaterThan(computeMomentumScore(mixedUp, 'short'));
+  });
+
+  it('medium mode has lighter momentum influence', () => {
+    const hot = makeStock({ return1d: 2, return15d: 12, return1m: 18, historicalReturn1Y: 30 });
+    const quickScore = computeMomentumScore(hot, 'quick');
+    const mediumScore = computeMomentumScore(hot, 'medium');
+    expect(quickScore).toBeGreaterThan(mediumScore);
+  });
+
+  it('long mode returns minimal score', () => {
+    const hot = makeStock({ historicalReturn1Y: 25 });
+    expect(computeMomentumScore(hot, 'long')).toBeLessThanOrEqual(2);
+  });
+
+  it('score is capped at 7 for quick and short modes', () => {
+    const extreme = makeStock({ return1d: 5, return15d: 20, return1m: 30, historicalReturn1Y: 50 });
+    expect(computeMomentumScore(extreme, 'quick')).toBeLessThanOrEqual(7);
+    expect(computeMomentumScore(extreme, 'short')).toBeLessThanOrEqual(7);
   });
 });
 

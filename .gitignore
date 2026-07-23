@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Generated scraper data
+public/data/stocks.csv
+public/data/history/
+public/data/scraper_status.json
+
+# Python
+__pycache__/
+*.pyc

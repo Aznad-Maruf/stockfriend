@@ -1,21 +1,55 @@
 import { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import { stocks as staticStocks } from '../data/stocks';
 import { getStocksWithLivePrices } from '../services/dseService';
+import { loadStocksFromCSV, loadScraperStatus } from '../services/csvLoader';
+import { generateRecommendations } from '../engine/recommendationEngine';
 
 const AppContext = createContext(null);
 
 const STEPS = ['experience', 'risk', 'horizon', 'budget', 'goal', 'sectors'];
 
 export function AppProvider({ children }) {
-  const [page, setPage] = useState('landing'); // 'landing' | 'wizard' | 'results'
+  const [page, setPage] = useState(() => {
+    // If user has all answers saved, start in 'loading' to avoid landing page flash
+    if (typeof window !== 'undefined') {
+      try {
+        const saved = localStorage.getItem('sf-answers');
+        if (saved) {
+          const p = JSON.parse(saved);
+          if (p.experience && p.risk && p.horizon && p.budget && p.goal) {
+            return 'loading';
+          }
+        }
+      } catch (e) { /* ignore */ }
+    }
+    return 'landing';
+  });
   const [currentStep, setCurrentStep] = useState(0);
-  const [answers, setAnswers] = useState({
-    experience: null,
-    risk: null,
-    horizon: null,
-    budget: null,
-    goal: null,
-    sectors: [],
+  const [answers, setAnswers] = useState(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const saved = localStorage.getItem('sf-answers');
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          return {
+            experience: parsed.experience || null,
+            risk: parsed.risk || null,
+            horizon: parsed.horizon || null,
+            budget: parsed.budget || null,
+            goal: parsed.goal || null,
+            sectors: parsed.sectors || [],
+          };
+        }
+      } catch (e) { /* ignore corrupt data */ }
+    }
+    return {
+      experience: null,
+      risk: null,
+      horizon: null,
+      budget: null,
+      goal: null,
+      sectors: [],
+    };
   });
   const [results, setResults] = useState(null);
   const [theme, setTheme] = useState(() => {
@@ -31,6 +65,11 @@ export function AppProvider({ children }) {
     return 'en';
   });
 
+  // Base Data State
+  const [baseStocks, setBaseStocks] = useState(staticStocks);
+  const [scraperStatus, setScraperStatus] = useState(null);
+  const [dataSource, setDataSource] = useState('static'); // 'csv' or 'static'
+
   // Live stock data state
   const [liveStocks, setLiveStocks] = useState(staticStocks);
   const [priceStatus, setPriceStatus] = useState({
@@ -41,15 +80,26 @@ export function AppProvider({ children }) {
     matchedCount: 0,
   });
 
-  // Fetch live prices on mount and refresh periodically
+  // Load base data from CSV on mount
   useEffect(() => {
     let mounted = true;
-
-    async function loadLivePrices() {
-      setPriceStatus((prev) => ({ ...prev, loading: true }));
-      try {
-        const result = await getStocksWithLivePrices(staticStocks);
-        if (mounted) {
+    async function initData() {
+      const [{ stocks: loadedStocks, source }, status] = await Promise.all([
+        loadStocksFromCSV(),
+        loadScraperStatus()
+      ]);
+      
+      if (mounted) {
+        setBaseStocks(loadedStocks);
+        setDataSource(source);
+        setScraperStatus(status);
+        
+        // Initial live price fetch
+        setPriceStatus(prev => ({ ...prev, loading: true }));
+        let finalStocks = loadedStocks;
+        try {
+          const result = await getStocksWithLivePrices(loadedStocks);
+          finalStocks = result.stocks;
           setLiveStocks(result.stocks);
           setPriceStatus({
             live: result.live,
@@ -58,9 +108,7 @@ export function AppProvider({ children }) {
             timestamp: result.timestamp,
             matchedCount: result.matchedCount,
           });
-        }
-      } catch (err) {
-        if (mounted) {
+        } catch (err) {
           setPriceStatus({
             live: false,
             loading: false,
@@ -69,19 +117,63 @@ export function AppProvider({ children }) {
             matchedCount: 0,
           });
         }
+
+        // Auto-navigate: if user has all answers saved, go straight to results
+        if (mounted) {
+          let navigated = false;
+          try {
+            const saved = localStorage.getItem('sf-answers');
+            if (saved) {
+              const parsed = JSON.parse(saved);
+              const allFilled = parsed.experience && parsed.risk && parsed.horizon && parsed.budget && parsed.goal;
+              if (allFilled) {
+                const autoResults = generateRecommendations(parsed, finalStocks);
+                setResults(autoResults);
+                setPage('results');
+                navigated = true;
+              }
+            }
+          } catch (e) { /* ignore */ }
+          // Fallback: if we started in 'loading' but couldn't auto-navigate, show landing
+          if (!navigated) {
+            setPage(prev => prev === 'loading' ? 'landing' : prev);
+          }
+        }
       }
     }
-
-    loadLivePrices();
-
-    // Refresh live prices every 5 minutes
-    const interval = setInterval(loadLivePrices, 5 * 60 * 1000);
-
-    return () => {
-      mounted = false;
-      clearInterval(interval);
-    };
+    initData();
+    return () => { mounted = false; };
   }, []);
+
+  // Expose a function to manually refresh prices
+  const refreshPrices = useCallback(async () => {
+    setPriceStatus((prev) => ({ ...prev, loading: true }));
+    try {
+      const result = await getStocksWithLivePrices(baseStocks);
+      setLiveStocks(result.stocks);
+      setPriceStatus({
+        live: result.live,
+        loading: false,
+        error: result.error || null,
+        timestamp: result.timestamp,
+        matchedCount: result.matchedCount,
+      });
+    } catch (err) {
+       setPriceStatus({
+        live: false,
+        loading: false,
+        error: err.message,
+        timestamp: null,
+        matchedCount: 0,
+      });
+    }
+  }, [baseStocks]);
+
+  // Refresh live prices periodically
+  useEffect(() => {
+    const interval = setInterval(refreshPrices, 5 * 60 * 1000);
+    return () => clearInterval(interval);
+  }, [refreshPrices]);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -102,7 +194,11 @@ export function AppProvider({ children }) {
   }, []);
 
   const setAnswer = useCallback((key, value) => {
-    setAnswers(prev => ({ ...prev, [key]: value }));
+    setAnswers(prev => {
+      const next = { ...prev, [key]: value };
+      localStorage.setItem('sf-answers', JSON.stringify(next));
+      return next;
+    });
   }, []);
 
   const nextStep = useCallback(() => {
@@ -128,32 +224,22 @@ export function AppProvider({ children }) {
   }, []);
 
   const resetAssessment = useCallback(() => {
-    setAnswers({
+    const blank = {
       experience: null,
       risk: null,
       horizon: null,
       budget: null,
       goal: null,
       sectors: [],
-    });
+    };
+    setAnswers(blank);
+    localStorage.removeItem('sf-answers');
     setCurrentStep(0);
     setResults(null);
     setPage('landing');
   }, []);
 
-  // Expose a function to manually refresh prices
-  const refreshPrices = useCallback(async () => {
-    setPriceStatus((prev) => ({ ...prev, loading: true }));
-    const result = await getStocksWithLivePrices(staticStocks);
-    setLiveStocks(result.stocks);
-    setPriceStatus({
-      live: result.live,
-      loading: false,
-      error: result.error || null,
-      timestamp: result.timestamp,
-      matchedCount: result.matchedCount,
-    });
-  }, []);
+
 
   const value = {
     page,
@@ -179,6 +265,8 @@ export function AppProvider({ children }) {
     stocks: liveStocks,
     priceStatus,
     refreshPrices,
+    scraperStatus,
+    dataSource,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;

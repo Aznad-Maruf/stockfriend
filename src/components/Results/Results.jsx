@@ -3,6 +3,7 @@ import { translations } from '../../data/translations';
 import { getRiskColor } from '../../engine/recommendationEngine';
 import { Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+import ScraperStatus from '../ScraperStatus/ScraperStatus';
 import './Results.css';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -86,6 +87,9 @@ export default function Results() {
               {new Date(priceStatus.timestamp).toLocaleTimeString(language === 'bn' ? 'bn-BD' : 'en-US', { hour: '2-digit', minute: '2-digit' })}
             </span>
           )}
+        </div>
+        <div style={{ marginTop: 'var(--space-4)' }}>
+          <ScraperStatus />
         </div>
       </header>
 

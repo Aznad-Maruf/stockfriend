@@ -9,6 +9,8 @@ export const translations = {
       heroTitle: 'Invest Smarter in Bangladesh\'s Stock Market',
       heroSubtitle: 'Answer a few simple questions and get personalized stock recommendations tailored to your goals, risk tolerance, and budget.',
       ctaButton: 'Start Assessment',
+      continueCta: 'Continue Previous Assessment',
+      freshCta: 'Start Fresh',
       features: {
         personalized: { title: 'Personalized', desc: 'Recommendations tailored to your unique investment profile' },
         bilingual: { title: 'Bilingual', desc: 'Full support in English and বাংলা' },
@@ -119,6 +121,8 @@ export const translations = {
       heroTitle: 'বাংলাদেশের শেয়ার বাজারে বুদ্ধিমত্তার সাথে বিনিয়োগ করুন',
       heroSubtitle: 'কয়েকটি সহজ প্রশ্নের উত্তর দিন এবং আপনার লক্ষ্য, ঝুঁকি সহনশীলতা ও বাজেট অনুযায়ী ব্যক্তিগতকৃত শেয়ার সুপারিশ পান।',
       ctaButton: 'মূল্যায়ন শুরু করুন',
+      continueCta: 'পূর্ববর্তী মূল্যায়ন চালিয়ে যান',
+      freshCta: 'নতুন করে শুরু করুন',
       features: {
         personalized: { title: 'ব্যক্তিগতকৃত', desc: 'আপনার বিনিয়োগ প্রোফাইল অনুযায়ী তৈরি সুপারিশ' },
         bilingual: { title: 'দ্বিভাষিক', desc: 'ইংরেজি ও বাংলা উভয় ভাষায় পূর্ণ সমর্থন' },

@@ -9,7 +9,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "update-stocks": "python3 scripts/update_stocks.py"
   },
   "dependencies": {
     "chart.js": "^4.5.1",

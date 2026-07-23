@@ -3,11 +3,20 @@ import { translations } from '../../data/translations';
 import './LandingPage.css';
 
 function LandingPage() {
-  const { language, startAssessment } = useApp();
+  const { language, startAssessment, answers, resetAssessment } = useApp();
 
   const t = translations[language];
   const landing = t.landing;
   const features = landing.features;
+
+  // Check if user has saved answers (at least one non-null answer)
+  const hasSavedAnswers = answers.experience || answers.risk || answers.horizon || answers.budget || answers.goal;
+
+  const handleStartFresh = () => {
+    resetAssessment();
+    // resetAssessment goes to landing, so we need to start after clearing
+    setTimeout(() => startAssessment(), 0);
+  };
 
   const featureItems = [
     { key: 'personalized', icon: '🎯' },
@@ -48,10 +57,23 @@ function LandingPage() {
           <span className="landing__badge">{t.app.tagline}</span>
           <h1 className="landing__title">{landing.heroTitle}</h1>
           <p className="landing__subtitle">{landing.heroSubtitle}</p>
-          <button className="landing__cta" onClick={startAssessment}>
-            <span className="landing__cta-text">{landing.ctaButton}</span>
-            <span className="landing__cta-arrow" aria-hidden="true">→</span>
-          </button>
+
+          {hasSavedAnswers ? (
+            <div className="landing__cta-group">
+              <button className="landing__cta" onClick={startAssessment}>
+                <span className="landing__cta-text">{landing.continueCta}</span>
+                <span className="landing__cta-arrow" aria-hidden="true">→</span>
+              </button>
+              <button className="landing__cta landing__cta--secondary" onClick={handleStartFresh}>
+                <span className="landing__cta-text">{landing.freshCta}</span>
+              </button>
+            </div>
+          ) : (
+            <button className="landing__cta" onClick={startAssessment}>
+              <span className="landing__cta-text">{landing.ctaButton}</span>
+              <span className="landing__cta-arrow" aria-hidden="true">→</span>
+            </button>
+          )}
         </div>
       </section>
 
