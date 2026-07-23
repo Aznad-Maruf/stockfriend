@@ -1,8 +1,10 @@
 import { useApp } from '../../context/AppContext';
+import { useData } from '../../context/DataContext';
 import './ScraperStatus.css';
 
 export default function ScraperStatus() {
-  const { scraperStatus, dataSource, language } = useApp();
+  const { language } = useApp();
+  const { scraperStatus, dataSource } = useData();
 
   let statusClass = 'scraper-status--static';
   let message = language === 'bn' ? 'স্ট্যাটিক ডেটা ব্যবহার করা হচ্ছে' : 'Using static data';

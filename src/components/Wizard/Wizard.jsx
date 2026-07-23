@@ -1,12 +1,14 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { useApp } from '../../context/AppContext';
-import { translations } from '../../data/translations';
-import { generateRecommendations } from '../../engine/recommendationEngine';
+import { useData } from '../../context/DataContext';
+import { translations } from '../../data/i18n';
+import { generateRecommendations } from '../../engine';
 import QuestionStep from './QuestionStep';
 import './Wizard.css';
 
 export default function Wizard() {
-  const { currentStep, totalSteps, stepKeys, answers, nextStep, prevStep, showResults, language, stocks, priceStatus } = useApp();
+  const { currentStep, totalSteps, stepKeys, answers, nextStep, prevStep, showResults, language } = useApp();
+  const { stocks, priceStatus } = useData();
   const t = translations[language].wizard;
   const [slideDir, setSlideDir] = useState('next');
   const [animating, setAnimating] = useState(false);

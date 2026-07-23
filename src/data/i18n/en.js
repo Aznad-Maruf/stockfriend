@@ -1,0 +1,112 @@
+export const en = {
+  app: {
+    name: 'StockFriend',
+    tagline: 'Your Smart Stock Investment Companion',
+    description: 'Get personalized stock recommendations for Bangladesh\'s DSE & CSE based on your investment profile.',
+  },
+  landing: {
+    heroTitle: 'Invest Smarter in Bangladesh\'s Stock Market',
+    heroSubtitle: 'Answer a few simple questions and get personalized stock recommendations tailored to your goals, risk tolerance, and budget.',
+    ctaButton: 'Start Assessment',
+    continueCta: 'Continue Previous Assessment',
+    freshCta: 'Start Fresh',
+    features: {
+      personalized: { title: 'Personalized', desc: 'Recommendations tailored to your unique investment profile' },
+      bilingual: { title: 'Bilingual', desc: 'Full support in English and বাংলা' },
+      free: { title: 'Free Forever', desc: 'No hidden charges, no sign-up required' },
+    },
+    disclaimer: 'This tool is for educational and informational purposes only. It does not constitute professional financial advice. Always consult a licensed financial advisor before making investment decisions.',
+  },
+  wizard: {
+    progress: 'Step {current} of {total}',
+    back: 'Back',
+    next: 'Next',
+    submit: 'Get Recommendations',
+    questions: {
+      experience: {
+        title: 'What is your investment experience level?',
+        subtitle: 'This helps us tailor the complexity of our recommendations.',
+        options: {
+          beginner: { label: 'Beginner', desc: 'I\'m new to stock investing' },
+          intermediate: { label: 'Intermediate', desc: 'I understand the basics and have invested before' },
+          advanced: { label: 'Advanced', desc: 'I actively trade and understand market analysis' },
+        },
+      },
+      risk: {
+        title: 'What is your risk tolerance?',
+        subtitle: 'How much risk are you comfortable with?',
+        options: {
+          conservative: { label: 'Conservative', desc: 'I prefer safe, steady returns' },
+          moderate: { label: 'Moderate', desc: 'I\'m okay with some ups and downs' },
+          aggressive: { label: 'Aggressive', desc: 'I\'m willing to take high risks for high rewards' },
+        },
+      },
+      horizon: {
+        title: 'What is your investment horizon?',
+        subtitle: 'How long do you plan to hold your investments?',
+        options: {
+          short: { label: 'Short-term', desc: 'Less than 1 year' },
+          medium: { label: 'Medium-term', desc: '1 to 3 years' },
+          long: { label: 'Long-term', desc: 'More than 3 years' },
+        },
+      },
+      budget: {
+        title: 'What is your investment budget?',
+        subtitle: 'Enter the amount you plan to invest (in BDT).',
+        placeholder: 'Enter amount',
+        currency: '৳',
+        presets: ['50,000', '1,00,000', '5,00,000', '10,00,000'],
+      },
+      goal: {
+        title: 'What is your primary financial goal?',
+        subtitle: 'This helps us prioritize the right kind of stocks for you.',
+        options: {
+          wealth: { label: 'Wealth Building', desc: 'Grow my money over time through capital appreciation' },
+          income: { label: 'Passive Income', desc: 'Earn regular dividends from my investments' },
+          quick: { label: 'Quick Gains', desc: 'Maximize short-term profits' },
+        },
+      },
+      sectors: {
+        title: 'Which sectors are you interested in?',
+        subtitle: 'Select one or more sectors, or skip to consider all.',
+        selectAll: 'No Preference (All Sectors)',
+      },
+    },
+  },
+  results: {
+    title: 'Your Personalized Recommendations',
+    subtitle: 'Based on your investment profile, here are our top picks.',
+    profileSummary: 'Your Profile',
+    riskLabel: 'Risk Tolerance',
+    horizonLabel: 'Investment Horizon',
+    budgetLabel: 'Budget',
+    goalLabel: 'Goal',
+    stockCard: {
+      currentPrice: 'Current Price',
+      allocation: 'Suggested Allocation',
+      tentativeReturn: 'Tentative Return',
+      riskLevel: 'Risk Level',
+      rationale: 'Why this stock?',
+    },
+    riskLevels: {
+      1: 'Very Low',
+      2: 'Low',
+      3: 'Moderate',
+      4: 'High',
+      5: 'Very High',
+    },
+    portfolio: {
+      title: 'Portfolio Overview',
+      totalInvestment: 'Total Investment',
+      projectedValue: 'Projected Value',
+      projectedGain: 'Projected Gain',
+      sectorDiversification: 'Sector Diversification',
+    },
+    retake: 'Retake Assessment',
+    disclaimer: 'Disclaimer: These recommendations are generated algorithmically based on historical data and your stated preferences. They are for educational purposes only and do not constitute financial advice. Past performance does not guarantee future results. Always do your own research and consult a licensed financial advisor.',
+  },
+  header: {
+    theme: { light: 'Light', dark: 'Dark' },
+    language: { en: 'EN', bn: 'বাং' },
+  },
+};

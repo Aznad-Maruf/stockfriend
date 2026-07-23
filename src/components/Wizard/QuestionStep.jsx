@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useApp } from '../../context/AppContext';
-import { translations } from '../../data/translations';
+import { translations } from '../../data/i18n';
 import { sectors } from '../../data/stocks';
 import './QuestionStep.css';
 

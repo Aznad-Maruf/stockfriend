@@ -4,7 +4,7 @@ import {
   getRiskLabel,
   getRiskColor,
   _testExports,
-} from '../engine/recommendationEngine';
+} from '../engine/index.js';
 
 const {
   seedFromTicker,

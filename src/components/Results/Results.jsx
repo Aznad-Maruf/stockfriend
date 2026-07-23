@@ -1,6 +1,7 @@
 import { useApp } from '../../context/AppContext';
-import { translations } from '../../data/translations';
-import { getRiskColor } from '../../engine/recommendationEngine';
+import { useData } from '../../context/DataContext';
+import { translations } from '../../data/i18n';
+import { getRiskColor } from '../../engine';
 import { Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import ScraperStatus from '../ScraperStatus/ScraperStatus';
@@ -18,7 +19,8 @@ const formatBDT = (amount) => {
 };
 
 export default function Results() {
-  const { results, answers, language, resetAssessment, priceStatus } = useApp();
+  const { results, answers, language, resetAssessment } = useApp();
+  const { priceStatus } = useData();
   const t = translations[language];
 
   if (!results) return null;

@@ -1,5 +1,5 @@
 import { useApp } from '../../context/AppContext';
-import { translations } from '../../data/translations';
+import { translations } from '../../data/i18n';
 import './LandingPage.css';
 
 function LandingPage() {

@@ -1,8 +1,4 @@
 import { createContext, useContext, useState, useCallback, useEffect } from 'react';
-import { stocks as staticStocks } from '../data/stocks';
-import { getStocksWithLivePrices } from '../services/dseService';
-import { loadStocksFromCSV, loadScraperStatus } from '../services/csvLoader';
-import { generateRecommendations } from '../engine/recommendationEngine';
 
 const AppContext = createContext(null);
 
@@ -10,7 +6,6 @@ const STEPS = ['experience', 'risk', 'horizon', 'budget', 'goal', 'sectors'];
 
 export function AppProvider({ children }) {
   const [page, setPage] = useState(() => {
-    // If user has all answers saved, start in 'loading' to avoid landing page flash
     if (typeof window !== 'undefined') {
       try {
         const saved = localStorage.getItem('sf-answers');
@@ -64,116 +59,6 @@ export function AppProvider({ children }) {
     }
     return 'en';
   });
-
-  // Base Data State
-  const [baseStocks, setBaseStocks] = useState(staticStocks);
-  const [scraperStatus, setScraperStatus] = useState(null);
-  const [dataSource, setDataSource] = useState('static'); // 'csv' or 'static'
-
-  // Live stock data state
-  const [liveStocks, setLiveStocks] = useState(staticStocks);
-  const [priceStatus, setPriceStatus] = useState({
-    live: false,
-    loading: true,
-    error: null,
-    timestamp: null,
-    matchedCount: 0,
-  });
-
-  // Load base data from CSV on mount
-  useEffect(() => {
-    let mounted = true;
-    async function initData() {
-      const [{ stocks: loadedStocks, source }, status] = await Promise.all([
-        loadStocksFromCSV(),
-        loadScraperStatus()
-      ]);
-      
-      if (mounted) {
-        setBaseStocks(loadedStocks);
-        setDataSource(source);
-        setScraperStatus(status);
-        
-        // Initial live price fetch
-        setPriceStatus(prev => ({ ...prev, loading: true }));
-        let finalStocks = loadedStocks;
-        try {
-          const result = await getStocksWithLivePrices(loadedStocks);
-          finalStocks = result.stocks;
-          setLiveStocks(result.stocks);
-          setPriceStatus({
-            live: result.live,
-            loading: false,
-            error: result.error || null,
-            timestamp: result.timestamp,
-            matchedCount: result.matchedCount,
-          });
-        } catch (err) {
-          setPriceStatus({
-            live: false,
-            loading: false,
-            error: err.message,
-            timestamp: null,
-            matchedCount: 0,
-          });
-        }
-
-        // Auto-navigate: if user has all answers saved, go straight to results
-        if (mounted) {
-          let navigated = false;
-          try {
-            const saved = localStorage.getItem('sf-answers');
-            if (saved) {
-              const parsed = JSON.parse(saved);
-              const allFilled = parsed.experience && parsed.risk && parsed.horizon && parsed.budget && parsed.goal;
-              if (allFilled) {
-                const autoResults = generateRecommendations(parsed, finalStocks);
-                setResults(autoResults);
-                setPage('results');
-                navigated = true;
-              }
-            }
-          } catch (e) { /* ignore */ }
-          // Fallback: if we started in 'loading' but couldn't auto-navigate, show landing
-          if (!navigated) {
-            setPage(prev => prev === 'loading' ? 'landing' : prev);
-          }
-        }
-      }
-    }
-    initData();
-    return () => { mounted = false; };
-  }, []);
-
-  // Expose a function to manually refresh prices
-  const refreshPrices = useCallback(async () => {
-    setPriceStatus((prev) => ({ ...prev, loading: true }));
-    try {
-      const result = await getStocksWithLivePrices(baseStocks);
-      setLiveStocks(result.stocks);
-      setPriceStatus({
-        live: result.live,
-        loading: false,
-        error: result.error || null,
-        timestamp: result.timestamp,
-        matchedCount: result.matchedCount,
-      });
-    } catch (err) {
-       setPriceStatus({
-        live: false,
-        loading: false,
-        error: err.message,
-        timestamp: null,
-        matchedCount: 0,
-      });
-    }
-  }, [baseStocks]);
-
-  // Refresh live prices periodically
-  useEffect(() => {
-    const interval = setInterval(refreshPrices, 5 * 60 * 1000);
-    return () => clearInterval(interval);
-  }, [refreshPrices]);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -239,7 +124,15 @@ export function AppProvider({ children }) {
     setPage('landing');
   }, []);
 
-
+  // Called by DataProvider after data loads
+  const handleAutoNavigate = useCallback((autoResults) => {
+    if (autoResults) {
+      setResults(autoResults);
+      setPage('results');
+    } else {
+      setPage(prev => prev === 'loading' ? 'landing' : prev);
+    }
+  }, []);
 
   const value = {
     page,
@@ -256,17 +149,12 @@ export function AppProvider({ children }) {
     startAssessment,
     showResults,
     resetAssessment,
+    handleAutoNavigate,
     results,
     theme,
     toggleTheme,
     language,
     toggleLanguage,
-    // Live stock data
-    stocks: liveStocks,
-    priceStatus,
-    refreshPrices,
-    scraperStatus,
-    dataSource,
   };
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
