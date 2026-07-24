@@ -1,4 +1,6 @@
-import { createContext, useContext, useState, useCallback, useEffect } from 'react';
+import { createContext, useContext, useState, useCallback, useEffect, useRef } from 'react';
+import { useAuth } from './AuthContext';
+import { saveUserAnswers, loadUserAnswers, clearUserAnswers } from '../services/userService';
 
 const AppContext = createContext(null);
 
@@ -60,6 +62,22 @@ export function AppProvider({ children }) {
     return 'en';
   });
 
+  // Sync answers from Firestore on login
+  const didSyncRef = useRef(false);
+  const { user } = useAuth();
+
+  useEffect(() => {
+    if (!user || didSyncRef.current) return;
+    didSyncRef.current = true;
+
+    loadUserAnswers(user.uid).then(cloudAnswers => {
+      if (cloudAnswers && cloudAnswers.experience) {
+        setAnswers(cloudAnswers);
+        localStorage.setItem('sf-answers', JSON.stringify(cloudAnswers));
+      }
+    }).catch(e => console.warn('Failed to load cloud answers:', e));
+  }, [user]);
+
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('sf-theme', theme);
@@ -78,13 +96,17 @@ export function AppProvider({ children }) {
     setLanguage(prev => (prev === 'en' ? 'bn' : 'en'));
   }, []);
 
-  const setAnswer = useCallback((key, value) => {
+  const setAnswer = useCallback((key, val) => {
     setAnswers(prev => {
-      const next = { ...prev, [key]: value };
+      const next = { ...prev, [key]: val };
       localStorage.setItem('sf-answers', JSON.stringify(next));
+      // Fire-and-forget Firestore sync
+      if (user) {
+        saveUserAnswers(user.uid, next).catch(() => {});
+      }
       return next;
     });
-  }, []);
+  }, [user]);
 
   const nextStep = useCallback(() => {
     if (currentStep < STEPS.length - 1) {
@@ -119,10 +141,13 @@ export function AppProvider({ children }) {
     };
     setAnswers(blank);
     localStorage.removeItem('sf-answers');
+    if (user) {
+      clearUserAnswers(user.uid).catch(() => {});
+    }
     setCurrentStep(0);
     setResults(null);
     setPage('landing');
-  }, []);
+  }, [user]);
 
   // Called by DataProvider after data loads
   const handleAutoNavigate = useCallback((autoResults) => {

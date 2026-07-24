@@ -527,12 +527,55 @@
   font-family: var(--font-family-bn);
 }
 
-/* ——— Retake Button ——— */
+/* ——— Action Buttons ——— */
 
 .results__actions {
   display: flex;
   justify-content: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
   animation: resultsFadeInUp 0.7s ease-out 0.6s both;
+}
+
+.results__save-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-6);
+  font-size: var(--text-base);
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  border: none;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), opacity var(--transition-fast);
+  min-width: 200px;
+}
+
+.results__save-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(13, 148, 136, 0.35);
+}
+
+.results__save-btn:disabled {
+  cursor: default;
+}
+
+.results__save-btn--saved {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.results__save-btn--signin {
+  background: transparent;
+  color: var(--color-text-secondary);
+  border: 1px dashed var(--color-border);
+}
+
+.results__save-btn--signin:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .results__retake-btn {

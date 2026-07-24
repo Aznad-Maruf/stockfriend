@@ -1,9 +1,11 @@
 import { AppProvider, useApp } from './context/AppContext';
 import { DataProvider } from './context/DataContext';
+import { AuthProvider } from './context/AuthContext';
 import Header from './components/Header/Header';
 import LandingPage from './components/LandingPage/LandingPage';
 import Wizard from './components/Wizard/Wizard';
 import Results from './components/Results/Results';
+import Portfolio from './components/Portfolio/Portfolio';
 import LoadingScreen from './components/common/LoadingScreen/LoadingScreen';
 
 function AppContent() {
@@ -18,6 +20,7 @@ function AppContent() {
           {page === 'landing' && <LandingPage />}
           {page === 'wizard' && <Wizard />}
           {page === 'results' && <Results />}
+          {page === 'portfolio' && <Portfolio />}
         </main>
       </div>
     </DataProvider>
@@ -26,9 +29,11 @@ function AppContent() {
 
 function App() {
   return (
-    <AppProvider>
-      <AppContent />
-    </AppProvider>
+    <AuthProvider>
+      <AppProvider>
+        <AppContent />
+      </AppProvider>
+    </AuthProvider>
   );
 }
 

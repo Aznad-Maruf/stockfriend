@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import { useApp } from '../../context/AppContext';
 import { useData } from '../../context/DataContext';
+import { useAuth } from '../../context/AuthContext';
 import { translations } from '../../data/i18n';
 import { getRiskColor } from '../../engine';
+import { savePortfolio } from '../../services/userService';
 import { Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import ScraperStatus from '../ScraperStatus/ScraperStatus';
@@ -21,6 +24,8 @@ const formatBDT = (amount) => {
 export default function Results() {
   const { results, answers, language, resetAssessment } = useApp();
   const { priceStatus } = useData();
+  const { user, isLoggedIn, signInWithGoogle } = useAuth();
+  const [saveStatus, setSaveStatus] = useState(null); // null | 'saving' | 'saved' | 'error'
   const t = translations[language];
 
   if (!results) return null;
@@ -276,8 +281,44 @@ export default function Results() {
         })}
       </section>
 
-      {/* Retake Assessment */}
+      {/* Actions */}
       <div className="results__actions">
+        {isLoggedIn ? (
+          <button
+            className={`results__save-btn ${saveStatus === 'saved' ? 'results__save-btn--saved' : ''}`}
+            disabled={saveStatus === 'saving' || saveStatus === 'saved'}
+            onClick={async () => {
+              setSaveStatus('saving');
+              try {
+                await savePortfolio(user.uid, {
+                  name: new Date().toLocaleDateString(language === 'bn' ? 'bn-BD' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
+                  answers,
+                  recommendations: recommendations.map(r => ({
+                    ticker: r.ticker, name: r.name, sector: r.sector,
+                    allocation: r.allocation, score: r.score,
+                    projectedReturn: r.projectedReturn,
+                  })),
+                  summary,
+                });
+                setSaveStatus('saved');
+                setTimeout(() => setSaveStatus(null), 3000);
+              } catch (e) {
+                console.error('Save failed:', e);
+                setSaveStatus('error');
+                setTimeout(() => setSaveStatus(null), 3000);
+              }
+            }}
+          >
+            {saveStatus === 'saving' ? (language === 'en' ? 'Saving...' : 'সেভ হচ্ছে...') :
+             saveStatus === 'saved' ? (language === 'en' ? '✓ Portfolio Saved' : '✓ পোর্টফোলিও সেভ হয়েছে') :
+             saveStatus === 'error' ? (language === 'en' ? 'Save failed' : 'সেভ ব্যর্থ') :
+             (language === 'en' ? '💾 Save Portfolio' : '💾 পোর্টফোলিও সেভ করুন')}
+          </button>
+        ) : (
+          <button className="results__save-btn results__save-btn--signin" onClick={signInWithGoogle}>
+            {language === 'en' ? '🔒 Sign in to Save Portfolio' : '🔒 পোর্টফোলিও সেভ করতে সাইন ইন করুন'}
+          </button>
+        )}
         <button className="results__retake-btn" onClick={resetAssessment}>
           {t.results.retake}
         </button>
