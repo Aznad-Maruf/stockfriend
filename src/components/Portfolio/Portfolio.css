@@ -67,6 +67,29 @@
   transform: translateY(-2px);
 }
 
+.portfolio__create-select {
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md, 8px);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-secondary);
+  color: var(--color-text);
+  font-size: 0.9rem;
+  cursor: pointer;
+  min-width: 140px;
+}
+
+.portfolio__time-badge {
+  display: inline-block;
+  margin-left: 0.75rem;
+  padding: 0.2rem 0.75rem;
+  font-size: var(--text-xs, 0.75rem);
+  font-weight: 600;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.12);
+  border-radius: var(--radius-full, 50px);
+  vertical-align: middle;
+}
+
 .portfolio__grid {
   display: grid;
   grid-template-columns: 1fr;

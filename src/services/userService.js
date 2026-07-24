@@ -66,13 +66,15 @@ export async function savePortfolio(uid, portfolio) {
   return docRef.id;
 }
 
-export async function createPortfolio(uid, name) {
+export async function createPortfolio(uid, name, maxHoldMonths = null) {
   const ref = collection(db, 'users', uid, 'portfolios');
-  const docRef = await addDoc(ref, {
+  const data = {
     name,
     createdAt: serverTimestamp(),
     updatedAt: serverTimestamp(),
-  });
+  };
+  if (maxHoldMonths) data.maxHoldMonths = maxHoldMonths;
+  const docRef = await addDoc(ref, data);
   return docRef.id;
 }
 

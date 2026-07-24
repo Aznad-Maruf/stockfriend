@@ -18,4 +18,9 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 export const googleProvider = new GoogleAuthProvider();
 
+// Expose for browser console in dev mode
+if (import.meta.env.DEV) {
+  window.__fb = { auth, db };
+}
+
 export default app;

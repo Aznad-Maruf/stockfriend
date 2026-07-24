@@ -6,7 +6,7 @@ import { loadHoldings, removeHolding } from '../../services/userService';
 import { generateHoldingSuggestion } from '../../engine/suggestion';
 import AddHoldingModal from './AddHoldingModal';
 
-const PortfolioDetail = ({ portfolioId, portfolioName, onBack }) => {
+const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) => {
   const { user } = useAuth();
   const { stocks } = useData();
   const { language } = useApp();
@@ -61,7 +61,7 @@ const PortfolioDetail = ({ portfolioId, portfolioName, onBack }) => {
     const currentValue = h.quantity * currentPrice;
     const pnl = currentValue - costBasis;
     const pnlPct = costBasis > 0 ? (pnl / costBasis) * 100 : 0;
-    const suggestion = generateHoldingSuggestion({ ...h, pnlPct }, liveStock);
+    const suggestion = generateHoldingSuggestion({ ...h, pnlPct }, liveStock, maxHoldMonths);
 
     return {
       ...h,
@@ -86,7 +86,12 @@ const PortfolioDetail = ({ portfolioId, portfolioName, onBack }) => {
     <div className="portfolio__detail" data-lang={language}>
       <div className="portfolio__header">
         <button className="portfolio__back-btn" onClick={onBack}>← {isEn ? 'Back' : 'পেছনে'}</button>
-        <h2>{portfolioName}</h2>
+        <h2>
+          {portfolioName}
+          {maxHoldMonths && (
+            <span className="portfolio__time-badge">⏱ {maxHoldMonths}{isEn ? 'mo max' : ' মাস'}</span>
+          )}
+        </h2>
         <button className="portfolio__add-btn" onClick={() => setShowAddModal(true)}>+ {isEn ? 'Add Holding' : 'যোগ করুন'}</button>
       </div>
 

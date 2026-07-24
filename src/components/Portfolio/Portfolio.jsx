@@ -6,8 +6,7 @@ import './Portfolio.css';
 
 const Portfolio = () => {
   const { user, login } = useAuth();
-  const [selectedPortfolioId, setSelectedPortfolioId] = useState(null);
-  const [selectedPortfolioName, setSelectedPortfolioName] = useState('');
+  const [selectedPortfolio, setSelectedPortfolio] = useState(null);
 
   if (!user) {
     return (
@@ -19,26 +18,17 @@ const Portfolio = () => {
     );
   }
 
-  const handleSelect = (id, name) => {
-    setSelectedPortfolioId(id);
-    setSelectedPortfolioName(name);
-  };
-
-  const handleBack = () => {
-    setSelectedPortfolioId(null);
-    setSelectedPortfolioName('');
-  };
-
   return (
     <div className="portfolio">
-      {selectedPortfolioId ? (
+      {selectedPortfolio ? (
         <PortfolioDetail 
-          portfolioId={selectedPortfolioId} 
-          portfolioName={selectedPortfolioName} 
-          onBack={handleBack} 
+          portfolioId={selectedPortfolio.id} 
+          portfolioName={selectedPortfolio.name}
+          maxHoldMonths={selectedPortfolio.maxHoldMonths || null}
+          onBack={() => setSelectedPortfolio(null)} 
         />
       ) : (
-        <PortfolioList onSelect={handleSelect} />
+        <PortfolioList onSelect={(id, name, maxHoldMonths) => setSelectedPortfolio({ id, name, maxHoldMonths })} />
       )}
     </div>
   );
