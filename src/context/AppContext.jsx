@@ -6,9 +6,38 @@ const AppContext = createContext(null);
 
 const STEPS = ['experience', 'risk', 'horizon', 'budget', 'goal', 'sectors'];
 
+// Hash routing helpers
+function getPageFromHash() {
+  const hash = window.location.hash.replace('#/', '') || '';
+  if (hash === '' || hash === 'landing') return { page: 'landing' };
+  if (hash === 'wizard') return { page: 'wizard' };
+  if (hash === 'results') return { page: 'results' };
+  if (hash.startsWith('portfolio/')) {
+    const id = hash.replace('portfolio/', '');
+    return { page: 'portfolio', portfolioId: id };
+  }
+  if (hash === 'portfolio') return { page: 'portfolio' };
+  return { page: 'landing' };
+}
+
+function setHash(page, extra) {
+  let hash = '#/' + page;
+  if (page === 'landing') hash = '#/';
+  if (extra) hash += '/' + extra;
+  if (window.location.hash !== hash) {
+    window.history.pushState(null, '', hash);
+  }
+}
+
 export function AppProvider({ children }) {
-  const [page, setPage] = useState(() => {
+  const [page, setPageState] = useState(() => {
     if (typeof window !== 'undefined') {
+      const hashRoute = getPageFromHash();
+      // If URL has a specific page, use it
+      if (hashRoute.page !== 'landing' && window.location.hash) {
+        return hashRoute.page;
+      }
+      // Otherwise check for saved answers -> auto-load results
       try {
         const saved = localStorage.getItem('sf-answers');
         if (saved) {
@@ -20,6 +49,13 @@ export function AppProvider({ children }) {
       } catch (e) { /* ignore */ }
     }
     return 'landing';
+  });
+  const [portfolioRoute, setPortfolioRoute] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const hashRoute = getPageFromHash();
+      return hashRoute.portfolioId || null;
+    }
+    return null;
   });
   const [currentStep, setCurrentStep] = useState(0);
   const [answers, setAnswers] = useState(() => {
@@ -92,6 +128,29 @@ export function AppProvider({ children }) {
     setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
   }, []);
 
+  // URL-aware setPage
+  const setPage = useCallback((newPage, extra) => {
+    setPageState(newPage);
+    if (newPage === 'portfolio' && extra) {
+      setPortfolioRoute(extra);
+      setHash(newPage, extra);
+    } else {
+      if (newPage !== 'loading') setHash(newPage);
+      if (newPage !== 'portfolio') setPortfolioRoute(null);
+    }
+  }, []);
+
+  // Listen for browser back/forward
+  useEffect(() => {
+    const handlePopState = () => {
+      const route = getPageFromHash();
+      setPageState(route.page);
+      setPortfolioRoute(route.portfolioId || null);
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
   const toggleLanguage = useCallback(() => {
     setLanguage(prev => (prev === 'en' ? 'bn' : 'en'));
   }, []);
@@ -123,12 +182,12 @@ export function AppProvider({ children }) {
   const startAssessment = useCallback(() => {
     setPage('wizard');
     setCurrentStep(0);
-  }, []);
+  }, [setPage]);
 
   const showResults = useCallback((resultData) => {
     setResults(resultData);
     setPage('results');
-  }, []);
+  }, [setPage]);
 
   const resetAssessment = useCallback(() => {
     const blank = {
@@ -147,7 +206,7 @@ export function AppProvider({ children }) {
     setCurrentStep(0);
     setResults(null);
     setPage('landing');
-  }, [user]);
+  }, [user, setPage]);
 
   // Called by DataProvider after data loads
   const handleAutoNavigate = useCallback((autoResults) => {
@@ -155,13 +214,14 @@ export function AppProvider({ children }) {
       setResults(autoResults);
       setPage('results');
     } else {
-      setPage(prev => prev === 'loading' ? 'landing' : prev);
+      setPageState(prev => prev === 'loading' ? 'landing' : prev);
     }
-  }, []);
+  }, [setPage]);
 
   const value = {
     page,
     setPage,
+    portfolioRoute,
     currentStep,
     setCurrentStep,
     totalSteps: STEPS.length,

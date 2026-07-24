@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { useApp } from '../../context/AppContext';
-import { createPortfolio, loadPortfolios, deletePortfolio, addHolding } from '../../services/userService';
+import { useData } from '../../context/DataContext';
+import { createPortfolio, loadPortfolios, deletePortfolio, addHolding, loadHoldings } from '../../services/userService';
 
 const PortfolioList = ({ onSelect }) => {
   const { user } = useAuth();
   const { language } = useApp();
+  const { stocks } = useData();
   const [portfolios, setPortfolios] = useState([]);
   const [newPortfolioName, setNewPortfolioName] = useState('');
   const [loading, setLoading] = useState(true);
@@ -44,7 +46,22 @@ const PortfolioList = ({ onSelect }) => {
     try {
       setLoading(true);
       const data = await loadPortfolios(user.uid);
-      setPortfolios(data);
+      // Load holdings for each portfolio to compute totals
+      const enriched = await Promise.all(data.map(async (p) => {
+        try {
+          const holdings = await loadHoldings(user.uid, p.id);
+          const totalCost = holdings.reduce((sum, h) => sum + h.quantity * h.buyPrice, 0);
+          const totalCurrent = holdings.reduce((sum, h) => {
+            const live = stocks?.find(s => s.ticker === h.ticker);
+            const price = live?.currentPrice || h.buyPrice;
+            return sum + h.quantity * price;
+          }, 0);
+          return { ...p, holdingCount: holdings.length, totalCost, totalCurrent };
+        } catch {
+          return { ...p, holdingCount: 0, totalCost: 0, totalCurrent: 0 };
+        }
+      }));
+      setPortfolios(enriched);
     } catch (err) {
       console.error(err);
       setError('Failed to load portfolios');
@@ -145,10 +162,23 @@ const PortfolioList = ({ onSelect }) => {
               <div className="portfolio__card-content">
                 <h3 className="portfolio__card-name">{p.name}</h3>
                 <p className="portfolio__card-meta">
-                  Created: {new Date(p.createdAt?.toDate ? p.createdAt.toDate() : p.createdAt).toLocaleDateString()}
+                  {p.holdingCount || 0} stocks
                   {p.maxHoldMonths && ` • ⏱ ${p.maxHoldMonths}mo max`}
-                  {p.holdingCount !== undefined && ` • ${p.holdingCount} Holdings`}
                 </p>
+                {p.totalCost > 0 && (() => {
+                  const pnl = p.totalCurrent - p.totalCost;
+                  const pnlPct = (pnl / p.totalCost) * 100;
+                  const isProfit = pnl >= 0;
+                  return (
+                    <div className="portfolio__card-values">
+                      <span className="portfolio__card-cost">Cost: ৳{p.totalCost.toLocaleString('en-IN', { maximumFractionDigits: 0 })}</span>
+                      <span className="portfolio__card-current">Now: ৳{p.totalCurrent.toLocaleString('en-IN', { maximumFractionDigits: 0 })}</span>
+                      <span className={isProfit ? 'portfolio__pnl--profit' : 'portfolio__pnl--loss'}>
+                        {isProfit ? '+' : ''}৳{pnl.toLocaleString('en-IN', { maximumFractionDigits: 0 })} ({isProfit ? '+' : ''}{pnlPct.toFixed(1)}%)
+                      </span>
+                    </div>
+                  );
+                })()}
               </div>
               <button 
                 className="portfolio__card-delete" 

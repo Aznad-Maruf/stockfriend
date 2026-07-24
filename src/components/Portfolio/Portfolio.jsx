@@ -1,12 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
+import { useApp } from '../../context/AppContext';
 import PortfolioList from './PortfolioList';
 import PortfolioDetail from './PortfolioDetail';
+import { loadPortfolios } from '../../services/userService';
 import './Portfolio.css';
 
 const Portfolio = () => {
   const { user, login } = useAuth();
+  const { portfolioRoute, setPage } = useApp();
   const [selectedPortfolio, setSelectedPortfolio] = useState(null);
+
+  // Deep-link: if URL has portfolio ID, load it
+  useEffect(() => {
+    if (portfolioRoute && user && !selectedPortfolio) {
+      loadPortfolios(user.uid).then(portfolios => {
+        const found = portfolios.find(p => p.id === portfolioRoute);
+        if (found) {
+          setSelectedPortfolio({ id: found.id, name: found.name, maxHoldMonths: found.maxHoldMonths });
+        }
+      }).catch(() => {});
+    }
+    if (!portfolioRoute) {
+      setSelectedPortfolio(null);
+    }
+  }, [portfolioRoute, user]);
 
   if (!user) {
     return (
@@ -18,6 +36,16 @@ const Portfolio = () => {
     );
   }
 
+  const handleSelect = (id, name, maxHoldMonths) => {
+    setSelectedPortfolio({ id, name, maxHoldMonths });
+    setPage('portfolio', id);
+  };
+
+  const handleBack = () => {
+    setSelectedPortfolio(null);
+    setPage('portfolio');
+  };
+
   return (
     <div className="portfolio">
       {selectedPortfolio ? (
@@ -25,10 +53,10 @@ const Portfolio = () => {
           portfolioId={selectedPortfolio.id} 
           portfolioName={selectedPortfolio.name}
           maxHoldMonths={selectedPortfolio.maxHoldMonths || null}
-          onBack={() => setSelectedPortfolio(null)} 
+          onBack={handleBack} 
         />
       ) : (
-        <PortfolioList onSelect={(id, name, maxHoldMonths) => setSelectedPortfolio({ id, name, maxHoldMonths })} />
+        <PortfolioList onSelect={handleSelect} />
       )}
     </div>
   );

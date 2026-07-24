@@ -136,6 +136,8 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
                   <th>{isEn ? 'Qty' : 'পরিমাণ'}</th>
                   <th>{isEn ? 'Avg Cost' : 'গড় মূল্য'} (৳)</th>
                   <th>{isEn ? 'Current' : 'বর্তমান'} (৳)</th>
+                  <th>{isEn ? 'Invested' : 'বিনিয়োগ'}</th>
+                  <th>{isEn ? 'Value' : 'মূল্য'}</th>
                   <th>{isEn ? 'P/L' : 'লাভ/ক্ষতি'} (৳)</th>
                   <th>{isEn ? 'P/L%' : '%'}</th>
                   <th></th>
@@ -149,6 +151,8 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
                     <td>{h.quantity}</td>
                     <td>{formatCurrency(h.buyPrice)}</td>
                     <td>{formatCurrency(h.currentPrice)}</td>
+                    <td>{formatCurrency(h.costBasis)}</td>
+                    <td>{formatCurrency(h.currentValue)}</td>
                     <td className={h.pnl >= 0 ? 'portfolio__pnl--profit' : 'portfolio__pnl--loss'}>
                       {h.pnl > 0 ? '+' : ''}{formatCurrency(h.pnl)}
                     </td>

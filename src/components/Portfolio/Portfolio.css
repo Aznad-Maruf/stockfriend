@@ -140,6 +140,24 @@
   color: var(--color-text-muted, #666);
 }
 
+.portfolio__card-values {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.portfolio__card-cost,
+.portfolio__card-current {
+  color: var(--color-text-secondary);
+}
+
+.portfolio__card-current {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
 .portfolio__card-delete {
   background: rgba(239, 68, 68, 0.1);
   color: #ef4444;
