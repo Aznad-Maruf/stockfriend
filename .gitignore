@@ -23,10 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
-# Generated scraper data
-public/data/stocks.csv
+# Generated scraper data (history is too large for git)
 public/data/history/
-public/data/scraper_status.json
 
 # Python
 __pycache__/
