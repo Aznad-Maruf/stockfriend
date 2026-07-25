@@ -82,6 +82,13 @@ export function DataProvider({ children, onAutoNavigate }) {
             onAutoNavigate(null); // Signal no auto-nav, fall back to landing
           }
         }
+
+        // Dismiss HTML splash now that app is ready
+        const splash = document.getElementById('splash');
+        if (splash) {
+          splash.classList.add('hide');
+          setTimeout(() => splash.remove(), 500);
+        }
       }
     }
     initData();
