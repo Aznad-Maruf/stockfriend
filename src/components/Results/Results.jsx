@@ -5,6 +5,7 @@ import { useAuth } from '../../context/AuthContext';
 import { translations } from '../../data/i18n';
 import { getRiskColor } from '../../engine';
 import { savePortfolio } from '../../services/userService';
+import { formatBDT } from '../../utils/formatters';
 import { Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import ScraperStatus from '../ScraperStatus/ScraperStatus';
@@ -16,10 +17,6 @@ const CHART_COLORS = [
   '#0d9488', '#f97316', '#6366f1', '#ec4899',
   '#8b5cf6', '#14b8a6', '#f59e0b', '#06b6d4', '#22c55e',
 ];
-
-const formatBDT = (amount) => {
-  return '৳' + amount.toLocaleString('en-IN');
-};
 
 export default function Results() {
   const { results, answers, language, resetAssessment } = useApp();
@@ -312,9 +309,9 @@ export default function Results() {
                   name: new Date().toLocaleDateString(language === 'bn' ? 'bn-BD' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
                   answers,
                   recommendations: recommendations.map(r => ({
-                    ticker: r.ticker, name: r.name, sector: r.sector,
-                    allocation: r.allocation, score: r.score,
-                    projectedReturn: r.projectedReturn,
+                    ticker: r.stock.ticker, name: r.stock.name, sector: r.stock.sector,
+                    allocationPercent: r.allocationPercent, score: r.score,
+                    tentativeReturnPercent: r.tentativeReturnPercent,
                   })),
                   summary,
                 });

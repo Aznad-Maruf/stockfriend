@@ -14,7 +14,7 @@ const {
   computeGoalScore,
   computeValueScore,
   computeMomentumScore,
-  applyDiversificationPenalty,
+  applyDiversificationBonus,
   generateRationale,
 } = _testExports;
 
@@ -347,17 +347,17 @@ describe('computeMomentumScore', () => {
 
 
 // ═══════════════════════════════════════════════════════════════
-// applyDiversificationPenalty
+// applyDiversificationBonus
 // ═══════════════════════════════════════════════════════════════
 
-describe('applyDiversificationPenalty', () => {
+describe('applyDiversificationBonus', () => {
   it('gives max bonus to first stock in a sector', () => {
     const scored = [
       { stock: makeStock({ sector: 'Banking' }), baseScore: 50 },
       { stock: makeStock({ sector: 'IT' }), baseScore: 45 },
     ];
 
-    const result = applyDiversificationPenalty(scored);
+    const result = applyDiversificationBonus(scored);
     expect(result[0].diversificationScore).toBe(15); // max bonus
     expect(result[1].diversificationScore).toBe(15); // different sector → also max
   });
@@ -369,7 +369,7 @@ describe('applyDiversificationPenalty', () => {
       { stock: makeStock({ sector: 'Banking' }), baseScore: 45 },
     ];
 
-    const result = applyDiversificationPenalty(scored);
+    const result = applyDiversificationBonus(scored);
     expect(result[0].diversificationScore).toBe(15);        // first
     expect(result[1].diversificationScore).toBe(15 * 0.4);  // second
     expect(result[2].diversificationScore).toBe(15 * 0.1);  // third+
@@ -377,7 +377,7 @@ describe('applyDiversificationPenalty', () => {
 
   it('sets totalScore = baseScore + diversificationScore', () => {
     const scored = [{ stock: makeStock(), baseScore: 60 }];
-    const result = applyDiversificationPenalty(scored);
+    const result = applyDiversificationBonus(scored);
     expect(result[0].totalScore).toBe(60 + 15);
   });
 });

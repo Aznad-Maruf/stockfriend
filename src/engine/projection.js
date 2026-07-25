@@ -1,5 +1,5 @@
 import { generateRationale } from './rationale.js';
-import { ALLOCATION_TIERS } from './constants.js';
+import { ALLOCATION_TIERS, THRESHOLDS, MEAN_REVERSION_FACTORS } from './constants.js';
 
 export function seedFromTicker(ticker) {
   let hash = 0;
@@ -55,15 +55,14 @@ export function buildRecommendations(top5, answers, research = {}) {
       // How far below median (as % of current price)
       const gapToMedian = ((item.stock.median5Y - item.stock.currentPrice) / item.stock.currentPrice) * 100;
       // Assume partial reversion depending on horizon
-      const reversionFactor =
-        answers.horizon === 'short' ? 0.15 : answers.horizon === 'medium' ? 0.4 : 0.7;
-      meanReversionReturn = Math.min(100, Math.max(0, gapToMedian * reversionFactor));
+      const reversionFactor = MEAN_REVERSION_FACTORS[answers.horizon] || MEAN_REVERSION_FACTORS.long;
+      meanReversionReturn = Math.min(THRESHOLDS.MAX_MEAN_REVERSION_PCT, Math.max(0, gapToMedian * reversionFactor));
     }
 
     const adjustment = seededAdjustment(item.stock.ticker);
     const rawReturn = baseReturn * (1 + adjustment) + meanReversionReturn;
     const tentativeReturnPercent =
-      Math.round(Math.max(-99, Math.min(500, isFinite(rawReturn) ? rawReturn : 0)) * 10) / 10;
+      Math.round(Math.max(THRESHOLDS.MIN_RETURN_PCT, Math.min(THRESHOLDS.MAX_RETURN_PCT, isFinite(rawReturn) ? rawReturn : 0)) * 10) / 10;
     const tentativeReturnAmount = Math.round(
       (tentativeReturnPercent / 100) * allocationAmount
     );

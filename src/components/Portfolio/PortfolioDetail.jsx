@@ -5,6 +5,8 @@ import { useApp } from '../../context/AppContext';
 import { loadHoldings, removeHolding } from '../../services/userService';
 import { generateHoldingSuggestion } from '../../engine/suggestion';
 import AddHoldingModal from './AddHoldingModal';
+import { formatBDT, formatPct } from '../../utils/formatters';
+import { useEnrichedHoldings } from '../../hooks/useEnrichedHoldings';
 
 const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) => {
   const { user } = useAuth();
@@ -45,36 +47,7 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
     }
   };
 
-  const formatCurrency = (amount) => {
-    return '৳' + Number(amount).toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-  };
-
-  const formatPct = (pct) => {
-    return Number(pct).toFixed(2) + '%';
-  };
-
-  // Compute live data + suggestions
-  const enrichedHoldings = holdings.map(h => {
-    const liveStock = stocks?.find(s => s.ticker === h.ticker);
-    const currentPrice = liveStock?.currentPrice || h.buyPrice || 0;
-    const costBasis = h.quantity * h.buyPrice;
-    const currentValue = h.quantity * currentPrice;
-    const pnl = currentValue - costBasis;
-    const pnlPct = costBasis > 0 ? (pnl / costBasis) * 100 : 0;
-    const suggestion = generateHoldingSuggestion({ ...h, pnlPct }, liveStock, maxHoldMonths, research);
-
-    return {
-      ...h,
-      currentPrice,
-      costBasis,
-      currentValue,
-      pnl,
-      pnlPct,
-      suggestion,
-      name: liveStock?.name || h.name || h.ticker,
-      category: liveStock?.category || research?.[h.ticker]?.category || 'A',
-    };
-  });
+  const enrichedHoldings = useEnrichedHoldings(holdings, stocks, maxHoldMonths, research);
 
   const totalInvested = enrichedHoldings.reduce((sum, h) => sum + h.costBasis, 0);
   const totalCurrent = enrichedHoldings.reduce((sum, h) => sum + h.currentValue, 0);
@@ -101,16 +74,16 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
       <div className="portfolio__summary">
         <div className="portfolio__summary-item">
           <span>{isEn ? 'Invested' : 'বিনিয়োগ'}</span>
-          <strong>{formatCurrency(totalInvested)}</strong>
+          <strong>{formatBDT(totalInvested)}</strong>
         </div>
         <div className="portfolio__summary-item">
           <span>{isEn ? 'Current Value' : 'বর্তমান মূল্য'}</span>
-          <strong>{formatCurrency(totalCurrent)}</strong>
+          <strong>{formatBDT(totalCurrent)}</strong>
         </div>
         <div className="portfolio__summary-item">
           <span>{isEn ? 'Total P/L' : 'মোট লাভ/ক্ষতি'}</span>
           <strong className={totalPnl >= 0 ? 'portfolio__summary-value--profit' : 'portfolio__summary-value--loss'}>
-            {totalPnl > 0 ? '+' : ''}{formatCurrency(totalPnl)}
+            {totalPnl > 0 ? '+' : ''}{formatBDT(totalPnl)}
           </strong>
         </div>
         <div className="portfolio__summary-item">
@@ -155,12 +128,12 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
                     </td>
                     <td>{h.name}</td>
                     <td>{h.quantity}</td>
-                    <td>{formatCurrency(h.buyPrice)}</td>
-                    <td>{formatCurrency(h.currentPrice)}</td>
-                    <td>{formatCurrency(h.costBasis)}</td>
-                    <td>{formatCurrency(h.currentValue)}</td>
+                    <td>{formatBDT(h.buyPrice)}</td>
+                    <td>{formatBDT(h.currentPrice)}</td>
+                    <td>{formatBDT(h.costBasis)}</td>
+                    <td>{formatBDT(h.currentValue)}</td>
                     <td className={h.pnl >= 0 ? 'portfolio__pnl--profit' : 'portfolio__pnl--loss'}>
-                      {h.pnl > 0 ? '+' : ''}{formatCurrency(h.pnl)}
+                      {h.pnl > 0 ? '+' : ''}{formatBDT(h.pnl)}
                     </td>
                     <td className={h.pnlPct >= 0 ? 'portfolio__pnl--profit' : 'portfolio__pnl--loss'}>
                       {h.pnlPct > 0 ? '+' : ''}{formatPct(h.pnlPct)}

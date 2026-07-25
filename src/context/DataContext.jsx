@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useCallback, useEffect } from 'react';
+import { createContext, useContext, useState, useCallback, useEffect, useMemo } from 'react';
 import { stocks as staticStocks } from '../data/stocks';
 import { getStocksWithLivePrices } from '../services/dseService';
 import { loadStocksFromCSV, loadScraperStatus, loadResearch } from '../services/csvLoader';
@@ -118,14 +118,14 @@ export function DataProvider({ children, onAutoNavigate }) {
     return () => clearInterval(interval);
   }, [refreshPrices]);
 
-  const value = {
+  const value = useMemo(() => ({
     stocks: liveStocks,
     priceStatus,
     refreshPrices,
     scraperStatus,
     dataSource,
     research,
-  };
+  }), [liveStocks, priceStatus, refreshPrices, scraperStatus, dataSource, research]);
 
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;
 }

@@ -1,6 +1,6 @@
 import { DIVERSIFICATION } from './constants.js';
 
-export function applyDiversificationPenalty(scoredStocks) {
+export function applyDiversificationBonus(scoredStocks) {
   const sectorCounts = {};
 
   return scoredStocks.map((item) => {

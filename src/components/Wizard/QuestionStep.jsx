@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useApp } from '../../context/AppContext';
 import { translations } from '../../data/i18n';
 import { sectors } from '../../data/stocks';
+import { formatNumber } from '../../utils/formatters';
 import './QuestionStep.css';
 
 const ICONS = {
@@ -13,16 +14,6 @@ const ICONS = {
 
 const SINGLE_SELECT_KEYS = ['experience', 'risk', 'horizon', 'goal'];
 const PRESET_VALUES = [50000, 100000, 500000, 1000000];
-
-function formatBDT(num) {
-  if (!num && num !== 0) return '';
-  const str = String(num);
-  if (str.length <= 3) return str;
-  const last3 = str.slice(-3);
-  const remaining = str.slice(0, -3);
-  const formatted = remaining.replace(/\B(?=(\d{2})+(?!\d))/g, ',');
-  return `${formatted},${last3}`;
-}
 
 function parseBDT(str) {
   const cleaned = str.replace(/[^0-9]/g, '');
@@ -39,7 +30,7 @@ export default function QuestionStep({ questionKey }) {
 
   useEffect(() => {
     if (questionKey === 'budget' && currentAnswer) {
-      setBudgetDisplay(formatBDT(currentAnswer));
+      setBudgetDisplay(formatNumber(currentAnswer));
     } else if (questionKey === 'budget') {
       setBudgetDisplay('');
     }
@@ -65,13 +56,13 @@ export default function QuestionStep({ questionKey }) {
       setBudgetDisplay('');
       setAnswer('budget', null);
     } else {
-      setBudgetDisplay(formatBDT(raw));
+      setBudgetDisplay(formatNumber(raw));
       setAnswer('budget', raw);
     }
   }, [setAnswer]);
 
   const handlePresetClick = useCallback((value) => {
-    setBudgetDisplay(formatBDT(value));
+    setBudgetDisplay(formatNumber(value));
     setAnswer('budget', value);
     if (inputRef.current) inputRef.current.focus();
   }, [setAnswer]);

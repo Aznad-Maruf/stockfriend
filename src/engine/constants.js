@@ -51,3 +51,15 @@ export const DIVERSIFICATION = {
   COUNT_1_MULT: 0.4,
   COUNT_MORE_MULT: 0.1
 };
+
+export const THRESHOLDS = {
+  MIN_RETURN_PCT: -99,
+  MAX_RETURN_PCT: 500,
+  MAX_MEAN_REVERSION_PCT: 100
+};
+
+export const MEAN_REVERSION_FACTORS = {
+  short: 0.15,
+  medium: 0.4,
+  long: 0.7
+};
