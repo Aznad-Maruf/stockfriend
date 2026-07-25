@@ -2,8 +2,10 @@ name: Update Stock Data & Deploy
 
 on:
   schedule:
-    # DSE trades Sun-Thu. Run at 3:30 PM BD time (9:30 UTC) after market close
-    - cron: '30 9 * * 0-4'
+    # DSE trades Sun-Thu, 10AM-2:30PM BD time (UTC+6)
+    - cron: '0 5 * * 0-4'   # 11:00 AM BD — mid-morning
+    - cron: '0 7 * * 0-4'   # 1:00 PM BD — early afternoon
+    - cron: '30 9 * * 0-4'  # 3:30 PM BD — after market close
   workflow_dispatch: # Manual trigger from GitHub UI
 
 permissions:
