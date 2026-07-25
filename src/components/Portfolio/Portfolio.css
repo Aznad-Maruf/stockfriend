@@ -503,6 +503,17 @@
   margin: 0;
 }
 
+.portfolio__suggestion-research {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #14b8a6;
+  background: rgba(20, 184, 166, 0.1);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
 /* Dark mode adjustments */
 [data-theme='dark'] .portfolio__suggestion-badge--hold {
   background: rgba(59, 130, 246, 0.2);

@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import { stocks as staticStocks } from '../data/stocks';
 import { getStocksWithLivePrices } from '../services/dseService';
-import { loadStocksFromCSV, loadScraperStatus } from '../services/csvLoader';
+import { loadStocksFromCSV, loadScraperStatus, loadResearch } from '../services/csvLoader';
 import { generateRecommendations } from '../engine';
 
 const DataContext = createContext(null);
@@ -11,6 +11,7 @@ export function DataProvider({ children, onAutoNavigate }) {
   const [baseStocks, setBaseStocks] = useState(staticStocks);
   const [scraperStatus, setScraperStatus] = useState(null);
   const [dataSource, setDataSource] = useState('static');
+  const [research, setResearch] = useState({});
 
   // Live stock data state
   const [liveStocks, setLiveStocks] = useState(staticStocks);
@@ -35,6 +36,11 @@ export function DataProvider({ children, onAutoNavigate }) {
         setBaseStocks(loadedStocks);
         setDataSource(source);
         setScraperStatus(status);
+
+        // Load research data async (non-blocking)
+        loadResearch().then(data => {
+          if (mounted) setResearch(data);
+        });
 
         // Initial live price fetch
         setPriceStatus(prev => ({ ...prev, loading: true }));
@@ -121,6 +127,7 @@ export function DataProvider({ children, onAutoNavigate }) {
     refreshPrices,
     scraperStatus,
     dataSource,
+    research,
   };
 
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;

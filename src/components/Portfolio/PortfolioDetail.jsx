@@ -8,7 +8,7 @@ import AddHoldingModal from './AddHoldingModal';
 
 const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) => {
   const { user } = useAuth();
-  const { stocks } = useData();
+  const { stocks, research } = useData();
   const { language } = useApp();
   const [holdings, setHoldings] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -61,7 +61,7 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
     const currentValue = h.quantity * currentPrice;
     const pnl = currentValue - costBasis;
     const pnlPct = costBasis > 0 ? (pnl / costBasis) * 100 : 0;
-    const suggestion = generateHoldingSuggestion({ ...h, pnlPct }, liveStock, maxHoldMonths);
+    const suggestion = generateHoldingSuggestion({ ...h, pnlPct }, liveStock, maxHoldMonths, research);
 
     return {
       ...h,
@@ -193,6 +193,11 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
                     <p className="portfolio__suggestion-reason">
                       {isEn ? s.reason : s.reasonBn}
                     </p>
+                    {s.researchBacked && (
+                      <div className="portfolio__suggestion-research">
+                        🔬 {isEn ? `Research-backed (${s.researchDate})` : `গবেষণা-ভিত্তিক (${s.researchDate})`}
+                      </div>
+                    )}
                   </div>
                 );
               })}

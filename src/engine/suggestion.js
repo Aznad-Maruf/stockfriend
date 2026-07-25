@@ -1,15 +1,138 @@
 /**
  * Generates buy/hold/sell suggestions for portfolio holdings
- * based on live stock data, momentum, valuation, and time constraints.
+ * based on live stock data, momentum, valuation, time constraints,
+ * and research-backed overrides for specific stocks.
  */
+
+/**
+ * Research-backed overrides — updated July 25, 2026.
+ * These override the algorithmic signals when real-world context
+ * (news, earnings, regulatory actions) provides better insight.
+ */
+const RESEARCH_OVERRIDES = {
+  GP: {
+    action: 'hold',
+    label: 'Hold for Dividend',
+    labelBn: 'লভ্যাংশের জন্য ধরে রাখুন',
+    reason: '৳10.50/share interim dividend declared. Record date Aug 12, 2026. ~8.34% yield.',
+    reasonBn: 'শেয়ার প্রতি ৳১০.৫০ অন্তর্বর্তী লভ্যাংশ ঘোষিত। রেকর্ড তারিখ ১২ আগস্ট। ~৮.৩৪% ইয়েল্ড।',
+    duration: 'Until Aug 12',
+    durationBn: '১২ আগস্ট পর্যন্ত',
+    researchDate: '2026-07-25',
+  },
+  SQURPHARMA: {
+    action: 'buy',
+    label: 'Buy More',
+    labelBn: 'আরও কিনুন',
+    reason: '#1 pharma at ~8x PE. 9M EPS ৳23.29 (+10% YoY). Annual dividend (120% cash) expected Oct/Nov.',
+    reasonBn: 'শীর্ষ ফার্মা কোম্পানি ~৮x PE-তে। ৯ মাসে ইপিএস ৳২৩.২৯। বার্ষিক লভ্যাংশ অক্টো/নভে.',
+    duration: 'Hold for dividend',
+    durationBn: 'লভ্যাংশের জন্য ধরুন',
+    researchDate: '2026-07-25',
+  },
+  BATBC: {
+    action: 'hold',
+    label: 'Hold',
+    labelBn: 'ধরে রাখুন',
+    reason: 'Q2 profit doubled YoY to ৳2.03B. EPS surged to ৳3.77. Strong earnings recovery.',
+    reasonBn: 'Q2 মুনাফা দ্বিগুণ ৳২.০৩B। ইপিএস ৳৩.৭৭। শক্তিশালী আয় পুনরুদ্ধার।',
+    duration: '3-6 months',
+    durationBn: '৩-৬ মাস',
+    researchDate: '2026-07-25',
+  },
+  TRUSTBANK: {
+    action: 'hold',
+    label: 'Hold',
+    labelBn: 'ধরে রাখুন',
+    reason: 'AA1 Stable rating. 13% dividend declared. Trades at 46% discount to NAV (৳29.19). AGM Jul 28.',
+    reasonBn: 'AA1 স্থিতিশীল রেটিং। ১৩% লভ্যাংশ। NAV-র ৪৬% ছাড়ে ট্রেড হচ্ছে।',
+    duration: 'Hold for dividend',
+    durationBn: 'লভ্যাংশের জন্য ধরুন',
+    researchDate: '2026-07-25',
+  },
+  WALTONHIL: {
+    action: 'hold',
+    label: 'Hold',
+    labelBn: 'ধরে রাখুন',
+    reason: 'Market leader. Cash flow recovered (NOCFPS ৳22.32). Annual dividend (175%) expected Sept/Oct.',
+    reasonBn: 'বাজারে শীর্ষ। নগদ প্রবাহ পুনরুদ্ধার। বার্ষিক লভ্যাংশ (১৭৫%) সেপ্ট/অক্টো.',
+    duration: '3-6 months',
+    durationBn: '৩-৬ মাস',
+    researchDate: '2026-07-25',
+  },
+  PREMIERBAN: {
+    action: 'sell',
+    label: 'Sell (Take Profit)',
+    labelBn: 'বিক্রি করুন (মুনাফা নিন)',
+    reason: 'H1 net loss ৳388cr (3x worse YoY). NAV halved to ৳10.44. Rally is speculative. Z-category.',
+    reasonBn: 'H1 নিট ক্ষতি ৳৩৮৮কোটি। NAV অর্ধেক। র‍্যালি ফটকাবাজি। Z-ক্যাটাগরি।',
+    researchDate: '2026-07-25',
+  },
+  MERCANBANK: {
+    action: 'sell',
+    label: 'Sell',
+    labelBn: 'বিক্রি করুন',
+    reason: 'Z-category since May 2026. No dividend for 2 years. No margin loans. No recovery catalyst.',
+    reasonBn: 'মে ২০২৬ থেকে Z-ক্যাটাগরি। ২ বছর লভ্যাংশ নেই। কোনো পুনরুদ্ধার অনুঘটক নেই।',
+    researchDate: '2026-07-25',
+  },
+  ABBANK: {
+    action: 'sell',
+    label: 'Sell',
+    labelBn: 'বিক্রি করুন',
+    reason: 'Negative EPS (-৳36.24). Z-category. Credit rating A- with Negative Outlook.',
+    reasonBn: 'নেতিবাচক ইপিএস (-৳৩৬.২৪)। Z-ক্যাটাগরি। ক্রেডিট রেটিং নেতিবাচক।',
+    researchDate: '2026-07-25',
+  },
+  BEXIMCO: {
+    action: 'sell',
+    label: 'Sell (Cut Losses)',
+    labelBn: 'বিক্রি করুন (ক্ষতি কমান)',
+    reason: 'Criminal charges, ৳25,000cr defaults, Sukuk default Dec 2026, no financials for 18 months.',
+    reasonBn: 'ফৌজদারি মামলা, ৳২৫,০০০কোটি খেলাপি, সুকুক ডিফল্ট ডিসেম্বর, ১৮ মাস আর্থিক বিবরণী নেই।',
+    researchDate: '2026-07-25',
+  },
+};
 
 /**
  * @param {object} holding - enriched holding with pnlPct
  * @param {object|null} stock - live stock data from stocks array
  * @param {number|null} maxHoldMonths - max months the user can hold (null = no limit)
- * @returns {{ action: 'buy'|'hold'|'sell', label: string, labelBn: string, duration?: string, durationBn?: string, urgency?: string, urgencyBn?: string, reason: string, reasonBn: string }}
+ * @param {object} research - dynamic research data from research.json (ticker -> override)
+ * @returns {{ action: 'buy'|'hold'|'sell', label: string, labelBn: string, duration?: string, durationBn?: string, reason: string, reasonBn: string }}
  */
-export function generateHoldingSuggestion(holding, stock, maxHoldMonths = null) {
+export function generateHoldingSuggestion(holding, stock, maxHoldMonths = null, research = {}) {
+  // 1. Check dynamic research data (from research.json, auto-generated)
+  const dynamicOverride = research[holding.ticker];
+  if (dynamicOverride) {
+    return {
+      action: dynamicOverride.action,
+      label: dynamicOverride.label,
+      labelBn: dynamicOverride.labelBn,
+      reason: dynamicOverride.reason,
+      reasonBn: dynamicOverride.reasonBn,
+      ...(dynamicOverride.duration && { duration: dynamicOverride.duration, durationBn: dynamicOverride.durationBn }),
+      researchBacked: true,
+      signals: dynamicOverride.signals || [],
+    };
+  }
+
+  // 2. Check hardcoded research overrides (manually curated)
+  const override = RESEARCH_OVERRIDES[holding.ticker];
+  if (override) {
+    return {
+      action: override.action,
+      label: override.label,
+      labelBn: override.labelBn,
+      reason: override.reason,
+      reasonBn: override.reasonBn,
+      ...(override.duration && { duration: override.duration, durationBn: override.durationBn }),
+      researchBacked: true,
+      researchDate: override.researchDate,
+    };
+  }
+
+  // 3. Algorithmic analysis
   if (!stock) {
     return {
       action: 'hold',

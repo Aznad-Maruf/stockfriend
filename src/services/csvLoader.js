@@ -186,3 +186,19 @@ export async function loadStocksFromCSV() {
     return { stocks: staticStocks, source: 'static' };
   }
 }
+
+/**
+ * Load research data asynchronously (non-blocking).
+ * Returns a map of ticker -> research override, or empty object on failure.
+ */
+export async function loadResearch() {
+  try {
+    const response = await fetch('/data/research.json');
+    if (!response.ok) return {};
+    const data = await response.json();
+    return data.overrides || {};
+  } catch (error) {
+    console.warn('Research data not available:', error.message);
+    return {};
+  }
+}

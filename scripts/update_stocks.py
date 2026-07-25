@@ -164,6 +164,18 @@ def main():
     }
     with open(os.path.join(base_dir, 'scraper_status.json'), 'w') as f:
         json.dump(scraper_status, f, indent=2)
+
+    # Run research analyzer
+    try:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from research.analyzer import run_analysis
+        print('\nRunning research analyzer...')
+        run_analysis(
+            os.path.join(base_dir, 'stocks.csv'),
+            os.path.join(base_dir, 'research.json')
+        )
+    except Exception as e:
+        print(f'  [research] Warning: analyzer failed: {e}')
         
     print(f"\nSummary: {len(succeeded_tickers)} succeeded, {len(failed_tickers)} failed. Duration: {duration}s")
 
