@@ -1,11 +1,10 @@
-name: Update Stock Data
+name: Update Stock Data & Deploy
 
 on:
   schedule:
-    # Run daily at 9:00 AM UTC (3:00 PM Bangladesh time, after DSE closes at 2:30 PM)
-    - cron: '0 9 * * 0-4'
-  workflow_dispatch:
-    # Allow manual trigger from GitHub UI
+    # DSE trades Sun-Thu. Run at 3:30 PM BD time (9:30 UTC) after market close
+    - cron: '30 9 * * 0-4'
+  workflow_dispatch: # Manual trigger from GitHub UI
 
 permissions:
   contents: write
@@ -16,32 +15,60 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install Python dependencies
+      - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Run stock data scraper
+      - name: Fetch stock data
         run: python3 scripts/update_stocks.py
         env:
           PYTHONUNBUFFERED: '1'
 
+      - name: Run research analyzer
+        run: python3 scripts/research/analyzer.py
+
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet public/data/stocks.csv public/data/scraper_status.json public/data/research.json || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet public/data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
-      - name: Commit and push updated data
+      - name: Commit & push
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/stocks.csv public/data/scraper_status.json public/data/research.json
-          git commit -m "data: update stock data $(date -u +%Y-%m-%d)"
+          git add public/data/stocks.csv public/data/research.json public/data/scraper_status.json public/data/history/
+          git commit -m "data: auto-update stock data $(date -u +%Y-%m-%d)"
           git push
+
+  deploy:
+    needs: update-stocks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install & build
+        run: |
+          npm ci
+          npm run build
+
+      - name: Deploy to Firebase
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          channelId: live
