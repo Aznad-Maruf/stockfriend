@@ -71,7 +71,8 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
       pnl,
       pnlPct,
       suggestion,
-      name: liveStock?.name || h.name || h.ticker
+      name: liveStock?.name || h.name || h.ticker,
+      category: liveStock?.category || research?.[h.ticker]?.category || 'A',
     };
   });
 
@@ -145,8 +146,13 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
               </thead>
               <tbody>
                 {enrichedHoldings.map(h => (
-                  <tr key={h.id}>
-                    <td><strong>{h.ticker}</strong></td>
+                    <tr key={h.id}>
+                    <td>
+                      <strong>{h.ticker}</strong>
+                      {h.category && h.category !== 'A' && (
+                        <span className={`portfolio__cat-badge portfolio__cat-badge--${h.category.toLowerCase()}`}>{h.category}</span>
+                      )}
+                    </td>
                     <td>{h.name}</td>
                     <td>{h.quantity}</td>
                     <td>{formatCurrency(h.buyPrice)}</td>
@@ -180,7 +186,10 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
                 return (
                   <div key={h.id} className="portfolio__suggestion-card">
                     <div className="portfolio__suggestion-header">
-                      <span className="portfolio__suggestion-ticker">{h.ticker}</span>
+                      <div className="portfolio__suggestion-ticker-wrap">
+                        <span className="portfolio__suggestion-ticker">{h.ticker}</span>
+                        <span className={`portfolio__cat-badge portfolio__cat-badge--${(h.category || 'a').toLowerCase()}`}>{h.category || 'A'}</span>
+                      </div>
                       <span className={`portfolio__suggestion-badge ${actionClass}`}>
                         {isEn ? s.label : s.labelBn}
                       </span>
@@ -195,7 +204,14 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
                     </p>
                     {s.researchBacked && (
                       <div className="portfolio__suggestion-research">
-                        🔬 {isEn ? `Research-backed (${s.researchDate})` : `গবেষণা-ভিত্তিক (${s.researchDate})`}
+                        🔬 {isEn ? 'Research-backed' : 'গবেষণা-ভিত্তিক'}
+                      </div>
+                    )}
+                    {s.warnings && s.warnings.length > 0 && (
+                      <div className="portfolio__suggestion-warnings">
+                        {(isEn ? s.warnings : (s.warningsBn || s.warnings)).map((w, i) => (
+                          <span key={i} className="portfolio__suggestion-warning">{w}</span>
+                        ))}
                       </div>
                     )}
                   </div>

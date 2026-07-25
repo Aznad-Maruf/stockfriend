@@ -514,6 +514,48 @@
   display: inline-block;
 }
 
+.portfolio__suggestion-warnings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.portfolio__suggestion-warning {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  background: rgba(245, 158, 11, 0.1);
+  color: #d97706;
+  font-weight: 500;
+}
+
+[data-theme='dark'] .portfolio__suggestion-warning {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+}
+
+/* Category badges */
+.portfolio__cat-badge {
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  margin-left: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.portfolio__cat-badge--a { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
+.portfolio__cat-badge--b { background: rgba(245, 158, 11, 0.15); color: #f59e0b; }
+.portfolio__cat-badge--z { background: rgba(239, 68, 68, 0.15); color: #ef4444; }
+.portfolio__cat-badge--n { background: rgba(107, 114, 128, 0.15); color: #6b7280; }
+
+.portfolio__suggestion-ticker-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
 /* Dark mode adjustments */
 [data-theme='dark'] .portfolio__suggestion-badge--hold {
   background: rgba(59, 130, 246, 0.2);

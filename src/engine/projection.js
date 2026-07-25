@@ -15,7 +15,7 @@ export function seededAdjustment(ticker) {
   return normalized * 0.1;
 }
 
-export function buildRecommendations(top5, answers) {
+export function buildRecommendations(top5, answers, research = {}) {
   const totalScore = top5.reduce((sum, item) => sum + item.totalScore, 0);
 
   const rawAllocations = top5.map((item) => ({
@@ -82,6 +82,7 @@ export function buildRecommendations(top5, answers) {
       score: Math.round(item.totalScore),
       rationale,
       rationaleBn,
+      researchContext: item.researchContext || null,
     };
   });
 }

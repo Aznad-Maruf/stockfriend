@@ -27,20 +27,17 @@ export function DataProvider({ children, onAutoNavigate }) {
   useEffect(() => {
     let mounted = true;
     async function initData() {
-      const [{ stocks: loadedStocks, source }, status] = await Promise.all([
+      const [{ stocks: loadedStocks, source }, status, researchData] = await Promise.all([
         loadStocksFromCSV(),
-        loadScraperStatus()
+        loadScraperStatus(),
+        loadResearch(),
       ]);
 
       if (mounted) {
         setBaseStocks(loadedStocks);
         setDataSource(source);
         setScraperStatus(status);
-
-        // Load research data async (non-blocking)
-        loadResearch().then(data => {
-          if (mounted) setResearch(data);
-        });
+        setResearch(researchData);
 
         // Initial live price fetch
         setPriceStatus(prev => ({ ...prev, loading: true }));
@@ -75,7 +72,7 @@ export function DataProvider({ children, onAutoNavigate }) {
               const parsed = JSON.parse(saved);
               const allFilled = parsed.experience && parsed.risk && parsed.horizon && parsed.budget && parsed.goal;
               if (allFilled) {
-                const autoResults = generateRecommendations(parsed, finalStocks);
+                const autoResults = generateRecommendations(parsed, finalStocks, researchData);
                 navigated = true;
                 onAutoNavigate(autoResults);
               }

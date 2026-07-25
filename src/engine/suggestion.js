@@ -114,6 +114,8 @@ export function generateHoldingSuggestion(holding, stock, maxHoldMonths = null, 
       ...(dynamicOverride.duration && { duration: dynamicOverride.duration, durationBn: dynamicOverride.durationBn }),
       researchBacked: true,
       signals: dynamicOverride.signals || [],
+      warnings: dynamicOverride.warnings || [],
+      warningsBn: dynamicOverride.warningsBn || [],
     };
   }
 

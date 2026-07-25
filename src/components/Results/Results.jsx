@@ -207,6 +207,7 @@ export default function Results() {
                   <h3 className="results__stock-name">{stockName}</h3>
                   <div className="results__stock-badges">
                     <span className="results__stock-ticker">{stock.ticker}</span>
+                    <span className={`results__cat-badge results__cat-badge--${(stock.category || 'a').toLowerCase()}`}>{stock.category || 'A'}</span>
                     {nearLow && dropPct >= 15 && (
                       <span className="results__discount-badge">
                         ↓{dropPct}% {language === 'bn' ? '৫২W সর্বোচ্চ থেকে' : 'from 52W high'}
@@ -275,6 +276,23 @@ export default function Results() {
                   {t.results.stockCard.rationale}
                 </span>
                 <p className="results__rationale-text">{rationale}</p>
+                {rec.researchContext && (
+                  <div className="results__research-context">
+                    <div className="results__research-badge">
+                      🔬 {language === 'bn' ? 'গবেষণা-ভিত্তিক' : 'Research-backed'}
+                    </div>
+                    <p className="results__research-reason">
+                      {language === 'bn' ? rec.researchContext.reasonBn : rec.researchContext.reason}
+                    </p>
+                    {(language === 'bn' ? rec.researchContext.warningsBn : rec.researchContext.warnings)?.length > 0 && (
+                      <div className="results__research-warnings">
+                        {(language === 'bn' ? rec.researchContext.warningsBn : rec.researchContext.warnings).map((w, i) => (
+                          <span key={i} className="results__research-warning">{w}</span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )}
               </div>
             </article>
           );

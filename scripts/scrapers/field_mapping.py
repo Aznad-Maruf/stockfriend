@@ -74,7 +74,9 @@ def decode_stock_info(raw_data: dict) -> dict:
         'authorized_capital_mn': get_float('ap'),
         'change_pct': get_float('bz'),
         'listing_year': get_int('au'),
-        'face_value': get_float('ck'),
+        # face_value: ck is NOT face value. Calculate from paid_up_capital / total_shares.
+        # In Bangladesh DSE, nearly all stocks have ৳10 face value.
+        'face_value': round(get_float('aq') * 1e6 / get_int('ar'), 2) if get_int('ar') > 0 else 10.0,
         'status': get_str('bp'),
         'latest_dividend': get_str('dz'),
         'return_1d': get_float('ds'),

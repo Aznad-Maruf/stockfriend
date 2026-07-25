@@ -8,7 +8,7 @@ import './Wizard.css';
 
 export default function Wizard() {
   const { currentStep, totalSteps, stepKeys, answers, nextStep, prevStep, showResults, language } = useApp();
-  const { stocks, priceStatus } = useData();
+  const { stocks, priceStatus, research } = useData();
   const t = translations[language].wizard;
   const [slideDir, setSlideDir] = useState('next');
   const [animating, setAnimating] = useState(false);
@@ -39,12 +39,12 @@ export default function Wizard() {
   const handleNext = useCallback(() => {
     if (!isCurrentAnswered()) return;
     if (isLastStep) {
-      const results = generateRecommendations(answers, stocks);
+      const results = generateRecommendations(answers, stocks, research);
       showResults(results);
     } else {
       nextStep();
     }
-  }, [isCurrentAnswered, isLastStep, answers, stocks, showResults, nextStep]);
+  }, [isCurrentAnswered, isLastStep, answers, stocks, research, showResults, nextStep]);
 
   const handleBack = useCallback(() => {
     prevStep();

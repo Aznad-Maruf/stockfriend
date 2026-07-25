@@ -181,6 +181,7 @@ export async function loadStocksFromCSV() {
         return15d: parseNum(obj.return_15d),
         return1m: parseNum(obj.return_1m),
         changePct: parseNum(obj.change_pct),
+        category: obj.category || 'A',
       };
     });
     
