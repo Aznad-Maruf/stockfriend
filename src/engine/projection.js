@@ -57,12 +57,13 @@ export function buildRecommendations(top5, answers) {
       // Assume partial reversion depending on horizon
       const reversionFactor =
         answers.horizon === 'short' ? 0.15 : answers.horizon === 'medium' ? 0.4 : 0.7;
-      meanReversionReturn = Math.max(0, gapToMedian * reversionFactor);
+      meanReversionReturn = Math.min(100, Math.max(0, gapToMedian * reversionFactor));
     }
 
     const adjustment = seededAdjustment(item.stock.ticker);
+    const rawReturn = baseReturn * (1 + adjustment) + meanReversionReturn;
     const tentativeReturnPercent =
-      Math.round((baseReturn * (1 + adjustment) + meanReversionReturn) * 10) / 10;
+      Math.round(Math.max(-99, Math.min(500, isFinite(rawReturn) ? rawReturn : 0)) * 10) / 10;
     const tentativeReturnAmount = Math.round(
       (tentativeReturnPercent / 100) * allocationAmount
     );

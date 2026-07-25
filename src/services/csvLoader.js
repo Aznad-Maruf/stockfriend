@@ -137,6 +137,10 @@ export async function loadStocksFromCSV() {
       // Only estimate if we have no data at all
       if (!return3Y && return3Y !== 0) return3Y = return1Y * 2.5;
       if (!return5Y && return5Y !== 0) return5Y = return1Y * 4;
+      // Clamp returns to prevent Infinity in projections
+      const clamp = (v) => Math.max(-99, Math.min(500, isFinite(v) ? v : 0));
+      return3Y = clamp(return3Y);
+      return5Y = clamp(return5Y);
 
       return {
         id: staticData.id || idCounter++,
