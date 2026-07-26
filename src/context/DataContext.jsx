@@ -3,6 +3,7 @@ import { stocks as staticStocks } from '../data/stocks';
 import { getStocksWithLivePrices } from '../services/dseService';
 import { loadStocksFromCSV, loadScraperStatus, loadResearch } from '../services/csvLoader';
 import { generateRecommendations } from '../engine';
+import { isHorizonValid } from '../utils/horizonUtils';
 
 const DataContext = createContext(null);
 
@@ -70,7 +71,7 @@ export function DataProvider({ children, onAutoNavigate }) {
             const saved = localStorage.getItem('sf-answers');
             if (saved) {
               const parsed = JSON.parse(saved);
-              const allFilled = parsed.experience && parsed.risk && parsed.horizon && parsed.budget && parsed.goal;
+              const allFilled = parsed.experience && parsed.risk && isHorizonValid(parsed.horizon) && parsed.budget && parsed.goal;
               if (allFilled) {
                 const autoResults = generateRecommendations(parsed, finalStocks, researchData);
                 navigated = true;

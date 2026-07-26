@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { useData } from '../../context/DataContext';
 import { useApp } from '../../context/AppContext';
-import { loadHoldings, removeHolding } from '../../services/userService';
+import { loadHoldings, removeHolding, updateHolding } from '../../services/userService';
 import { generateHoldingSuggestion } from '../../engine/suggestion';
 import AddHoldingModal from './AddHoldingModal';
+import ConfirmDialog from '../common/ConfirmDialog';
 import { formatBDT, formatPct } from '../../utils/formatters';
 import { useEnrichedHoldings } from '../../hooks/useEnrichedHoldings';
 
@@ -16,6 +17,8 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [showAddModal, setShowAddModal] = useState(false);
+  const [editingHolding, setEditingHolding] = useState(null);
+  const [deletingHolding, setDeletingHolding] = useState(null);
   const isEn = language === 'en';
 
   const fetchHoldings = async () => {
@@ -35,16 +38,16 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
     fetchHoldings();
   }, [user, portfolioId]);
 
-  const handleDelete = async (holdingId) => {
-    if (window.confirm('Remove this holding?')) {
-      try {
-        await removeHolding(user.uid, portfolioId, holdingId);
-        await fetchHoldings();
-      } catch (err) {
-        console.error(err);
-        setError('Failed to remove holding');
-      }
+  const handleDeleteConfirm = async () => {
+    if (!deletingHolding) return;
+    try {
+      await removeHolding(user.uid, portfolioId, deletingHolding.id);
+      await fetchHoldings();
+    } catch (err) {
+      console.error(err);
+      setError('Failed to remove holding');
     }
+    setDeletingHolding(null);
   };
 
   const enrichedHoldings = useEnrichedHoldings(holdings, stocks, maxHoldMonths, research);
@@ -139,7 +142,21 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
                       {h.pnlPct > 0 ? '+' : ''}{formatPct(h.pnlPct)}
                     </td>
                     <td>
-                      <button className="portfolio__card-delete" onClick={() => handleDelete(h.id)}>✕</button>
+                      <button 
+                        className="portfolio__card-delete" 
+                        style={{ display: 'inline-flex', marginRight: '4px', background: 'rgba(59, 130, 246, 0.1)', color: '#3b82f6' }}
+                        onClick={() => {
+                          setEditingHolding(h);
+                          setShowAddModal(true);
+                        }}
+                        title="Edit Holding"
+                      >✏️</button>
+                      <button 
+                        className="portfolio__card-delete" 
+                        style={{ display: 'inline-flex' }}
+                        onClick={() => setDeletingHolding(h)}
+                        title="Delete Holding"
+                      >✕</button>
                     </td>
                   </tr>
                 ))}
@@ -198,11 +215,25 @@ const PortfolioDetail = ({ portfolioId, portfolioName, maxHoldMonths, onBack }) 
       {showAddModal && (
         <AddHoldingModal 
           portfolioId={portfolioId}
-          onClose={() => setShowAddModal(false)}
+          editHolding={editingHolding}
+          onClose={() => {
+            setShowAddModal(false);
+            setEditingHolding(null);
+          }}
           onAdded={() => {
             setShowAddModal(false);
+            setEditingHolding(null);
             fetchHoldings();
           }}
+        />
+      )}
+
+      {deletingHolding && (
+        <ConfirmDialog
+          title="Delete Holding?"
+          message={`Are you sure you want to remove ${deletingHolding.ticker} from this portfolio?`}
+          onConfirm={handleDeleteConfirm}
+          onCancel={() => setDeletingHolding(null)}
         />
       )}
     </div>

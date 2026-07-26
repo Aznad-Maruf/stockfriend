@@ -1,4 +1,7 @@
+import { horizonToCategory } from '../utils/horizonUtils.js';
+
 export function generateRationale(stock, answers) {
+  const horizon = horizonToCategory(answers.horizon);
   const parts = [];
   const partsBn = [];
 
@@ -97,12 +100,12 @@ export function generateRationale(stock, answers) {
     );
   }
 
-  if (answers.horizon === 'long' && stock.historicalReturn5Y >= 12) {
+  if (horizon === 'long' && stock.historicalReturn5Y >= 12) {
     parts.push('Proven long-term track record strengthens this pick.');
     partsBn.push(
       'প্রমাণিত দীর্ঘমেয়াদী ট্র্যাক রেকর্ড এই নির্বাচনকে শক্তিশালী করে।'
     );
-  } else if (answers.horizon === 'short' || answers.goal === 'quick') {
+  } else if (horizon === 'short' || answers.goal === 'quick') {
     // Momentum-based rationale for short-term seekers
     const r15d = stock.return15d || 0;
     const r1m = stock.return1m || 0;
@@ -119,11 +122,11 @@ export function generateRationale(stock, answers) {
       partsBn.push(`শক্তিশালী বার্ষিক প্রবণতা (+${r1y.toFixed(1)}%) এবং ধারাবাহিক গতি।`);
     }
 
-    if (stock.dividendYield >= 3 && answers.horizon === 'short') {
+    if (stock.dividendYield >= 3 && horizon === 'short') {
       parts.push('Regular dividends provide near-term cash flow.');
       partsBn.push('নিয়মিত লভ্যাংশ নিকটমেয়াদী নগদ প্রবাহ প্রদান করে।');
     }
-  } else if (answers.horizon === 'medium') {
+  } else if (horizon === 'medium') {
     parts.push('Good balance of growth and stability for medium-term holding.');
     partsBn.push(
       'মধ্যমেয়াদী ধারণের জন্য প্রবৃদ্ধি ও স্থিতিশীলতার ভালো ভারসাম্য।'

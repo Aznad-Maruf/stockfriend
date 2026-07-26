@@ -44,11 +44,12 @@ export const en = {
       horizon: {
         title: 'What is your investment horizon?',
         subtitle: 'How long do you plan to hold your investments?',
-        options: {
-          short: { label: 'Short-term', desc: 'Less than 1 year' },
-          medium: { label: 'Medium-term', desc: '1 to 3 years' },
-          long: { label: 'Long-term', desc: 'More than 3 years' },
-        },
+        days: 'Days',
+        months: 'Months',
+        years: 'Years',
+        hint: 'Enter at least one non-zero value',
+        summary: 'That\'s approximately',
+        categories: { short: 'Short-term (< 1 year)', medium: 'Medium-term (1-3 years)', long: 'Long-term (3+ years)' },
       },
       budget: {
         title: 'What is your investment budget?',
@@ -56,6 +57,10 @@ export const en = {
         placeholder: 'Enter amount',
         currency: '৳',
         presets: ['50,000', '1,00,000', '5,00,000', '10,00,000'],
+      },
+      stockCount: {
+        title: 'How many stocks would you like?',
+        subtitle: 'Choose the number of stocks for your portfolio.',
       },
       goal: {
         title: 'What is your primary financial goal?',

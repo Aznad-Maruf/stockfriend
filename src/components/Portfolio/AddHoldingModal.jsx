@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { useData } from '../../context/DataContext';
 import { useApp } from '../../context/AppContext';
-import { addHolding } from '../../services/userService';
+import { addHolding, updateHolding } from '../../services/userService';
 
-const AddHoldingModal = ({ portfolioId, onClose, onAdded }) => {
+const AddHoldingModal = ({ portfolioId, onClose, onAdded, editHolding = null }) => {
   const { user } = useAuth();
   const { stocks } = useData();
   const { language } = useApp();
@@ -18,6 +18,21 @@ const AddHoldingModal = ({ portfolioId, onClose, onAdded }) => {
   const [buyDate, setBuyDate] = useState('');
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
+
+  useEffect(() => {
+    if (editHolding) {
+      setSearchQuery(`${editHolding.ticker} - ${editHolding.name}`);
+      setSelectedStock({ ticker: editHolding.ticker, name: editHolding.name });
+      setQuantity(editHolding.quantity || '');
+      setBuyPrice(editHolding.buyPrice || '');
+      if (editHolding.buyDate) {
+        const dateStr = typeof editHolding.buyDate === 'string' 
+          ? editHolding.buyDate.split('T')[0] 
+          : new Date(editHolding.buyDate).toISOString().split('T')[0];
+        setBuyDate(dateStr);
+      }
+    }
+  }, [editHolding]);
 
   useEffect(() => {
     if (searchQuery.length > 0) {
@@ -59,13 +74,20 @@ const AddHoldingModal = ({ portfolioId, onClose, onAdded }) => {
     try {
       setSubmitting(true);
       setError('');
-      await addHolding(user.uid, portfolioId, {
+      
+      const holdingData = {
         ticker: selectedStock.ticker,
         name: selectedStock.name,
         quantity: Number(quantity),
         buyPrice: Number(buyPrice),
         buyDate: buyDate ? new Date(buyDate).toISOString() : new Date().toISOString()
-      });
+      };
+
+      if (editHolding) {
+        await updateHolding(user.uid, portfolioId, editHolding.id, holdingData);
+      } else {
+        await addHolding(user.uid, portfolioId, holdingData);
+      }
       onAdded();
     } catch (err) {
       console.error(err);
@@ -78,7 +100,7 @@ const AddHoldingModal = ({ portfolioId, onClose, onAdded }) => {
     <div className="modal-overlay" onClick={onClose} data-lang={language}>
       <div className="modal" onClick={e => e.stopPropagation()}>
         <div className="modal__header">
-          <h3>Add Holding</h3>
+          <h3>{editHolding ? 'Edit Holding' : 'Add Holding'}</h3>
           <button className="modal__close" onClick={onClose}>✕</button>
         </div>
         
@@ -92,12 +114,13 @@ const AddHoldingModal = ({ portfolioId, onClose, onAdded }) => {
               className="modal__input modal__search"
               placeholder="Search by ticker or name..."
               value={searchQuery}
+              disabled={!!editHolding}
               onChange={(e) => {
                 setSearchQuery(e.target.value);
                 if (selectedStock) setSelectedStock(null);
               }}
             />
-            {filteredStocks.length > 0 && !selectedStock && (
+            {!editHolding && filteredStocks.length > 0 && !selectedStock && (
               <ul className="modal__search-results">
                 {filteredStocks.map(stock => (
                   <li 
@@ -148,7 +171,7 @@ const AddHoldingModal = ({ portfolioId, onClose, onAdded }) => {
           </div>
           
           <button type="submit" className="modal__submit" disabled={submitting}>
-            {submitting ? 'Adding...' : 'Add Holding'}
+            {submitting ? (editHolding ? 'Saving...' : 'Adding...') : (editHolding ? 'Save Changes' : 'Add Holding')}
           </button>
         </form>
       </div>

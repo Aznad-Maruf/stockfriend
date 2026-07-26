@@ -10,6 +10,7 @@ import { buildRecommendations, seedFromTicker, seededAdjustment } from './projec
 import { generateRationale } from './rationale.js';
 import { RISK_LABELS, RISK_COLORS } from './constants.js';
 import { buildResearchContext } from './researchSignals.js';
+import { horizonToDays, horizonToCategory } from '../utils/horizonUtils.js';
 
 export function getRiskLabel(level) {
   return RISK_LABELS[level] || 'Unknown';
@@ -43,14 +44,16 @@ export function generateRecommendations(answers, stocks, research = {}) {
   // Note: Horizon and Goal now include momentum internally for short/quick
   const scored = filtered.map((stock) => {
     const riskScore = computeRiskScore(stock, answers.risk);
-    const horizonScore = computeHorizonScore(stock, answers.horizon);
+    const horizonDays = horizonToDays(answers.horizon);
+    const horizonScore = computeHorizonScore(stock, horizonDays);
+    const horizon = horizonToCategory(answers.horizon);
     const goalScore = computeGoalScore(stock, answers.goal);
     const valueScore = computeValueScore(stock);
     let baseScore = riskScore + horizonScore + goalScore + valueScore;
 
     // Research signal adjustments (risk-aware, not filtering)
     const r = research[stock.ticker];
-    const researchContext = buildResearchContext(r, answers.risk, answers.horizon);
+    const researchContext = buildResearchContext(r, answers.risk, horizon);
     
     if (researchContext) {
       baseScore += researchContext.adjustment;
@@ -74,7 +77,8 @@ export function generateRecommendations(answers, stocks, research = {}) {
 
   withDiversity.sort((a, b) => b.totalScore - a.totalScore);
 
-  const top = withDiversity.slice(0, 5);
+  const stockCount = answers.stockCount || 5;
+  const top = withDiversity.slice(0, Math.min(stockCount, withDiversity.length));
 
   const recommendations = buildRecommendations(top, answers, research);
 

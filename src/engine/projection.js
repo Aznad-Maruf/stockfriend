@@ -1,5 +1,6 @@
 import { generateRationale } from './rationale.js';
-import { ALLOCATION_TIERS, THRESHOLDS, MEAN_REVERSION_FACTORS } from './constants.js';
+import { ALLOCATION_TIERS, THRESHOLDS } from './constants.js';
+import { horizonToDays, horizonToCategory } from '../utils/horizonUtils.js';
 
 export function seedFromTicker(ticker) {
   let hash = 0;
@@ -39,13 +40,19 @@ export function buildRecommendations(top5, answers, research = {}) {
       (item.allocationPercent / 100) * answers.budget
     );
 
+    const days = horizonToDays(answers.horizon);
     let baseReturn;
-    if (answers.horizon === 'short') {
-      baseReturn = item.stock.historicalReturn1Y;
-    } else if (answers.horizon === 'medium') {
-      baseReturn = item.stock.historicalReturn3Y;
+    if (days <= 365) {
+      // Scale 1Y return proportionally to holding period
+      baseReturn = item.stock.historicalReturn1Y * (days / 365);
+    } else if (days <= 1095) {
+      // Interpolate between 1Y and 3Y returns
+      const t = (days - 365) / (1095 - 365);
+      baseReturn = item.stock.historicalReturn1Y + t * (item.stock.historicalReturn3Y - item.stock.historicalReturn1Y);
     } else {
-      baseReturn = item.stock.historicalReturn5Y;
+      // Interpolate between 3Y and 5Y returns
+      const t = Math.min((days - 1095) / (1825 - 1095), 1);
+      baseReturn = item.stock.historicalReturn3Y + t * (item.stock.historicalReturn5Y - item.stock.historicalReturn3Y);
     }
 
     // Mean-reversion based return estimate
@@ -55,7 +62,16 @@ export function buildRecommendations(top5, answers, research = {}) {
       // How far below median (as % of current price)
       const gapToMedian = ((item.stock.median5Y - item.stock.currentPrice) / item.stock.currentPrice) * 100;
       // Assume partial reversion depending on horizon
-      const reversionFactor = MEAN_REVERSION_FACTORS[answers.horizon] || MEAN_REVERSION_FACTORS.long;
+      let reversionFactor;
+      if (days <= 365) {
+        reversionFactor = 0.15 * (days / 365);
+      } else if (days <= 1095) {
+        const t = (days - 365) / (1095 - 365);
+        reversionFactor = 0.15 + t * (0.4 - 0.15);
+      } else {
+        const t = Math.min((days - 1095) / (1825 - 1095), 1);
+        reversionFactor = 0.4 + t * (0.7 - 0.4);
+      }
       meanReversionReturn = Math.min(THRESHOLDS.MAX_MEAN_REVERSION_PCT, Math.max(0, gapToMedian * reversionFactor));
     }
 

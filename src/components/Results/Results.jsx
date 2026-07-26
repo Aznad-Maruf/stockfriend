@@ -6,6 +6,7 @@ import { translations } from '../../data/i18n';
 import { getRiskColor } from '../../engine';
 import { savePortfolio } from '../../services/userService';
 import { formatBDT } from '../../utils/formatters';
+import { horizonToCategory, formatHorizonDuration } from '../../utils/horizonUtils';
 import { Doughnut } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import ScraperStatus from '../ScraperStatus/ScraperStatus';
@@ -33,7 +34,7 @@ export default function Results() {
     ? t.wizard.questions.risk.options[answers.risk]?.label
     : '—';
   const horizonOption = answers.horizon
-    ? t.wizard.questions.horizon.options[answers.horizon]?.label
+    ? formatHorizonDuration(answers.horizon, language)
     : '—';
   const goalOption = answers.goal
     ? t.wizard.questions.goal.options[answers.goal]?.label

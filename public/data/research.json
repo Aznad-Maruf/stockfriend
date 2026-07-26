@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T16:49:13.662698",
+  "generated_at": "2026-07-27T00:42:11.245843",
   "total_analyzed": 424,
   "stocks_with_signals": 424,
   "overrides": {
@@ -21,7 +21,7 @@
       ],
       "category": "Z",
       "score": 13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -50,7 +50,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.12)",
@@ -79,7 +79,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-2.00)",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -104,7 +104,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2021 (over a year ago)"
@@ -128,7 +128,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (97th percentile)"
       ],
@@ -152,7 +152,7 @@
       ],
       "category": "A",
       "score": 22,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -170,7 +170,7 @@
       ],
       "category": "Y",
       "score": 0,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "ACI": {
       "ticker": "ACI",
@@ -186,7 +186,7 @@
       ],
       "category": "A",
       "score": -7,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-7.40)"
       ],
@@ -210,7 +210,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (92th percentile)"
       ],
@@ -234,7 +234,7 @@
       ],
       "category": "A",
       "score": 24,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -255,7 +255,7 @@
       ],
       "category": "B",
       "score": -15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-1.14)"
@@ -281,7 +281,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 0% in 2022 (over a year ago)"
@@ -305,7 +305,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "ADVENT": {
       "ticker": "ADVENT",
@@ -323,7 +323,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -348,7 +348,7 @@
       ],
       "category": "Z",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 0% in 2022 (over a year ago)"
@@ -377,7 +377,7 @@
       ],
       "category": "Z",
       "score": -6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.37)"
@@ -406,7 +406,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (94th percentile)"
@@ -430,7 +430,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 6% in 2024 (over a year ago)"
       ],
@@ -454,7 +454,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
       ],
@@ -481,7 +481,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -508,7 +508,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Last dividend: 5% in 2024 (over a year ago)"
@@ -535,7 +535,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
@@ -563,7 +563,7 @@
       ],
       "category": "Z",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 1% in 2024 (over a year ago)"
@@ -592,7 +592,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.18)",
@@ -619,7 +619,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -636,7 +636,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "AMCL(PRAN)": {
       "ticker": "AMCL(PRAN)",
@@ -651,7 +651,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "AMPL": {
       "ticker": "AMPL",
@@ -668,7 +668,7 @@
       ],
       "category": "Y",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (98th percentile)"
       ],
@@ -693,7 +693,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.99)",
@@ -721,7 +721,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-12.32)",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -748,7 +748,7 @@
       ],
       "category": "Z",
       "score": -1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2022 (over a year ago)"
@@ -772,7 +772,7 @@
       ],
       "category": "Y",
       "score": 10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -790,7 +790,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "APEXFOOT": {
       "ticker": "APEXFOOT",
@@ -808,7 +808,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (97th percentile)"
       ],
@@ -832,7 +832,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (97th percentile)"
       ],
@@ -857,7 +857,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-14.62)",
@@ -884,7 +884,7 @@
       ],
       "category": "Y",
       "score": -2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.39)"
       ],
@@ -909,7 +909,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.82)",
@@ -936,7 +936,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Crashed -51% in 6 months"
       ],
@@ -959,7 +959,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 20% in 2024 (over a year ago)"
       ],
@@ -984,7 +984,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-14.47)",
@@ -1012,7 +1012,7 @@
       ],
       "category": "A",
       "score": 17,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (92th percentile)"
       ],
@@ -1035,7 +1035,7 @@
       ],
       "category": "A",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -1053,7 +1053,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -1073,7 +1073,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (94th percentile)"
       ],
@@ -1095,7 +1095,7 @@
       ],
       "category": "A",
       "score": -11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Crashed -87% in 6 months",
         "⚠️ Last dividend: 5% in 2022 (over a year ago)"
@@ -1122,7 +1122,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.23)",
@@ -1151,7 +1151,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-10.12)",
@@ -1178,7 +1178,7 @@
       ],
       "category": "B",
       "score": -8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (86th percentile)"
@@ -1204,7 +1204,7 @@
       ],
       "category": "A",
       "score": 19,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -1225,7 +1225,7 @@
       ],
       "category": "Z",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 4% in 2024 (over a year ago)"
@@ -1249,7 +1249,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -1267,7 +1267,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -1288,7 +1288,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-31.16)",
@@ -1317,7 +1317,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.59)",
@@ -1346,7 +1346,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-4.05)",
@@ -1375,7 +1375,7 @@
       ],
       "category": "B",
       "score": -8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (94th percentile)"
@@ -1400,7 +1400,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "BDFINANCE": {
       "ticker": "BDFINANCE",
@@ -1417,7 +1417,7 @@
       ],
       "category": "Z",
       "score": -6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2022 (over a year ago)"
@@ -1442,7 +1442,7 @@
       ],
       "category": "A",
       "score": -7,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-6.22)"
       ],
@@ -1466,7 +1466,7 @@
       ],
       "category": "Y",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (87th percentile)"
       ],
@@ -1492,7 +1492,7 @@
       ],
       "category": "B",
       "score": -6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-2.01)",
@@ -1521,7 +1521,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-1.64)",
@@ -1546,7 +1546,7 @@
       ],
       "category": "Z",
       "score": -8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -1570,7 +1570,7 @@
       ],
       "category": "Z",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -1595,7 +1595,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -1614,7 +1614,7 @@
       ],
       "category": "Y",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -1637,7 +1637,7 @@
       ],
       "category": "B",
       "score": 1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -1659,7 +1659,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -1681,7 +1681,7 @@
       ],
       "category": "Z",
       "score": 10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -1705,7 +1705,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "BEXIMCO": {
       "ticker": "BEXIMCO",
@@ -1727,7 +1727,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.40)",
@@ -1754,7 +1754,7 @@
       ],
       "category": "A",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -1774,7 +1774,7 @@
       ],
       "category": "Z",
       "score": -9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-6.66)"
@@ -1800,7 +1800,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (87th percentile)"
       ],
@@ -1830,7 +1830,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-18.98)",
@@ -1860,7 +1860,7 @@
       ],
       "category": "B",
       "score": 15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -1883,7 +1883,7 @@
       ],
       "category": "A",
       "score": 12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (94th percentile)"
       ],
@@ -1906,7 +1906,7 @@
       ],
       "category": "A",
       "score": 20,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "BSCPLC": {
       "ticker": "BSCPLC",
@@ -1922,7 +1922,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -1944,7 +1944,7 @@
       ],
       "category": "A",
       "score": 31,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (84th percentile)"
       ],
@@ -1971,7 +1971,7 @@
       ],
       "category": "A",
       "score": 27,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (99th percentile)"
       ],
@@ -1997,7 +1997,7 @@
       ],
       "category": "A",
       "score": 10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 40% in 2024 (over a year ago)"
       ],
@@ -2019,7 +2019,7 @@
       ],
       "category": "Z",
       "score": -16,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Crashed -92% in 6 months"
@@ -2043,7 +2043,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "CAPMBDBLMF": {
       "ticker": "CAPMBDBLMF",
@@ -2060,7 +2060,7 @@
       ],
       "category": "A",
       "score": -16,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-1.15)",
         "⚠️ Last dividend: 6% in 2023 (over a year ago)"
@@ -2086,7 +2086,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.71)",
         "⚠️ Last dividend: 6% in 2023 (over a year ago)"
@@ -2110,7 +2110,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -2127,7 +2127,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "CENTRALPHL": {
       "ticker": "CENTRALPHL",
@@ -2146,7 +2146,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.18)",
@@ -2175,7 +2175,7 @@
       ],
       "category": "A",
       "score": 24,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (99th percentile)"
       ],
@@ -2201,7 +2201,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (100th percentile)"
       ],
@@ -2225,7 +2225,7 @@
       ],
       "category": "B",
       "score": -21,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.11)",
@@ -2253,7 +2253,7 @@
       ],
       "category": "Z",
       "score": -2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 0% in 2023 (over a year ago)"
@@ -2278,7 +2278,7 @@
       ],
       "category": "A",
       "score": 18,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "CONTININS": {
       "ticker": "CONTININS",
@@ -2295,7 +2295,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Last dividend: 5% in 2024 (over a year ago)"
@@ -2321,7 +2321,7 @@
       ],
       "category": "B",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -2342,7 +2342,7 @@
       ],
       "category": "Y",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2361,7 +2361,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2379,7 +2379,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "CVOPRL": {
       "ticker": "CVOPRL",
@@ -2395,7 +2395,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "DACCADYE": {
       "ticker": "DACCADYE",
@@ -2414,7 +2414,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.82)",
@@ -2443,7 +2443,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (100th percentile)",
@@ -2470,7 +2470,7 @@
       ],
       "category": "A",
       "score": 23,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2489,7 +2489,7 @@
       ],
       "category": "A",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
       ],
@@ -2510,7 +2510,7 @@
       ],
       "category": "A",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (96th percentile)"
       ],
@@ -2532,7 +2532,7 @@
       ],
       "category": "A",
       "score": 12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2553,7 +2553,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2015 (over a year ago)"
@@ -2581,7 +2581,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-3.15)",
@@ -2610,7 +2610,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-3.93)",
@@ -2639,7 +2639,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.40)",
@@ -2666,7 +2666,7 @@
       ],
       "category": "A",
       "score": 26,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2683,7 +2683,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "DOMINAGE": {
       "ticker": "DOMINAGE",
@@ -2702,7 +2702,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (97th percentile)"
@@ -2727,7 +2727,7 @@
       ],
       "category": "A",
       "score": 22,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2748,7 +2748,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (94th percentile)"
@@ -2774,7 +2774,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -2799,7 +2799,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "📊 Near 5Y high (99th percentile)"
@@ -2825,7 +2825,7 @@
       ],
       "category": "A",
       "score": 30,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2842,7 +2842,7 @@
       ],
       "category": "A",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2860,7 +2860,7 @@
       ],
       "category": "A",
       "score": 15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2880,7 +2880,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (100th percentile)"
       ],
@@ -2903,7 +2903,7 @@
       ],
       "category": "A",
       "score": 19,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2924,7 +2924,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-1.89)",
         "⚠️ Last dividend: 6% in 2022 (over a year ago)"
@@ -2951,7 +2951,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-2.55)",
         "⚠️ Last dividend: 7% in 2023 (over a year ago)"
@@ -2979,7 +2979,7 @@
       ],
       "category": "B",
       "score": -2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-4.43)",
@@ -3007,7 +3007,7 @@
       ],
       "category": "B",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -3032,7 +3032,7 @@
       ],
       "category": "A",
       "score": 16,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (82th percentile)"
       ],
@@ -3057,7 +3057,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -3081,7 +3081,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
@@ -3107,7 +3107,7 @@
       ],
       "category": "A",
       "score": 24,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (96th percentile)"
       ],
@@ -3135,7 +3135,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-5.50)"
@@ -3161,7 +3161,7 @@
       ],
       "category": "A",
       "score": 22,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -3182,7 +3182,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (96th percentile)"
@@ -3209,7 +3209,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-1.91)",
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
@@ -3234,7 +3234,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
       ],
@@ -3257,7 +3257,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -3283,7 +3283,7 @@
       ],
       "category": "B",
       "score": 1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (90th percentile)",
@@ -3313,7 +3313,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.13)",
@@ -3340,7 +3340,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2019 (over a year ago)"
@@ -3367,7 +3367,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-21.37)"
@@ -3394,7 +3394,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-1.82)",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -3419,7 +3419,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -3443,7 +3443,7 @@
       ],
       "category": "A",
       "score": 15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (100th percentile)"
       ],
@@ -3467,7 +3467,7 @@
       ],
       "category": "A",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (93th percentile)"
       ],
@@ -3490,7 +3490,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.88)"
@@ -3517,7 +3517,7 @@
       ],
       "category": "Z",
       "score": 4,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -3543,7 +3543,7 @@
       ],
       "category": "Z",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -3567,7 +3567,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -3593,7 +3593,7 @@
       ],
       "category": "Z",
       "score": -7,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.31)",
@@ -3621,7 +3621,7 @@
       ],
       "category": "Z",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -3647,7 +3647,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 8% in 2024 (over a year ago)"
@@ -3673,7 +3673,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -3697,7 +3697,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
@@ -3724,7 +3724,7 @@
       ],
       "category": "B",
       "score": -7,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.24)"
@@ -3751,7 +3751,7 @@
       ],
       "category": "Z",
       "score": -8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.77)",
@@ -3781,7 +3781,7 @@
       ],
       "category": "Z",
       "score": -26,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-12.62)",
@@ -3810,7 +3810,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
       ],
@@ -3834,7 +3834,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (83th percentile)",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -3861,7 +3861,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-1.83)",
@@ -3889,7 +3889,7 @@
       ],
       "category": "A",
       "score": 23,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -3912,7 +3912,7 @@
       ],
       "category": "B",
       "score": 10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.51)"
@@ -3940,7 +3940,7 @@
       ],
       "category": "A",
       "score": -10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-1.83)",
         "📊 Near 5Y high (94th percentile)"
@@ -3965,7 +3965,7 @@
       ],
       "category": "A",
       "score": 15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -3985,7 +3985,7 @@
       ],
       "category": "A",
       "score": 13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
       ],
@@ -4007,7 +4007,7 @@
       ],
       "category": "A",
       "score": 15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -4030,7 +4030,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-9.73)",
@@ -4057,7 +4057,7 @@
       ],
       "category": "B",
       "score": -8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (91th percentile)"
@@ -4084,7 +4084,7 @@
       ],
       "category": "Z",
       "score": -21,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.76)",
@@ -4110,7 +4110,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "HFL": {
       "ticker": "HFL",
@@ -4129,7 +4129,7 @@
       ],
       "category": "Z",
       "score": 2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -4153,7 +4153,7 @@
       ],
       "category": "Y",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -4175,7 +4175,7 @@
       ],
       "category": "Z",
       "score": -7,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-19.67)",
@@ -4202,7 +4202,7 @@
       ],
       "category": "A",
       "score": 20,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -4220,7 +4220,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (90th percentile)"
       ],
@@ -4246,7 +4246,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.32)",
@@ -4276,7 +4276,7 @@
       ],
       "category": "B",
       "score": -4,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-14.00)",
@@ -4304,7 +4304,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.02)",
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
@@ -4329,7 +4329,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
       ],
@@ -4353,7 +4353,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.15)",
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
@@ -4379,7 +4379,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.23)",
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
@@ -4404,7 +4404,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.42)"
@@ -4430,7 +4430,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.04)",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -4455,7 +4455,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -4480,7 +4480,7 @@
       ],
       "category": "A",
       "score": 23,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (82th percentile)"
       ],
@@ -4508,7 +4508,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.27)"
@@ -4534,7 +4534,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-13.32)",
@@ -4563,7 +4563,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-1.79)",
         "⚠️ Last dividend: 7% in 2022 (over a year ago)"
@@ -4589,7 +4589,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.32)",
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
@@ -4616,7 +4616,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-39.01)"
@@ -4641,7 +4641,7 @@
       ],
       "category": "A",
       "score": 10,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "INTECH": {
       "ticker": "INTECH",
@@ -4659,7 +4659,7 @@
       ],
       "category": "Z",
       "score": -24,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.38)",
@@ -4686,7 +4686,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -4709,7 +4709,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "ISLAMIBANK": {
       "ticker": "ISLAMIBANK",
@@ -4729,7 +4729,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
@@ -4756,7 +4756,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-12.22)",
@@ -4784,7 +4784,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (86th percentile)",
         "⚠️ Last dividend: 20% in 2024 (over a year ago)"
@@ -4810,7 +4810,7 @@
       ],
       "category": "B",
       "score": -21,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.43)",
@@ -4839,7 +4839,7 @@
       ],
       "category": "A",
       "score": 16,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (98th percentile)"
       ],
@@ -4864,7 +4864,7 @@
       ],
       "category": "A",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (95th percentile)",
         "⚠️ Last dividend: 18% in 2024 (over a year ago)"
@@ -4890,7 +4890,7 @@
       ],
       "category": "A",
       "score": 28,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -4908,7 +4908,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -4928,7 +4928,7 @@
       ],
       "category": "B",
       "score": 9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -4952,7 +4952,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "JUTESPINN": {
       "ticker": "JUTESPINN",
@@ -4968,7 +4968,7 @@
       ],
       "category": "Z",
       "score": -18,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-42.10)"
@@ -4994,7 +4994,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (94th percentile)"
       ],
@@ -5019,7 +5019,7 @@
       ],
       "category": "B",
       "score": -8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -5041,7 +5041,7 @@
       ],
       "category": "A",
       "score": -3,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "KBSEED": {
       "ticker": "KBSEED",
@@ -5057,7 +5057,7 @@
       ],
       "category": "Y",
       "score": -1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 1% in 2024 (over a year ago)"
       ],
@@ -5080,7 +5080,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "KEYACOSMET": {
       "ticker": "KEYACOSMET",
@@ -5098,7 +5098,7 @@
       ],
       "category": "Z",
       "score": -6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 1% in 2020 (over a year ago)"
@@ -5121,7 +5121,7 @@
       ],
       "category": "Y",
       "score": 0,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "KOHINOOR": {
       "ticker": "KOHINOOR",
@@ -5137,7 +5137,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (83th percentile)"
       ],
@@ -5161,7 +5161,7 @@
       ],
       "category": "Z",
       "score": 12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -5186,7 +5186,7 @@
       ],
       "category": "Z",
       "score": -21,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-3.10)",
@@ -5216,7 +5216,7 @@
       ],
       "category": "Z",
       "score": -9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.84)",
@@ -5243,7 +5243,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
       ],
@@ -5266,7 +5266,7 @@
       ],
       "category": "B",
       "score": -2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -5289,7 +5289,7 @@
       ],
       "category": "A",
       "score": 20,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -5308,7 +5308,7 @@
       ],
       "category": "Z",
       "score": -7,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 30% in 2021 (over a year ago)"
@@ -5332,7 +5332,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -5350,7 +5350,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "LRBDL": {
       "ticker": "LRBDL",
@@ -5370,7 +5370,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-4.56)",
@@ -5398,7 +5398,7 @@
       ],
       "category": "A",
       "score": 13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
       ],
@@ -5421,7 +5421,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -5445,7 +5445,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-3.69)",
@@ -5475,7 +5475,7 @@
       ],
       "category": "A",
       "score": 27,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (99th percentile)"
       ],
@@ -5499,7 +5499,7 @@
       ],
       "category": "Y",
       "score": 2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -5522,7 +5522,7 @@
       ],
       "category": "A",
       "score": 12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (86th percentile)"
       ],
@@ -5548,7 +5548,7 @@
       ],
       "category": "Y",
       "score": 15,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "MATINSPINN": {
       "ticker": "MATINSPINN",
@@ -5566,7 +5566,7 @@
       ],
       "category": "A",
       "score": 23,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -5586,7 +5586,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 4% in 2023 (over a year ago)"
       ],
@@ -5608,7 +5608,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -5628,7 +5628,7 @@
       ],
       "category": "Z",
       "score": -18,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-10.05)",
@@ -5656,7 +5656,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-36.58)",
@@ -5682,7 +5682,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -5700,7 +5700,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 15% in 2024 (over a year ago)"
       ],
@@ -5725,7 +5725,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.75)",
@@ -5755,7 +5755,7 @@
       ],
       "category": "Z",
       "score": 12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
@@ -5783,7 +5783,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (83th percentile)"
       ],
@@ -5809,7 +5809,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.98)",
@@ -5837,7 +5837,7 @@
       ],
       "category": "B",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -5862,7 +5862,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.24)",
@@ -5889,7 +5889,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -5913,7 +5913,7 @@
       ],
       "category": "Z",
       "score": -19,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.30)",
@@ -5940,7 +5940,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -5957,7 +5957,7 @@
       ],
       "category": "Z",
       "score": -8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -5979,7 +5979,7 @@
       ],
       "category": "A",
       "score": 22,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -5998,7 +5998,7 @@
       ],
       "category": "Y",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (89th percentile)"
       ],
@@ -6022,7 +6022,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6044,7 +6044,7 @@
       ],
       "category": "B",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6067,7 +6067,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6089,7 +6089,7 @@
       ],
       "category": "B",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6112,7 +6112,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "MOSTFAMETL": {
       "ticker": "MOSTFAMETL",
@@ -6130,7 +6130,7 @@
       ],
       "category": "Y",
       "score": 10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -6150,7 +6150,7 @@
       ],
       "category": "A",
       "score": 21,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (93th percentile)"
       ],
@@ -6175,7 +6175,7 @@
       ],
       "category": "A",
       "score": 17,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
       ],
@@ -6200,7 +6200,7 @@
       ],
       "category": "B",
       "score": -7,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-7.18)"
@@ -6223,7 +6223,7 @@
       ],
       "category": "A",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -6243,7 +6243,7 @@
       ],
       "category": "Z",
       "score": -2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -6266,7 +6266,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "NBL": {
       "ticker": "NBL",
@@ -6284,7 +6284,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.30)",
@@ -6314,7 +6314,7 @@
       ],
       "category": "A",
       "score": 28,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (86th percentile)"
       ],
@@ -6341,7 +6341,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 4% in 2023 (over a year ago)"
       ],
@@ -6367,7 +6367,7 @@
       ],
       "category": "Z",
       "score": 18,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 12% in 2021 (over a year ago)"
@@ -6396,7 +6396,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (88th percentile)"
@@ -6421,7 +6421,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
       ],
@@ -6444,7 +6444,7 @@
       ],
       "category": "Y",
       "score": 14,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -6462,7 +6462,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -6482,7 +6482,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2020 (over a year ago)"
@@ -6506,7 +6506,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -6530,7 +6530,7 @@
       ],
       "category": "B",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6553,7 +6553,7 @@
       ],
       "category": "Z",
       "score": 2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -6578,7 +6578,7 @@
       ],
       "category": "Z",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 11% in 2023 (over a year ago)"
@@ -6604,7 +6604,7 @@
       ],
       "category": "Z",
       "score": -19,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-107.49)",
@@ -6633,7 +6633,7 @@
       ],
       "category": "B",
       "score": 14,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6661,7 +6661,7 @@
       ],
       "category": "Z",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2018 (over a year ago)"
@@ -6693,7 +6693,7 @@
       ],
       "category": "Z",
       "score": -1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.75)",
@@ -6722,7 +6722,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 3% in 2024 (over a year ago)"
@@ -6746,7 +6746,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "ONEBANKPLC": {
       "ticker": "ONEBANKPLC",
@@ -6766,7 +6766,7 @@
       ],
       "category": "Z",
       "score": 17,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 4% in 2023 (over a year ago)"
@@ -6791,7 +6791,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "ORIONPHARM": {
       "ticker": "ORIONPHARM",
@@ -6812,7 +6812,7 @@
       ],
       "category": "Z",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.77)",
@@ -6840,7 +6840,7 @@
       ],
       "category": "Y",
       "score": 16,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -6859,7 +6859,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2021 (over a year ago)"
@@ -6885,7 +6885,7 @@
       ],
       "category": "A",
       "score": 31,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -6904,7 +6904,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (81th percentile)"
       ],
@@ -6929,7 +6929,7 @@
       ],
       "category": "Z",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
@@ -6956,7 +6956,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6980,7 +6980,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (91th percentile)"
       ],
@@ -7005,7 +7005,7 @@
       ],
       "category": "A",
       "score": -8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.17)",
         "📊 Near 5Y high (100th percentile)",
@@ -7032,7 +7032,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "PHENIXINS": {
       "ticker": "PHENIXINS",
@@ -7049,7 +7049,7 @@
       ],
       "category": "A",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (82th percentile)",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -7075,7 +7075,7 @@
       ],
       "category": "Z",
       "score": -18,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-48.73)",
@@ -7104,7 +7104,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-2.50)",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -7129,7 +7129,7 @@
       ],
       "category": "A",
       "score": 18,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -7149,7 +7149,7 @@
       ],
       "category": "Z",
       "score": -18,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-14.95)"
@@ -7176,7 +7176,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-2.38)",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -7202,7 +7202,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 20% in 2024 (over a year ago)"
       ],
@@ -7228,7 +7228,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.30)",
@@ -7255,7 +7255,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (88th percentile)"
       ],
@@ -7279,7 +7279,7 @@
       ],
       "category": "A",
       "score": -6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 15% in 2024 (over a year ago)"
       ],
@@ -7306,7 +7306,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-8.05)",
@@ -7333,7 +7333,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "PREMIERLEA": {
       "ticker": "PREMIERLEA",
@@ -7353,7 +7353,7 @@
       ],
       "category": "Z",
       "score": -7,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-27.50)",
@@ -7381,7 +7381,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.28)",
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
@@ -7406,7 +7406,7 @@
       ],
       "category": "A",
       "score": 19,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (96th percentile)"
       ],
@@ -7433,7 +7433,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.53)",
@@ -7460,7 +7460,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -7478,7 +7478,7 @@
       ],
       "category": "B",
       "score": -8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
@@ -7506,7 +7506,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-8.05)",
@@ -7533,7 +7533,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2020 (over a year ago)"
@@ -7558,7 +7558,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -7581,7 +7581,7 @@
       ],
       "category": "A",
       "score": 18,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "PUBALIBANK": {
       "ticker": "PUBALIBANK",
@@ -7600,7 +7600,7 @@
       ],
       "category": "A",
       "score": 24,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (99th percentile)"
       ],
@@ -7625,7 +7625,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -7648,7 +7648,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 2% in 2024 (over a year ago)"
       ],
@@ -7672,7 +7672,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -7696,7 +7696,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -7717,7 +7717,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "RAKCERAMIC": {
       "ticker": "RAKCERAMIC",
@@ -7735,7 +7735,7 @@
       ],
       "category": "A",
       "score": 4,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.93)"
       ],
@@ -7758,7 +7758,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "RDFOOD": {
       "ticker": "RDFOOD",
@@ -7776,7 +7776,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -7798,7 +7798,7 @@
       ],
       "category": "A",
       "score": 16,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -7820,7 +7820,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.62)",
@@ -7846,7 +7846,7 @@
       ],
       "category": "A",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.31)",
         "⚠️ Last dividend: 4% in 2024 (over a year ago)"
@@ -7873,7 +7873,7 @@
       ],
       "category": "A",
       "score": 16,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (98th percentile)"
       ],
@@ -7898,7 +7898,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -7919,7 +7919,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-7.76)",
@@ -7944,7 +7944,7 @@
       ],
       "category": "A",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -7964,7 +7964,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-3.06)"
@@ -7988,7 +7988,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -8011,7 +8011,7 @@
       ],
       "category": "A",
       "score": 12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (81th percentile)"
       ],
@@ -8039,7 +8039,7 @@
       ],
       "category": "Z",
       "score": -2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-3.75)",
@@ -8066,7 +8066,7 @@
       ],
       "category": "A",
       "score": 12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -8085,7 +8085,7 @@
       ],
       "category": "Z",
       "score": 2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -8107,7 +8107,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -8128,7 +8128,7 @@
       ],
       "category": "A",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -8152,7 +8152,7 @@
       ],
       "category": "Y",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (87th percentile)"
       ],
@@ -8176,7 +8176,7 @@
       ],
       "category": "Z",
       "score": -18,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-7.52)",
@@ -8206,7 +8206,7 @@
       ],
       "category": "Z",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 1% in 2024 (over a year ago)"
@@ -8234,7 +8234,7 @@
       ],
       "category": "B",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (97th percentile)"
@@ -8261,7 +8261,7 @@
       ],
       "category": "B",
       "score": 9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -8290,7 +8290,7 @@
       ],
       "category": "Z",
       "score": 4,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -8316,7 +8316,7 @@
       ],
       "category": "B",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -8340,7 +8340,7 @@
       ],
       "category": "B",
       "score": -21,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.02)",
@@ -8371,7 +8371,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (97th percentile)"
@@ -8396,7 +8396,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 12% in 2024 (over a year ago)"
       ],
@@ -8420,7 +8420,7 @@
       ],
       "category": "A",
       "score": 12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (99th percentile)"
       ],
@@ -8445,7 +8445,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-4.86)"
@@ -8471,7 +8471,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -8497,7 +8497,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Last dividend: 7% in 2024 (over a year ago)"
@@ -8520,7 +8520,7 @@
       ],
       "category": "A",
       "score": 6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -8540,7 +8540,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.01)",
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
@@ -8565,7 +8565,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 4% in 2023 (over a year ago)"
       ],
@@ -8588,7 +8588,7 @@
       ],
       "category": "A",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
       ],
@@ -8611,7 +8611,7 @@
       ],
       "category": "A",
       "score": 28,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -8632,7 +8632,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (99th percentile)",
@@ -8662,7 +8662,7 @@
       ],
       "category": "B",
       "score": 7,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (94th percentile)"
@@ -8688,7 +8688,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -8714,7 +8714,7 @@
       ],
       "category": "Z",
       "score": 18,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2019 (over a year ago)"
@@ -8743,7 +8743,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-50.77)",
@@ -8772,7 +8772,7 @@
       ],
       "category": "A",
       "score": -18,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.89)",
         "⚠️ Crashed -98% in 6 months",
@@ -8801,7 +8801,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (89th percentile)",
@@ -8829,7 +8829,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -8854,7 +8854,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.97)",
@@ -8882,7 +8882,7 @@
       ],
       "category": "A",
       "score": 12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (95th percentile)"
       ],
@@ -8908,7 +8908,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-22.56)",
@@ -8935,7 +8935,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "SIPLC": {
       "ticker": "SIPLC",
@@ -8953,7 +8953,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (100th percentile)"
       ],
@@ -8977,7 +8977,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2024 (over a year ago)"
@@ -9001,7 +9001,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "SONALILIFE": {
       "ticker": "SONALILIFE",
@@ -9019,7 +9019,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (93th percentile)",
         "⚠️ Last dividend: 15% in 2024 (over a year ago)"
@@ -9042,7 +9042,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "SONARBAINS": {
       "ticker": "SONARBAINS",
@@ -9059,7 +9059,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -9085,7 +9085,7 @@
       ],
       "category": "B",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.80)",
@@ -9115,7 +9115,7 @@
       ],
       "category": "A",
       "score": 31,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9136,7 +9136,7 @@
       ],
       "category": "B",
       "score": 1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Last dividend: 2% in 2024 (over a year ago)"
@@ -9159,7 +9159,7 @@
       ],
       "category": "A",
       "score": 10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9177,7 +9177,7 @@
       ],
       "category": "A",
       "score": 22,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9195,7 +9195,7 @@
       ],
       "category": "A",
       "score": 22,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9216,7 +9216,7 @@
       ],
       "category": "Z",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2024 (over a year ago)"
@@ -9241,7 +9241,7 @@
       ],
       "category": "Z",
       "score": -21,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-23.02)",
@@ -9267,7 +9267,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9288,7 +9288,7 @@
       ],
       "category": "Z",
       "score": 15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -9317,7 +9317,7 @@
       ],
       "category": "Z",
       "score": -16,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.08)",
@@ -9345,7 +9345,7 @@
       ],
       "category": "A",
       "score": 26,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9365,7 +9365,7 @@
       ],
       "category": "B",
       "score": -8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (90th percentile)",
@@ -9392,7 +9392,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "TALLUSPIN": {
       "ticker": "TALLUSPIN",
@@ -9410,7 +9410,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.79)"
@@ -9434,7 +9434,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "TECHNODRUG": {
       "ticker": "TECHNODRUG",
@@ -9452,7 +9452,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (93th percentile)"
       ],
@@ -9477,7 +9477,7 @@
       ],
       "category": "B",
       "score": -6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Last dividend: 5% in 2024 (over a year ago)"
@@ -9505,7 +9505,7 @@
       ],
       "category": "B",
       "score": 4,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-7.80)"
@@ -9532,7 +9532,7 @@
       ],
       "category": "B",
       "score": 10,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -9557,7 +9557,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-1.96)",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -9584,7 +9584,7 @@
       ],
       "category": "A",
       "score": 16,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 8% in 2024 (over a year ago)"
       ],
@@ -9608,7 +9608,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -9633,7 +9633,7 @@
       ],
       "category": "Z",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -9659,7 +9659,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -9677,7 +9677,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -9700,7 +9700,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Crashed -100% in 6 months",
@@ -9729,7 +9729,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-11.99)",
@@ -9756,7 +9756,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -9780,7 +9780,7 @@
       ],
       "category": "A",
       "score": 31,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9800,7 +9800,7 @@
       ],
       "category": "A",
       "score": 15,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (80th percentile)"
       ],
@@ -9825,7 +9825,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (82th percentile)"
       ],
@@ -9849,7 +9849,7 @@
       ],
       "category": "A",
       "score": 22,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9870,7 +9870,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.34)",
@@ -9898,7 +9898,7 @@
       ],
       "category": "A",
       "score": 16,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (98th percentile)"
       ],
@@ -9924,7 +9924,7 @@
       ],
       "category": "Z",
       "score": 14,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 15% in 2019 (over a year ago)"
@@ -9950,7 +9950,7 @@
       ],
       "category": "A",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.10)",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -9977,7 +9977,7 @@
       ],
       "category": "A",
       "score": -8,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Negative EPS (৳-0.37)",
         "📊 Near 5Y high (84th percentile)",
@@ -10005,7 +10005,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -10028,7 +10028,7 @@
       ],
       "category": "A",
       "score": 17,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -10045,7 +10045,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "WEBCOATS": {
       "ticker": "WEBCOATS",
@@ -10063,7 +10063,7 @@
       ],
       "category": "Y",
       "score": 11,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "📊 Near 5Y high (91th percentile)"
       ],
@@ -10091,7 +10091,7 @@
       ],
       "category": "Z",
       "score": -9,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.02)",
@@ -10117,7 +10117,7 @@
       ],
       "category": "Y",
       "score": 8,
-      "generatedAt": "2026-07-26"
+      "generatedAt": "2026-07-27"
     },
     "YPL": {
       "ticker": "YPL",
@@ -10137,7 +10137,7 @@
       ],
       "category": "Z",
       "score": -16,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.55)",
@@ -10165,7 +10165,7 @@
       ],
       "category": "Y",
       "score": -6,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Last dividend: 5% in 2024 (over a year ago)"
       ],
@@ -10190,7 +10190,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.55)",
@@ -10219,7 +10219,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.58)",
@@ -10248,7 +10248,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-07-26",
+      "generatedAt": "2026-07-27",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-78.87)",

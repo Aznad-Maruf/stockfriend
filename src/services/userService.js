@@ -127,6 +127,16 @@ export async function addHolding(uid, portfolioId, holding) {
   return docRef.id;
 }
 
+export async function updateHolding(uid, portfolioId, holdingId, updates) {
+  await setDoc(doc(db, 'users', uid, 'portfolios', portfolioId, 'holdings', holdingId), {
+    ...updates,
+    updatedAt: serverTimestamp(),
+  }, { merge: true });
+  await setDoc(doc(db, 'users', uid, 'portfolios', portfolioId), {
+    updatedAt: serverTimestamp(),
+  }, { merge: true });
+}
+
 export async function removeHolding(uid, portfolioId, holdingId) {
   await deleteDoc(doc(db, 'users', uid, 'portfolios', portfolioId, 'holdings', holdingId));
   await setDoc(doc(db, 'users', uid, 'portfolios', portfolioId), {

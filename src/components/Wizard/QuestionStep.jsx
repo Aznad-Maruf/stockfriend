@@ -1,8 +1,9 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useApp } from '../../context/AppContext';
 import { translations } from '../../data/i18n';
 import { sectors } from '../../data/stocks';
 import { formatNumber } from '../../utils/formatters';
+import { horizonToCategory, horizonToDays, isHorizonValid } from '../../utils/horizonUtils';
 import './QuestionStep.css';
 
 const ICONS = {
@@ -12,7 +13,7 @@ const ICONS = {
   goal: { wealth: '📈', income: '💰', quick: '⚡' },
 };
 
-const SINGLE_SELECT_KEYS = ['experience', 'risk', 'horizon', 'goal'];
+const SINGLE_SELECT_KEYS = ['experience', 'risk', 'goal'];
 const PRESET_VALUES = [50000, 100000, 500000, 1000000];
 
 function parseBDT(str) {
@@ -35,6 +36,24 @@ export default function QuestionStep({ questionKey }) {
       setBudgetDisplay('');
     }
   }, [questionKey, currentAnswer]);
+
+  // Horizon flexible input state
+  const horizonState = useMemo(() => {
+    if (questionKey !== 'horizon') return { days: 0, months: 0, years: 0 };
+    if (currentAnswer && typeof currentAnswer === 'object') return currentAnswer;
+    return { days: 0, months: 0, years: 0 };
+  }, [questionKey, currentAnswer]);
+
+  const horizonCategory = useMemo(() => {
+    if (!isHorizonValid(horizonState)) return null;
+    return horizonToCategory(horizonState);
+  }, [horizonState]);
+
+  const handleHorizonChange = useCallback((field, value) => {
+    const num = Math.max(0, Math.floor(Number(value) || 0));
+    const updated = { ...horizonState, [field]: num };
+    setAnswer('horizon', updated);
+  }, [horizonState, setAnswer]);
 
   useEffect(() => {
     return () => {
@@ -122,6 +141,41 @@ export default function QuestionStep({ questionKey }) {
           </div>
         )}
 
+        {questionKey === 'horizon' && (
+          <div className="question-step__horizon">
+            <div className="horizon-inputs">
+              {['days', 'months', 'years'].map((field) => (
+                <div key={field} className="horizon-field">
+                  <input
+                    type="number"
+                    className="horizon-input"
+                    min="0"
+                    max={field === 'days' ? 365 : field === 'months' ? 60 : 30}
+                    value={horizonState[field] || ''}
+                    onChange={(e) => handleHorizonChange(field, e.target.value)}
+                    placeholder="0"
+                    inputMode="numeric"
+                  />
+                  <label className="horizon-label">{t[field]}</label>
+                </div>
+              ))}
+            </div>
+
+            {horizonCategory ? (
+              <div className={`horizon-preview horizon-preview--${horizonCategory}`}>
+                <span className="horizon-preview__icon">
+                  {horizonCategory === 'short' ? '⏱️' : horizonCategory === 'medium' ? '📅' : '🏔️'}
+                </span>
+                <span className="horizon-preview__text">
+                  {t.summary} <strong>{t.categories[horizonCategory]}</strong>
+                </span>
+              </div>
+            ) : (
+              <p className="horizon-hint">{t.hint}</p>
+            )}
+          </div>
+        )}
+
         {questionKey === 'budget' && (
           <div className="question-step__budget">
             <div className="budget-input-wrapper">
@@ -146,6 +200,38 @@ export default function QuestionStep({ questionKey }) {
                   onClick={() => handlePresetClick(value)}
                 >
                   {t.currency}{t.presets[i]}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {questionKey === 'stockCount' && (
+          <div className="question-step__stock-count">
+            <div className="stock-count-display">
+              <span className="stock-count-number">{currentAnswer || 5}</span>
+            </div>
+            <div className="stock-count-slider-wrap">
+              <span className="stock-count-bound">1</span>
+              <input
+                type="range"
+                className="stock-count-slider"
+                min="1"
+                max="20"
+                value={currentAnswer || 5}
+                onChange={(e) => setAnswer('stockCount', parseInt(e.target.value))}
+              />
+              <span className="stock-count-bound">20</span>
+            </div>
+            <div className="stock-count-presets">
+              {[3, 5, 10, 15, 20].map(n => (
+                <button
+                  key={n}
+                  type="button"
+                  className={`stock-count-preset${(currentAnswer || 5) === n ? ' stock-count-preset--active' : ''}`}
+                  onClick={() => setAnswer('stockCount', n)}
+                >
+                  {n}
                 </button>
               ))}
             </div>

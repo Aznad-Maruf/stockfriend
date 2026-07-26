@@ -37,6 +37,17 @@ jobs:
       - name: Run research analyzer
         run: python3 scripts/research/analyzer.py
 
+      - name: Validate stock data
+        id: validate
+        run: |
+          NEW_COUNT=$(tail -n +2 public/data/stocks.csv | wc -l)
+          echo "new_count=$NEW_COUNT" >> $GITHUB_OUTPUT
+          if [ "$NEW_COUNT" -lt 50 ]; then
+            echo "::error::Scraper produced only $NEW_COUNT stocks — expected 300+. Aborting to prevent data regression."
+            exit 1
+          fi
+          echo "Scraper produced $NEW_COUNT stocks — looks good"
+
       - name: Check for changes
         id: changes
         run: |

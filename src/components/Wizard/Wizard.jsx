@@ -3,6 +3,7 @@ import { useApp } from '../../context/AppContext';
 import { useData } from '../../context/DataContext';
 import { translations } from '../../data/i18n';
 import { generateRecommendations } from '../../engine';
+import { isHorizonValid } from '../../utils/horizonUtils';
 import QuestionStep from './QuestionStep';
 import './Wizard.css';
 
@@ -33,6 +34,8 @@ export default function Wizard() {
     const val = answers[currentKey];
     if (currentKey === 'sectors') return true;
     if (currentKey === 'budget') return val !== null && val > 0;
+    if (currentKey === 'stockCount') return val !== null && val >= 1 && val <= 20;
+    if (currentKey === 'horizon') return isHorizonValid(val);
     return val !== null;
   }, [answers, currentKey]);
 

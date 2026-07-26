@@ -1,10 +1,11 @@
 import { createContext, useContext, useState, useCallback, useEffect, useRef } from 'react';
 import { useAuth } from './AuthContext';
 import { saveUserAnswers, loadUserAnswers, clearUserAnswers } from '../services/userService';
+import { isHorizonValid } from '../utils/horizonUtils';
 
 const AppContext = createContext(null);
 
-const STEPS = ['experience', 'risk', 'horizon', 'budget', 'goal', 'sectors'];
+const STEPS = ['experience', 'risk', 'horizon', 'budget', 'stockCount', 'goal', 'sectors'];
 
 // Hash routing helpers
 function getPageFromHash() {
@@ -42,7 +43,7 @@ export function AppProvider({ children }) {
         const saved = localStorage.getItem('sf-answers');
         if (saved) {
           const p = JSON.parse(saved);
-          if (p.experience && p.risk && p.horizon && p.budget && p.goal) {
+          if (p.experience && p.risk && isHorizonValid(p.horizon) && p.budget && p.goal) {
             return 'loading';
           }
         }
@@ -69,6 +70,7 @@ export function AppProvider({ children }) {
             risk: parsed.risk || null,
             horizon: parsed.horizon || null,
             budget: parsed.budget || null,
+            stockCount: parsed.stockCount || 5,
             goal: parsed.goal || null,
             sectors: parsed.sectors || [],
           };
@@ -80,6 +82,7 @@ export function AppProvider({ children }) {
       risk: null,
       horizon: null,
       budget: null,
+      stockCount: 5,
       goal: null,
       sectors: [],
     };
@@ -195,6 +198,7 @@ export function AppProvider({ children }) {
       risk: null,
       horizon: null,
       budget: null,
+      stockCount: 5,
       goal: null,
       sectors: [],
     };

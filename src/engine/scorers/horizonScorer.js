@@ -1,15 +1,22 @@
 import { computeMomentumScore } from './momentumScorer.js';
 
-export function computeHorizonScore(stock, horizon) {
-  if (horizon === 'short') {
+export function computeHorizonScore(stock, horizonDays) {
+  // Legacy string support
+  if (typeof horizonDays === 'string') {
+    const MAP = { short: 180, medium: 730, long: 1825 };
+    horizonDays = MAP[horizonDays] || 365;
+  }
+
+  if (horizonDays < 365) {
+    // Short: dividends + stability + momentum
     const dividendPart = Math.min(stock.dividendYield / 10, 1) * 8;
     const stabilityPart = stock.riskLevel <= 2 ? 5 : stock.riskLevel <= 3 ? 3 : 1;
-    // Short-term: recent momentum matters most
     const momentumPart = computeMomentumScore(stock, 'short');
     return dividendPart + stabilityPart + momentumPart;
   }
 
-  if (horizon === 'medium') {
+  if (horizonDays <= 1095) {
+    // Medium: growth + dividends + returns
     const growthMap = { high: 8, moderate: 6, low: 2 };
     const growthPart = growthMap[stock.growthPotential] || 4;
     const dividendPart = Math.min(stock.dividendYield / 10, 1) * 6;
@@ -17,6 +24,7 @@ export function computeHorizonScore(stock, horizon) {
     return growthPart + dividendPart + returnPart;
   }
 
+  // Long: growth + 5Y/3Y returns
   const growthMap = { high: 10, moderate: 6, low: 2 };
   const growthPart = growthMap[stock.growthPotential] || 4;
   const return5Part = Math.min(stock.historicalReturn5Y / 25, 1) * 6;
