@@ -15,6 +15,8 @@ jobs:
   update-stocks:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    outputs:
+      changed: ${{ steps.changes.outputs.changed }}
 
     steps:
       - uses: actions/checkout@v4
@@ -38,19 +40,27 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet public/data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet public/data/; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No data changes detected"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Data changes detected:"
+            git diff --stat public/data/
+          fi
 
       - name: Commit & push
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/stocks.csv public/data/research.json public/data/scraper_status.json public/data/history/
+          git add public/data/stocks.csv public/data/research.json public/data/scraper_status.json
           git commit -m "data: auto-update stock data $(date -u +%Y-%m-%d)"
           git push
 
   deploy:
     needs: update-stocks
+    if: needs.update-stocks.outputs.changed == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
