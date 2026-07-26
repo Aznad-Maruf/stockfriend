@@ -14,64 +14,12 @@
     <title>StockFriend — Smart Stock Investment Advisor | বিনিয়োগবন্ধু</title>
   </head>
   <body>
-    <!-- Multi-scene splash: random animation, rotates every 5s -->
+    <!-- Matrix splash screen -->
     <div id="splash" style="position:fixed;inset:0;z-index:9999;background:#0c1222;font-family:'Inter',system-ui,sans-serif;overflow:hidden;transition:opacity .5s ease-out;display:flex;flex-direction:column;align-items:center;justify-content:center">
       <style>
         #splash{animation:splashIn .4s ease-out}
         #splash.hide{opacity:0;pointer-events:none}
         @keyframes splashIn{from{opacity:0}to{opacity:1}}
-        .sp-logo{font-size:1.5rem;font-weight:700;color:#fff;letter-spacing:-.02em;position:absolute;top:2rem;left:50%;transform:translateX(-50%)}
-        .sp-logo span{color:#14b8a6}
-        .sp-scene{display:none;flex-direction:column;align-items:center;justify-content:center;width:100%;animation:sceneIn .5s ease-out}
-        .sp-scene.active{display:flex}
-        @keyframes sceneIn{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:scale(1)}}
-        @keyframes draw{to{stroke-dashoffset:0}}
-        @keyframes dotIn{to{opacity:1}}
-
-        /* Scene 1: Ticker Tape */
-        .sp-tape{overflow:hidden;width:100%;max-width:600px;margin-bottom:2rem}
-        .sp-tape-track{display:flex;gap:2rem;animation:tapeScroll 15s linear infinite;white-space:nowrap}
-        .sp-tape-item{display:flex;align-items:center;gap:.4rem;padding:.4rem .8rem;background:rgba(30,41,59,.6);border-radius:6px;border:1px solid rgba(51,65,85,.4);flex-shrink:0}
-        .sp-tape-sym{color:#94a3b8;font-size:.7rem;font-weight:600;letter-spacing:.06em}
-        .sp-tape-price{font-size:.8rem;font-weight:600}
-        .sp-up{color:#22c55e}.sp-dn{color:#ef4444}.sp-fl{color:#f59e0b}
-        .sp-tape-chg{font-size:.65rem;padding:.1rem .3rem;border-radius:3px}
-        .sp-tape-chg.up{background:rgba(34,197,94,.15);color:#22c55e}
-        .sp-tape-chg.dn{background:rgba(239,68,68,.15);color:#ef4444}
-        @keyframes tapeScroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-
-        /* Scene 2: Dashboard Cards */
-        .sp-dash{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;max-width:360px;width:85vw}
-        .sp-card{background:rgba(30,41,59,.5);border:1px solid rgba(51,65,85,.4);border-radius:10px;padding:1rem;animation:cardIn .6s ease-out backwards}
-        .sp-card:nth-child(1){animation-delay:.2s}.sp-card:nth-child(2){animation-delay:.4s}
-        .sp-card:nth-child(3){animation-delay:.6s}.sp-card:nth-child(4){animation-delay:.8s}
-        .sp-card-lbl{color:#64748b;font-size:.6rem;font-weight:600;letter-spacing:.08em;margin-bottom:.3rem}
-        .sp-card-val{font-size:1.3rem;font-weight:700;color:#e2e8f0}
-        .sp-card-sub{font-size:.65rem;margin-top:.2rem}
-        .sp-candles{display:flex;align-items:flex-end;gap:4px;height:50px;margin-top:.5rem}
-        .sp-cbar{width:6px;border-radius:2px;animation:cGrow 1s ease-out backwards}
-        @keyframes cardIn{from{opacity:0;transform:rotateY(15deg) scale(.9)}to{opacity:1;transform:rotateY(0) scale(1)}}
-        @keyframes cGrow{from{height:0}to{height:var(--h)}}
-
-        /* Scene 3: Fun Facts */
-        .sp-fact{max-width:420px;text-align:center;padding:0 1.5rem}
-        .sp-fact-icon{font-size:3rem;margin-bottom:1rem;animation:fBounce 2s ease-in-out infinite}
-        .sp-fact-text{color:#cbd5e1;font-size:1rem;line-height:1.7;margin-bottom:.5rem}
-        .sp-fact-src{color:#475569;font-size:.7rem;font-style:italic}
-        @keyframes fBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-
-        /* Scene 4: Progress */
-        .sp-prog{max-width:380px;width:85vw}
-        .sp-coins{display:flex;justify-content:center;gap:3px;margin-bottom:1.5rem;height:60px;align-items:flex-end;flex-wrap:wrap}
-        .sp-coin{width:18px;height:18px;background:linear-gradient(135deg,#f59e0b,#eab308);border-radius:50%;animation:coinDrop .4s ease-out backwards;box-shadow:0 2px 4px rgba(0,0,0,.3)}
-        @keyframes coinDrop{from{opacity:0;transform:translateY(-25px) scale(.5)}to{opacity:1;transform:translateY(0) scale(1)}}
-        .sp-pbar{height:6px;background:rgba(30,41,59,.6);border-radius:3px;overflow:hidden;margin-bottom:1rem}
-        .sp-pfill{height:100%;background:linear-gradient(90deg,#0d9488,#14b8a6,#5eead4);border-radius:3px;animation:pFill 8s ease-in-out infinite}
-        @keyframes pFill{0%{width:5%}30%{width:35%}60%{width:65%}80%{width:85%}100%{width:95%}}
-        .sp-mile{color:#94a3b8;font-size:.85rem;text-align:center;min-height:1.4em}
-        .sp-mile-done{color:#22c55e;font-size:.7rem;margin-top:.8rem;text-align:center}
-
-        /* Scene 5: Matrix */
         .sp-mx{position:absolute;inset:0;overflow:hidden}
         .sp-mx-col{position:absolute;top:-100%;color:#14b8a6;font-size:.7rem;font-family:'Courier New',monospace;line-height:1.4;animation:mxFall linear infinite;white-space:pre}
         @keyframes mxFall{from{transform:translateY(-100%)}to{transform:translateY(100vh)}}
@@ -79,97 +27,30 @@
         .sp-mx-logo span{color:#14b8a6}
         .sp-mx-sub{position:relative;z-index:2;color:#5eead4;font-size:.8rem;margin-top:.5rem;opacity:0;animation:mxSubIn 1s ease-out 1s forwards}
         @keyframes mxSubIn{to{opacity:1}}
-
         .sp-msg{color:#64748b;font-size:.72rem;position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);animation:msgP 2s ease-in-out infinite}
         @keyframes msgP{0%,100%{opacity:.6}50%{opacity:1}}
       </style>
 
-      <div class="sp-logo">Stock<span>Friend</span></div>
-
-      <!-- Scene 1: Ticker Tape -->
-      <div class="sp-scene" id="sc-tape">
-        <div class="sp-tape"><div class="sp-tape-track" id="tape"></div></div>
-        <svg style="width:min(360px,85vw);margin-top:1rem" viewBox="0 0 300 80">
-          <defs><linearGradient id="sg1" x1="0%" x2="100%"><stop offset="0%" stop-color="#0d9488"/><stop offset="100%" stop-color="#5eead4"/></linearGradient></defs>
-          <path d="M0,60 Q30,55 60,45 T120,35 T180,40 T240,20 T300,15" fill="none" stroke="url(#sg1)" stroke-width="2" stroke-linecap="round" style="stroke-dasharray:500;stroke-dashoffset:500;animation:draw 2.5s ease-in-out forwards"/>
-          <circle cx="300" cy="15" r="3" fill="#14b8a6" style="opacity:0;animation:dotIn .3s ease-out 2.3s forwards"/>
-        </svg>
-      </div>
-
-      <!-- Scene 2: Dashboard -->
-      <div class="sp-scene" id="sc-dash">
-        <div class="sp-dash">
-          <div class="sp-card"><div class="sp-card-lbl">DSEX INDEX</div><div class="sp-card-val">5,847</div><div class="sp-card-sub sp-up">▲ +1.2%</div></div>
-          <div class="sp-card"><div class="sp-card-lbl">VOLUME</div><div class="sp-card-val">৳412M</div><div class="sp-card-sub sp-up">▲ Active</div></div>
-          <div class="sp-card"><div class="sp-card-lbl">TOP GAINER</div><div class="sp-card-val" style="color:#22c55e">GP</div><div class="sp-card-sub sp-up">▲ +3.4%</div></div>
-          <div class="sp-card"><div class="sp-card-lbl">INTRADAY</div><div class="sp-candles" id="candles"></div></div>
-        </div>
-      </div>
-
-      <!-- Scene 3: Fun Facts -->
-      <div class="sp-scene" id="sc-facts">
-        <div class="sp-fact">
-          <div class="sp-fact-icon" id="f-icon">📊</div>
-          <div class="sp-fact-text" id="f-text"></div>
-          <div class="sp-fact-src" id="f-src"></div>
-        </div>
-      </div>
-
-      <!-- Scene 4: Progress -->
-      <div class="sp-scene" id="sc-prog">
-        <div class="sp-prog">
-          <div class="sp-coins" id="coins"></div>
-          <div class="sp-pbar"><div class="sp-pfill"></div></div>
-          <div class="sp-mile" id="mile">Waking up stock hamsters...</div>
-          <div class="sp-mile-done" id="mile-done"></div>
-        </div>
-      </div>
-
-      <!-- Scene 5: Matrix -->
-      <div class="sp-scene" id="sc-matrix">
-        <div class="sp-mx" id="mx-bg"></div>
-        <div class="sp-mx-logo">Stock<span>Friend</span></div>
-        <div class="sp-mx-sub">Decoding the market...</div>
-      </div>
-
+      <div class="sp-mx" id="mx-bg"></div>
+      <div class="sp-mx-logo">Stock<span>Friend</span></div>
+      <div class="sp-mx-sub">Decoding the market...</div>
       <div class="sp-msg">StockFriend is preparing your experience</div>
 
       <script>
       (function(){
-        var T=[
-          {s:'GP',p:'259',c:'+1.2',u:1},{s:'SQUR',p:'220',c:'+0.8',u:1},
-          {s:'BATBC',p:'226',c:'-0.5',u:0},{s:'WALTON',p:'386',c:'+0.3',u:1},
-          {s:'OLYMPIC',p:'155',c:'-1.1',u:0},{s:'BRAC',p:'42.8',c:'+2.1',u:1},
-          {s:'BEXIMCO',p:'87.5',c:'-3.2',u:0},{s:'RENATA',p:'1350',c:'+0.6',u:1},
-          {s:'MARICO',p:'2480',c:'+1.5',u:1},{s:'LHBL',p:'68.4',c:'-0.8',u:0},
-          {s:'ICB',p:'120',c:'+0.4',u:1},{s:'CITYBANK',p:'28.3',c:'+1.9',u:1}
-        ];
-        var tape=document.getElementById('tape');
-        if(tape){var h='';for(var r=0;r<2;r++)T.forEach(function(t){h+='<div class="sp-tape-item"><span class="sp-tape-sym">'+t.s+'</span><span class="sp-tape-price '+(t.u?'sp-up':'sp-dn')+'">৳'+t.p+'</span><span class="sp-tape-chg '+(t.u?'up':'dn')+'">'+(t.u?'▲':'▼')+' '+t.c+'%</span></div>'});tape.innerHTML=h}
-        var cn=document.getElementById('candles');
-        if(cn){var cl=['#22c55e','#ef4444','#22c55e','#22c55e','#ef4444','#22c55e','#ef4444','#22c55e'],hs=[25,35,20,40,30,45,28,38];for(var i=0;i<8;i++){var b=document.createElement('div');b.className='sp-cbar';b.style.cssText='--h:'+hs[i]+'px;background:'+cl[i]+';animation-delay:'+(0.3+i*0.1)+'s';cn.appendChild(b)}}
-        var facts=[
-          {i:'📊',t:'The Dhaka Stock Exchange was established in 1954 — one of the oldest in South Asia.',s:'DSE History'},
-          {i:'💡',t:'Warren Buffett\'s #1 rule: "Never lose money." Rule #2: "Never forget rule #1."',s:'Berkshire Hathaway'},
-          {i:'🏦',t:'Bangladesh\'s stock market has over 600 listed companies across 22 sectors.',s:'DSE Statistics'},
-          {i:'📈',t:'Staying invested 5+ years in diversified portfolios beats market timing 92% of the time.',s:'S&P Dow Jones'},
-          {i:'🎯',t:'P/E ratio = years of earnings you\'re paying for. Lower can mean cheaper.',s:'Investment Basics'},
-          {i:'💰',t:'Grameenphone (GP) has the highest market cap on DSE at ৳350+ billion.',s:'DSE Market Data'},
-          {i:'🔄',t:'Dollar-cost averaging reduces volatility impact by investing fixed amounts regularly.',s:'Portfolio Theory'},
-          {i:'🌟',t:'Bangladesh GDP growth averaged 6.5%+ for a decade — among the fastest globally.',s:'World Bank'},
-          {i:'🏭',t:'The pharma sector is one of DSE\'s most consistent performers.',s:'Sector Analysis'},
-          {i:'📉',t:'A 50% drop needs a 100% gain to break even. Risk management matters.',s:'Math of Investing'},
-        ];
-        var miles=['Waking up stock hamsters... 🐹','Loading 400+ companies... 🏢','Crunching 5 years of data... 📊','Analyzing dividends... 💰','Checking PE ratios... 🔍','Scanning momentum... 📈','Finding hidden gems... 💎','Building your portfolio... 🎯','Almost ready... ✨'];
         var mx=document.getElementById('mx-bg');
-        if(mx){var syms='GP SQUR BATBC WALTON BRAC BEXIMCO ৳259 ৳220 +1.2% -0.5% ▲ ▼ BUY HOLD SELL'.split(' ');for(var c=0;c<20;c++){var col=document.createElement('div');col.className='sp-mx-col';col.style.cssText='left:'+c*5+'%;animation-duration:'+(4+Math.random()*6)+'s;animation-delay:'+Math.random()*3+'s;opacity:'+(0.12+Math.random()*0.35)+';font-size:'+(0.55+Math.random()*0.3)+'rem';var tx='';for(var r=0;r<15;r++)tx+=syms[Math.floor(Math.random()*syms.length)]+'\n';col.textContent=tx;mx.appendChild(col)}}
-        var scenes=['sc-tape','sc-dash','sc-facts','sc-prog','sc-matrix'];
-        var idx=Math.floor(Math.random()*scenes.length);
-        var id=scenes[idx];
-        // Set up chosen scene's dynamic content
-        if(id==='sc-facts'){var f=facts[Math.floor(Math.random()*facts.length)];document.getElementById('f-icon').textContent=f.i;document.getElementById('f-text').textContent=f.t;document.getElementById('f-src').textContent='— '+f.s}
-        if(id==='sc-prog'){document.getElementById('mile').textContent=miles[0];var mi=0;setInterval(function(){mi++;document.getElementById('mile').textContent=miles[mi%miles.length];var co=document.getElementById('coins');if(co&&mi<15){var coin=document.createElement('div');coin.className='sp-coin';coin.style.animationDelay='0s';co.appendChild(coin)}var d=document.getElementById('mile-done');if(d&&mi>1)d.textContent='✓ '+mi+' steps complete'},2200)}
-        document.getElementById(id).classList.add('active');
+        if(mx){
+          var syms='GP SQUR BATBC WALTON BRAC BEXIMCO ৳259 ৳220 +1.2% -0.5% ▲ ▼ BUY HOLD SELL'.split(' ');
+          for(var c=0;c<20;c++){
+            var col=document.createElement('div');
+            col.className='sp-mx-col';
+            col.style.cssText='left:'+c*5+'%;animation-duration:'+(4+Math.random()*6)+'s;animation-delay:'+Math.random()*3+'s;opacity:'+(0.12+Math.random()*0.35)+';font-size:'+(0.55+Math.random()*0.3)+'rem';
+            var tx='';
+            for(var r=0;r<15;r++)tx+=syms[Math.floor(Math.random()*syms.length)]+'\n';
+            col.textContent=tx;
+            mx.appendChild(col);
+          }
+        }
       })();
       </script>
     </div>
