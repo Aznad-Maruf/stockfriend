@@ -6,7 +6,7 @@ import ThemeToggle from '../common/ThemeToggle';
 import './Header.css';
 
 export default function Header() {
-  const { language, setPage } = useApp();
+  const { language, setPage, viewStock } = useApp();
   const { user, isLoggedIn, signInWithGoogle, signOut } = useAuth();
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
@@ -33,6 +33,14 @@ export default function Header() {
           </span>
         </a>
         <div className="header__controls">
+          <button
+            className="header__search-btn"
+            onClick={() => viewStock(null)}
+            aria-label="Search stocks"
+            title={language === 'en' ? 'Search Stocks' : 'স্টক খুঁজুন'}
+          >
+            🔍
+          </button>
           <LanguageToggle />
           <ThemeToggle />
 

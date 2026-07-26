@@ -13,6 +13,7 @@ export function DataProvider({ children, onAutoNavigate }) {
   const [scraperStatus, setScraperStatus] = useState(null);
   const [dataSource, setDataSource] = useState('static');
   const [research, setResearch] = useState({});
+  const [priceHistory, setPriceHistory] = useState({});
 
   // Live stock data state
   const [liveStocks, setLiveStocks] = useState(staticStocks);
@@ -39,6 +40,12 @@ export function DataProvider({ children, onAutoNavigate }) {
         setDataSource(source);
         setScraperStatus(status);
         setResearch(researchData);
+
+        // Load sparkline price history (optional, non-blocking)
+        fetch('/data/price_history.json')
+          .then(r => r.ok ? r.json() : {})
+          .then(d => { if (mounted) setPriceHistory(d); })
+          .catch(() => {});
 
         // Initial live price fetch
         setPriceStatus(prev => ({ ...prev, loading: true }));
@@ -133,7 +140,8 @@ export function DataProvider({ children, onAutoNavigate }) {
     scraperStatus,
     dataSource,
     research,
-  }), [liveStocks, priceStatus, refreshPrices, scraperStatus, dataSource, research]);
+    priceHistory,
+  }), [liveStocks, priceStatus, refreshPrices, scraperStatus, dataSource, research, priceHistory]);
 
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;
 }

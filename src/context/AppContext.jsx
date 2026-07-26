@@ -13,6 +13,10 @@ function getPageFromHash() {
   if (hash === '' || hash === 'landing') return { page: 'landing' };
   if (hash === 'wizard') return { page: 'wizard' };
   if (hash === 'results') return { page: 'results' };
+  if (hash.startsWith('stock/')) {
+    const ticker = hash.replace('stock/', '');
+    return { page: 'stock-detail', stockTicker: ticker || null };
+  }
   if (hash.startsWith('portfolio/')) {
     const id = hash.replace('portfolio/', '');
     return { page: 'portfolio', portfolioId: id };
@@ -55,6 +59,13 @@ export function AppProvider({ children }) {
     if (typeof window !== 'undefined') {
       const hashRoute = getPageFromHash();
       return hashRoute.portfolioId || null;
+    }
+    return null;
+  });
+  const [selectedStock, setSelectedStock] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const hashRoute = getPageFromHash();
+      return hashRoute.stockTicker || null;
     }
     return null;
   });
@@ -136,7 +147,12 @@ export function AppProvider({ children }) {
     setPageState(newPage);
     if (newPage === 'portfolio' && extra) {
       setPortfolioRoute(extra);
-      setHash(newPage, extra);
+      setHash('portfolio', extra);
+    } else if (newPage === 'stock-detail') {
+      const hash = extra ? '#/stock/' + extra : '#/stock/';
+      if (window.location.hash !== hash) {
+        window.history.pushState(null, '', hash);
+      }
     } else {
       if (newPage !== 'loading') setHash(newPage);
       if (newPage !== 'portfolio') setPortfolioRoute(null);
@@ -149,6 +165,7 @@ export function AppProvider({ children }) {
       const route = getPageFromHash();
       setPageState(route.page);
       setPortfolioRoute(route.portfolioId || null);
+      setSelectedStock(route.stockTicker || null);
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
@@ -192,6 +209,16 @@ export function AppProvider({ children }) {
     setPage('wizard');
     setCurrentStep(0);
   }, [setPage]);
+
+  const viewStock = useCallback((ticker) => {
+    setSelectedStock(ticker || null);
+    setPage('stock-detail', ticker);
+  }, [setPage]);
+
+  const closeStock = useCallback(() => {
+    setSelectedStock(null);
+    window.history.back();
+  }, []);
 
   const showResults = useCallback((resultData) => {
     setResults(resultData);
@@ -247,6 +274,9 @@ export function AppProvider({ children }) {
     resetAssessment,
     handleAutoNavigate,
     results,
+    selectedStock,
+    viewStock,
+    closeStock,
     theme,
     toggleTheme,
     language,

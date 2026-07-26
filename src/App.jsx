@@ -6,6 +6,7 @@ import LandingPage from './components/LandingPage/LandingPage';
 import Wizard from './components/Wizard/Wizard';
 import Results from './components/Results/Results';
 import Portfolio from './components/Portfolio/Portfolio';
+import StockDetail from './components/StockDetail/StockDetail';
 import LoadingScreen from './components/common/LoadingScreen/LoadingScreen';
 
 function AppContent() {
@@ -21,6 +22,7 @@ function AppContent() {
           {page === 'wizard' && <Wizard />}
           {page === 'results' && <Results />}
           {page === 'portfolio' && <Portfolio />}
+          {page === 'stock-detail' && <StockDetail />}
         </main>
       </div>
     </DataProvider>

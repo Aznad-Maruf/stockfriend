@@ -57,6 +57,26 @@
   gap: var(--space-2-5);
 }
 
+.header__search-btn {
+  background: none;
+  border: none;
+  font-size: 1.15rem;
+  cursor: pointer;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-md);
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+  line-height: 1;
+}
+
+.header__search-btn:hover {
+  background: var(--bg-card-hover, rgba(0,0,0,0.05));
+  transform: scale(1.1);
+}
+
+[data-theme='dark'] .header__search-btn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
 @media (max-width: 480px) {
   .header__inner {
     padding: 0 var(--space-4);
