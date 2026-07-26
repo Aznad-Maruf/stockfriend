@@ -187,6 +187,12 @@ export function AppProvider({ children }) {
     setCurrentStep(0);
   }, [setPage]);
 
+  const editAssessment = useCallback(() => {
+    setResults(null);
+    setPage('wizard');
+    setCurrentStep(0);
+  }, [setPage]);
+
   const showResults = useCallback((resultData) => {
     setResults(resultData);
     setPage('results');
@@ -236,6 +242,7 @@ export function AppProvider({ children }) {
     nextStep,
     prevStep,
     startAssessment,
+    editAssessment,
     showResults,
     resetAssessment,
     handleAutoNavigate,

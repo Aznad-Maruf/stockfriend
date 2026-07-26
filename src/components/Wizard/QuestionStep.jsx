@@ -3,7 +3,7 @@ import { useApp } from '../../context/AppContext';
 import { translations } from '../../data/i18n';
 import { sectors } from '../../data/stocks';
 import { formatNumber } from '../../utils/formatters';
-import { horizonToCategory, horizonToDays, isHorizonValid } from '../../utils/horizonUtils';
+import { horizonToDays, isHorizonValid } from '../../utils/horizonUtils';
 import './QuestionStep.css';
 
 const ICONS = {
@@ -44,10 +44,7 @@ export default function QuestionStep({ questionKey }) {
     return { days: 0, months: 0, years: 0 };
   }, [questionKey, currentAnswer]);
 
-  const horizonCategory = useMemo(() => {
-    if (!isHorizonValid(horizonState)) return null;
-    return horizonToCategory(horizonState);
-  }, [horizonState]);
+
 
   const handleHorizonChange = useCallback((field, value) => {
     const num = Math.max(0, Math.floor(Number(value) || 0));
@@ -161,16 +158,7 @@ export default function QuestionStep({ questionKey }) {
               ))}
             </div>
 
-            {horizonCategory ? (
-              <div className={`horizon-preview horizon-preview--${horizonCategory}`}>
-                <span className="horizon-preview__icon">
-                  {horizonCategory === 'short' ? '⏱️' : horizonCategory === 'medium' ? '📅' : '🏔️'}
-                </span>
-                <span className="horizon-preview__text">
-                  {t.summary} <strong>{t.categories[horizonCategory]}</strong>
-                </span>
-              </div>
-            ) : (
+            {!isHorizonValid(horizonState) && (
               <p className="horizon-hint">{t.hint}</p>
             )}
           </div>

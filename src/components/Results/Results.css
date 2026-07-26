@@ -688,6 +688,38 @@
   font-family: var(--font-family-bn);
 }
 
+.results__edit-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-3) var(--space-10);
+  font-size: var(--text-md);
+  font-weight: var(--font-weight-semibold);
+  color: #fff;
+  background: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition:
+    background-color var(--transition-normal),
+    transform var(--transition-spring),
+    box-shadow var(--transition-normal);
+}
+
+.results__edit-btn:hover {
+  background: var(--color-primary-hover, #0f766e);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-primary);
+}
+
+.results__edit-btn:active {
+  transform: translateY(0) scale(0.98);
+}
+
+[data-lang='bn'] .results__edit-btn {
+  font-family: var(--font-family-bn);
+}
+
 /* ——— Disclaimer ——— */
 
 .results__disclaimer {

@@ -20,7 +20,7 @@ const CHART_COLORS = [
 ];
 
 export default function Results() {
-  const { results, answers, language, resetAssessment } = useApp();
+  const { results, answers, language, resetAssessment, editAssessment } = useApp();
   const { priceStatus } = useData();
   const { user, isLoggedIn, signInWithGoogle } = useAuth();
   const [saveStatus, setSaveStatus] = useState(null); // null | 'saving' | 'saved' | 'error'
@@ -335,6 +335,9 @@ export default function Results() {
             {language === 'en' ? '🔒 Sign in to Save Portfolio' : '🔒 পোর্টফোলিও সেভ করতে সাইন ইন করুন'}
           </button>
         )}
+        <button className="results__edit-btn" onClick={editAssessment}>
+          {language === 'en' ? '✏️ Edit Assessment' : '✏️ মূল্যায়ন সম্পাদনা'}
+        </button>
         <button className="results__retake-btn" onClick={resetAssessment}>
           {t.results.retake}
         </button>
