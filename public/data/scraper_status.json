@@ -1,13 +1,13 @@
 {
-  "last_run": "2026-07-28T09:33:46.581109",
-  "last_successful_run": "2026-07-28T09:33:46.581109",
+  "last_run": "2026-07-28T11:36:01.963196",
+  "last_successful_run": "2026-07-28T11:36:01.963196",
   "status": "success",
   "stocks_total": 424,
   "stocks_updated": 424,
   "stocks_failed": 0,
   "failed_tickers": [],
   "history_updated": true,
-  "duration_seconds": 705.3,
+  "duration_seconds": 529.4,
   "data_source": "amarstock.com",
   "errors": []
 }
