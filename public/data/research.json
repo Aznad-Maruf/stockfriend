@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T08:30:17.751093",
+  "generated_at": "2026-08-03T10:48:06.027180",
   "total_analyzed": 424,
   "stocks_with_signals": 423,
   "overrides": {
@@ -8763,18 +8763,19 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (4.8x) with positive earnings. 45% below NAV (৳12.2). Strong 1M momentum (+11.7%).",
-      "reasonBn": "কম PE (4.8x) ইতিবাচক আয়ের সাথে। NAV-র 45% নিচে (৳12.2)। শক্তিশালী ১-মাস গতি (+11.7%)।",
+      "reason": "Low PE (4.8x) with positive earnings. 45% below NAV (৳12.2). At 19th percentile of 5Y range (historically cheap). Strong 1M momentum (+11.7%).",
+      "reasonBn": "কম PE (4.8x) ইতিবাচক আয়ের সাথে। NAV-র 45% নিচে (৳12.2)। ৫ বছরের 19তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+11.7%)।",
       "signals": [
         "z_category",
         "cheap_pe",
         "nav_discount",
+        "undervalued_5y",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": 13,
+      "score": 19,
       "generatedAt": "2026-08-03",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
@@ -8783,7 +8784,9 @@
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
         "⚠️ শেষ লভ্যাংশ: 10% (2019 সালে, ১ বছরেরও বেশি আগে)"
-      ]
+      ],
+      "duration": "3-6 months (undervalued)",
+      "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
     "SHYAMPSUG": {
       "ticker": "SHYAMPSUG",
