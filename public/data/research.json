@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-04T11:51:10.212766",
+  "generated_at": "2026-08-05T07:40:46.470212",
   "total_analyzed": 424,
-  "stocks_with_signals": 423,
+  "stocks_with_signals": 424,
   "overrides": {
     "AAMRANET": {
       "ticker": "AAMRANET",
@@ -21,7 +21,7 @@
       ],
       "category": "Z",
       "score": 13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -36,50 +36,56 @@
     "AAMRATECH": {
       "ticker": "AAMRATECH",
       "name": "aamra technologies limited",
-      "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
+      "action": "sell",
+      "label": "Consider Selling",
+      "labelBn": "বিক্রির কথা ভাবুন",
       "reason": "Strong 1M momentum (+78.7%).",
       "reasonBn": "শক্তিশালী ১-মাস গতি (+78.7%)।",
       "signals": [
         "z_category",
+        "negative_eps",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": -3,
-      "generatedAt": "2026-08-04",
+      "score": -13,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
+        "⚠️ Negative EPS (৳-0.12)",
         "⚠️ Last dividend: 1% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
+        "⚠️ নেতিবাচক ইপিএস (৳-0.12)",
         "⚠️ শেষ লভ্যাংশ: 1% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
     "ABB1STMF": {
       "ticker": "ABB1STMF",
       "name": "AB Bank 1st Mutual fund",
-      "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
+      "action": "hold",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
       "reason": "48% below NAV (৳8.1). Strong 1M momentum (+35.5%).",
       "reasonBn": "NAV-র 48% নিচে (৳8.1)। শক্তিশালী ১-মাস গতি (+35.5%)।",
       "signals": [
+        "negative_eps",
         "nav_discount",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 9,
-      "generatedAt": "2026-08-04",
+      "score": -1,
+      "generatedAt": "2026-08-05",
       "warnings": [
+        "⚠️ Negative EPS (৳-2.00)",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
       ],
       "warningsBn": [
+        "⚠️ নেতিবাচক ইপিএস (৳-2.00)",
         "⚠️ শেষ লভ্যাংশ: 5% (2023 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -100,7 +106,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-43.42)",
@@ -126,7 +132,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (97th percentile)"
       ],
@@ -150,7 +156,7 @@
       ],
       "category": "A",
       "score": 22,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -167,22 +173,30 @@
       ],
       "category": "Y",
       "score": 3,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "ACI": {
       "ticker": "ACI",
       "name": "Advanced Chemical Industries PLC",
       "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
+      "reason": "Dividend: 25% (≈৳2.5/share) (2025). Yield: 1.3%.",
+      "reasonBn": "লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 1.3%।",
       "signals": [
+        "negative_eps",
+        "has_dividend",
         "positive_momentum"
       ],
       "category": "A",
-      "score": 2,
-      "generatedAt": "2026-08-04"
+      "score": -5,
+      "generatedAt": "2026-08-05",
+      "warnings": [
+        "⚠️ Negative EPS (৳-7.40)"
+      ],
+      "warningsBn": [
+        "⚠️ নেতিবাচক ইপিএস (৳-7.40)"
+      ]
     },
     "ACIFORMULA": {
       "ticker": "ACIFORMULA",
@@ -200,7 +214,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (97th percentile)"
       ],
@@ -214,8 +228,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (7.3x) with positive earnings. 34% below NAV (৳126.4). Dividend: 35% (≈৳3.5/share) (2025). Yield: 4.8%.",
-      "reasonBn": "কম PE (7.3x) ইতিবাচক আয়ের সাথে। NAV-র 34% নিচে (৳126.4)। লভ্যাংশ: 35% (≈৳3.5/share) (2025)। ইয়েল্ড: 4.8%।",
+      "reason": "Low PE (7.2x) with positive earnings. 34% below NAV (৳126.4). Dividend: 35% (≈৳3.5/share) (2025). Yield: 4.8%.",
+      "reasonBn": "কম PE (7.2x) ইতিবাচক আয়ের সাথে। NAV-র 34% নিচে (৳126.4)। লভ্যাংশ: 35% (≈৳3.5/share) (2025)। ইয়েল্ড: 4.8%।",
       "signals": [
         "cheap_pe",
         "nav_discount",
@@ -224,7 +238,7 @@
       ],
       "category": "A",
       "score": 24,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -245,7 +259,7 @@
       ],
       "category": "B",
       "score": -7,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-1.14)"
@@ -272,7 +286,7 @@
       ],
       "category": "Z",
       "score": 6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 0% in 2022 (over a year ago)"
@@ -298,7 +312,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "ADVENT": {
       "ticker": "ADVENT",
@@ -315,7 +329,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -340,7 +354,7 @@
       ],
       "category": "Z",
       "score": 6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 0% in 2022 (over a year ago)"
@@ -369,7 +383,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.37)"
@@ -398,7 +412,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (95th percentile)"
@@ -423,7 +437,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 6% in 2024 (over a year ago)"
       ],
@@ -447,7 +461,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
       ],
@@ -463,8 +477,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "At 12th percentile of 5Y range (historically cheap). Strong 1M momentum (+18.0%).",
-      "reasonBn": "৫ বছরের 12তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+18.0%)।",
+      "reason": "At 11th percentile of 5Y range (historically cheap). Strong 1M momentum (+18.0%).",
+      "reasonBn": "৫ বছরের 11তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+18.0%)।",
       "signals": [
         "z_category",
         "undervalued_5y",
@@ -474,7 +488,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -490,8 +504,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Low PE (9.8x) with positive earnings. At 15th percentile of 5Y range (historically cheap).",
-      "reasonBn": "কম PE (9.8x) ইতিবাচক আয়ের সাথে। ৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "Low PE (9.7x) with positive earnings. At 15th percentile of 5Y range (historically cheap).",
+      "reasonBn": "কম PE (9.7x) ইতিবাচক আয়ের সাথে। ৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "b_category",
         "cheap_pe",
@@ -500,7 +514,7 @@
       ],
       "category": "B",
       "score": 10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Last dividend: 5% in 2024 (over a year ago)"
@@ -528,7 +542,7 @@
       ],
       "category": "Z",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
@@ -556,7 +570,7 @@
       ],
       "category": "Z",
       "score": 8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 1% in 2024 (over a year ago)"
@@ -586,7 +600,7 @@
       ],
       "category": "Z",
       "score": -16,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.18)",
@@ -603,25 +617,28 @@
     "AMANFEED": {
       "ticker": "AMANFEED",
       "name": "Aman Feed PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+37.0%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+37.0%)।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 12% (≈৳1.15/share) (2025). Yield: 4.8%. Strong 1M momentum (+37.0%).",
+      "reasonBn": "লভ্যাংশ: 12% (≈৳1.15/share) (2025)। ইয়েল্ড: 4.8%। শক্তিশালী ১-মাস গতি (+37.0%)।",
       "signals": [
         "overvalued_5y",
+        "high_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04",
+      "score": 11,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (82th percentile)"
       ],
       "warningsBn": [
         "📊 ৫ বছরের সর্বোচ্চের কাছে (82তম পার্সেন্টাইল)"
-      ]
+      ],
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "AMBEEPHA": {
       "ticker": "AMBEEPHA",
@@ -638,12 +655,12 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
-        "📊 Near 5Y high (85th percentile)"
+        "📊 Near 5Y high (84th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (85তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (84তম পার্সেন্টাইল)"
       ]
     },
     "AMCL(PRAN)": {
@@ -660,7 +677,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "AMPL": {
       "ticker": "AMPL",
@@ -678,7 +695,7 @@
       ],
       "category": "Y",
       "score": 11,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (97th percentile)"
       ],
@@ -705,7 +722,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.99)",
@@ -733,7 +750,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-12.32)",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -749,8 +766,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Reasonable PE (10.6x). Strong 1M momentum (+18.1%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (10.6x)। শক্তিশালী ১-মাস গতি (+18.1%)।",
+      "reason": "Reasonable PE (11.0x). Strong 1M momentum (+18.1%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (11.0x)। শক্তিশালী ১-মাস গতি (+18.1%)।",
       "signals": [
         "z_category",
         "fair_pe",
@@ -760,7 +777,7 @@
       ],
       "category": "Z",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2022 (over a year ago)"
@@ -785,7 +802,7 @@
       ],
       "category": "Y",
       "score": 7,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -803,7 +820,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "APEXFOOT": {
       "ticker": "APEXFOOT",
@@ -821,7 +838,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (98th percentile)"
       ],
@@ -844,7 +861,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (96th percentile)"
       ],
@@ -869,7 +886,7 @@
       ],
       "category": "B",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-14.62)",
@@ -896,7 +913,7 @@
       ],
       "category": "Y",
       "score": -2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.39)"
       ],
@@ -922,7 +939,7 @@
       ],
       "category": "Z",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.82)",
@@ -949,12 +966,12 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
-        "⚠️ Crashed -53% in 6 months"
+        "⚠️ Crashed -51% in 6 months"
       ],
       "warningsBn": [
-        "⚠️ ৬ মাসে -53% পতন"
+        "⚠️ ৬ মাসে -51% পতন"
       ]
     },
     "ARAMIT": {
@@ -972,7 +989,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 20% in 2024 (over a year ago)"
       ],
@@ -996,7 +1013,7 @@
       ],
       "category": "Z",
       "score": -16,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-14.47)",
@@ -1014,8 +1031,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (14.5x). Dividend: 10% (≈৳1.0/share) (2025). Yield: 6.4%. Strong 1M momentum (+39.9%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.5x)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 6.4%। শক্তিশালী ১-মাস গতি (+39.9%)।",
+      "reason": "Reasonable PE (14.8x). Dividend: 10% (≈৳1.0/share) (2025). Yield: 6.4%. Strong 1M momentum (+39.9%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (14.8x)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 6.4%। শক্তিশালী ১-মাস গতি (+39.9%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
@@ -1025,7 +1042,7 @@
       ],
       "category": "A",
       "score": 20,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (98th percentile)"
       ],
@@ -1039,17 +1056,18 @@
       "ticker": "ASIAINS",
       "name": "Asia Insurance PLC.",
       "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
       "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.7%. Strong 1M momentum (+20.3%).",
       "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.7%। শক্তিশালী ১-মাস গতি (+20.3%)।",
       "signals": [
         "has_dividend",
-        "strong_momentum"
+        "strong_momentum",
+        "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 11,
-      "generatedAt": "2026-08-04",
+      "score": 14,
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -1057,34 +1075,38 @@
       "ticker": "ASIAPACINS",
       "name": "Asia Pacific General Insurance PLC",
       "action": "buy",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "Dividend: 14% (≈৳1.4/share) (2025). Yield: 4.6%. Strong 1M momentum (+27.8%).",
+      "reasonBn": "লভ্যাংশ: 14% (≈৳1.4/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+27.8%)।",
+      "signals": [
+        "high_dividend",
+        "strong_momentum",
+        "strong_6m_momentum"
+      ],
+      "category": "A",
+      "score": 14,
+      "generatedAt": "2026-08-05",
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
+    },
+    "ASIATICLAB": {
+      "ticker": "ASIATICLAB",
+      "name": "Asiatic Laboratories Limited",
+      "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Strong 1M momentum (+27.8%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+27.8%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.6%. Strong 1M momentum (+10.8%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.6%। শক্তিশালী ১-মাস গতি (+10.8%)।",
       "signals": [
+        "overvalued_5y",
+        "has_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-08-04"
-    },
-    "ASIATICLAB": {
-      "ticker": "ASIATICLAB",
-      "name": "Asiatic Laboratories Limited",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+10.8%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+10.8%)।",
-      "signals": [
-        "overvalued_5y",
-        "strong_momentum",
-        "strong_6m_momentum"
-      ],
-      "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (91th percentile)"
       ],
@@ -1106,7 +1128,7 @@
       ],
       "category": "A",
       "score": -11,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Crashed -88% in 6 months",
         "⚠️ Last dividend: 5% in 2022 (over a year ago)"
@@ -1133,7 +1155,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.23)",
@@ -1162,7 +1184,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-10.12)",
@@ -1180,15 +1202,16 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "reason": "Dividend: 3% (≈৳0.3/share) (2025). Yield: 0.3%.",
+      "reasonBn": "লভ্যাংশ: 3% (≈৳0.3/share) (2025)। ইয়েল্ড: 0.3%।",
       "signals": [
         "b_category",
-        "overvalued_5y"
+        "overvalued_5y",
+        "has_dividend"
       ],
       "category": "B",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (86th percentile)"
@@ -1213,7 +1236,7 @@
       ],
       "category": "A",
       "score": 22,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -1234,7 +1257,7 @@
       ],
       "category": "Z",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 4% in 2024 (over a year ago)"
@@ -1258,7 +1281,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -1277,7 +1300,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -1298,7 +1321,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-31.16)",
@@ -1327,7 +1350,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.59)",
@@ -1342,26 +1365,29 @@
     "BBSCABLES": {
       "ticker": "BBSCABLES",
       "name": "BBS Cables PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
+      "action": "sell",
+      "label": "Consider Selling",
+      "labelBn": "বিক্রির কথা ভাবুন",
       "reason": "Strong 1M momentum (+16.6%).",
       "reasonBn": "শক্তিশালী ১-মাস গতি (+16.6%)।",
       "signals": [
         "b_category",
+        "negative_eps",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "B",
-      "score": 0,
-      "generatedAt": "2026-08-04",
+      "score": -10,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
+        "⚠️ Negative EPS (৳-4.05)",
         "⚠️ Last dividend: 1% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
+        "⚠️ নেতিবাচক ইপিএস (৳-4.05)",
         "⚠️ শেষ লভ্যাংশ: 1% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -1381,7 +1407,7 @@
       ],
       "category": "B",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (94th percentile)"
@@ -1406,7 +1432,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "BDFINANCE": {
       "ticker": "BDFINANCE",
@@ -1424,7 +1450,7 @@
       ],
       "category": "Z",
       "score": -1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2022 (over a year ago)"
@@ -1449,7 +1475,7 @@
       ],
       "category": "A",
       "score": -7,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-6.22)"
       ],
@@ -1473,7 +1499,7 @@
       ],
       "category": "Y",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (82th percentile)"
       ],
@@ -1499,7 +1525,7 @@
       ],
       "category": "B",
       "score": -6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-2.01)",
@@ -1528,7 +1554,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-1.64)",
@@ -1553,7 +1579,7 @@
       ],
       "category": "Z",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -1577,7 +1603,7 @@
       ],
       "category": "Z",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -1593,14 +1619,15 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "At 16th percentile of 5Y range (historically cheap).",
-      "reasonBn": "৫ বছরের 16তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "At 16th percentile of 5Y range (historically cheap). Dividend: 21% (≈৳2.1/share) (2025). Yield: 2.0%.",
+      "reasonBn": "৫ বছরের 16তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 21% (≈৳2.1/share) (2025)। ইয়েল্ড: 2.0%।",
       "signals": [
-        "undervalued_5y"
+        "undervalued_5y",
+        "has_dividend"
       ],
       "category": "A",
-      "score": 6,
-      "generatedAt": "2026-08-04",
+      "score": 9,
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -1619,7 +1646,7 @@
       ],
       "category": "Y",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -1642,7 +1669,7 @@
       ],
       "category": "B",
       "score": 1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -1665,7 +1692,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -1675,8 +1702,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Reasonable PE (10.9x). 73% below NAV (৳57.8). Strong 1M momentum (+22.1%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (10.9x)। NAV-র 73% নিচে (৳57.8)। শক্তিশালী ১-মাস গতি (+22.1%)।",
+      "reason": "Reasonable PE (10.8x). 73% below NAV (৳57.8). Strong 1M momentum (+22.1%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (10.8x)। NAV-র 73% নিচে (৳57.8)। শক্তিশালী ১-মাস গতি (+22.1%)।",
       "signals": [
         "z_category",
         "fair_pe",
@@ -1687,7 +1714,7 @@
       ],
       "category": "Z",
       "score": 10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -1710,7 +1737,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "BEXIMCO": {
       "ticker": "BEXIMCO",
@@ -1732,17 +1759,17 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.40)",
-        "⚠️ Crashed -80% in 6 months",
+        "⚠️ Crashed -79% in 6 months",
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
         "⚠️ নেতিবাচক ইপিএস (৳-0.40)",
-        "⚠️ ৬ মাসে -80% পতন",
+        "⚠️ ৬ মাসে -79% পতন",
         "⚠️ শেষ লভ্যাংশ: 10% (2023 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -1750,17 +1777,18 @@
       "ticker": "BGIC",
       "name": "Bangladesh General Insurance Company PLC.",
       "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
       "reason": "Dividend: 11% (≈৳1.1/share) (2025). Yield: 3.6%. Strong 1M momentum (+15.2%).",
       "reasonBn": "লভ্যাংশ: 11% (≈৳1.1/share) (2025)। ইয়েল্ড: 3.6%। শক্তিশালী ১-মাস গতি (+15.2%)।",
       "signals": [
         "has_dividend",
-        "strong_momentum"
+        "strong_momentum",
+        "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 11,
-      "generatedAt": "2026-08-04",
+      "score": 14,
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -1781,7 +1809,7 @@
       ],
       "category": "Z",
       "score": -4,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-6.66)"
@@ -1807,7 +1835,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (90th percentile)"
       ],
@@ -1832,12 +1860,11 @@
         "undervalued_5y",
         "stale_dividend",
         "positive_momentum",
-        "strong_6m_momentum",
         "recovery_play"
       ],
       "category": "Z",
-      "score": 3,
-      "generatedAt": "2026-08-04",
+      "score": 0,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-18.98)",
@@ -1865,7 +1892,7 @@
       ],
       "category": "B",
       "score": 6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -1876,19 +1903,17 @@
     "BRACBANK": {
       "ticker": "BRACBANK",
       "name": "BRAC Bank PLC.",
-      "action": "buy",
-      "label": "Strong Buy",
-      "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (7.0x) with positive earnings. Dividend: 15% (≈৳1.5/share) (2025). Yield: 2.4%.",
-      "reasonBn": "কম PE (7.0x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 2.4%।",
+      "action": "hold",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
+      "reason": "No strong signals detected.",
+      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
       "signals": [
-        "overvalued_5y",
-        "cheap_pe",
-        "has_dividend"
+        "overvalued_5y"
       ],
       "category": "A",
-      "score": 12,
-      "generatedAt": "2026-08-04",
+      "score": -3,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (93th percentile)"
       ],
@@ -1909,49 +1934,50 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "BSCPLC": {
       "ticker": "BSCPLC",
       "name": "Bangladesh Submarine Cables PLC",
-      "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 40% (≈৳4.0/share) (2025). Yield: 3.2%. Strong 1M momentum (+11.2%).",
-      "reasonBn": "লভ্যাংশ: 40% (≈৳4.0/share) (2025)। ইয়েল্ড: 3.2%। শক্তিশালী ১-মাস গতি (+11.2%)।",
+      "action": "hold",
+      "label": "Hold",
+      "labelBn": "ধরে রাখুন",
+      "reason": "Strong 1M momentum (+11.2%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+11.2%)।",
       "signals": [
-        "has_dividend",
         "strong_momentum"
       ],
       "category": "A",
-      "score": 11,
-      "generatedAt": "2026-08-04",
-      "duration": "Hold for dividend",
-      "durationBn": "লভ্যাংশের জন্য ধরুন"
+      "score": 5,
+      "generatedAt": "2026-08-05"
     },
     "BSRMLTD": {
       "ticker": "BSRMLTD",
       "name": "Bangladesh Steel Re-Rolling Mills Limited",
       "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
-      "reason": "39% below NAV (৳166.8). Strong 1M momentum (+19.6%).",
-      "reasonBn": "NAV-র 39% নিচে (৳166.8)। শক্তিশালী ১-মাস গতি (+19.6%)।",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "Low PE (4.9x) with positive earnings. 39% below NAV (৳166.8). Dividend: 50% (≈৳5.0/share) (2025). Yield: 6.6%. Strong 1M momentum (+19.6%).",
+      "reasonBn": "কম PE (4.9x) ইতিবাচক আয়ের সাথে। NAV-র 39% নিচে (৳166.8)। লভ্যাংশ: 50% (≈৳5.0/share) (2025)। ইয়েল্ড: 6.6%। শক্তিশালী ১-মাস গতি (+19.6%)।",
       "signals": [
         "overvalued_5y",
+        "cheap_pe",
         "nav_discount",
+        "high_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 9,
-      "generatedAt": "2026-08-04",
+      "score": 31,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (84th percentile)"
       ],
       "warningsBn": [
         "📊 ৫ বছরের সর্বোচ্চের কাছে (84তম পার্সেন্টাইল)"
-      ]
+      ],
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "BSRMSTEEL": {
       "ticker": "BSRMSTEEL",
@@ -1959,8 +1985,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (7.2x) with positive earnings. Dividend: 50% (≈৳5.0/share) (2025). Yield: 9.0%. Strong 1M momentum (+33.6%).",
-      "reasonBn": "কম PE (7.2x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 50% (≈৳5.0/share) (2025)। ইয়েল্ড: 9.0%। শক্তিশালী ১-মাস গতি (+33.6%)।",
+      "reason": "Low PE (7.1x) with positive earnings. Dividend: 50% (≈৳5.0/share) (2025). Yield: 9.0%. Strong 1M momentum (+33.6%).",
+      "reasonBn": "কম PE (7.1x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 50% (≈৳5.0/share) (2025)। ইয়েল্ড: 9.0%। শক্তিশালী ১-মাস গতি (+33.6%)।",
       "signals": [
         "overvalued_5y",
         "cheap_pe",
@@ -1970,7 +1996,7 @@
       ],
       "category": "A",
       "score": 27,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (99th percentile)"
       ],
@@ -1986,8 +2012,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Reasonable PE (11.2x). Strong 1M momentum (+17.0%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (11.2x)। শক্তিশালী ১-মাস গতি (+17.0%)।",
+      "reason": "Reasonable PE (11.1x). Strong 1M momentum (+17.0%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (11.1x)। শক্তিশালী ১-মাস গতি (+17.0%)।",
       "signals": [
         "fair_pe",
         "stale_dividend",
@@ -1996,7 +2022,7 @@
       ],
       "category": "A",
       "score": 10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 40% in 2024 (over a year ago)"
       ],
@@ -2018,7 +2044,7 @@
       ],
       "category": "Z",
       "score": -16,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Crashed -93% in 6 months"
@@ -2042,31 +2068,28 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "CAPMBDBLMF": {
       "ticker": "CAPMBDBLMF",
       "name": "CAPM BDBL Mutual Fund 01",
-      "action": "sell",
-      "label": "Sell",
-      "labelBn": "বিক্রি করুন",
+      "action": "hold",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
       "reason": "No strong signals detected.",
       "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
       "signals": [
-        "negative_eps",
         "overvalued_5y",
         "stale_dividend"
       ],
       "category": "A",
-      "score": -16,
-      "generatedAt": "2026-08-04",
+      "score": -6,
+      "generatedAt": "2026-08-05",
       "warnings": [
-        "⚠️ Negative EPS (৳-1.15)",
         "📊 Near 5Y high (93th percentile)",
         "⚠️ Last dividend: 6% in 2023 (over a year ago)"
       ],
       "warningsBn": [
-        "⚠️ নেতিবাচক ইপিএস (৳-1.15)",
         "📊 ৫ বছরের সর্বোচ্চের কাছে (93তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 6% (2023 সালে, ১ বছরেরও বেশি আগে)"
       ]
@@ -2087,7 +2110,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.71)",
         "⚠️ Last dividend: 6% in 2023 (over a year ago)"
@@ -2111,7 +2134,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -2121,15 +2144,16 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+22.6%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+22.6%)।",
+      "reason": "Dividend: 12% (≈৳1.2/share) (2025). Yield: 3.0%. Strong 1M momentum (+22.6%).",
+      "reasonBn": "লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 3.0%। শক্তিশালী ১-মাস গতি (+22.6%)।",
       "signals": [
         "overvalued_5y",
+        "has_dividend",
         "strong_momentum"
       ],
       "category": "A",
-      "score": 2,
-      "generatedAt": "2026-08-04",
+      "score": 5,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (81th percentile)"
       ],
@@ -2154,7 +2178,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.18)",
@@ -2183,7 +2207,7 @@
       ],
       "category": "A",
       "score": 27,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (99th percentile)"
       ],
@@ -2196,19 +2220,20 @@
     "CITYGENINS": {
       "ticker": "CITYGENINS",
       "name": "City Insurance PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+12.8%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+12.8%)।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 1.1%. Strong 1M momentum (+12.8%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 1.1%। শক্তিশালী ১-মাস গতি (+12.8%)।",
       "signals": [
         "overvalued_5y",
+        "has_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04",
+      "score": 8,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (100th percentile)"
       ],
@@ -2231,7 +2256,7 @@
       ],
       "category": "B",
       "score": -18,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.11)",
@@ -2258,7 +2283,7 @@
       ],
       "category": "Z",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 0% in 2023 (over a year ago)"
@@ -2271,17 +2296,19 @@
     "CONFIDCEM": {
       "ticker": "CONFIDCEM",
       "name": "Confidence Cement PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+12.6%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+12.6%)।",
+      "action": "buy",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "Low PE (6.0x) with positive earnings. Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.0%. Strong 1M momentum (+12.6%).",
+      "reasonBn": "কম PE (6.0x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.0%। শক্তিশালী ১-মাস গতি (+12.6%)।",
       "signals": [
+        "cheap_pe",
+        "has_dividend",
         "strong_momentum"
       ],
       "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04"
+      "score": 20,
+      "generatedAt": "2026-08-05"
     },
     "CONTININS": {
       "ticker": "CONTININS",
@@ -2299,7 +2326,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Last dividend: 5% in 2024 (over a year ago)"
@@ -2325,7 +2352,7 @@
       ],
       "category": "B",
       "score": 6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -2347,7 +2374,7 @@
       ],
       "category": "Y",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2366,7 +2393,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2383,7 +2410,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "CVOPRL": {
       "ticker": "CVOPRL",
@@ -2391,14 +2418,15 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+10.1%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+10.1%)।",
+      "reason": "Dividend: 11% (≈৳1.1/share) (2025). Yield: 0.8%. Strong 1M momentum (+10.1%).",
+      "reasonBn": "লভ্যাংশ: 11% (≈৳1.1/share) (2025)। ইয়েল্ড: 0.8%। শক্তিশালী ১-মাস গতি (+10.1%)।",
       "signals": [
+        "has_dividend",
         "strong_momentum"
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "DACCADYE": {
       "ticker": "DACCADYE",
@@ -2417,7 +2445,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.82)",
@@ -2446,7 +2474,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (99th percentile)",
@@ -2464,8 +2492,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (9.2x) with positive earnings. Dividend: 15% (≈৳1.5/share) (2025). Yield: 4.3%. Strong 1M momentum (+10.6%).",
-      "reasonBn": "কম PE (9.2x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 4.3%। শক্তিশালী ১-মাস গতি (+10.6%)।",
+      "reason": "Low PE (9.1x) with positive earnings. Dividend: 15% (≈৳1.5/share) (2025). Yield: 4.3%. Strong 1M momentum (+10.6%).",
+      "reasonBn": "কম PE (9.1x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 4.3%। শক্তিশালী ১-মাস গতি (+10.6%)।",
       "signals": [
         "cheap_pe",
         "high_dividend",
@@ -2473,7 +2501,7 @@
       ],
       "category": "A",
       "score": 23,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2488,12 +2516,11 @@
       "signals": [
         "nav_discount",
         "stale_dividend",
-        "strong_momentum",
-        "strong_6m_momentum"
+        "strong_momentum"
       ],
       "category": "A",
-      "score": 9,
-      "generatedAt": "2026-08-04",
+      "score": 6,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
       ],
@@ -2514,7 +2541,7 @@
       ],
       "category": "A",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (96th percentile)"
       ],
@@ -2536,7 +2563,7 @@
       ],
       "category": "A",
       "score": 15,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2557,7 +2584,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2015 (over a year ago)"
@@ -2584,7 +2611,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-3.15)",
@@ -2613,7 +2640,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-3.93)",
@@ -2642,7 +2669,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.40)",
@@ -2657,17 +2684,21 @@
     "DHAKABANK": {
       "ticker": "DHAKABANK",
       "name": "Dhaka Bank PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "49% below NAV (৳23.6).",
-      "reasonBn": "NAV-র 49% নিচে (৳23.6)।",
+      "action": "buy",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "Low PE (4.6x) with positive earnings. 49% below NAV (৳23.6). Dividend: 10% (≈৳1.0/share) (2025). Yield: 8.8%.",
+      "reasonBn": "কম PE (4.6x) ইতিবাচক আয়ের সাথে। NAV-র 49% নিচে (৳23.6)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 8.8%।",
       "signals": [
-        "nav_discount"
+        "cheap_pe",
+        "nav_discount",
+        "high_dividend"
       ],
       "category": "A",
-      "score": 4,
-      "generatedAt": "2026-08-04"
+      "score": 26,
+      "generatedAt": "2026-08-05",
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "DHAKAINS": {
       "ticker": "DHAKAINS",
@@ -2679,11 +2710,12 @@
       "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.8%। শক্তিশালী ১-মাস গতি (+19.4%)।",
       "signals": [
         "has_dividend",
-        "strong_momentum"
+        "strong_momentum",
+        "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 8,
-      "generatedAt": "2026-08-04"
+      "score": 11,
+      "generatedAt": "2026-08-05"
     },
     "DOMINAGE": {
       "ticker": "DOMINAGE",
@@ -2702,7 +2734,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (100th percentile)"
@@ -2718,17 +2750,18 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (10.3x). 35% below NAV (৳52.4). Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.3%. Strong 1M momentum (+15.9%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (10.3x)। NAV-র 35% নিচে (৳52.4)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.3%। শক্তিশালী ১-মাস গতি (+15.9%)।",
+      "reason": "Reasonable PE (10.8x). 35% below NAV (৳52.4). Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.3%. Strong 1M momentum (+15.9%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (10.8x)। NAV-র 35% নিচে (৳52.4)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.3%। শক্তিশালী ১-মাস গতি (+15.9%)।",
       "signals": [
         "fair_pe",
         "nav_discount",
         "high_dividend",
-        "strong_momentum"
+        "strong_momentum",
+        "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 20,
-      "generatedAt": "2026-08-04",
+      "score": 23,
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2749,7 +2782,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (94th percentile)"
@@ -2775,7 +2808,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -2800,7 +2833,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "📊 Near 5Y high (100th percentile)"
@@ -2814,36 +2847,35 @@
       "ticker": "DUTCHBANGL",
       "name": "Dutch-Bangla Bank PLC.",
       "action": "buy",
-      "label": "Strong Buy",
-      "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (4.9x) with positive earnings. Dividend: 25% (≈৳2.5/share) (2025). Yield: 6.5%. Strong 1M momentum (+16.1%).",
-      "reasonBn": "কম PE (4.9x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 6.5%। শক্তিশালী ১-মাস গতি (+16.1%)।",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Strong 1M momentum (+16.1%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+16.1%)।",
       "signals": [
-        "cheap_pe",
-        "high_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 30,
-      "generatedAt": "2026-08-04",
-      "duration": "Hold for dividend",
-      "durationBn": "লভ্যাংশের জন্য ধরুন"
+      "score": 8,
+      "generatedAt": "2026-08-05"
     },
     "EASTERNINS": {
       "ticker": "EASTERNINS",
       "name": "Eastern Insurance PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+15.3%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+15.3%)।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 15% (≈৳1.5/share) (2025). Yield: 3.0%. Strong 1M momentum (+15.3%).",
+      "reasonBn": "লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 3.0%। শক্তিশালী ১-মাস গতি (+15.3%)।",
       "signals": [
+        "has_dividend",
         "strong_momentum"
       ],
       "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04"
+      "score": 11,
+      "generatedAt": "2026-08-05",
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "EASTLAND": {
       "ticker": "EASTLAND",
@@ -2861,7 +2893,7 @@
       ],
       "category": "A",
       "score": 15,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (82th percentile)"
       ],
@@ -2887,7 +2919,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (99th percentile)"
       ],
@@ -2895,27 +2927,48 @@
         "📊 ৫ বছরের সর্বোচ্চের কাছে (99তম পার্সেন্টাইল)"
       ]
     },
+    "EBL": {
+      "ticker": "EBL",
+      "name": "Eastern Bank PLC.",
+      "action": "buy",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "Low PE (4.6x) with positive earnings. Dividend: 25% (≈৳2.5/share) (2025). Yield: 10.3%.",
+      "reasonBn": "কম PE (4.6x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 10.3%।",
+      "signals": [
+        "cheap_pe",
+        "high_dividend"
+      ],
+      "category": "A",
+      "score": 22,
+      "generatedAt": "2026-08-05",
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
+    },
     "EBL1STMF": {
       "ticker": "EBL1STMF",
       "name": "EBL First Mutual Fund",
-      "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
+      "action": "hold",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
       "reason": "33% below NAV (৳7.9). Strong 1M momentum (+43.2%).",
       "reasonBn": "NAV-র 33% নিচে (৳7.9)। শক্তিশালী ১-মাস গতি (+43.2%)।",
       "signals": [
+        "negative_eps",
         "nav_discount",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 9,
-      "generatedAt": "2026-08-04",
+      "score": -1,
+      "generatedAt": "2026-08-05",
       "warnings": [
+        "⚠️ Negative EPS (৳-1.89)",
         "⚠️ Last dividend: 6% in 2022 (over a year ago)"
       ],
       "warningsBn": [
+        "⚠️ নেতিবাচক ইপিএস (৳-1.89)",
         "⚠️ শেষ লভ্যাংশ: 6% (2022 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -2936,7 +2989,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-2.55)",
         "⚠️ Last dividend: 7% in 2023 (over a year ago)"
@@ -2949,46 +3002,50 @@
     "ECABLES": {
       "ticker": "ECABLES",
       "name": "Eastern Cables Ltd.",
-      "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
+      "action": "hold",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
       "reason": "59% below NAV (৳339.3). Strong 1M momentum (+13.0%).",
       "reasonBn": "NAV-র 59% নিচে (৳339.3)। শক্তিশালী ১-মাস গতি (+13.0%)।",
       "signals": [
         "b_category",
+        "negative_eps",
         "nav_discount",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "B",
-      "score": 8,
-      "generatedAt": "2026-08-04",
+      "score": -2,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
+        "⚠️ Negative EPS (৳-4.43)",
         "⚠️ Last dividend: 2% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
+        "⚠️ নেতিবাচক ইপিএস (৳-4.43)",
         "⚠️ শেষ লভ্যাংশ: 2% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
     "EGEN": {
       "ticker": "EGEN",
       "name": "eGeneration PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+18.7%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+18.7%)।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 2% (≈৳0.23/share) (2025). Yield: 1.2%. Strong 1M momentum (+18.7%).",
+      "reasonBn": "লভ্যাংশ: 2% (≈৳0.23/share) (2025)। ইয়েল্ড: 1.2%। শক্তিশালী ১-মাস গতি (+18.7%)।",
       "signals": [
         "b_category",
+        "has_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "B",
-      "score": 3,
-      "generatedAt": "2026-08-04",
+      "score": 6,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -3002,17 +3059,18 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (11.5x). Dividend: 25% (≈৳2.5/share) (2025). Yield: 3.5%. Strong 1M momentum (+21.2%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (11.5x)। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 3.5%। শক্তিশালী ১-মাস গতি (+21.2%)।",
+      "reason": "Reasonable PE (11.7x). Dividend: 25% (≈৳2.5/share) (2025). Yield: 3.5%. Strong 1M momentum (+21.2%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (11.7x)। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 3.5%। শক্তিশালী ১-মাস গতি (+21.2%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
         "has_dividend",
-        "strong_momentum"
+        "strong_momentum",
+        "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 13,
-      "generatedAt": "2026-08-04",
+      "score": 16,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (88th percentile)"
       ],
@@ -3037,7 +3095,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -3061,7 +3119,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
@@ -3074,28 +3132,24 @@
     "ENVOYTEX": {
       "ticker": "ENVOYTEX",
       "name": "Envoy Textiles Limited",
-      "action": "buy",
-      "label": "Strong Buy",
-      "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (6.9x) with positive earnings. Dividend: 30% (≈৳3.0/share) (2025). Yield: 7.5%. Strong 1M momentum (+14.3%).",
-      "reasonBn": "কম PE (6.9x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 30% (≈৳3.0/share) (2025)। ইয়েল্ড: 7.5%। শক্তিশালী ১-মাস গতি (+14.3%)।",
+      "action": "hold",
+      "label": "Hold",
+      "labelBn": "ধরে রাখুন",
+      "reason": "Strong 1M momentum (+14.3%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+14.3%)।",
       "signals": [
         "overvalued_5y",
-        "cheap_pe",
-        "high_dividend",
         "strong_momentum"
       ],
       "category": "A",
-      "score": 24,
-      "generatedAt": "2026-08-04",
+      "score": 2,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (97th percentile)"
       ],
       "warningsBn": [
         "📊 ৫ বছরের সর্বোচ্চের কাছে (97তম পার্সেন্টাইল)"
-      ],
-      "duration": "Hold for dividend",
-      "durationBn": "লভ্যাংশের জন্য ধরুন"
+      ]
     },
     "EPGL": {
       "ticker": "EPGL",
@@ -3115,7 +3169,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-5.50)"
@@ -3131,19 +3185,16 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "60% below NAV (৳65.1). Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.7%. Strong 1M momentum (+16.4%).",
-      "reasonBn": "NAV-র 60% নিচে (৳65.1)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.7%। শক্তিশালী ১-মাস গতি (+16.4%)।",
+      "reason": "60% below NAV (৳65.1). Strong 1M momentum (+16.4%).",
+      "reasonBn": "NAV-র 60% নিচে (৳65.1)। শক্তিশালী ১-মাস গতি (+16.4%)।",
       "signals": [
         "nav_discount",
-        "high_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 22,
-      "generatedAt": "2026-08-04",
-      "duration": "Hold for dividend",
-      "durationBn": "লভ্যাংশের জন্য ধরুন"
+      "score": 16,
+      "generatedAt": "2026-08-05"
     },
     "ETL": {
       "ticker": "ETL",
@@ -3162,7 +3213,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (95th percentile)"
@@ -3189,7 +3240,7 @@
       ],
       "category": "A",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-1.91)",
         "📊 Near 5Y high (96th percentile)",
@@ -3216,7 +3267,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
       ],
@@ -3239,7 +3290,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -3264,7 +3315,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (94th percentile)",
@@ -3293,7 +3344,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.13)",
@@ -3321,7 +3372,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2019 (over a year ago)"
@@ -3347,7 +3398,7 @@
       ],
       "category": "Z",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-21.37)"
@@ -3374,7 +3425,7 @@
       ],
       "category": "A",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-1.82)",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -3400,7 +3451,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (83th percentile)",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -3413,25 +3464,28 @@
     "FEKDIL": {
       "ticker": "FEKDIL",
       "name": "Far East Knitting & Dyeing Industries PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+83.8%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+83.8%)।",
+      "action": "buy",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "Dividend: 12% (≈৳1.2/share) (2025). Yield: 7.6%. Strong 1M momentum (+83.8%).",
+      "reasonBn": "লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 7.6%। শক্তিশালী ১-মাস গতি (+83.8%)।",
       "signals": [
         "overvalued_5y",
+        "high_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
-      "category": "-",
-      "score": 5,
-      "generatedAt": "2026-08-04",
+      "category": "A",
+      "score": 15,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (99th percentile)"
       ],
       "warningsBn": [
         "📊 ৫ বছরের সর্বোচ্চের কাছে (99তম পার্সেন্টাইল)"
-      ]
+      ],
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "FINEFOODS": {
       "ticker": "FINEFOODS",
@@ -3448,7 +3502,7 @@
       ],
       "category": "A",
       "score": -6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (90th percentile)"
       ],
@@ -3459,24 +3513,27 @@
     "FIRSTFIN": {
       "ticker": "FIRSTFIN",
       "name": "First Finance Limited",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
+      "action": "sell",
+      "label": "Consider Selling",
+      "labelBn": "বিক্রির কথা ভাবুন",
       "reason": "Strong 1M momentum (+18.2%).",
       "reasonBn": "শক্তিশালী ১-মাস গতি (+18.2%)।",
       "signals": [
         "z_category",
+        "negative_eps",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": 0,
-      "generatedAt": "2026-08-04",
+      "score": -10,
+      "generatedAt": "2026-08-05",
       "warnings": [
-        "⚠️ Z-category: no margin loans, restricted trading"
+        "⚠️ Z-category: no margin loans, restricted trading",
+        "⚠️ Negative EPS (৳-5.88)"
       ],
       "warningsBn": [
-        "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং"
+        "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
+        "⚠️ নেতিবাচক ইপিএস (৳-5.88)"
       ]
     },
     "FIRSTSBANK": {
@@ -3496,7 +3553,7 @@
       ],
       "category": "Z",
       "score": 4,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -3522,7 +3579,7 @@
       ],
       "category": "Z",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -3546,7 +3603,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -3572,7 +3629,7 @@
       ],
       "category": "Z",
       "score": -7,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.31)",
@@ -3601,7 +3658,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -3627,7 +3684,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 8% in 2024 (over a year ago)"
@@ -3653,7 +3710,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -3678,7 +3735,7 @@
       ],
       "category": "Z",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
@@ -3705,7 +3762,7 @@
       ],
       "category": "B",
       "score": -7,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.24)"
@@ -3733,7 +3790,7 @@
       ],
       "category": "Z",
       "score": -9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.77)",
@@ -3763,7 +3820,7 @@
       ],
       "category": "Z",
       "score": -26,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-12.62)",
@@ -3792,7 +3849,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
       ],
@@ -3816,7 +3873,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (87th percentile)",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -3829,26 +3886,29 @@
     "GOLDENSON": {
       "ticker": "GOLDENSON",
       "name": "Golden Son Ltd.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
+      "action": "sell",
+      "label": "Consider Selling",
+      "labelBn": "বিক্রির কথা ভাবুন",
       "reason": "Strong 1M momentum (+18.9%).",
       "reasonBn": "শক্তিশালী ১-মাস গতি (+18.9%)।",
       "signals": [
         "b_category",
+        "negative_eps",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "B",
-      "score": 0,
-      "generatedAt": "2026-08-04",
+      "score": -10,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
+        "⚠️ Negative EPS (৳-1.83)",
         "⚠️ Last dividend: 2% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
+        "⚠️ নেতিবাচক ইপিএস (৳-1.83)",
         "⚠️ শেষ লভ্যাংশ: 2% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -3868,56 +3928,61 @@
       ],
       "category": "A",
       "score": 23,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "GPHISPAT": {
       "ticker": "GPHISPAT",
       "name": "GPH Ispat Ltd.",
-      "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
-      "reason": "63% below NAV (৳51.7). Strong 1M momentum (+20.6%).",
-      "reasonBn": "NAV-র 63% নিচে (৳51.7)। শক্তিশালী ১-মাস গতি (+20.6%)।",
+      "action": "hold",
+      "label": "Hold",
+      "labelBn": "ধরে রাখুন",
+      "reason": "63% below NAV (৳51.7). Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.9%. Strong 1M momentum (+20.6%).",
+      "reasonBn": "NAV-র 63% নিচে (৳51.7)। লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.9%। শক্তিশালী ১-মাস গতি (+20.6%)।",
       "signals": [
         "b_category",
+        "negative_eps",
         "nav_discount",
+        "has_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "B",
-      "score": 11,
-      "generatedAt": "2026-08-04",
+      "score": 4,
+      "generatedAt": "2026-08-05",
       "warnings": [
-        "⚠️ B-category: elevated risk classification"
+        "⚠️ B-category: elevated risk classification",
+        "⚠️ Negative EPS (৳-0.51)"
       ],
       "warningsBn": [
-        "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী"
-      ],
-      "duration": "3-6 months (undervalued)",
-      "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
+        "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
+        "⚠️ নেতিবাচক ইপিএস (৳-0.51)"
+      ]
     },
     "GQBALLPEN": {
       "ticker": "GQBALLPEN",
       "name": "GQ Ball Pen Industries Ltd.",
-      "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "action": "sell",
+      "label": "Sell",
+      "labelBn": "বিক্রি করুন",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 0.6%.",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 0.6%।",
       "signals": [
+        "negative_eps",
         "weak_momentum",
         "overvalued_5y",
-        "strong_6m_momentum"
+        "has_dividend"
       ],
       "category": "A",
-      "score": -3,
-      "generatedAt": "2026-08-04",
+      "score": -16,
+      "generatedAt": "2026-08-05",
       "warnings": [
+        "⚠️ Negative EPS (৳-1.83)",
         "📊 Near 5Y high (93th percentile)"
       ],
       "warningsBn": [
+        "⚠️ নেতিবাচক ইপিএস (৳-1.83)",
         "📊 ৫ বছরের সর্বোচ্চের কাছে (93তম পার্সেন্টাইল)"
       ]
     },
@@ -3931,11 +3996,12 @@
       "reasonBn": "লভ্যাংশ: 8% (≈৳0.75/share) (2025)। ইয়েল্ড: 6.2%। শক্তিশালী ১-মাস গতি (+18.0%)।",
       "signals": [
         "high_dividend",
-        "strong_momentum"
+        "strong_momentum",
+        "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 15,
-      "generatedAt": "2026-08-04",
+      "score": 18,
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -3955,7 +4021,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
       ],
@@ -3969,8 +4035,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (12.6x). Dividend: 27% (≈৳2.7/share) (2025). Yield: 5.0%. Strong 1M momentum (+20.2%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (12.6x)। লভ্যাংশ: 27% (≈৳2.7/share) (2025)। ইয়েল্ড: 5.0%। শক্তিশালী ১-মাস গতি (+20.2%)।",
+      "reason": "Reasonable PE (13.1x). Dividend: 27% (≈৳2.7/share) (2025). Yield: 5.0%. Strong 1M momentum (+20.2%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.1x)। লভ্যাংশ: 27% (≈৳2.7/share) (2025)। ইয়েল্ড: 5.0%। শক্তিশালী ১-মাস গতি (+20.2%)।",
       "signals": [
         "fair_pe",
         "high_dividend",
@@ -3979,7 +4045,7 @@
       ],
       "category": "A",
       "score": 23,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -4001,7 +4067,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-9.73)",
@@ -4028,7 +4094,7 @@
       ],
       "category": "B",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (96th percentile)"
@@ -4055,7 +4121,7 @@
       ],
       "category": "Z",
       "score": -21,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.76)",
@@ -4081,7 +4147,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "HFL": {
       "ticker": "HFL",
@@ -4100,7 +4166,7 @@
       ],
       "category": "Z",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -4124,7 +4190,7 @@
       ],
       "category": "Y",
       "score": 6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -4146,7 +4212,7 @@
       ],
       "category": "Z",
       "score": -7,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-19.67)",
@@ -4164,8 +4230,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (14.1x). Dividend: 20% (≈৳2.0/share) (2025). Yield: 5.0%. Strong 1M momentum (+21.6%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.1x)। লভ্যাংশ: 20% (≈৳2.0/share) (2025)। ইয়েল্ড: 5.0%। শক্তিশালী ১-মাস গতি (+21.6%)।",
+      "reason": "Reasonable PE (13.9x). Dividend: 20% (≈৳2.0/share) (2025). Yield: 5.0%. Strong 1M momentum (+21.6%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.9x)। লভ্যাংশ: 20% (≈৳2.0/share) (2025)। ইয়েল্ড: 5.0%। শক্তিশালী ১-মাস গতি (+21.6%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
@@ -4175,7 +4241,7 @@
       ],
       "category": "A",
       "score": 20,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (85th percentile)"
       ],
@@ -4199,7 +4265,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (92th percentile)"
       ],
@@ -4225,7 +4291,7 @@
       ],
       "category": "B",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.32)",
@@ -4255,7 +4321,7 @@
       ],
       "category": "B",
       "score": -4,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-14.00)",
@@ -4284,7 +4350,7 @@
       ],
       "category": "A",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.02)",
         "📊 Near 5Y high (83th percentile)",
@@ -4312,7 +4378,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (96th percentile)",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -4339,7 +4405,7 @@
       ],
       "category": "A",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.15)",
         "📊 Near 5Y high (87th percentile)",
@@ -4368,7 +4434,7 @@
       ],
       "category": "A",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.23)",
         "📊 Near 5Y high (82th percentile)",
@@ -4391,12 +4457,11 @@
       "signals": [
         "z_category",
         "negative_eps",
-        "undervalued_5y",
-        "strong_6m_momentum"
+        "undervalued_5y"
       ],
       "category": "Z",
-      "score": -9,
-      "generatedAt": "2026-08-04",
+      "score": -12,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.42)"
@@ -4410,22 +4475,25 @@
       "ticker": "ICBSONALI1",
       "name": "ICB AMCL Sonali Bank Limited 1st Mutual Fund",
       "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
       "reason": "Strong 1M momentum (+67.4%).",
       "reasonBn": "শক্তিশালী ১-মাস গতি (+67.4%)।",
       "signals": [
+        "negative_eps",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04",
+      "score": -5,
+      "generatedAt": "2026-08-05",
       "warnings": [
+        "⚠️ Negative EPS (৳-0.04)",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
       ],
       "warningsBn": [
+        "⚠️ নেতিবাচক ইপিএস (৳-0.04)",
         "⚠️ শেষ লভ্যাংশ: 2% (2023 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -4445,7 +4513,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (94th percentile)",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -4472,12 +4540,12 @@
       ],
       "category": "A",
       "score": 23,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
-        "📊 Near 5Y high (81th percentile)"
+        "📊 Near 5Y high (82th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (81তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (82তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -4500,7 +4568,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.27)"
@@ -4527,7 +4595,7 @@
       ],
       "category": "Z",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-13.32)",
@@ -4556,7 +4624,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-1.79)",
         "⚠️ Last dividend: 7% in 2022 (over a year ago)"
@@ -4582,7 +4650,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.32)",
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
@@ -4609,7 +4677,7 @@
       ],
       "category": "Z",
       "score": -4,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-39.01)"
@@ -4625,41 +4693,38 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Reasonable PE (13.3x). Dividend: 12% (≈৳1.2/share) (2025). Yield: 1.9%.",
-      "reasonBn": "যুক্তিসঙ্গত PE (13.3x)। লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 1.9%।",
+      "reason": "Reasonable PE (13.5x). Dividend: 12% (≈৳1.2/share) (2025). Yield: 1.9%.",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.5x)। লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 1.9%।",
       "signals": [
         "fair_pe",
         "has_dividend"
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "INTECH": {
       "ticker": "INTECH",
       "name": "Intech Limited",
       "action": "sell",
-      "label": "Sell",
-      "labelBn": "বিক্রি করুন",
+      "label": "Consider Selling",
+      "labelBn": "বিক্রির কথা ভাবুন",
       "reason": "No strong signals detected.",
       "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
       "signals": [
         "z_category",
-        "negative_eps",
         "weak_momentum",
         "stale_dividend"
       ],
       "category": "Z",
-      "score": -24,
-      "generatedAt": "2026-08-04",
+      "score": -14,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
-        "⚠️ Negative EPS (৳-0.38)",
         "⚠️ Last dividend: 0% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
-        "⚠️ নেতিবাচক ইপিএস (৳-0.38)",
         "⚠️ শেষ লভ্যাংশ: 0% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -4678,7 +4743,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -4692,15 +4757,16 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Strong 1M momentum (+70.6%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+70.6%)।",
+      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.6%. Strong 1M momentum (+70.6%).",
+      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.6%। শক্তিশালী ১-মাস গতি (+70.6%)।",
       "signals": [
+        "has_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 8,
-      "generatedAt": "2026-08-04"
+      "score": 11,
+      "generatedAt": "2026-08-05"
     },
     "ISLAMIBANK": {
       "ticker": "ISLAMIBANK",
@@ -4719,7 +4785,7 @@
       ],
       "category": "Z",
       "score": 4,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
@@ -4746,7 +4812,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-12.22)",
@@ -4774,7 +4840,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (92th percentile)",
         "⚠️ Last dividend: 20% in 2024 (over a year ago)"
@@ -4787,25 +4853,28 @@
     "ISNLTD": {
       "ticker": "ISNLTD",
       "name": "Information Services Network Ltd.",
-      "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
+      "action": "sell",
+      "label": "Sell",
+      "labelBn": "বিক্রি করুন",
       "reason": "No strong signals detected.",
       "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
       "signals": [
         "b_category",
+        "negative_eps",
         "stale_dividend",
         "positive_momentum"
       ],
       "category": "B",
-      "score": -6,
-      "generatedAt": "2026-08-04",
+      "score": -16,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
+        "⚠️ Negative EPS (৳-0.43)",
         "⚠️ Last dividend: 0% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
+        "⚠️ নেতিবাচক ইপিএস (৳-0.43)",
         "⚠️ শেষ লভ্যাংশ: 0% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -4815,8 +4884,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (14.1x). Dividend: 12% (≈৳1.2/share) (2025). Yield: 3.4%. Strong 1M momentum (+31.2%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.1x)। লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 3.4%। শক্তিশালী ১-মাস গতি (+31.2%)।",
+      "reason": "Reasonable PE (13.9x). Dividend: 12% (≈৳1.2/share) (2025). Yield: 3.4%. Strong 1M momentum (+31.2%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.9x)। লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 3.4%। শক্তিশালী ১-মাস গতি (+31.2%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
@@ -4826,7 +4895,7 @@
       ],
       "category": "A",
       "score": 16,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (95th percentile)"
       ],
@@ -4851,7 +4920,7 @@
       ],
       "category": "A",
       "score": 19,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (96th percentile)"
       ],
@@ -4878,7 +4947,7 @@
       ],
       "category": "A",
       "score": 25,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (83th percentile)"
       ],
@@ -4891,17 +4960,20 @@
     "JANATAINS": {
       "ticker": "JANATAINS",
       "name": "Janata Insurance PLC",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.3%.",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.3%।",
       "signals": [
+        "high_dividend",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 3,
-      "generatedAt": "2026-08-04"
+      "score": 9,
+      "generatedAt": "2026-08-05",
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "JHRML": {
       "ticker": "JHRML",
@@ -4917,7 +4989,7 @@
       ],
       "category": "B",
       "score": -2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -4939,7 +5011,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "JUTESPINN": {
       "ticker": "JUTESPINN",
@@ -4956,7 +5028,7 @@
       ],
       "category": "Z",
       "score": -16,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-42.10)"
@@ -4969,25 +5041,28 @@
     "KARNAPHULI": {
       "ticker": "KARNAPHULI",
       "name": "Karnaphuli Insurance PLC",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+77.6%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+77.6%)।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.5%. Strong 1M momentum (+77.6%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.5%। শক্তিশালী ১-মাস গতি (+77.6%)।",
       "signals": [
         "overvalued_5y",
+        "has_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04",
+      "score": 11,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (98th percentile)"
       ],
       "warningsBn": [
         "📊 ৫ বছরের সর্বোচ্চের কাছে (98তম পার্সেন্টাইল)"
-      ]
+      ],
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "KAY&QUE": {
       "ticker": "KAY&QUE",
@@ -5004,7 +5079,7 @@
       ],
       "category": "B",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -5026,7 +5101,7 @@
       ],
       "category": "A",
       "score": -3,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "KBSEED": {
       "ticker": "KBSEED",
@@ -5042,7 +5117,7 @@
       ],
       "category": "Y",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 1% in 2024 (over a year ago)"
       ],
@@ -5053,18 +5128,19 @@
     "KDSALTD": {
       "ticker": "KDSALTD",
       "name": "KDS Accessories Limited",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.5%.",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.5%।",
       "signals": [
+        "has_dividend",
         "positive_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04"
+      "score": 8,
+      "generatedAt": "2026-08-05"
     },
     "KEYACOSMET": {
       "ticker": "KEYACOSMET",
@@ -5082,7 +5158,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 1% in 2020 (over a year ago)"
@@ -5105,7 +5181,7 @@
       ],
       "category": "Y",
       "score": 0,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "KOHINOOR": {
       "ticker": "KOHINOOR",
@@ -5122,7 +5198,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (92th percentile)"
       ],
@@ -5146,7 +5222,7 @@
       ],
       "category": "Z",
       "score": 12,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -5171,7 +5247,7 @@
       ],
       "category": "Z",
       "score": -21,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-3.10)",
@@ -5200,7 +5276,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.84)",
@@ -5227,7 +5303,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
       ],
@@ -5251,7 +5327,7 @@
       ],
       "category": "B",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (82th percentile)"
@@ -5267,8 +5343,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (13.2x). Dividend: 40% (≈৳4.0/share) (2025). Yield: 8.6%. Strong 1M momentum (+17.4%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (13.2x)। লভ্যাংশ: 40% (≈৳4.0/share) (2025)। ইয়েল্ড: 8.6%। শক্তিশালী ১-মাস গতি (+17.4%)।",
+      "reason": "Reasonable PE (13.3x). Dividend: 40% (≈৳4.0/share) (2025). Yield: 8.6%. Strong 1M momentum (+17.4%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.3x)। লভ্যাংশ: 40% (≈৳4.0/share) (2025)। ইয়েল্ড: 8.6%। শক্তিশালী ১-মাস গতি (+17.4%)।",
       "signals": [
         "fair_pe",
         "high_dividend",
@@ -5276,7 +5352,7 @@
       ],
       "category": "A",
       "score": 20,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -5295,7 +5371,7 @@
       ],
       "category": "Z",
       "score": -7,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 30% in 2021 (over a year ago)"
@@ -5320,7 +5396,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -5328,16 +5404,17 @@
       "ticker": "LOVELLO",
       "name": "Taufika Foods and Lovello Ice-cream PLC",
       "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "label": "Hold",
+      "labelBn": "ধরে রাখুন",
+      "reason": "Dividend: 11% (≈৳1.1/share) (2025). Yield: 1.1%.",
+      "reasonBn": "লভ্যাংশ: 11% (≈৳1.1/share) (2025)। ইয়েল্ড: 1.1%।",
       "signals": [
-        "weak_momentum"
+        "weak_momentum",
+        "has_dividend"
       ],
       "category": "A",
-      "score": -3,
-      "generatedAt": "2026-08-04"
+      "score": 0,
+      "generatedAt": "2026-08-05"
     },
     "LRBDL": {
       "ticker": "LRBDL",
@@ -5357,7 +5434,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-4.56)",
@@ -5385,7 +5462,7 @@
       ],
       "category": "A",
       "score": 13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
       ],
@@ -5406,7 +5483,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "MAKSONSPIN": {
       "ticker": "MAKSONSPIN",
@@ -5426,7 +5503,7 @@
       ],
       "category": "Z",
       "score": -9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-3.69)",
@@ -5444,8 +5521,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (6.2x) with positive earnings. 25% below NAV (৳60.6). Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.3%. Strong 1M momentum (+53.6%).",
-      "reasonBn": "কম PE (6.2x) ইতিবাচক আয়ের সাথে। NAV-র 25% নিচে (৳60.6)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.3%। শক্তিশালী ১-মাস গতি (+53.6%)।",
+      "reason": "Low PE (6.1x) with positive earnings. 25% below NAV (৳60.6). Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.3%. Strong 1M momentum (+53.6%).",
+      "reasonBn": "কম PE (6.1x) ইতিবাচক আয়ের সাথে। NAV-র 25% নিচে (৳60.6)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.3%। শক্তিশালী ১-মাস গতি (+53.6%)।",
       "signals": [
         "overvalued_5y",
         "cheap_pe",
@@ -5456,7 +5533,7 @@
       ],
       "category": "A",
       "score": 27,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (100th percentile)"
       ],
@@ -5480,7 +5557,7 @@
       ],
       "category": "Y",
       "score": -1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -5503,7 +5580,7 @@
       ],
       "category": "A",
       "score": 12,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (82th percentile)"
       ],
@@ -5529,7 +5606,7 @@
       ],
       "category": "Y",
       "score": 15,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "MATINSPINN": {
       "ticker": "MATINSPINN",
@@ -5537,8 +5614,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (13.4x). Dividend: 35% (≈৳3.5/share) (2025). Yield: 7.7%. Strong 1M momentum (+29.0%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (13.4x)। লভ্যাংশ: 35% (≈৳3.5/share) (2025)। ইয়েল্ড: 7.7%। শক্তিশালী ১-মাস গতি (+29.0%)।",
+      "reason": "Reasonable PE (13.1x). Dividend: 35% (≈৳3.5/share) (2025). Yield: 7.7%. Strong 1M momentum (+29.0%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.1x)। লভ্যাংশ: 35% (≈৳3.5/share) (2025)। ইয়েল্ড: 7.7%। শক্তিশালী ১-মাস গতি (+29.0%)।",
       "signals": [
         "fair_pe",
         "high_dividend",
@@ -5547,7 +5624,7 @@
       ],
       "category": "A",
       "score": 23,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -5567,7 +5644,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (86th percentile)",
         "⚠️ Last dividend: 4% in 2023 (over a year ago)"
@@ -5591,7 +5668,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -5611,7 +5688,7 @@
       ],
       "category": "Z",
       "score": -18,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-10.05)",
@@ -5639,7 +5716,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-36.58)",
@@ -5666,7 +5743,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -5682,9 +5759,9 @@
         "stale_dividend",
         "strong_momentum"
       ],
-      "category": "A",
+      "category": "-",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 15% in 2024 (over a year ago)"
       ],
@@ -5709,7 +5786,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.75)",
@@ -5724,21 +5801,22 @@
     "MERCANBANK": {
       "ticker": "MERCANBANK",
       "name": "Mercantile Bank PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "70% below NAV (৳24.4). At 3th percentile of 5Y range (historically cheap).",
-      "reasonBn": "NAV-র 70% নিচে (৳24.4)। ৫ বছরের 3তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "action": "buy",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "Low PE (6.7x) with positive earnings. 70% below NAV (৳24.4). At 3th percentile of 5Y range (historically cheap).",
+      "reasonBn": "কম PE (6.7x) ইতিবাচক আয়ের সাথে। NAV-র 70% নিচে (৳24.4)। ৫ বছরের 3তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
+        "cheap_pe",
         "nav_discount",
         "undervalued_5y",
         "stale_dividend",
         "positive_momentum"
       ],
       "category": "Z",
-      "score": 5,
-      "generatedAt": "2026-08-04",
+      "score": 17,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
@@ -5746,7 +5824,9 @@
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
         "⚠️ শেষ লভ্যাংশ: 10% (2023 সালে, ১ বছরেরও বেশি আগে)"
-      ]
+      ],
+      "duration": "3-6 months (undervalued)",
+      "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
     "MERCINS": {
       "ticker": "MERCINS",
@@ -5764,7 +5844,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (89th percentile)"
       ],
@@ -5790,7 +5870,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.98)",
@@ -5817,7 +5897,7 @@
       ],
       "category": "B",
       "score": 1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -5842,7 +5922,7 @@
       ],
       "category": "Z",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.24)",
@@ -5860,8 +5940,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Reasonable PE (14.8x). Dividend: 3% (≈৳0.3/share) (2025). Yield: 1.8%. Strong 1M momentum (+20.8%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.8x)। লভ্যাংশ: 3% (≈৳0.3/share) (2025)। ইয়েল্ড: 1.8%। শক্তিশালী ১-মাস গতি (+20.8%)।",
+      "reason": "Reasonable PE (14.9x). Dividend: 3% (≈৳0.3/share) (2025). Yield: 1.8%. Strong 1M momentum (+20.8%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (14.9x)। লভ্যাংশ: 3% (≈৳0.3/share) (2025)। ইয়েল্ড: 1.8%। শক্তিশালী ১-মাস গতি (+20.8%)।",
       "signals": [
         "b_category",
         "fair_pe",
@@ -5870,7 +5950,7 @@
       ],
       "category": "B",
       "score": 8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -5894,7 +5974,7 @@
       ],
       "category": "Z",
       "score": -16,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.30)",
@@ -5920,7 +6000,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -5937,7 +6017,7 @@
       ],
       "category": "Z",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -5948,24 +6028,28 @@
     "MJLBD": {
       "ticker": "MJLBD",
       "name": "MJL Bangladesh PLC.",
-      "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "action": "buy",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "Low PE (8.3x) with positive earnings. Dividend: 52% (≈৳5.2/share) (2025). Yield: 5.5%.",
+      "reasonBn": "কম PE (8.3x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 52% (≈৳5.2/share) (2025)। ইয়েল্ড: 5.5%।",
       "signals": [
         "overvalued_5y",
+        "cheap_pe",
+        "high_dividend",
         "positive_momentum"
       ],
       "category": "A",
-      "score": -1,
-      "generatedAt": "2026-08-04",
+      "score": 21,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (82th percentile)"
       ],
       "warningsBn": [
         "📊 ৫ বছরের সর্বোচ্চের কাছে (82তম পার্সেন্টাইল)"
-      ]
+      ],
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "MKFOOTWEAR": {
       "ticker": "MKFOOTWEAR",
@@ -5983,7 +6067,7 @@
       ],
       "category": "Y",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (88th percentile)"
       ],
@@ -6007,7 +6091,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6029,7 +6113,7 @@
       ],
       "category": "B",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6043,15 +6127,15 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "reason": "Dividend: 2% (≈৳0.2/share) (2025). Yield: 0.2%.",
+      "reasonBn": "লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 0.2%।",
       "signals": [
         "b_category",
-        "strong_6m_momentum"
+        "has_dividend"
       ],
       "category": "B",
-      "score": -2,
-      "generatedAt": "2026-08-04",
+      "score": -5,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6071,12 +6155,11 @@
         "b_category",
         "overvalued_5y",
         "has_dividend",
-        "positive_momentum",
-        "strong_6m_momentum"
+        "positive_momentum"
       ],
       "category": "B",
-      "score": -3,
-      "generatedAt": "2026-08-04",
+      "score": -6,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (86th percentile)"
@@ -6101,7 +6184,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "MOSTFAMETL": {
       "ticker": "MOSTFAMETL",
@@ -6119,31 +6202,35 @@
       ],
       "category": "Y",
       "score": 10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
     "MPETROLEUM": {
       "ticker": "MPETROLEUM",
       "name": "Meghna Petroleum PLC.",
-      "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "action": "buy",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "Low PE (3.5x) with positive earnings. Dividend: 200% (≈৳20.0/share) (2025). Yield: 9.8%.",
+      "reasonBn": "কম PE (3.5x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 200% (≈৳20.0/share) (2025)। ইয়েল্ড: 9.8%।",
       "signals": [
         "overvalued_5y",
+        "cheap_pe",
+        "high_dividend",
         "positive_momentum"
       ],
       "category": "A",
-      "score": -1,
-      "generatedAt": "2026-08-04",
+      "score": 21,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (97th percentile)"
       ],
       "warningsBn": [
         "📊 ৫ বছরের সর্বোচ্চের কাছে (97তম পার্সেন্টাইল)"
-      ]
+      ],
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "MTB": {
       "ticker": "MTB",
@@ -6161,7 +6248,7 @@
       ],
       "category": "A",
       "score": 19,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
       ],
@@ -6186,7 +6273,7 @@
       ],
       "category": "B",
       "score": -7,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-7.18)"
@@ -6199,17 +6286,20 @@
     "NATLIFEINS": {
       "ticker": "NATLIFEINS",
       "name": "National Life Insurance PLC",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 37% (≈৳3.7/share) (2025). Yield: 4.0%.",
+      "reasonBn": "লভ্যাংশ: 37% (≈৳3.7/share) (2025)। ইয়েল্ড: 4.0%।",
       "signals": [
+        "has_dividend",
         "positive_momentum"
       ],
       "category": "A",
-      "score": 2,
-      "generatedAt": "2026-08-04"
+      "score": 8,
+      "generatedAt": "2026-08-05",
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "NAVANACNG": {
       "ticker": "NAVANACNG",
@@ -6217,15 +6307,16 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+15.3%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+15.3%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 0.5%. Strong 1M momentum (+15.3%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 0.5%। শক্তিশালী ১-মাস গতি (+15.3%)।",
       "signals": [
         "z_category",
+        "has_dividend",
         "strong_momentum"
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -6243,11 +6334,12 @@
       "reasonBn": "লভ্যাংশ: 14% (≈৳1.4/share) (2025)। ইয়েল্ড: 2.2%। শক্তিশালী ১-মাস গতি (+20.2%)।",
       "signals": [
         "has_dividend",
-        "strong_momentum"
+        "strong_momentum",
+        "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 8,
-      "generatedAt": "2026-08-04"
+      "score": 11,
+      "generatedAt": "2026-08-05"
     },
     "NBL": {
       "ticker": "NBL",
@@ -6265,7 +6357,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.30)",
@@ -6280,24 +6372,29 @@
     "NCCBANK": {
       "ticker": "NCCBANK",
       "name": "National Credit and Commerce Bank PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "43% below NAV (৳27.2).",
-      "reasonBn": "NAV-র 43% নিচে (৳27.2)।",
+      "action": "buy",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "Low PE (3.6x) with positive earnings. 43% below NAV (৳27.2). Dividend: 17% (≈৳1.7/share) (2025). Yield: 13.9%.",
+      "reasonBn": "কম PE (3.6x) ইতিবাচক আয়ের সাথে। NAV-র 43% নিচে (৳27.2)। লভ্যাংশ: 17% (≈৳1.7/share) (2025)। ইয়েল্ড: 13.9%।",
       "signals": [
         "overvalued_5y",
-        "nav_discount"
+        "cheap_pe",
+        "nav_discount",
+        "high_dividend",
+        "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 1,
-      "generatedAt": "2026-08-04",
+      "score": 26,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (85th percentile)"
       ],
       "warningsBn": [
         "📊 ৫ বছরের সর্বোচ্চের কাছে (85তম পার্সেন্টাইল)"
-      ]
+      ],
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "NCCBLMF1": {
       "ticker": "NCCBLMF1",
@@ -6305,8 +6402,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Reasonable PE (12.5x). 32% below NAV (৳11.0). Strong 1M momentum (+80.5%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (12.5x)। NAV-র 32% নিচে (৳11.0)। শক্তিশালী ১-মাস গতি (+80.5%)।",
+      "reason": "Reasonable PE (12.1x). 32% below NAV (৳11.0). Strong 1M momentum (+80.5%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (12.1x)। NAV-র 32% নিচে (৳11.0)। শক্তিশালী ১-মাস গতি (+80.5%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
@@ -6317,7 +6414,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (85th percentile)",
         "⚠️ Last dividend: 4% in 2023 (over a year ago)"
@@ -6345,7 +6442,7 @@
       ],
       "category": "Z",
       "score": 17,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 12% in 2021 (over a year ago)"
@@ -6374,14 +6471,14 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
-        "📊 Near 5Y high (91th percentile)"
+        "📊 Near 5Y high (92th percentile)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (91তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (92তম পার্সেন্টাইল)"
       ]
     },
     "NHFIL": {
@@ -6399,7 +6496,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 10% in 2023 (over a year ago)"
       ],
@@ -6422,7 +6519,7 @@
       ],
       "category": "Y",
       "score": 14,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -6441,27 +6538,28 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "NORTHERN": {
       "ticker": "NORTHERN",
       "name": "Northern Jute Manufacturing Co. Ltd.",
-      "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Low PE (10.0x) with positive earnings.",
+      "reasonBn": "কম PE (10.0x) ইতিবাচক আয়ের সাথে।",
       "signals": [
         "z_category",
+        "cheap_pe",
         "stale_dividend",
         "positive_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": -6,
-      "generatedAt": "2026-08-04",
+      "score": 6,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2020 (over a year ago)"
@@ -6469,7 +6567,9 @@
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
         "⚠️ শেষ লভ্যাংশ: 5% (2020 সালে, ১ বছরেরও বেশি আগে)"
-      ]
+      ],
+      "duration": "3-6 months (undervalued)",
+      "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
     "NORTHRNINS": {
       "ticker": "NORTHRNINS",
@@ -6486,7 +6586,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -6510,7 +6610,7 @@
       ],
       "category": "B",
       "score": 6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6533,7 +6633,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -6558,7 +6658,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 11% in 2023 (over a year ago)"
@@ -6571,26 +6671,29 @@
     "NTC": {
       "ticker": "NTC",
       "name": "National Tea Company Ltd.",
-      "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
+      "action": "sell",
+      "label": "Consider Selling",
+      "labelBn": "বিক্রির কথা ভাবুন",
       "reason": "At 16th percentile of 5Y range (historically cheap).",
       "reasonBn": "৫ বছরের 16তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
+        "negative_eps",
         "undervalued_5y",
         "stale_dividend",
         "positive_momentum"
       ],
       "category": "Z",
-      "score": -3,
-      "generatedAt": "2026-08-04",
+      "score": -13,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
+        "⚠️ Negative EPS (৳-107.49)",
         "⚠️ Last dividend: 8% in 2022 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
+        "⚠️ নেতিবাচক ইপিএস (৳-107.49)",
         "⚠️ শেষ লভ্যাংশ: 8% (2022 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -6600,17 +6703,18 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "50% below NAV (৳137.6). At 20th percentile of 5Y range (historically cheap). Strong 1M momentum (+15.1%).",
-      "reasonBn": "NAV-র 50% নিচে (৳137.6)। ৫ বছরের 20তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+15.1%)।",
+      "reason": "50% below NAV (৳137.6). At 20th percentile of 5Y range (historically cheap). Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.1%. Strong 1M momentum (+15.1%).",
+      "reasonBn": "NAV-র 50% নিচে (৳137.6)। ৫ বছরের 20তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.1%। শক্তিশালী ১-মাস গতি (+15.1%)।",
       "signals": [
         "b_category",
         "nav_discount",
         "undervalued_5y",
+        "has_dividend",
         "strong_momentum"
       ],
       "category": "B",
       "score": 10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6637,7 +6741,7 @@
       ],
       "category": "Z",
       "score": 6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2018 (over a year ago)"
@@ -6666,7 +6770,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.75)",
@@ -6695,7 +6799,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 3% in 2024 (over a year ago)"
@@ -6719,25 +6823,26 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "ONEBANKPLC": {
       "ticker": "ONEBANKPLC",
       "name": "One Bank PLC",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "64% below NAV (৳22.4). Strong 1M momentum (+23.1%).",
-      "reasonBn": "NAV-র 64% নিচে (৳22.4)। শক্তিশালী ১-মাস গতি (+23.1%)।",
+      "action": "buy",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "Low PE (6.5x) with positive earnings. 64% below NAV (৳22.4). Strong 1M momentum (+23.1%).",
+      "reasonBn": "কম PE (6.5x) ইতিবাচক আয়ের সাথে। NAV-র 64% নিচে (৳22.4)। শক্তিশালী ১-মাস গতি (+23.1%)।",
       "signals": [
         "z_category",
+        "cheap_pe",
         "nav_discount",
         "stale_dividend",
         "strong_momentum"
       ],
       "category": "Z",
-      "score": 2,
-      "generatedAt": "2026-08-04",
+      "score": 14,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 4% in 2023 (over a year ago)"
@@ -6745,7 +6850,9 @@
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
         "⚠️ শেষ লভ্যাংশ: 4% (2023 সালে, ১ বছরেরও বেশি আগে)"
-      ]
+      ],
+      "duration": "3-6 months (undervalued)",
+      "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
     "ORIONINFU": {
       "ticker": "ORIONINFU",
@@ -6761,7 +6868,7 @@
       ],
       "category": "A",
       "score": -3,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "ORIONPHARM": {
       "ticker": "ORIONPHARM",
@@ -6782,7 +6889,7 @@
       ],
       "category": "Z",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-1.77)",
@@ -6809,7 +6916,7 @@
       ],
       "category": "Y",
       "score": 14,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -6828,7 +6935,7 @@
       ],
       "category": "Z",
       "score": -9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2021 (over a year ago)"
@@ -6854,26 +6961,27 @@
       ],
       "category": "A",
       "score": 31,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "PARAMOUNT": {
       "ticker": "PARAMOUNT",
       "name": "Paramount Insurance PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
       "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.3%. Strong 1M momentum (+25.5%).",
       "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.3%। শক্তিশালী ১-মাস গতি (+25.5%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
-        "strong_momentum"
+        "strong_momentum",
+        "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04",
+      "score": 8,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (84th percentile)"
       ],
@@ -6899,7 +7007,7 @@
       ],
       "category": "Z",
       "score": 8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
@@ -6917,16 +7025,15 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 0% (≈৳0.05/share) (2025). Yield: 0.5%. Strong 1M momentum (+25.5%).",
-      "reasonBn": "লভ্যাংশ: 0% (≈৳0.05/share) (2025)। ইয়েল্ড: 0.5%। শক্তিশালী ১-মাস গতি (+25.5%)।",
+      "reason": "Strong 1M momentum (+25.5%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+25.5%)।",
       "signals": [
         "b_category",
-        "has_dividend",
         "strong_momentum"
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -6938,20 +7045,19 @@
       "ticker": "PEOPLESINS",
       "name": "Peoples Insurance PLC.",
       "action": "buy",
-      "label": "Strong Buy",
-      "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (14.7x). Dividend: 10% (≈৳1.05/share) (2025). Yield: 2.9%. Strong 1M momentum (+31.3%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.7x)। লভ্যাংশ: 10% (≈৳1.05/share) (2025)। ইয়েল্ড: 2.9%। শক্তিশালী ১-মাস গতি (+31.3%)।",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 10% (≈৳1.05/share) (2025). Yield: 2.9%. Strong 1M momentum (+31.3%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.05/share) (2025)। ইয়েল্ড: 2.9%। শক্তিশালী ১-মাস গতি (+31.3%)।",
       "signals": [
         "overvalued_5y",
-        "fair_pe",
         "has_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 13,
-      "generatedAt": "2026-08-04",
+      "score": 8,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (99th percentile)"
       ],
@@ -6976,7 +7082,7 @@
       ],
       "category": "A",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.17)",
         "📊 Near 5Y high (100th percentile)",
@@ -6994,61 +7100,68 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+11.4%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+11.4%)।",
+      "reason": "Dividend: 30% (≈৳3.0/share) (2025). Yield: 0.6%. Strong 1M momentum (+11.4%).",
+      "reasonBn": "লভ্যাংশ: 30% (≈৳3.0/share) (2025)। ইয়েল্ড: 0.6%। শক্তিশালী ১-মাস গতি (+11.4%)।",
       "signals": [
+        "has_dividend",
         "strong_momentum"
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "PHENIXINS": {
       "ticker": "PHENIXINS",
       "name": "Phoenix Insurance PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+37.9%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+37.9%)।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 12% (≈৳1.2/share) (2025). Yield: 4.4%. Strong 1M momentum (+37.9%).",
+      "reasonBn": "লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 4.4%। শক্তিশালী ১-মাস গতি (+37.9%)।",
       "signals": [
         "overvalued_5y",
+        "high_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04",
+      "score": 11,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (88th percentile)"
       ],
       "warningsBn": [
         "📊 ৫ বছরের সর্বোচ্চের কাছে (88তম পার্সেন্টাইল)"
-      ]
+      ],
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "PHOENIXFIN": {
       "ticker": "PHOENIXFIN",
       "name": "Phoenix Finance and Investments Ltd.",
-      "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
+      "action": "sell",
+      "label": "Consider Selling",
+      "labelBn": "বিক্রির কথা ভাবুন",
       "reason": "Strong 1M momentum (+16.2%).",
       "reasonBn": "শক্তিশালী ১-মাস গতি (+16.2%)।",
       "signals": [
         "z_category",
+        "negative_eps",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": -3,
-      "generatedAt": "2026-08-04",
+      "score": -13,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
+        "⚠️ Negative EPS (৳-48.73)",
         "⚠️ Last dividend: 6% in 2019 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
+        "⚠️ নেতিবাচক ইপিএস (৳-48.73)",
         "⚠️ শেষ লভ্যাংশ: 6% (2019 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -7069,7 +7182,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-2.50)",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -7085,17 +7198,16 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (14.8x). Dividend: 25% (≈৳2.5/share) (2025). Yield: 5.3%. Strong 1M momentum (+20.4%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.8x)। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 5.3%। শক্তিশালী ১-মাস গতি (+20.4%)।",
+      "reason": "Dividend: 25% (≈৳2.5/share) (2025). Yield: 5.3%. Strong 1M momentum (+20.4%).",
+      "reasonBn": "লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 5.3%। শক্তিশালী ১-মাস গতি (+20.4%)।",
       "signals": [
-        "fair_pe",
         "high_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 23,
-      "generatedAt": "2026-08-04",
+      "score": 18,
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -7115,7 +7227,7 @@
       ],
       "category": "Z",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-14.95)"
@@ -7142,7 +7254,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-2.38)",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -7168,7 +7280,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 20% in 2024 (over a year ago)"
       ],
@@ -7194,7 +7306,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.30)",
@@ -7210,23 +7322,26 @@
       "ticker": "PRAGATIINS",
       "name": "Pragati Insurance PLC.",
       "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "No strong signals detected.",
-      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
+      "label": "Hold",
+      "labelBn": "ধরে রাখুন",
+      "reason": "Dividend: 27% (≈৳2.7/share) (2025). Yield: 3.8%.",
+      "reasonBn": "লভ্যাংশ: 27% (≈৳2.7/share) (2025)। ইয়েল্ড: 3.8%।",
       "signals": [
         "overvalued_5y",
+        "has_dividend",
         "positive_momentum"
       ],
       "category": "A",
-      "score": -1,
-      "generatedAt": "2026-08-04",
+      "score": 5,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (95th percentile)"
       ],
       "warningsBn": [
         "📊 ৫ বছরের সর্বোচ্চের কাছে (95তম পার্সেন্টাইল)"
-      ]
+      ],
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "PRAGATILIF": {
       "ticker": "PRAGATILIF",
@@ -7243,7 +7358,7 @@
       ],
       "category": "A",
       "score": -9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (81th percentile)",
         "⚠️ Last dividend: 15% in 2024 (over a year ago)"
@@ -7272,7 +7387,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-8.05)",
@@ -7290,15 +7405,16 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Strong 1M momentum (+27.5%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+27.5%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.0%. Strong 1M momentum (+27.5%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.0%। শক্তিশালী ১-মাস গতি (+27.5%)।",
       "signals": [
+        "has_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 8,
-      "generatedAt": "2026-08-04"
+      "score": 11,
+      "generatedAt": "2026-08-05"
     },
     "PREMIERLEA": {
       "ticker": "PREMIERLEA",
@@ -7317,7 +7433,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-27.50)",
@@ -7345,7 +7461,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.28)",
         "⚠️ Last dividend: 3% in 2023 (over a year ago)"
@@ -7361,8 +7477,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (3.9x) with positive earnings. Dividend: 25% (≈৳2.5/share) (2025). Yield: 8.7%.",
-      "reasonBn": "কম PE (3.9x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 8.7%।",
+      "reason": "Low PE (3.8x) with positive earnings. Dividend: 25% (≈৳2.5/share) (2025). Yield: 8.7%.",
+      "reasonBn": "কম PE (3.8x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 8.7%।",
       "signals": [
         "overvalued_5y",
         "cheap_pe",
@@ -7370,7 +7486,7 @@
       ],
       "category": "A",
       "score": 19,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (95th percentile)"
       ],
@@ -7398,7 +7514,7 @@
       ],
       "category": "Z",
       "score": -7,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.53)",
@@ -7425,7 +7541,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -7440,11 +7556,12 @@
       "signals": [
         "b_category",
         "stale_dividend",
-        "positive_momentum"
+        "positive_momentum",
+        "strong_6m_momentum"
       ],
       "category": "B",
-      "score": -6,
-      "generatedAt": "2026-08-04",
+      "score": -3,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
@@ -7457,26 +7574,29 @@
     "PRIMETEX": {
       "ticker": "PRIMETEX",
       "name": "Prime Textile Spinning Mills Limited",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
+      "action": "sell",
+      "label": "Consider Selling",
+      "labelBn": "বিক্রির কথা ভাবুন",
       "reason": "73% below NAV (৳64.8).",
       "reasonBn": "NAV-র 73% নিচে (৳64.8)।",
       "signals": [
         "z_category",
+        "negative_eps",
         "nav_discount",
         "stale_dividend",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": 0,
-      "generatedAt": "2026-08-04",
+      "score": -10,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
+        "⚠️ Negative EPS (৳-8.05)",
         "⚠️ Last dividend: 2% in 2022 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
+        "⚠️ নেতিবাচক ইপিএস (৳-8.05)",
         "⚠️ শেষ লভ্যাংশ: 2% (2022 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -7495,7 +7615,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2020 (over a year ago)"
@@ -7520,7 +7640,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -7534,8 +7654,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (9.9x) with positive earnings. Dividend: 12% (≈৳1.2/share) (2025). Yield: 3.0%.",
-      "reasonBn": "কম PE (9.9x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 3.0%।",
+      "reason": "Low PE (9.8x) with positive earnings. Dividend: 12% (≈৳1.2/share) (2025). Yield: 3.0%.",
+      "reasonBn": "কম PE (9.8x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 3.0%।",
       "signals": [
         "cheap_pe",
         "has_dividend",
@@ -7543,7 +7663,7 @@
       ],
       "category": "A",
       "score": 18,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "PUBALIBANK": {
       "ticker": "PUBALIBANK",
@@ -7562,7 +7682,7 @@
       ],
       "category": "A",
       "score": 24,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (100th percentile)"
       ],
@@ -7588,7 +7708,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (83th percentile)",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -7612,7 +7732,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 2% in 2024 (over a year ago)"
       ],
@@ -7636,7 +7756,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -7659,7 +7779,7 @@
       ],
       "category": "Z",
       "score": -2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -7681,23 +7801,33 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "RAKCERAMIC": {
       "ticker": "RAKCERAMIC",
       "name": "RAK Ceramics (Bangladesh) Limited",
-      "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Strong 1M momentum (+33.2%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+33.2%)।",
+      "action": "hold",
+      "label": "Hold",
+      "labelBn": "ধরে রাখুন",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.6%. Strong 1M momentum (+33.2%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+33.2%)।",
       "signals": [
+        "negative_eps",
+        "high_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 8,
-      "generatedAt": "2026-08-04"
+      "score": 4,
+      "generatedAt": "2026-08-05",
+      "warnings": [
+        "⚠️ Negative EPS (৳-0.93)"
+      ],
+      "warningsBn": [
+        "⚠️ নেতিবাচক ইপিএস (৳-0.93)"
+      ],
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "RANFOUNDRY": {
       "ticker": "RANFOUNDRY",
@@ -7713,7 +7843,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "RDFOOD": {
       "ticker": "RDFOOD",
@@ -7721,16 +7851,17 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+34.1%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+34.1%)।",
+      "reason": "Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.5%. Strong 1M momentum (+34.1%).",
+      "reasonBn": "লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.5%। শক্তিশালী ১-মাস গতি (+34.1%)।",
       "signals": [
         "b_category",
+        "has_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -7742,65 +7873,72 @@
       "ticker": "RECKITTBEN",
       "name": "Reckitt Benckiser (Bangladesh) PLC",
       "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
-      "reason": "At 4th percentile of 5Y range (historically cheap).",
-      "reasonBn": "৫ বছরের 4তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "At 4th percentile of 5Y range (historically cheap). Dividend: 1730% (≈৳173.0/share) (2025). Yield: 5.0%.",
+      "reasonBn": "৫ বছরের 4তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 1730% (≈৳173.0/share) (2025)। ইয়েল্ড: 5.0%।",
       "signals": [
-        "undervalued_5y"
+        "undervalued_5y",
+        "high_dividend"
       ],
       "category": "A",
-      "score": 6,
-      "generatedAt": "2026-08-04",
-      "duration": "3-6 months (undervalued)",
-      "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
+      "score": 16,
+      "generatedAt": "2026-08-05",
+      "duration": "Hold for dividend",
+      "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "REGENTTEX": {
       "ticker": "REGENTTEX",
       "name": "Regent Textile Mills Limited",
       "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
       "reason": "72% below NAV (৳26.5). Strong 1M momentum (+65.9%).",
       "reasonBn": "NAV-র 72% নিচে (৳26.5)। শক্তিশালী ১-মাস গতি (+65.9%)।",
       "signals": [
         "z_category",
+        "negative_eps",
         "nav_discount",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": 5,
-      "generatedAt": "2026-08-04",
+      "score": -5,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
+        "⚠️ Negative EPS (৳-1.62)",
         "⚠️ Last dividend: 1% in 2020 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
+        "⚠️ নেতিবাচক ইপিএস (৳-1.62)",
         "⚠️ শেষ লভ্যাংশ: 1% (2020 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
     "RELIANCE1": {
       "ticker": "RELIANCE1",
       "name": "Reliance One the first scheme of Reliance Insurance Mutual Fund",
-      "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
+      "action": "sell",
+      "label": "Consider Selling",
+      "labelBn": "বিক্রির কথা ভাবুন",
       "reason": "No strong signals detected.",
       "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
       "signals": [
+        "negative_eps",
         "stale_dividend",
         "positive_momentum"
       ],
       "category": "A",
-      "score": -1,
-      "generatedAt": "2026-08-04",
+      "score": -11,
+      "generatedAt": "2026-08-05",
       "warnings": [
+        "⚠️ Negative EPS (৳-0.31)",
         "⚠️ Last dividend: 4% in 2024 (over a year ago)"
       ],
       "warningsBn": [
+        "⚠️ নেতিবাচক ইপিএস (৳-0.31)",
         "⚠️ শেষ লভ্যাংশ: 4% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -7810,8 +7948,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (13.6x). Dividend: 30% (≈৳3.0/share) (2025). Yield: 4.6%. Strong 1M momentum (+28.1%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (13.6x)। লভ্যাংশ: 30% (≈৳3.0/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+28.1%)।",
+      "reason": "Reasonable PE (13.7x). Dividend: 30% (≈৳3.0/share) (2025). Yield: 4.6%. Strong 1M momentum (+28.1%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.7x)। লভ্যাংশ: 30% (≈৳3.0/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+28.1%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
@@ -7821,7 +7959,7 @@
       ],
       "category": "A",
       "score": 16,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (98th percentile)"
       ],
@@ -7846,7 +7984,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -7867,7 +8005,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-7.76)",
@@ -7893,7 +8031,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -7913,7 +8051,7 @@
       ],
       "category": "Z",
       "score": -10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-3.06)"
@@ -7937,7 +8075,7 @@
       ],
       "category": "Z",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -7959,7 +8097,7 @@
       ],
       "category": "A",
       "score": 12,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -7982,7 +8120,7 @@
       ],
       "category": "Z",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-3.75)",
@@ -8010,7 +8148,7 @@
       ],
       "category": "A",
       "score": 18,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -8030,7 +8168,7 @@
       ],
       "category": "Z",
       "score": 4,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -8053,7 +8191,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "RUPALILIFE": {
       "ticker": "RUPALILIFE",
@@ -8069,7 +8207,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -8092,7 +8230,7 @@
       ],
       "category": "Y",
       "score": 8,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "SAFKOSPINN": {
       "ticker": "SAFKOSPINN",
@@ -8110,7 +8248,7 @@
       ],
       "category": "Z",
       "score": -18,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-7.52)",
@@ -8128,8 +8266,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Reasonable PE (14.1x). 42% below NAV (৳17.0). Strong 1M momentum (+58.1%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.1x)। NAV-র 42% নিচে (৳17.0)। শক্তিশালী ১-মাস গতি (+58.1%)।",
+      "reason": "Reasonable PE (14.0x). 42% below NAV (৳17.0). Strong 1M momentum (+58.1%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (14.0x)। NAV-র 42% নিচে (৳17.0)। শক্তিশালী ১-মাস গতি (+58.1%)।",
       "signals": [
         "z_category",
         "fair_pe",
@@ -8140,7 +8278,7 @@
       ],
       "category": "Z",
       "score": 6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 1% in 2024 (over a year ago)"
@@ -8169,7 +8307,7 @@
       ],
       "category": "B",
       "score": 9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (99th percentile)"
@@ -8194,12 +8332,11 @@
         "overvalued_5y",
         "nav_discount",
         "high_dividend",
-        "strong_momentum",
-        "strong_6m_momentum"
+        "strong_momentum"
       ],
       "category": "B",
-      "score": 10,
-      "generatedAt": "2026-08-04",
+      "score": 7,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (99th percentile)"
@@ -8229,7 +8366,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -8255,7 +8392,7 @@
       ],
       "category": "B",
       "score": 6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -8279,7 +8416,7 @@
       ],
       "category": "B",
       "score": -21,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.02)",
@@ -8310,7 +8447,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (98th percentile)"
@@ -8335,7 +8472,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 12% in 2024 (over a year ago)"
       ],
@@ -8359,7 +8496,7 @@
       ],
       "category": "A",
       "score": 15,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (100th percentile)"
       ],
@@ -8384,7 +8521,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-4.86)"
@@ -8411,7 +8548,7 @@
       ],
       "category": "Z",
       "score": 4,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -8437,7 +8574,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Last dividend: 7% in 2024 (over a year ago)"
@@ -8460,7 +8597,7 @@
       ],
       "category": "A",
       "score": 6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -8480,7 +8617,7 @@
       ],
       "category": "A",
       "score": -5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.01)",
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
@@ -8505,7 +8642,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 4% in 2023 (over a year ago)"
       ],
@@ -8517,17 +8654,16 @@
       "ticker": "SEMLLECMF",
       "name": "SEML Lecture Equity Management Fund",
       "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
       "reason": "No strong signals detected.",
       "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
       "signals": [
-        "stale_dividend",
-        "strong_6m_momentum"
+        "stale_dividend"
       ],
       "category": "A",
-      "score": 0,
-      "generatedAt": "2026-08-04",
+      "score": -3,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
       ],
@@ -8551,7 +8687,7 @@
       ],
       "category": "A",
       "score": 33,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -8572,7 +8708,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (100th percentile)",
@@ -8602,7 +8738,7 @@
       ],
       "category": "B",
       "score": 7,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (95th percentile)"
@@ -8628,7 +8764,7 @@
       ],
       "category": "B",
       "score": 0,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -8642,8 +8778,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (4.9x) with positive earnings. 46% below NAV (৳12.2). At 18th percentile of 5Y range (historically cheap).",
-      "reasonBn": "কম PE (4.9x) ইতিবাচক আয়ের সাথে। NAV-র 46% নিচে (৳12.2)। ৫ বছরের 18তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "Low PE (4.8x) with positive earnings. 46% below NAV (৳12.2). At 18th percentile of 5Y range (historically cheap).",
+      "reasonBn": "কম PE (4.8x) ইতিবাচক আয়ের সাথে। NAV-র 46% নিচে (৳12.2)। ৫ বছরের 18তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "cheap_pe",
@@ -8655,7 +8791,7 @@
       ],
       "category": "Z",
       "score": 16,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 10% in 2019 (over a year ago)"
@@ -8684,7 +8820,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-50.77)",
@@ -8713,7 +8849,7 @@
       ],
       "category": "A",
       "score": -18,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.89)",
         "⚠️ Crashed -98% in 6 months",
@@ -8742,7 +8878,7 @@
       ],
       "category": "B",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (87th percentile)",
@@ -8770,7 +8906,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -8781,29 +8917,26 @@
     "SILVAPHL": {
       "ticker": "SILVAPHL",
       "name": "Silva Pharmaceuticals Limited",
-      "action": "sell",
-      "label": "Consider Selling",
-      "labelBn": "বিক্রির কথা ভাবুন",
+      "action": "hold",
+      "label": "Hold",
+      "labelBn": "ধরে রাখুন",
       "reason": "Strong 1M momentum (+51.3%).",
       "reasonBn": "শক্তিশালী ১-মাস গতি (+51.3%)।",
       "signals": [
         "b_category",
-        "negative_eps",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "B",
-      "score": -10,
-      "generatedAt": "2026-08-04",
+      "score": 0,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
-        "⚠️ Negative EPS (৳-0.97)",
         "⚠️ Last dividend: 1% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
-        "⚠️ নেতিবাচক ইপিএস (৳-0.97)",
         "⚠️ শেষ লভ্যাংশ: 1% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -8823,7 +8956,7 @@
       ],
       "category": "A",
       "score": 15,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (96th percentile)"
       ],
@@ -8849,7 +8982,7 @@
       ],
       "category": "Z",
       "score": -15,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-22.56)",
@@ -8864,18 +8997,19 @@
     "SINOBANGLA": {
       "ticker": "SINOBANGLA",
       "name": "Sinobangla Industries Ltd.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
       "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.4%.",
       "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.4%।",
       "signals": [
         "has_dividend",
-        "positive_momentum"
+        "positive_momentum",
+        "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04"
+      "score": 8,
+      "generatedAt": "2026-08-05"
     },
     "SIPLC": {
       "ticker": "SIPLC",
@@ -8893,7 +9027,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (100th percentile)"
       ],
@@ -8917,7 +9051,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2024 (over a year ago)"
@@ -8930,18 +9064,19 @@
     "SONALIANSH": {
       "ticker": "SONALIANSH",
       "name": "Sonali Aansh Industries Limited",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
       "reason": "Dividend: 15% (≈৳1.5/share) (2025). Yield: 0.9%. Strong 1M momentum (+29.5%).",
       "reasonBn": "লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 0.9%। শক্তিশালী ১-মাস গতি (+29.5%)।",
       "signals": [
         "has_dividend",
-        "strong_momentum"
+        "strong_momentum",
+        "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 5,
-      "generatedAt": "2026-08-04"
+      "score": 8,
+      "generatedAt": "2026-08-05"
     },
     "SONALILIFE": {
       "ticker": "SONALILIFE",
@@ -8959,7 +9094,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (98th percentile)",
         "⚠️ Last dividend: 15% in 2024 (over a year ago)"
@@ -8983,7 +9118,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "SONARBAINS": {
       "ticker": "SONARBAINS",
@@ -9000,7 +9135,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
@@ -9026,7 +9161,7 @@
       ],
       "category": "B",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.80)",
@@ -9056,7 +9191,7 @@
       ],
       "category": "A",
       "score": 31,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9077,7 +9212,7 @@
       ],
       "category": "B",
       "score": 1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Last dividend: 2% in 2024 (over a year ago)"
@@ -9101,7 +9236,7 @@
       ],
       "category": "A",
       "score": 12,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9111,8 +9246,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (7.1x) with positive earnings. Dividend: 32% (≈৳3.2/share) (2025). Yield: 6.5%.",
-      "reasonBn": "কম PE (7.1x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 32% (≈৳3.2/share) (2025)। ইয়েল্ড: 6.5%।",
+      "reason": "Low PE (7.0x) with positive earnings. Dividend: 32% (≈৳3.2/share) (2025). Yield: 6.5%.",
+      "reasonBn": "কম PE (7.0x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 32% (≈৳3.2/share) (2025)। ইয়েল্ড: 6.5%।",
       "signals": [
         "cheap_pe",
         "high_dividend",
@@ -9120,7 +9255,7 @@
       ],
       "category": "A",
       "score": 24,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9130,15 +9265,15 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (8.1x) with positive earnings. Dividend: 120% (≈৳12.0/share) (2025). Yield: 5.7%.",
-      "reasonBn": "কম PE (8.1x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 120% (≈৳12.0/share) (2025)। ইয়েল্ড: 5.7%।",
+      "reason": "Low PE (8.2x) with positive earnings. Dividend: 120% (≈৳12.0/share) (2025). Yield: 5.7%.",
+      "reasonBn": "কম PE (8.2x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 120% (≈৳12.0/share) (2025)। ইয়েল্ড: 5.7%।",
       "signals": [
         "cheap_pe",
         "high_dividend"
       ],
       "category": "A",
       "score": 22,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9159,7 +9294,7 @@
       ],
       "category": "Z",
       "score": 5,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2024 (over a year ago)"
@@ -9184,7 +9319,7 @@
       ],
       "category": "Z",
       "score": -21,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-23.02)",
@@ -9211,7 +9346,7 @@
       ],
       "category": "A",
       "score": 14,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9233,7 +9368,7 @@
       ],
       "category": "Z",
       "score": 20,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -9248,29 +9383,26 @@
     "STYLECRAFT": {
       "ticker": "STYLECRAFT",
       "name": "Stylecraft Limited",
-      "action": "sell",
-      "label": "Consider Selling",
-      "labelBn": "বিক্রির কথা ভাবুন",
+      "action": "hold",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
       "reason": "Strong 1M momentum (+18.6%).",
       "reasonBn": "শক্তিশালী ১-মাস গতি (+18.6%)।",
       "signals": [
         "z_category",
-        "negative_eps",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": -13,
-      "generatedAt": "2026-08-04",
+      "score": -3,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
-        "⚠️ Negative EPS (৳-1.08)",
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
-        "⚠️ নেতিবাচক ইপিএস (৳-1.08)",
         "⚠️ শেষ লভ্যাংশ: 1% (2023 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -9290,7 +9422,7 @@
       ],
       "category": "A",
       "score": 26,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9310,7 +9442,7 @@
       ],
       "category": "B",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (88th percentile)",
@@ -9338,7 +9470,7 @@
       ],
       "category": "A",
       "score": 8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (88th percentile)"
       ],
@@ -9361,7 +9493,7 @@
       ],
       "category": "Z",
       "score": -14,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.79)"
@@ -9385,7 +9517,7 @@
       ],
       "category": "A",
       "score": 5,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "TECHNODRUG": {
       "ticker": "TECHNODRUG",
@@ -9403,7 +9535,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (92th percentile)"
       ],
@@ -9429,7 +9561,7 @@
       ],
       "category": "B",
       "score": -6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "📊 Near 5Y high (81th percentile)",
@@ -9459,7 +9591,7 @@
       ],
       "category": "B",
       "score": 4,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-7.80)"
@@ -9486,7 +9618,7 @@
       ],
       "category": "B",
       "score": 10,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -9511,7 +9643,7 @@
       ],
       "category": "A",
       "score": -1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-1.96)",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -9537,7 +9669,7 @@
       ],
       "category": "A",
       "score": 28,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9556,7 +9688,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
@@ -9570,8 +9702,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "At 14th percentile of 5Y range (historically cheap).",
-      "reasonBn": "৫ বছরের 14তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "At 15th percentile of 5Y range (historically cheap).",
+      "reasonBn": "৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "undervalued_5y",
@@ -9580,7 +9712,7 @@
       ],
       "category": "Z",
       "score": -3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 5% in 2023 (over a year ago)"
@@ -9604,7 +9736,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -9622,7 +9754,7 @@
       ],
       "category": "A",
       "score": 9,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
@@ -9645,7 +9777,7 @@
       ],
       "category": "Z",
       "score": 1,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Crashed -100% in 6 months",
@@ -9674,7 +9806,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.46)",
@@ -9702,7 +9834,7 @@
       ],
       "category": "A",
       "score": 2,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (83th percentile)",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
@@ -9718,8 +9850,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (8.8x) with positive earnings. 52% below NAV (৳93.9). Dividend: 16% (≈৳1.6/share) (2025). Yield: 4.6%. Strong 1M momentum (+21.5%).",
-      "reasonBn": "কম PE (8.8x) ইতিবাচক আয়ের সাথে। NAV-র 52% নিচে (৳93.9)। লভ্যাংশ: 16% (≈৳1.6/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+21.5%)।",
+      "reason": "Low PE (8.7x) with positive earnings. 52% below NAV (৳93.9). Dividend: 16% (≈৳1.6/share) (2025). Yield: 4.6%. Strong 1M momentum (+21.5%).",
+      "reasonBn": "কম PE (8.7x) ইতিবাচক আয়ের সাথে। NAV-র 52% নিচে (৳93.9)। লভ্যাংশ: 16% (≈৳1.6/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+21.5%)।",
       "signals": [
         "cheap_pe",
         "nav_discount",
@@ -9728,7 +9860,7 @@
       ],
       "category": "A",
       "score": 31,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9748,7 +9880,7 @@
       ],
       "category": "A",
       "score": 15,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (84th percentile)"
       ],
@@ -9774,7 +9906,7 @@
       ],
       "category": "A",
       "score": 11,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (98th percentile)"
       ],
@@ -9790,8 +9922,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (6.1x) with positive earnings. At 20th percentile of 5Y range (historically cheap). Dividend: 65% (≈৳6.5/share) (2025). Yield: 5.4%.",
-      "reasonBn": "কম PE (6.1x) ইতিবাচক আয়ের সাথে। ৫ বছরের 20তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 65% (≈৳6.5/share) (2025)। ইয়েল্ড: 5.4%।",
+      "reason": "Low PE (6.0x) with positive earnings. At 20th percentile of 5Y range (historically cheap). Dividend: 65% (≈৳6.5/share) (2025). Yield: 5.4%.",
+      "reasonBn": "কম PE (6.0x) ইতিবাচক আয়ের সাথে। ৫ বছরের 20তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 65% (≈৳6.5/share) (2025)। ইয়েল্ড: 5.4%।",
       "signals": [
         "cheap_pe",
         "undervalued_5y",
@@ -9800,36 +9932,33 @@
       ],
       "category": "A",
       "score": 30,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
     "USMANIAGL": {
       "ticker": "USMANIAGL",
       "name": "Usmania Glass Sheet Factory Limited",
-      "action": "sell",
-      "label": "Consider Selling",
-      "labelBn": "বিক্রির কথা ভাবুন",
+      "action": "hold",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
       "reason": "Strong 1M momentum (+103.1%).",
       "reasonBn": "শক্তিশালী ১-মাস গতি (+103.1%)।",
       "signals": [
         "z_category",
-        "negative_eps",
         "overvalued_5y",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": -13,
-      "generatedAt": "2026-08-04",
+      "score": -3,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
-        "⚠️ Negative EPS (৳-5.34)",
         "📊 Near 5Y high (97th percentile)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
-        "⚠️ নেতিবাচক ইপিএস (৳-5.34)",
         "📊 ৫ বছরের সর্বোচ্চের কাছে (97তম পার্সেন্টাইল)"
       ]
     },
@@ -9849,7 +9978,7 @@
       ],
       "category": "A",
       "score": 16,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (97th percentile)"
       ],
@@ -9863,8 +9992,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Low PE (1.4x) with positive earnings. 78% below NAV (৳62.5).",
-      "reasonBn": "কম PE (1.4x) ইতিবাচক আয়ের সাথে। NAV-র 78% নিচে (৳62.5)।",
+      "reason": "Low PE (1.5x) with positive earnings. 78% below NAV (৳62.5).",
+      "reasonBn": "কম PE (1.5x) ইতিবাচক আয়ের সাথে। NAV-র 78% নিচে (৳62.5)।",
       "signals": [
         "z_category",
         "cheap_pe",
@@ -9874,7 +10003,7 @@
       ],
       "category": "Z",
       "score": 11,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Last dividend: 15% in 2019 (over a year ago)"
@@ -9900,7 +10029,7 @@
       ],
       "category": "A",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.10)",
         "⚠️ Last dividend: 2% in 2023 (over a year ago)"
@@ -9927,7 +10056,7 @@
       ],
       "category": "A",
       "score": -8,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Negative EPS (৳-0.37)",
         "📊 Near 5Y high (85th percentile)",
@@ -9955,7 +10084,7 @@
       ],
       "category": "B",
       "score": 3,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
       ],
@@ -9979,7 +10108,7 @@
       ],
       "category": "A",
       "score": 19,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -9996,7 +10125,7 @@
       ],
       "category": "A",
       "score": 0,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "WEBCOATS": {
       "ticker": "WEBCOATS",
@@ -10014,7 +10143,7 @@
       ],
       "category": "Y",
       "score": 11,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "📊 Near 5Y high (93th percentile)"
       ],
@@ -10027,27 +10156,30 @@
     "WMSHIPYARD": {
       "ticker": "WMSHIPYARD",
       "name": "Western Marine Shipyard Limited",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
+      "action": "sell",
+      "label": "Consider Selling",
+      "labelBn": "বিক্রির কথা ভাবুন",
       "reason": "36% below NAV (৳16.2). Strong 1M momentum (+22.6%).",
       "reasonBn": "NAV-র 36% নিচে (৳16.2)। শক্তিশালী ১-মাস গতি (+22.6%)।",
       "signals": [
         "z_category",
+        "negative_eps",
         "nav_discount",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": 1,
-      "generatedAt": "2026-08-04",
+      "score": -9,
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
+        "⚠️ Negative EPS (৳-0.02)",
         "⚠️ Last dividend: 0% in 2020 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
+        "⚠️ নেতিবাচক ইপিএস (৳-0.02)",
         "⚠️ শেষ লভ্যাংশ: 0% (2020 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -10065,7 +10197,7 @@
       ],
       "category": "Y",
       "score": 8,
-      "generatedAt": "2026-08-04"
+      "generatedAt": "2026-08-05"
     },
     "YPL": {
       "ticker": "YPL",
@@ -10085,7 +10217,7 @@
       ],
       "category": "Z",
       "score": -19,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.55)",
@@ -10113,7 +10245,7 @@
       ],
       "category": "Y",
       "score": -6,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Last dividend: 5% in 2024 (over a year ago)"
       ],
@@ -10138,7 +10270,7 @@
       ],
       "category": "Z",
       "score": -12,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.55)",
@@ -10167,7 +10299,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-2.58)",
@@ -10196,7 +10328,7 @@
       ],
       "category": "Z",
       "score": -13,
-      "generatedAt": "2026-08-04",
+      "generatedAt": "2026-08-05",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-78.87)",
