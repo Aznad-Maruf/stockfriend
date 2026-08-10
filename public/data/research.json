@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T06:17:20.872832",
+  "generated_at": "2026-08-10T08:34:51.238445",
   "total_analyzed": 424,
   "stocks_with_signals": 424,
   "overrides": {
@@ -9,8 +9,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (8.6x) with positive earnings. 42% below NAV (৳37.0). Strong 1M momentum (+35.2%).",
-      "reasonBn": "কম PE (8.6x) ইতিবাচক আয়ের সাথে। NAV-র 42% নিচে (৳37.0)। শক্তিশালী ১-মাস গতি (+35.2%)।",
+      "reason": "Low PE (8.6x) with positive earnings. 43% below NAV (৳37.0). Strong 1M momentum (+32.1%).",
+      "reasonBn": "কম PE (8.6x) ইতিবাচক আয়ের সাথে। NAV-র 43% নিচে (৳37.0)। শক্তিশালী ১-মাস গতি (+32.1%)।",
       "signals": [
         "z_category",
         "cheap_pe",
@@ -146,8 +146,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "30% below NAV (৳33.6). Dividend: 10% (≈৳1.0/share) (2025). Yield: 6.6%. Strong 1M momentum (+26.9%).",
-      "reasonBn": "NAV-র 30% নিচে (৳33.6)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 6.6%। শক্তিশালী ১-মাস গতি (+26.9%)।",
+      "reason": "30% below NAV (৳33.6). Dividend: 10% (≈৳1.0/share) (2025). Yield: 6.6%. Strong 1M momentum (+27.4%).",
+      "reasonBn": "NAV-র 30% নিচে (৳33.6)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 6.6%। শক্তিশালী ১-মাস গতি (+27.4%)।",
       "signals": [
         "nav_discount",
         "high_dividend",
@@ -203,8 +203,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 25% (≈৳2.5/share) (2025). Yield: 2.0%. Strong 1M momentum (+21.6%).",
-      "reasonBn": "লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 2.0%। শক্তিশালী ১-মাস গতি (+21.6%)।",
+      "reason": "Dividend: 25% (≈৳2.5/share) (2025). Yield: 2.0%. Strong 1M momentum (+21.9%).",
+      "reasonBn": "লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 2.0%। শক্তিশালী ১-মাস গতি (+21.9%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
@@ -215,10 +215,10 @@
       "score": 8,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (93th percentile)"
+        "📊 Near 5Y high (94th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (93তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (94তম পার্সেন্টাইল)"
       ]
     },
     "ACMELAB": {
@@ -299,8 +299,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+11.7%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+11.7%)।",
+      "reason": "Strong 1M momentum (+12.4%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+12.4%)।",
       "signals": [
         "strong_momentum"
       ],
@@ -367,8 +367,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "36% below NAV (৳47.6). Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.4%. Strong 1M momentum (+10.5%).",
-      "reasonBn": "NAV-র 36% নিচে (৳47.6)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.4%। শক্তিশালী ১-মাস গতি (+10.5%)।",
+      "reason": "36% below NAV (৳47.6). Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.4%. Strong 1M momentum (+10.1%).",
+      "reasonBn": "NAV-র 36% নিচে (৳47.6)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.4%। শক্তিশালী ১-মাস গতি (+10.1%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -396,8 +396,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 2% (≈৳0.25/share) (2025). Yield: 0.9%. Strong 1M momentum (+20.5%).",
-      "reasonBn": "লভ্যাংশ: 2% (≈৳0.25/share) (2025)। ইয়েল্ড: 0.9%। শক্তিশালী ১-মাস গতি (+20.5%)।",
+      "reason": "Dividend: 2% (≈৳0.25/share) (2025). Yield: 0.9%. Strong 1M momentum (+20.9%).",
+      "reasonBn": "লভ্যাংশ: 2% (≈৳0.25/share) (2025)। ইয়েল্ড: 0.9%। শক্তিশালী ১-মাস গতি (+20.9%)।",
       "signals": [
         "b_category",
         "overvalued_5y",
@@ -423,8 +423,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+39.5%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+39.5%)।",
+      "reason": "Strong 1M momentum (+42.1%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+42.1%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -446,8 +446,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "38% below NAV (৳10.1). Strong 1M momentum (+47.6%).",
-      "reasonBn": "NAV-র 38% নিচে (৳10.1)। শক্তিশালী ১-মাস গতি (+47.6%)।",
+      "reason": "35% below NAV (৳10.1). Strong 1M momentum (+54.8%).",
+      "reasonBn": "NAV-র 35% নিচে (৳10.1)। শক্তিশালী ১-মাস গতি (+54.8%)।",
       "signals": [
         "nav_discount",
         "stale_dividend",
@@ -527,8 +527,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "At 11th percentile of 5Y range (historically cheap). Strong 1M momentum (+22.7%).",
-      "reasonBn": "৫ বছরের 11তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+22.7%)।",
+      "reason": "At 10th percentile of 5Y range (historically cheap). Strong 1M momentum (+20.4%).",
+      "reasonBn": "৫ বছরের 10তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+20.4%)।",
       "signals": [
         "z_category",
         "undervalued_5y",
@@ -553,8 +553,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "63% below NAV (৳15.2). At 17th percentile of 5Y range (historically cheap).",
-      "reasonBn": "NAV-র 63% নিচে (৳15.2)। ৫ বছরের 17তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "64% below NAV (৳15.2). At 15th percentile of 5Y range (historically cheap).",
+      "reasonBn": "NAV-র 64% নিচে (৳15.2)। ৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "nav_discount",
@@ -583,8 +583,8 @@
       "action": "sell",
       "label": "Sell",
       "labelBn": "বিক্রি করুন",
-      "reason": "Strong 1M momentum (+35.7%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+35.7%)।",
+      "reason": "Strong 1M momentum (+38.1%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+38.1%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -599,13 +599,13 @@
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.18)",
-        "📊 Near 5Y high (83th percentile)",
+        "📊 Near 5Y high (84th percentile)",
         "⚠️ Last dividend: 1% in 2022 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
         "⚠️ নেতিবাচক ইপিএস (৳-0.18)",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (83তম পার্সেন্টাইল)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (84তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 1% (2022 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -615,8 +615,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 12% (≈৳1.15/share) (2025). Yield: 4.8%. Strong 1M momentum (+26.1%).",
-      "reasonBn": "লভ্যাংশ: 12% (≈৳1.15/share) (2025)। ইয়েল্ড: 4.8%। শক্তিশালী ১-মাস গতি (+26.1%)।",
+      "reason": "Dividend: 12% (≈৳1.15/share) (2025). Yield: 4.8%. Strong 1M momentum (+27.1%).",
+      "reasonBn": "লভ্যাংশ: 12% (≈৳1.15/share) (2025)। ইয়েল্ড: 4.8%। শক্তিশালী ১-মাস গতি (+27.1%)।",
       "signals": [
         "overvalued_5y",
         "high_dividend",
@@ -639,24 +639,16 @@
       "ticker": "AMBEEPHA",
       "name": "Ambee Pharmaceuticals PLC",
       "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
+      "label": "Hold",
+      "labelBn": "ধরে রাখুন",
       "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 0.1%.",
       "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 0.1%।",
       "signals": [
-        "overvalued_5y",
-        "has_dividend",
-        "positive_momentum"
+        "has_dividend"
       ],
       "category": "A",
-      "score": -1,
-      "generatedAt": "2026-08-10",
-      "warnings": [
-        "📊 Near 5Y high (81th percentile)"
-      ],
-      "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (81তম পার্সেন্টাইল)"
-      ]
+      "score": 0,
+      "generatedAt": "2026-08-10"
     },
     "AMCL(PRAN)": {
       "ticker": "AMCL(PRAN)",
@@ -705,8 +697,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+66.5%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+66.5%)।",
+      "reason": "Strong 1M momentum (+65.6%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+65.6%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -904,8 +896,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+36.0%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+36.0%)।",
+      "reason": "Strong 1M momentum (+32.0%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+32.0%)।",
       "signals": [
         "negative_eps",
         "strong_momentum",
@@ -957,8 +949,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "At 6th percentile of 5Y range (historically cheap).",
-      "reasonBn": "৫ বছরের 6তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "At 0th percentile of 5Y range (historically cheap).",
+      "reasonBn": "৫ বছরের 0তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "crash",
         "undervalued_5y"
@@ -979,8 +971,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+19.9%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+19.9%)।",
+      "reason": "Strong 1M momentum (+18.9%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+18.9%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -1030,8 +1022,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (13.8x). Dividend: 10% (≈৳1.0/share) (2025). Yield: 6.4%. Strong 1M momentum (+29.1%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (13.8x)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 6.4%। শক্তিশালী ১-মাস গতি (+29.1%)।",
+      "reason": "Reasonable PE (13.8x). Dividend: 10% (≈৳1.0/share) (2025). Yield: 6.4%. Strong 1M momentum (+29.6%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.8x)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 6.4%। শক্তিশালী ১-মাস গতি (+29.6%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
@@ -1057,8 +1049,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.7%. Strong 1M momentum (+18.5%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.7%। শক্তিশালী ১-মাস গতি (+18.5%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.7%. Strong 1M momentum (+19.8%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.7%। শক্তিশালী ১-মাস গতি (+19.8%)।",
       "signals": [
         "has_dividend",
         "strong_momentum"
@@ -1075,8 +1067,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 14% (≈৳1.4/share) (2025). Yield: 4.6%. Strong 1M momentum (+27.6%).",
-      "reasonBn": "লভ্যাংশ: 14% (≈৳1.4/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+27.6%)।",
+      "reason": "Dividend: 14% (≈৳1.4/share) (2025). Yield: 4.6%. Strong 1M momentum (+28.1%).",
+      "reasonBn": "লভ্যাংশ: 14% (≈৳1.4/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+28.1%)।",
       "signals": [
         "high_dividend",
         "strong_momentum",
@@ -1099,11 +1091,10 @@
       "signals": [
         "overvalued_5y",
         "has_dividend",
-        "positive_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 5,
+      "score": 3,
       "generatedAt": "2026-08-10",
       "warnings": [
         "📊 Near 5Y high (90th percentile)"
@@ -1142,8 +1133,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+28.7%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+28.7%)।",
+      "reason": "Strong 1M momentum (+29.4%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+29.4%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -1171,8 +1162,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+35.1%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+35.1%)।",
+      "reason": "Strong 1M momentum (+36.2%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+36.2%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -1212,11 +1203,11 @@
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
-        "📊 Near 5Y high (90th percentile)"
+        "📊 Near 5Y high (89th percentile)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (90তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (89তম পার্সেন্টাইল)"
       ]
     },
     "BANKASIA": {
@@ -1225,8 +1216,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (5.6x) with positive earnings. 35% below NAV (৳27.4). Dividend: 8% (≈৳0.85/share) (2025). Yield: 4.7%.",
-      "reasonBn": "কম PE (5.6x) ইতিবাচক আয়ের সাথে। NAV-র 35% নিচে (৳27.4)। লভ্যাংশ: 8% (≈৳0.85/share) (2025)। ইয়েল্ড: 4.7%।",
+      "reason": "Low PE (5.6x) with positive earnings. 34% below NAV (৳27.4). Dividend: 8% (≈৳0.85/share) (2025). Yield: 4.7%.",
+      "reasonBn": "কম PE (5.6x) ইতিবাচক আয়ের সাথে। NAV-র 34% নিচে (৳27.4)। লভ্যাংশ: 8% (≈৳0.85/share) (2025)। ইয়েল্ড: 4.7%।",
       "signals": [
         "cheap_pe",
         "nav_discount",
@@ -1336,8 +1327,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+25.2%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+25.2%)।",
+      "reason": "Strong 1M momentum (+24.4%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+24.4%)।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -1421,8 +1412,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.1%. Strong 1M momentum (+15.6%).",
-      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.1%। শক্তিশালী ১-মাস গতি (+15.6%)।",
+      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.1%. Strong 1M momentum (+14.5%).",
+      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.1%। শক্তিশালী ১-মাস গতি (+14.5%)।",
       "signals": [
         "has_dividend",
         "strong_momentum",
@@ -1438,8 +1429,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+19.3%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+19.3%)।",
+      "reason": "Strong 1M momentum (+18.4%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+18.4%)।",
       "signals": [
         "z_category",
         "stale_dividend",
@@ -1489,10 +1480,10 @@
       "score": 0,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (82th percentile)"
+        "📊 Near 5Y high (81th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (82তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (81তম পার্সেন্টাইল)"
       ]
     },
     "BDTHAI": {
@@ -1582,8 +1573,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "At 17th percentile of 5Y range (historically cheap). Strong 1M momentum (+13.2%).",
-      "reasonBn": "৫ বছরের 17তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+13.2%)।",
+      "reason": "At 17th percentile of 5Y range (historically cheap). Strong 1M momentum (+12.5%).",
+      "reasonBn": "৫ বছরের 17তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+12.5%)।",
       "signals": [
         "z_category",
         "undervalued_5y",
@@ -1626,8 +1617,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+17.5%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+17.5%)।",
+      "reason": "Strong 1M momentum (+17.6%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+17.6%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -1735,8 +1726,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "73% below NAV (৳95.2). At 1th percentile of 5Y range (historically cheap). Potential recovery play: strong value despite risks.",
-      "reasonBn": "NAV-র 73% নিচে (৳95.2)। ৫ বছরের 1তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। সম্ভাব্য পুনরুদ্ধার: ঝুঁকি সত্ত্বেও শক্তিশালী মূল্যায়ন।",
+      "reason": "71% below NAV (৳95.2). At 2th percentile of 5Y range (historically cheap). Potential recovery play: strong value despite risks.",
+      "reasonBn": "NAV-র 71% নিচে (৳95.2)। ৫ বছরের 2তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। সম্ভাব্য পুনরুদ্ধার: ঝুঁকি সত্ত্বেও শক্তিশালী মূল্যায়ন।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -1769,8 +1760,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 11% (≈৳1.1/share) (2025). Yield: 3.6%. Strong 1M momentum (+22.2%).",
-      "reasonBn": "লভ্যাংশ: 11% (≈৳1.1/share) (2025)। ইয়েল্ড: 3.6%। শক্তিশালী ১-মাস গতি (+22.2%)।",
+      "reason": "Dividend: 11% (≈৳1.1/share) (2025). Yield: 3.6%. Strong 1M momentum (+24.4%).",
+      "reasonBn": "লভ্যাংশ: 11% (≈৳1.1/share) (2025)। ইয়েল্ড: 3.6%। শক্তিশালী ১-মাস গতি (+24.4%)।",
       "signals": [
         "has_dividend",
         "strong_momentum",
@@ -1788,17 +1779,17 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "At 17th percentile of 5Y range (historically cheap). Strong 1M momentum (+11.9%).",
-      "reasonBn": "৫ বছরের 17তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+11.9%)।",
+      "reason": "At 17th percentile of 5Y range (historically cheap).",
+      "reasonBn": "৫ বছরের 17তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "negative_eps",
         "undervalued_5y",
-        "strong_momentum",
+        "positive_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": -4,
+      "score": -7,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
@@ -1815,8 +1806,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 22% (≈৳2.2/share) (2025). Yield: 4.9%. Strong 1M momentum (+31.7%).",
-      "reasonBn": "লভ্যাংশ: 22% (≈৳2.2/share) (2025)। ইয়েল্ড: 4.9%। শক্তিশালী ১-মাস গতি (+31.7%)।",
+      "reason": "Dividend: 22% (≈৳2.2/share) (2025). Yield: 4.9%. Strong 1M momentum (+30.7%).",
+      "reasonBn": "লভ্যাংশ: 22% (≈৳2.2/share) (2025)। ইয়েল্ড: 4.9%। শক্তিশালী ১-মাস গতি (+30.7%)।",
       "signals": [
         "overvalued_5y",
         "high_dividend",
@@ -1872,8 +1863,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 2% (≈৳0.2/share) (2025). Yield: 1.4%. Strong 1M momentum (+29.1%).",
-      "reasonBn": "লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 1.4%। শক্তিশালী ১-মাস গতি (+29.1%)।",
+      "reason": "Dividend: 2% (≈৳0.2/share) (2025). Yield: 1.4%. Strong 1M momentum (+29.7%).",
+      "reasonBn": "লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 1.4%। শক্তিশালী ১-মাস গতি (+29.7%)।",
       "signals": [
         "b_category",
         "has_dividend",
@@ -1919,8 +1910,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (5.9x) with positive earnings. Dividend: 25% (≈৳2.5/share) (2025). Yield: 2.8%. Strong 1M momentum (+17.9%).",
-      "reasonBn": "কম PE (5.9x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 2.8%। শক্তিশালী ১-মাস গতি (+17.9%)।",
+      "reason": "Low PE (5.9x) with positive earnings. Dividend: 25% (≈৳2.5/share) (2025). Yield: 2.8%. Strong 1M momentum (+19.6%).",
+      "reasonBn": "কম PE (5.9x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 2.8%। শক্তিশালী ১-মাস গতি (+19.6%)।",
       "signals": [
         "cheap_pe",
         "has_dividend",
@@ -1936,8 +1927,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 40% (≈৳4.0/share) (2025). Yield: 3.2%. Strong 1M momentum (+12.3%).",
-      "reasonBn": "লভ্যাংশ: 40% (≈৳4.0/share) (2025)। ইয়েল্ড: 3.2%। শক্তিশালী ১-মাস গতি (+12.3%)।",
+      "reason": "Dividend: 40% (≈৳4.0/share) (2025). Yield: 3.2%. Strong 1M momentum (+12.7%).",
+      "reasonBn": "লভ্যাংশ: 40% (≈৳4.0/share) (2025)। ইয়েল্ড: 3.2%। শক্তিশালী ১-মাস গতি (+12.7%)।",
       "signals": [
         "has_dividend",
         "strong_momentum"
@@ -1954,17 +1945,24 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (4.7x) with positive earnings. 41% below NAV (৳166.8). Dividend: 50% (≈৳5.0/share) (2025). Yield: 6.6%. Strong 1M momentum (+15.5%).",
-      "reasonBn": "কম PE (4.7x) ইতিবাচক আয়ের সাথে। NAV-র 41% নিচে (৳166.8)। লভ্যাংশ: 50% (≈৳5.0/share) (2025)। ইয়েল্ড: 6.6%। শক্তিশালী ১-মাস গতি (+15.5%)।",
+      "reason": "Low PE (4.7x) with positive earnings. 40% below NAV (৳166.8). Dividend: 50% (≈৳5.0/share) (2025). Yield: 6.6%. Strong 1M momentum (+16.7%).",
+      "reasonBn": "কম PE (4.7x) ইতিবাচক আয়ের সাথে। NAV-র 40% নিচে (৳166.8)। লভ্যাংশ: 50% (≈৳5.0/share) (2025)। ইয়েল্ড: 6.6%। শক্তিশালী ১-মাস গতি (+16.7%)।",
       "signals": [
+        "overvalued_5y",
         "cheap_pe",
         "nav_discount",
         "high_dividend",
         "strong_momentum"
       ],
       "category": "A",
-      "score": 31,
+      "score": 28,
       "generatedAt": "2026-08-10",
+      "warnings": [
+        "📊 Near 5Y high (82th percentile)"
+      ],
+      "warningsBn": [
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (82তম পার্সেন্টাইল)"
+      ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -1974,8 +1972,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (6.9x) with positive earnings. Dividend: 50% (≈৳5.0/share) (2025). Yield: 9.0%. Strong 1M momentum (+31.7%).",
-      "reasonBn": "কম PE (6.9x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 50% (≈৳5.0/share) (2025)। ইয়েল্ড: 9.0%। শক্তিশালী ১-মাস গতি (+31.7%)।",
+      "reason": "Low PE (6.9x) with positive earnings. Dividend: 50% (≈৳5.0/share) (2025). Yield: 9.0%. Strong 1M momentum (+34.2%).",
+      "reasonBn": "কম PE (6.9x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 50% (≈৳5.0/share) (2025)। ইয়েল্ড: 9.0%। শক্তিশালী ১-মাস গতি (+34.2%)।",
       "signals": [
         "overvalued_5y",
         "cheap_pe",
@@ -1987,10 +1985,10 @@
       "score": 27,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (98th percentile)"
+        "📊 Near 5Y high (99th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (98তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (99তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -2001,8 +1999,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Reasonable PE (11.0x). Strong 1M momentum (+17.1%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (11.0x)। শক্তিশালী ১-মাস গতি (+17.1%)।",
+      "reason": "Reasonable PE (11.0x). Strong 1M momentum (+17.9%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (11.0x)। শক্তিশালী ১-মাস গতি (+17.9%)।",
       "signals": [
         "fair_pe",
         "stale_dividend",
@@ -2049,8 +2047,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Strong 1M momentum (+51.4%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+51.4%)।",
+      "reason": "Strong 1M momentum (+55.7%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+55.7%)।",
       "signals": [
         "strong_momentum",
         "strong_6m_momentum"
@@ -2077,12 +2075,12 @@
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Negative EPS (৳-1.15)",
-        "📊 Near 5Y high (89th percentile)",
+        "📊 Near 5Y high (90th percentile)",
         "⚠️ Last dividend: 6% in 2023 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ নেতিবাচক ইপিএস (৳-1.15)",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (89তম পার্সেন্টাইল)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (90তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 6% (2023 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -2092,8 +2090,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+50.5%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+50.5%)।",
+      "reason": "Strong 1M momentum (+49.5%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+49.5%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -2156,8 +2154,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+34.9%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+34.9%)।",
+      "reason": "Strong 1M momentum (+36.1%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+36.1%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -2212,8 +2210,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 1.1%. Strong 1M momentum (+11.5%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 1.1%। শক্তিশালী ১-মাস গতি (+11.5%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 1.1%. Strong 1M momentum (+15.4%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 1.1%। শক্তিশালী ১-মাস গতি (+15.4%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
@@ -2261,19 +2259,18 @@
       "ticker": "CNATEX",
       "name": "C & A Textiles Limited",
       "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "At 19th percentile of 5Y range (historically cheap).",
-      "reasonBn": "৫ বছরের 19তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
+      "reason": "At 15th percentile of 5Y range (historically cheap).",
+      "reasonBn": "৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "undervalued_5y",
         "stale_dividend",
-        "positive_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": 0,
+      "score": -2,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
@@ -2290,16 +2287,15 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (5.9x) with positive earnings. 25% below NAV (৳88.7). Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.0%. Strong 1M momentum (+15.3%).",
-      "reasonBn": "কম PE (5.9x) ইতিবাচক আয়ের সাথে। NAV-র 25% নিচে (৳88.7)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.0%। শক্তিশালী ১-মাস গতি (+15.3%)।",
+      "reason": "Low PE (5.9x) with positive earnings. Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.0%. Strong 1M momentum (+16.0%).",
+      "reasonBn": "কম PE (5.9x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.0%। শক্তিশালী ১-মাস গতি (+16.0%)।",
       "signals": [
         "cheap_pe",
-        "nav_discount",
         "has_dividend",
         "strong_momentum"
       ],
       "category": "A",
-      "score": 24,
+      "score": 20,
       "generatedAt": "2026-08-10"
     },
     "CONTININS": {
@@ -2308,8 +2304,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+16.0%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+16.0%)।",
+      "reason": "Strong 1M momentum (+17.3%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+17.3%)।",
       "signals": [
         "b_category",
         "stale_dividend",
@@ -2361,18 +2357,12 @@
       "reason": "Dividend: 10% (≈৳1.05/share) (2025). Yield: 3.7%.",
       "reasonBn": "লভ্যাংশ: 10% (≈৳1.05/share) (2025)। ইয়েল্ড: 3.7%।",
       "signals": [
-        "overvalued_5y",
+        "weak_momentum",
         "has_dividend"
       ],
       "category": "Y",
       "score": 3,
       "generatedAt": "2026-08-10",
-      "warnings": [
-        "📊 Near 5Y high (83th percentile)"
-      ],
-      "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (83তম পার্সেন্টাইল)"
-      ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -2382,8 +2372,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (14.8x). Dividend: 21% (≈৳2.1/share) (2025). Yield: 4.5%. Strong 1M momentum (+35.2%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.8x)। লভ্যাংশ: 21% (≈৳2.1/share) (2025)। ইয়েল্ড: 4.5%। শক্তিশালী ১-মাস গতি (+35.2%)।",
+      "reason": "Reasonable PE (14.8x). Dividend: 21% (≈৳2.1/share) (2025). Yield: 4.5%. Strong 1M momentum (+36.4%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (14.8x)। লভ্যাংশ: 21% (≈৳2.1/share) (2025)। ইয়েল্ড: 4.5%। শক্তিশালী ১-মাস গতি (+36.4%)।",
       "signals": [
         "fair_pe",
         "high_dividend",
@@ -2417,8 +2407,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 11% (≈৳1.1/share) (2025). Yield: 0.8%. Strong 1M momentum (+11.3%).",
-      "reasonBn": "লভ্যাংশ: 11% (≈৳1.1/share) (2025)। ইয়েল্ড: 0.8%। শক্তিশালী ১-মাস গতি (+11.3%)।",
+      "reason": "Dividend: 11% (≈৳1.1/share) (2025). Yield: 0.8%. Strong 1M momentum (+10.9%).",
+      "reasonBn": "লভ্যাংশ: 11% (≈৳1.1/share) (2025)। ইয়েল্ড: 0.8%। শক্তিশালী ১-মাস গতি (+10.9%)।",
       "signals": [
         "has_dividend",
         "strong_momentum"
@@ -2433,8 +2423,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "34% below NAV (৳25.7). Strong 1M momentum (+13.3%).",
-      "reasonBn": "NAV-র 34% নিচে (৳25.7)। শক্তিশালী ১-মাস গতি (+13.3%)।",
+      "reason": "35% below NAV (৳25.7). Strong 1M momentum (+11.3%).",
+      "reasonBn": "NAV-র 35% নিচে (৳25.7)। শক্তিশালী ১-মাস গতি (+11.3%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -2462,8 +2452,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+17.9%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+17.9%)।",
+      "reason": "Strong 1M momentum (+16.7%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+16.7%)।",
       "signals": [
         "b_category",
         "overvalued_5y",
@@ -2510,8 +2500,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "45% below NAV (৳10.3). Strong 1M momentum (+14.0%).",
-      "reasonBn": "NAV-র 45% নিচে (৳10.3)। শক্তিশালী ১-মাস গতি (+14.0%)।",
+      "reason": "44% below NAV (৳10.3). Strong 1M momentum (+16.0%).",
+      "reasonBn": "NAV-র 44% নিচে (৳10.3)। শক্তিশালী ১-মাস গতি (+16.0%)।",
       "signals": [
         "nav_discount",
         "stale_dividend",
@@ -2554,8 +2544,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 35% (≈৳3.5/share) (2025). Yield: 9.2%. Strong 1M momentum (+10.4%).",
-      "reasonBn": "লভ্যাংশ: 35% (≈৳3.5/share) (2025)। ইয়েল্ড: 9.2%। শক্তিশালী ১-মাস গতি (+10.4%)।",
+      "reason": "Dividend: 35% (≈৳3.5/share) (2025). Yield: 9.2%. Strong 1M momentum (+10.1%).",
+      "reasonBn": "লভ্যাংশ: 35% (≈৳3.5/share) (2025)। ইয়েল্ড: 9.2%। শক্তিশালী ১-মাস গতি (+10.1%)।",
       "signals": [
         "high_dividend",
         "strong_momentum"
@@ -2599,8 +2589,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "27% below NAV (৳35.3). Strong 1M momentum (+21.1%).",
-      "reasonBn": "NAV-র 27% নিচে (৳35.3)। শক্তিশালী ১-মাস গতি (+21.1%)।",
+      "reason": "28% below NAV (৳35.3). Strong 1M momentum (+20.2%).",
+      "reasonBn": "NAV-র 28% নিচে (৳35.3)। শক্তিশালী ১-মাস গতি (+20.2%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -2628,8 +2618,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+19.1%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+19.1%)।",
+      "reason": "Strong 1M momentum (+20.2%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+20.2%)।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -2657,26 +2647,29 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+46.4%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+46.4%)।",
+      "reason": "Strong 1M momentum (+52.8%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+52.8%)।",
       "signals": [
         "b_category",
         "negative_eps",
+        "overvalued_5y",
         "stale_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "B",
-      "score": -10,
+      "score": -13,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.40)",
+        "📊 Near 5Y high (82th percentile)",
         "⚠️ Last dividend: 1% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
         "⚠️ নেতিবাচক ইপিএস (৳-0.40)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (82তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 1% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -2705,8 +2698,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.8%. Strong 1M momentum (+31.4%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.8%। শক্তিশালী ১-মাস গতি (+31.4%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.8%. Strong 1M momentum (+35.5%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.8%। শক্তিশালী ১-মাস গতি (+35.5%)।",
       "signals": [
         "has_dividend",
         "strong_momentum",
@@ -2749,8 +2742,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (10.8x). 34% below NAV (৳52.4). Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.3%. Strong 1M momentum (+20.1%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (10.8x)। NAV-র 34% নিচে (৳52.4)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.3%। শক্তিশালী ১-মাস গতি (+20.1%)।",
+      "reason": "Reasonable PE (10.8x). 33% below NAV (৳52.4). Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.3%. Strong 1M momentum (+21.1%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (10.8x)। NAV-র 33% নিচে (৳52.4)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.3%। শক্তিশালী ১-মাস গতি (+21.1%)।",
       "signals": [
         "fair_pe",
         "nav_discount",
@@ -2770,8 +2763,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 3% (≈৳0.3/share) (2025). Yield: 0.3%. Strong 1M momentum (+32.7%).",
-      "reasonBn": "লভ্যাংশ: 3% (≈৳0.3/share) (2025)। ইয়েল্ড: 0.3%। শক্তিশালী ১-মাস গতি (+32.7%)।",
+      "reason": "Dividend: 3% (≈৳0.3/share) (2025). Yield: 0.3%. Strong 1M momentum (+33.4%).",
+      "reasonBn": "লভ্যাংশ: 3% (≈৳0.3/share) (2025)। ইয়েল্ড: 0.3%। শক্তিশালী ১-মাস গতি (+33.4%)।",
       "signals": [
         "b_category",
         "overvalued_5y",
@@ -2822,8 +2815,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Dividend: 3% (≈৳0.3/share) (2025). Yield: 0.4%. Strong 1M momentum (+55.5%).",
-      "reasonBn": "লভ্যাংশ: 3% (≈৳0.3/share) (2025)। ইয়েল্ড: 0.4%। শক্তিশালী ১-মাস গতি (+55.5%)।",
+      "reason": "Dividend: 3% (≈৳0.3/share) (2025). Yield: 0.4%. Strong 1M momentum (+52.4%).",
+      "reasonBn": "লভ্যাংশ: 3% (≈৳0.3/share) (2025)। ইয়েল্ড: 0.4%। শক্তিশালী ১-মাস গতি (+52.4%)।",
       "signals": [
         "z_category",
         "overvalued_5y",
@@ -2849,8 +2842,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (4.9x) with positive earnings. Dividend: 25% (≈৳2.5/share) (2025). Yield: 6.5%. Strong 1M momentum (+16.1%).",
-      "reasonBn": "কম PE (4.9x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 6.5%। শক্তিশালী ১-মাস গতি (+16.1%)।",
+      "reason": "Low PE (4.9x) with positive earnings. Dividend: 25% (≈৳2.5/share) (2025). Yield: 6.5%. Strong 1M momentum (+15.9%).",
+      "reasonBn": "কম PE (4.9x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 6.5%। শক্তিশালী ১-মাস গতি (+15.9%)।",
       "signals": [
         "cheap_pe",
         "high_dividend",
@@ -2868,8 +2861,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 15% (≈৳1.5/share) (2025). Yield: 3.0%. Strong 1M momentum (+18.3%).",
-      "reasonBn": "লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 3.0%। শক্তিশালী ১-মাস গতি (+18.3%)।",
+      "reason": "Dividend: 15% (≈৳1.5/share) (2025). Yield: 3.0%. Strong 1M momentum (+18.8%).",
+      "reasonBn": "লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 3.0%। শক্তিশালী ১-মাস গতি (+18.8%)।",
       "signals": [
         "has_dividend",
         "strong_momentum"
@@ -2886,8 +2879,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 5.4%. Strong 1M momentum (+30.9%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 5.4%। শক্তিশালী ১-মাস গতি (+30.9%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 5.4%. Strong 1M momentum (+34.4%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 5.4%। শক্তিশালী ১-মাস গতি (+34.4%)।",
       "signals": [
         "overvalued_5y",
         "high_dividend",
@@ -2898,10 +2891,10 @@
       "score": 15,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (82th percentile)"
+        "📊 Near 5Y high (83th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (82তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (83তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -2912,8 +2905,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 80% (≈৳8.0/share) (2025). Yield: 0.3%. Strong 1M momentum (+22.9%).",
-      "reasonBn": "লভ্যাংশ: 80% (≈৳8.0/share) (2025)। ইয়েল্ড: 0.3%। শক্তিশালী ১-মাস গতি (+22.9%)।",
+      "reason": "Dividend: 80% (≈৳8.0/share) (2025). Yield: 0.3%. Strong 1M momentum (+23.0%).",
+      "reasonBn": "লভ্যাংশ: 80% (≈৳8.0/share) (2025)। ইয়েল্ড: 0.3%। শক্তিশালী ১-মাস গতি (+23.0%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
@@ -2954,8 +2947,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "38% below NAV (৳7.9). Strong 1M momentum (+22.5%).",
-      "reasonBn": "NAV-র 38% নিচে (৳7.9)। শক্তিশালী ১-মাস গতি (+22.5%)।",
+      "reason": "36% below NAV (৳7.9). Strong 1M momentum (+25.0%).",
+      "reasonBn": "NAV-র 36% নিচে (৳7.9)। শক্তিশালী ১-মাস গতি (+25.0%)।",
       "signals": [
         "negative_eps",
         "nav_discount",
@@ -2979,10 +2972,10 @@
       "ticker": "EBLNRBMF",
       "name": "EBL NRB Mutual Fund",
       "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "50% below NAV (৳7.6). Strong 1M momentum (+15.2%).",
-      "reasonBn": "NAV-র 50% নিচে (৳7.6)। শক্তিশালী ১-মাস গতি (+15.2%)।",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
+      "reason": "49% below NAV (৳7.6). Strong 1M momentum (+18.2%).",
+      "reasonBn": "NAV-র 49% নিচে (৳7.6)। শক্তিশালী ১-মাস গতি (+18.2%)।",
       "signals": [
         "negative_eps",
         "nav_discount",
@@ -2991,7 +2984,7 @@
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 3,
+      "score": -1,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Negative EPS (৳-2.55)",
@@ -3008,8 +3001,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "59% below NAV (৳339.3). Strong 1M momentum (+15.2%).",
-      "reasonBn": "NAV-র 59% নিচে (৳339.3)। শক্তিশালী ১-মাস গতি (+15.2%)।",
+      "reason": "59% below NAV (৳339.3). Strong 1M momentum (+14.7%).",
+      "reasonBn": "NAV-র 59% নিচে (৳339.3)। শক্তিশালী ১-মাস গতি (+14.7%)।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -3062,8 +3055,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (11.3x). Dividend: 25% (≈৳2.5/share) (2025). Yield: 3.5%. Strong 1M momentum (+14.8%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (11.3x)। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 3.5%। শক্তিশালী ১-মাস গতি (+14.8%)।",
+      "reason": "Reasonable PE (11.3x). Dividend: 25% (≈৳2.5/share) (2025). Yield: 3.5%. Strong 1M momentum (+15.2%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (11.3x)। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 3.5%। শক্তিশালী ১-মাস গতি (+15.2%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
@@ -3088,8 +3081,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 1.8%. Strong 1M momentum (+25.6%).",
-      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 1.8%। শক্তিশালী ১-মাস গতি (+25.6%)।",
+      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 1.8%. Strong 1M momentum (+27.0%).",
+      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 1.8%। শক্তিশালী ১-মাস গতি (+27.0%)।",
       "signals": [
         "b_category",
         "has_dividend",
@@ -3111,8 +3104,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+76.5%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+76.5%)।",
+      "reason": "Strong 1M momentum (+77.1%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+77.1%)।",
       "signals": [
         "z_category",
         "stale_dividend",
@@ -3137,8 +3130,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (6.5x) with positive earnings. Dividend: 30% (≈৳3.0/share) (2025). Yield: 7.5%. Strong 1M momentum (+14.3%).",
-      "reasonBn": "কম PE (6.5x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 30% (≈৳3.0/share) (2025)। ইয়েল্ড: 7.5%। শক্তিশালী ১-মাস গতি (+14.3%)।",
+      "reason": "Low PE (6.5x) with positive earnings. Dividend: 30% (≈৳3.0/share) (2025). Yield: 7.5%. Strong 1M momentum (+15.7%).",
+      "reasonBn": "কম PE (6.5x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 30% (≈৳3.0/share) (2025)। ইয়েল্ড: 7.5%। শক্তিশালী ১-মাস গতি (+15.7%)।",
       "signals": [
         "overvalued_5y",
         "cheap_pe",
@@ -3163,8 +3156,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "38% below NAV (৳32.9). Dividend: 2% (≈৳0.2/share) (2025). Yield: 0.2%. Strong 1M momentum (+12.8%).",
-      "reasonBn": "NAV-র 38% নিচে (৳32.9)। লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 0.2%। শক্তিশালী ১-মাস গতি (+12.8%)।",
+      "reason": "38% below NAV (৳32.9). Dividend: 2% (≈৳0.2/share) (2025). Yield: 0.2%. Strong 1M momentum (+13.4%).",
+      "reasonBn": "NAV-র 38% নিচে (৳32.9)। লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 0.2%। শক্তিশালী ১-মাস গতি (+13.4%)।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -3211,8 +3204,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 2% (≈৳0.25/share) (2025). Yield: 2.8%. Strong 1M momentum (+29.4%).",
-      "reasonBn": "লভ্যাংশ: 2% (≈৳0.25/share) (2025)। ইয়েল্ড: 2.8%। শক্তিশালী ১-মাস গতি (+29.4%)।",
+      "reason": "Dividend: 2% (≈৳0.25/share) (2025). Yield: 2.8%. Strong 1M momentum (+28.4%).",
+      "reasonBn": "লভ্যাংশ: 2% (≈৳0.25/share) (2025)। ইয়েল্ড: 2.8%। শক্তিশালী ১-মাস গতি (+28.4%)।",
       "signals": [
         "b_category",
         "overvalued_5y",
@@ -3225,11 +3218,11 @@
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
-        "📊 Near 5Y high (94th percentile)"
+        "📊 Near 5Y high (93th percentile)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (94তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (93তম পার্সেন্টাইল)"
       ]
     },
     "EXIM1STMF": {
@@ -3238,8 +3231,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+91.7%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+91.7%)।",
+      "reason": "Strong 1M momentum (+94.4%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+94.4%)।",
       "signals": [
         "negative_eps",
         "overvalued_5y",
@@ -3295,11 +3288,10 @@
       "signals": [
         "z_category",
         "nav_discount",
-        "positive_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": 5,
+      "score": 3,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
@@ -3314,8 +3306,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "26% below NAV (৳32.5). Strong 1M momentum (+42.0%).",
-      "reasonBn": "NAV-র 26% নিচে (৳32.5)। শক্তিশালী ১-মাস গতি (+42.0%)।",
+      "reason": "26% below NAV (৳32.5). Strong 1M momentum (+41.4%).",
+      "reasonBn": "NAV-র 26% নিচে (৳32.5)। শক্তিশালী ১-মাস গতি (+41.4%)।",
       "signals": [
         "b_category",
         "overvalued_5y",
@@ -3373,8 +3365,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "At 11th percentile of 5Y range (historically cheap).",
-      "reasonBn": "৫ বছরের 11তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "At 10th percentile of 5Y range (historically cheap).",
+      "reasonBn": "৫ বছরের 10তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "undervalued_5y",
@@ -3426,8 +3418,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "54% below NAV (৳8.3). Strong 1M momentum (+18.8%).",
-      "reasonBn": "NAV-র 54% নিচে (৳8.3)। শক্তিশালী ১-মাস গতি (+18.8%)।",
+      "reason": "53% below NAV (৳8.3). Strong 1M momentum (+18.8%).",
+      "reasonBn": "NAV-র 53% নিচে (৳8.3)। শক্তিশালী ১-মাস গতি (+18.8%)।",
       "signals": [
         "negative_eps",
         "nav_discount",
@@ -3453,8 +3445,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+18.2%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+18.2%)।",
+      "reason": "Strong 1M momentum (+19.8%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+19.8%)।",
       "signals": [
         "overvalued_5y",
         "stale_dividend",
@@ -3465,11 +3457,11 @@
       "score": 2,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (83th percentile)",
+        "📊 Near 5Y high (84th percentile)",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (83তম পার্সেন্টাইল)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (84তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 10% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -3479,8 +3471,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (14.0x). Dividend: 12% (≈৳1.2/share) (2025). Yield: 7.6%. Strong 1M momentum (+66.7%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.0x)। লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 7.6%। শক্তিশালী ১-মাস গতি (+66.7%)।",
+      "reason": "Reasonable PE (14.0x). Dividend: 12% (≈৳1.2/share) (2025). Yield: 7.6%. Strong 1M momentum (+69.5%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (14.0x)। লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 7.6%। শক্তিশালী ১-মাস গতি (+69.5%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
@@ -3582,8 +3574,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 0% (≈৳0.05/share) (2025). Yield: 0.3%. Strong 1M momentum (+43.9%).",
-      "reasonBn": "লভ্যাংশ: 0% (≈৳0.05/share) (2025)। ইয়েল্ড: 0.3%। শক্তিশালী ১-মাস গতি (+43.9%)।",
+      "reason": "Dividend: 0% (≈৳0.05/share) (2025). Yield: 0.3%. Strong 1M momentum (+44.6%).",
+      "reasonBn": "লভ্যাংশ: 0% (≈৳0.05/share) (2025)। ইয়েল্ড: 0.3%। শক্তিশালী ১-মাস গতি (+44.6%)।",
       "signals": [
         "z_category",
         "has_dividend",
@@ -3606,8 +3598,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.8%. Strong 1M momentum (+37.1%).",
-      "reasonBn": "লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.8%। শক্তিশালী ১-মাস গতি (+37.1%)।",
+      "reason": "Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.8%. Strong 1M momentum (+37.9%).",
+      "reasonBn": "লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.8%। শক্তিশালী ১-মাস গতি (+37.9%)।",
       "signals": [
         "b_category",
         "has_dividend",
@@ -3737,17 +3729,17 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "74% below NAV (৳11.9).",
-      "reasonBn": "NAV-র 74% নিচে (৳11.9)।",
+      "reason": "73% below NAV (৳11.9). Strong 1M momentum (+10.3%).",
+      "reasonBn": "NAV-র 73% নিচে (৳11.9)। শক্তিশালী ১-মাস গতি (+10.3%)।",
       "signals": [
         "z_category",
         "nav_discount",
         "stale_dividend",
-        "positive_momentum",
+        "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": 2,
+      "score": 5,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
@@ -3764,8 +3756,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.9%. Strong 1M momentum (+20.0%).",
-      "reasonBn": "লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.9%। শক্তিশালী ১-মাস গতি (+20.0%)।",
+      "reason": "Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.9%. Strong 1M momentum (+19.2%).",
+      "reasonBn": "লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.9%। শক্তিশালী ১-মাস গতি (+19.2%)।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -3788,11 +3780,11 @@
     "GHCL": {
       "ticker": "GHCL",
       "name": "Global Heavy Chemicals Limited",
-      "action": "hold",
-      "label": "Hold with Caution",
-      "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "50% below NAV (৳47.9). Strong 1M momentum (+22.7%).",
-      "reasonBn": "NAV-র 50% নিচে (৳47.9)। শক্তিশালী ১-মাস গতি (+22.7%)।",
+      "action": "sell",
+      "label": "Consider Selling",
+      "labelBn": "বিক্রির কথা ভাবুন",
+      "reason": "50% below NAV (৳47.9). Strong 1M momentum (+23.7%).",
+      "reasonBn": "NAV-র 50% নিচে (৳47.9)। শক্তিশালী ১-মাস গতি (+23.7%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -3802,7 +3794,7 @@
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": -5,
+      "score": -9,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
@@ -3853,8 +3845,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+57.4%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+57.4%)।",
+      "reason": "Strong 1M momentum (+62.3%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+62.3%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -3876,8 +3868,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+40.7%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+40.7%)।",
+      "reason": "Strong 1M momentum (+42.0%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+42.0%)।",
       "signals": [
         "overvalued_5y",
         "stale_dividend",
@@ -3931,8 +3923,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (11.7x). At 15th percentile of 5Y range (historically cheap). Dividend: 215% (≈৳21.5/share) (2025). Yield: 8.3%.",
-      "reasonBn": "যুক্তিসঙ্গত PE (11.7x)। ৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 215% (≈৳21.5/share) (2025)। ইয়েল্ড: 8.3%।",
+      "reason": "Reasonable PE (11.7x). At 16th percentile of 5Y range (historically cheap). Dividend: 215% (≈৳21.5/share) (2025). Yield: 8.3%.",
+      "reasonBn": "যুক্তিসঙ্গত PE (11.7x)। ৫ বছরের 16তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 215% (≈৳21.5/share) (2025)। ইয়েল্ড: 8.3%।",
       "signals": [
         "fair_pe",
         "undervalued_5y",
@@ -3951,8 +3943,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "64% below NAV (৳51.7). At 17th percentile of 5Y range (historically cheap). Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.9%. Strong 1M momentum (+18.4%).",
-      "reasonBn": "NAV-র 64% নিচে (৳51.7)। ৫ বছরের 17তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.9%। শক্তিশালী ১-মাস গতি (+18.4%)।",
+      "reason": "64% below NAV (৳51.7). At 17th percentile of 5Y range (historically cheap). Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.9%. Strong 1M momentum (+17.7%).",
+      "reasonBn": "NAV-র 64% নিচে (৳51.7)। ৫ বছরের 17তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.9%। শক্তিশালী ১-মাস গতি (+17.7%)।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -4007,8 +3999,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 8% (≈৳0.75/share) (2025). Yield: 6.2%. Strong 1M momentum (+10.6%).",
-      "reasonBn": "লভ্যাংশ: 8% (≈৳0.75/share) (2025)। ইয়েল্ড: 6.2%। শক্তিশালী ১-মাস গতি (+10.6%)।",
+      "reason": "Dividend: 8% (≈৳0.75/share) (2025). Yield: 6.2%. Strong 1M momentum (+12.2%).",
+      "reasonBn": "লভ্যাংশ: 8% (≈৳0.75/share) (2025)। ইয়েল্ড: 6.2%। শক্তিশালী ১-মাস গতি (+12.2%)।",
       "signals": [
         "high_dividend",
         "strong_momentum"
@@ -4025,8 +4017,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "50% below NAV (৳10.2). Strong 1M momentum (+41.7%).",
-      "reasonBn": "NAV-র 50% নিচে (৳10.2)। শক্তিশালী ১-মাস গতি (+41.7%)।",
+      "reason": "49% below NAV (৳10.2). Strong 1M momentum (+44.4%).",
+      "reasonBn": "NAV-র 49% নিচে (৳10.2)। শক্তিশালী ১-মাস গতি (+44.4%)।",
       "signals": [
         "nav_discount",
         "stale_dividend",
@@ -4049,8 +4041,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (12.7x). Dividend: 27% (≈৳2.7/share) (2025). Yield: 5.0%. Strong 1M momentum (+16.5%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (12.7x)। লভ্যাংশ: 27% (≈৳2.7/share) (2025)। ইয়েল্ড: 5.0%। শক্তিশালী ১-মাস গতি (+16.5%)।",
+      "reason": "Reasonable PE (12.7x). Dividend: 27% (≈৳2.7/share) (2025). Yield: 5.0%. Strong 1M momentum (+17.8%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (12.7x)। লভ্যাংশ: 27% (≈৳2.7/share) (2025)। ইয়েল্ড: 5.0%। শক্তিশালী ১-মাস গতি (+17.8%)।",
       "signals": [
         "fair_pe",
         "high_dividend",
@@ -4111,11 +4103,11 @@
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
-        "📊 Near 5Y high (95th percentile)"
+        "📊 Near 5Y high (96th percentile)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (95তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (96তম পার্সেন্টাইল)"
       ]
     },
     "HAMI": {
@@ -4139,12 +4131,12 @@
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.76)",
-        "📊 Near 5Y high (86th percentile)"
+        "📊 Near 5Y high (85th percentile)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
         "⚠️ নেতিবাচক ইপিএস (৳-0.76)",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (86তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (85তম পার্সেন্টাইল)"
       ]
     },
     "HEIDELBCEM": {
@@ -4169,8 +4161,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "57% below NAV (৳37.7).",
-      "reasonBn": "NAV-র 57% নিচে (৳37.7)।",
+      "reason": "58% below NAV (৳37.7).",
+      "reasonBn": "NAV-র 58% নিচে (৳37.7)।",
       "signals": [
         "z_category",
         "nav_discount",
@@ -4240,8 +4232,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (13.8x). Dividend: 20% (≈৳2.0/share) (2025). Yield: 5.0%. Strong 1M momentum (+18.3%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (13.8x)। লভ্যাংশ: 20% (≈৳2.0/share) (2025)। ইয়েল্ড: 5.0%। শক্তিশালী ১-মাস গতি (+18.3%)।",
+      "reason": "Reasonable PE (13.8x). Dividend: 20% (≈৳2.0/share) (2025). Yield: 5.0%. Strong 1M momentum (+18.0%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.8x)। লভ্যাংশ: 20% (≈৳2.0/share) (2025)। ইয়েল্ড: 5.0%। শক্তিশালী ১-মাস গতি (+18.0%)।",
       "signals": [
         "fair_pe",
         "high_dividend",
@@ -4298,12 +4290,12 @@
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.32)",
-        "📊 Near 5Y high (84th percentile)"
+        "📊 Near 5Y high (86th percentile)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
         "⚠️ নেতিবাচক ইপিএস (৳-0.32)",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (84তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (86তম পার্সেন্টাইল)"
       ]
     },
     "ICB": {
@@ -4312,8 +4304,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "At 17th percentile of 5Y range (historically cheap). Strong 1M momentum (+27.6%).",
-      "reasonBn": "৫ বছরের 17তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+27.6%)।",
+      "reason": "At 16th percentile of 5Y range (historically cheap). Strong 1M momentum (+27.0%).",
+      "reasonBn": "৫ বছরের 16তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+27.0%)।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -4342,8 +4334,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+38.3%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+38.3%)।",
+      "reason": "Strong 1M momentum (+36.2%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+36.2%)।",
       "signals": [
         "negative_eps",
         "stale_dividend",
@@ -4368,8 +4360,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+32.8%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+32.8%)।",
+      "reason": "Strong 1M momentum (+34.3%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+34.3%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -4391,8 +4383,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+45.0%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+45.0%)।",
+      "reason": "Strong 1M momentum (+46.7%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+46.7%)।",
       "signals": [
         "negative_eps",
         "stale_dividend",
@@ -4443,8 +4435,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "At 7th percentile of 5Y range (historically cheap).",
-      "reasonBn": "৫ বছরের 7তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "At 11th percentile of 5Y range (historically cheap).",
+      "reasonBn": "৫ বছরের 11তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -4468,8 +4460,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+48.9%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+48.9%)।",
+      "reason": "Strong 1M momentum (+53.2%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+53.2%)।",
       "signals": [
         "negative_eps",
         "stale_dividend",
@@ -4494,8 +4486,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.5%. Strong 1M momentum (+35.1%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.5%। শক্তিশালী ১-মাস গতি (+35.1%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.5%. Strong 1M momentum (+37.6%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.5%। শক্তিশালী ১-মাস গতি (+37.6%)।",
       "signals": [
         "overvalued_5y",
         "high_dividend",
@@ -4506,10 +4498,10 @@
       "score": 11,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (95th percentile)"
+        "📊 Near 5Y high (96th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (95তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (96তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -4520,8 +4512,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (8.1x) with positive earnings. Dividend: 15% (≈৳1.5/share) (2025). Yield: 4.2%. Strong 1M momentum (+21.3%).",
-      "reasonBn": "কম PE (8.1x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 4.2%। শক্তিশালী ১-মাস গতি (+21.3%)।",
+      "reason": "Low PE (8.1x) with positive earnings. Dividend: 15% (≈৳1.5/share) (2025). Yield: 4.2%. Strong 1M momentum (+21.9%).",
+      "reasonBn": "কম PE (8.1x) ইতিবাচক আয়ের সাথে। লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 4.2%। শক্তিশালী ১-মাস গতি (+21.9%)।",
       "signals": [
         "cheap_pe",
         "high_dividend",
@@ -4539,8 +4531,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "27% below NAV (৳35.6). Dividend: 2% (≈৳0.2/share) (2025). Yield: 0.9%. Strong 1M momentum (+12.2%).",
-      "reasonBn": "NAV-র 27% নিচে (৳35.6)। লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 0.9%। শক্তিশালী ১-মাস গতি (+12.2%)।",
+      "reason": "27% below NAV (৳35.6). Dividend: 2% (≈৳0.2/share) (2025). Yield: 0.9%. Strong 1M momentum (+13.0%).",
+      "reasonBn": "NAV-র 27% নিচে (৳35.6)। লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 0.9%। শক্তিশালী ১-মাস গতি (+13.0%)।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -4567,8 +4559,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "At 6th percentile of 5Y range (historically cheap). Strong 1M momentum (+11.6%).",
-      "reasonBn": "৫ বছরের 6তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+11.6%)।",
+      "reason": "At 7th percentile of 5Y range (historically cheap). Strong 1M momentum (+11.6%).",
+      "reasonBn": "৫ বছরের 7তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+11.6%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -4623,8 +4615,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+38.1%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+38.1%)।",
+      "reason": "Strong 1M momentum (+40.5%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+40.5%)।",
       "signals": [
         "negative_eps",
         "stale_dividend",
@@ -4719,8 +4711,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Dividend: 1% (≈৳0.12/share) (2025). Yield: 0.6%. Strong 1M momentum (+35.1%).",
-      "reasonBn": "লভ্যাংশ: 1% (≈৳0.12/share) (2025)। ইয়েল্ড: 0.6%। শক্তিশালী ১-মাস গতি (+35.1%)।",
+      "reason": "Dividend: 1% (≈৳0.12/share) (2025). Yield: 0.6%. Strong 1M momentum (+35.6%).",
+      "reasonBn": "লভ্যাংশ: 1% (≈৳0.12/share) (2025)। ইয়েল্ড: 0.6%। শক্তিশালী ১-মাস গতি (+35.6%)।",
       "signals": [
         "z_category",
         "has_dividend",
@@ -4742,8 +4734,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.6%. Strong 1M momentum (+62.2%).",
-      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.6%। শক্তিশালী ১-মাস গতি (+62.2%)।",
+      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.6%. Strong 1M momentum (+61.1%).",
+      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.6%। শক্তিশালী ১-মাস গতি (+61.1%)।",
       "signals": [
         "has_dividend",
         "strong_momentum",
@@ -4786,8 +4778,8 @@
       "action": "sell",
       "label": "Sell",
       "labelBn": "বিক্রি করুন",
-      "reason": "Strong 1M momentum (+18.8%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+18.8%)।",
+      "reason": "Strong 1M momentum (+19.8%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+19.8%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -4814,8 +4806,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+48.3%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+48.3%)।",
+      "reason": "Strong 1M momentum (+49.4%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+49.4%)।",
       "signals": [
         "overvalued_5y",
         "stale_dividend",
@@ -4826,11 +4818,11 @@
       "score": 2,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (93th percentile)",
+        "📊 Near 5Y high (94th percentile)",
         "⚠️ Last dividend: 20% in 2024 (over a year ago)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (93তম পার্সেন্টাইল)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (94তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 20% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -4854,13 +4846,13 @@
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.43)",
-        "📊 Near 5Y high (80th percentile)",
+        "📊 Near 5Y high (81th percentile)",
         "⚠️ Last dividend: 0% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
         "⚠️ নেতিবাচক ইপিএস (৳-0.43)",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (80তম পার্সেন্টাইল)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (81তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 0% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -4870,8 +4862,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (13.1x). Dividend: 12% (≈৳1.2/share) (2025). Yield: 3.4%. Strong 1M momentum (+24.8%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (13.1x)। লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 3.4%। শক্তিশালী ১-মাস গতি (+24.8%)।",
+      "reason": "Reasonable PE (13.1x). Dividend: 12% (≈৳1.2/share) (2025). Yield: 3.4%. Strong 1M momentum (+27.7%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.1x)। লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 3.4%। শক্তিশালী ১-মাস গতি (+27.7%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
@@ -4883,10 +4875,10 @@
       "score": 16,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (93th percentile)"
+        "📊 Near 5Y high (94th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (93তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (94তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -4925,14 +4917,21 @@
       "reason": "Low PE (3.1x) with positive earnings. 33% below NAV (৳274.0). Dividend: 180% (≈৳18.0/share) (2025). Yield: 9.9%.",
       "reasonBn": "কম PE (3.1x) ইতিবাচক আয়ের সাথে। NAV-র 33% নিচে (৳274.0)। লভ্যাংশ: 180% (≈৳18.0/share) (2025)। ইয়েল্ড: 9.9%।",
       "signals": [
+        "overvalued_5y",
         "cheap_pe",
         "nav_discount",
         "high_dividend",
         "positive_momentum"
       ],
       "category": "A",
-      "score": 28,
+      "score": 25,
       "generatedAt": "2026-08-10",
+      "warnings": [
+        "📊 Near 5Y high (80th percentile)"
+      ],
+      "warningsBn": [
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (80তম পার্সেন্টাইল)"
+      ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
     },
@@ -4983,8 +4982,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 0.8%. Strong 1M momentum (+21.9%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 0.8%। শক্তিশালী ১-মাস গতি (+21.9%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 0.8%. Strong 1M momentum (+22.2%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 0.8%। শক্তিশালী ১-মাস গতি (+22.2%)।",
       "signals": [
         "has_dividend",
         "strong_momentum",
@@ -5024,8 +5023,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.5%. Strong 1M momentum (+75.2%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.5%। শক্তিশালী ১-মাস গতি (+75.2%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.5%. Strong 1M momentum (+76.8%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.5%। শক্তিশালী ১-মাস গতি (+76.8%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
@@ -5126,8 +5125,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+25.0%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+25.0%)।",
+      "reason": "Strong 1M momentum (+27.3%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+27.3%)।",
       "signals": [
         "z_category",
         "stale_dividend",
@@ -5149,17 +5148,16 @@
       "ticker": "KFL",
       "name": "Krishibid Feed Limited",
       "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "At 20th percentile of 5Y range (historically cheap). Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.6%.",
-      "reasonBn": "৫ বছরের 20তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.6%।",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
+      "reason": "Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.6%.",
+      "reasonBn": "লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.6%।",
       "signals": [
         "weak_momentum",
-        "undervalued_5y",
         "has_dividend"
       ],
       "category": "Y",
-      "score": 3,
+      "score": -3,
       "generatedAt": "2026-08-10"
     },
     "KOHINOOR": {
@@ -5243,8 +5241,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+26.4%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+26.4%)।",
+      "reason": "Strong 1M momentum (+24.2%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+24.2%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -5272,8 +5270,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+31.3%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+31.3%)।",
+      "reason": "Strong 1M momentum (+32.1%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+32.1%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -5309,11 +5307,11 @@
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
-        "📊 Near 5Y high (80th percentile)"
+        "📊 Near 5Y high (85th percentile)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (80তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (85তম পার্সেন্টাইল)"
       ]
     },
     "LHB": {
@@ -5322,8 +5320,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (13.1x). Dividend: 40% (≈৳4.0/share) (2025). Yield: 8.6%. Strong 1M momentum (+13.4%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (13.1x)। লভ্যাংশ: 40% (≈৳4.0/share) (2025)। ইয়েল্ড: 8.6%। শক্তিশালী ১-মাস গতি (+13.4%)।",
+      "reason": "Reasonable PE (13.1x). Dividend: 40% (≈৳4.0/share) (2025). Yield: 8.6%. Strong 1M momentum (+13.2%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.1x)। লভ্যাংশ: 40% (≈৳4.0/share) (2025)। ইয়েল্ড: 8.6%। শক্তিশালী ১-মাস গতি (+13.2%)।",
       "signals": [
         "fair_pe",
         "high_dividend",
@@ -5401,8 +5399,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "52% below NAV (৳32.7). Strong 1M momentum (+62.9%).",
-      "reasonBn": "NAV-র 52% নিচে (৳32.7)। শক্তিশালী ১-মাস গতি (+62.9%)।",
+      "reason": "52% below NAV (৳32.7). Strong 1M momentum (+60.8%).",
+      "reasonBn": "NAV-র 52% নিচে (৳32.7)। শক্তিশালী ১-মাস গতি (+60.8%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -5431,8 +5429,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "54% below NAV (৳10.5). Strong 1M momentum (+37.1%).",
-      "reasonBn": "NAV-র 54% নিচে (৳10.5)। শক্তিশালী ১-মাস গতি (+37.1%)।",
+      "reason": "53% below NAV (৳10.5). Strong 1M momentum (+37.1%).",
+      "reasonBn": "NAV-র 53% নিচে (৳10.5)। শক্তিশালী ১-মাস গতি (+37.1%)।",
       "signals": [
         "nav_discount",
         "stale_dividend",
@@ -5455,8 +5453,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 11% (≈৳1.1/share) (2025). Yield: 1.3%. Strong 1M momentum (+12.2%).",
-      "reasonBn": "লভ্যাংশ: 11% (≈৳1.1/share) (2025)। ইয়েল্ড: 1.3%। শক্তিশালী ১-মাস গতি (+12.2%)।",
+      "reason": "Dividend: 11% (≈৳1.1/share) (2025). Yield: 1.3%. Strong 1M momentum (+11.7%).",
+      "reasonBn": "লভ্যাংশ: 11% (≈৳1.1/share) (2025)। ইয়েল্ড: 1.3%। শক্তিশালী ১-মাস গতি (+11.7%)।",
       "signals": [
         "has_dividend",
         "strong_momentum"
@@ -5473,8 +5471,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "48% below NAV (৳12.3). Strong 1M momentum (+14.3%).",
-      "reasonBn": "NAV-র 48% নিচে (৳12.3)। শক্তিশালী ১-মাস গতি (+14.3%)।",
+      "reason": "49% below NAV (৳12.3). Strong 1M momentum (+12.5%).",
+      "reasonBn": "NAV-র 49% নিচে (৳12.3)। শক্তিশালী ১-মাস গতি (+12.5%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -5503,8 +5501,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (6.1x) with positive earnings. 26% below NAV (৳60.6). Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.3%. Strong 1M momentum (+59.2%).",
-      "reasonBn": "কম PE (6.1x) ইতিবাচক আয়ের সাথে। NAV-র 26% নিচে (৳60.6)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.3%। শক্তিশালী ১-মাস গতি (+59.2%)।",
+      "reason": "Low PE (6.1x) with positive earnings. 25% below NAV (৳60.6). Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.3%. Strong 1M momentum (+60.3%).",
+      "reasonBn": "কম PE (6.1x) ইতিবাচক আয়ের সাথে। NAV-র 25% নিচে (৳60.6)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.3%। শক্তিশালী ১-মাস গতি (+60.3%)।",
       "signals": [
         "overvalued_5y",
         "cheap_pe",
@@ -5577,8 +5575,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "38% below NAV (৳15.1). Dividend: 1% (≈৳0.12/share) (2025). Yield: 1.9%.",
-      "reasonBn": "NAV-র 38% নিচে (৳15.1)। লভ্যাংশ: 1% (≈৳0.12/share) (2025)। ইয়েল্ড: 1.9%।",
+      "reason": "36% below NAV (৳15.1). Dividend: 1% (≈৳0.12/share) (2025). Yield: 1.9%.",
+      "reasonBn": "NAV-র 36% নিচে (৳15.1)। লভ্যাংশ: 1% (≈৳0.12/share) (2025)। ইয়েল্ড: 1.9%।",
       "signals": [
         "nav_discount",
         "has_dividend",
@@ -5595,8 +5593,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (12.9x). Dividend: 35% (≈৳3.5/share) (2025). Yield: 7.7%. Strong 1M momentum (+30.3%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (12.9x)। লভ্যাংশ: 35% (≈৳3.5/share) (2025)। ইয়েল্ড: 7.7%। শক্তিশালী ১-মাস গতি (+30.3%)।",
+      "reason": "Reasonable PE (12.9x). Dividend: 35% (≈৳3.5/share) (2025). Yield: 7.7%. Strong 1M momentum (+30.1%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (12.9x)। লভ্যাংশ: 35% (≈৳3.5/share) (2025)। ইয়েল্ড: 7.7%। শক্তিশালী ১-মাস গতি (+30.1%)।",
       "signals": [
         "fair_pe",
         "high_dividend",
@@ -5615,8 +5613,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+102.6%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+102.6%)।",
+      "reason": "Strong 1M momentum (+110.3%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+110.3%)।",
       "signals": [
         "overvalued_5y",
         "stale_dividend",
@@ -5627,11 +5625,11 @@
       "score": 2,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (84th percentile)",
+        "📊 Near 5Y high (92th percentile)",
         "⚠️ Last dividend: 4% in 2023 (over a year ago)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (84তম পার্সেন্টাইল)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (92তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 4% (2023 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -5674,12 +5672,12 @@
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-10.05)",
-        "📊 Near 5Y high (84th percentile)"
+        "📊 Near 5Y high (83th percentile)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
         "⚠️ নেতিবাচক ইপিএস (৳-10.05)",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (84তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (83তম পার্সেন্টাইল)"
       ]
     },
     "MEGHNACEM": {
@@ -5688,8 +5686,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "At 7th percentile of 5Y range (historically cheap).",
-      "reasonBn": "৫ বছরের 7তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "At 6th percentile of 5Y range (historically cheap).",
+      "reasonBn": "৫ বছরের 6তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -5717,8 +5715,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.6%. Strong 1M momentum (+35.8%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.6%। শক্তিশালী ১-মাস গতি (+35.8%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.6%. Strong 1M momentum (+38.9%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.6%। শক্তিশালী ১-মাস গতি (+38.9%)।",
       "signals": [
         "has_dividend",
         "strong_momentum",
@@ -5736,8 +5734,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+15.8%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+15.8%)।",
+      "reason": "Strong 1M momentum (+15.2%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+15.2%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum"
@@ -5758,8 +5756,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+56.3%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+56.3%)।",
+      "reason": "Strong 1M momentum (+55.3%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+55.3%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -5817,8 +5815,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+68.8%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+68.8%)।",
+      "reason": "Strong 1M momentum (+70.0%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+70.0%)।",
       "signals": [
         "overvalued_5y",
         "strong_momentum",
@@ -5840,8 +5838,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "At 15th percentile of 5Y range (historically cheap).",
-      "reasonBn": "৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "At 14th percentile of 5Y range (historically cheap).",
+      "reasonBn": "৫ বছরের 14তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -5892,8 +5890,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "At 11th percentile of 5Y range (historically cheap). Strong 1M momentum (+13.2%).",
-      "reasonBn": "৫ বছরের 11তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+13.2%)।",
+      "reason": "At 13th percentile of 5Y range (historically cheap). Strong 1M momentum (+11.3%).",
+      "reasonBn": "৫ বছরের 13তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+11.3%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -5921,8 +5919,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Reasonable PE (14.3x). Dividend: 3% (≈৳0.3/share) (2025). Yield: 1.8%. Strong 1M momentum (+16.9%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.3x)। লভ্যাংশ: 3% (≈৳0.3/share) (2025)। ইয়েল্ড: 1.8%। শক্তিশালী ১-মাস গতি (+16.9%)।",
+      "reason": "Reasonable PE (14.3x). Dividend: 3% (≈৳0.3/share) (2025). Yield: 1.8%. Strong 1M momentum (+17.5%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (14.3x)। লভ্যাংশ: 3% (≈৳0.3/share) (2025)। ইয়েল্ড: 1.8%। শক্তিশালী ১-মাস গতি (+17.5%)।",
       "signals": [
         "b_category",
         "fair_pe",
@@ -6055,8 +6053,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 0% (≈৳0.05/share) (2025). Yield: 0.5%. Strong 1M momentum (+115.9%).",
-      "reasonBn": "লভ্যাংশ: 0% (≈৳0.05/share) (2025)। ইয়েল্ড: 0.5%। শক্তিশালী ১-মাস গতি (+115.9%)।",
+      "reason": "Dividend: 0% (≈৳0.05/share) (2025). Yield: 0.5%. Strong 1M momentum (+111.4%).",
+      "reasonBn": "লভ্যাংশ: 0% (≈৳0.05/share) (2025)। ইয়েল্ড: 0.5%। শক্তিশালী ১-মাস গতি (+111.4%)।",
       "signals": [
         "b_category",
         "has_dividend",
@@ -6127,10 +6125,11 @@
       "reasonBn": "লভ্যাংশ: 0% (≈৳0.03/share) (2025)। ইয়েল্ড: 0.2%।",
       "signals": [
         "b_category",
-        "has_dividend"
+        "has_dividend",
+        "positive_momentum"
       ],
       "category": "B",
-      "score": -5,
+      "score": -3,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ B-category: elevated risk classification"
@@ -6145,8 +6144,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 0.6%. Strong 1M momentum (+14.7%).",
-      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 0.6%। শক্তিশালী ১-মাস গতি (+14.7%)।",
+      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 0.6%. Strong 1M momentum (+14.4%).",
+      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 0.6%। শক্তিশালী ১-মাস গতি (+14.4%)।",
       "signals": [
         "has_dividend",
         "strong_momentum",
@@ -6162,8 +6161,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "34% below NAV (৳14.3). At 11th percentile of 5Y range (historically cheap). Dividend: 2% (≈৳0.2/share) (2025). Yield: 2.0%.",
-      "reasonBn": "NAV-র 34% নিচে (৳14.3)। ৫ বছরের 11তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 2.0%।",
+      "reason": "36% below NAV (৳14.3). At 10th percentile of 5Y range (historically cheap). Dividend: 2% (≈৳0.2/share) (2025). Yield: 2.0%.",
+      "reasonBn": "NAV-র 36% নিচে (৳14.3)। ৫ বছরের 10তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 2.0%।",
       "signals": [
         "weak_momentum",
         "nav_discount",
@@ -6194,10 +6193,10 @@
       "score": 21,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (95th percentile)"
+        "📊 Near 5Y high (94th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (95তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (94তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -6208,8 +6207,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (4.2x) with positive earnings. 53% below NAV (৳28.1).",
-      "reasonBn": "কম PE (4.2x) ইতিবাচক আয়ের সাথে। NAV-র 53% নিচে (৳28.1)।",
+      "reason": "Low PE (4.2x) with positive earnings. 52% below NAV (৳28.1).",
+      "reasonBn": "কম PE (4.2x) ইতিবাচক আয়ের সাথে। NAV-র 52% নিচে (৳28.1)।",
       "signals": [
         "cheap_pe",
         "nav_discount",
@@ -6262,10 +6261,11 @@
       "reason": "Dividend: 37% (≈৳3.7/share) (2025). Yield: 4.0%.",
       "reasonBn": "লভ্যাংশ: 37% (≈৳3.7/share) (2025)। ইয়েল্ড: 4.0%।",
       "signals": [
-        "has_dividend"
+        "has_dividend",
+        "positive_momentum"
       ],
       "category": "A",
-      "score": 6,
+      "score": 8,
       "generatedAt": "2026-08-10",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -6276,8 +6276,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "26% below NAV (৳30.8). Dividend: 10% (≈৳1.0/share) (2025). Yield: 0.5%. Strong 1M momentum (+11.2%).",
-      "reasonBn": "NAV-র 26% নিচে (৳30.8)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 0.5%। শক্তিশালী ১-মাস গতি (+11.2%)।",
+      "reason": "27% below NAV (৳30.8). Dividend: 10% (≈৳1.0/share) (2025). Yield: 0.5%. Strong 1M momentum (+10.2%).",
+      "reasonBn": "NAV-র 27% নিচে (৳30.8)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 0.5%। শক্তিশালী ১-মাস গতি (+10.2%)।",
       "signals": [
         "z_category",
         "nav_discount",
@@ -6300,8 +6300,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 14% (≈৳1.4/share) (2025). Yield: 2.2%. Strong 1M momentum (+18.0%).",
-      "reasonBn": "লভ্যাংশ: 14% (≈৳1.4/share) (2025)। ইয়েল্ড: 2.2%। শক্তিশালী ১-মাস গতি (+18.0%)।",
+      "reason": "Dividend: 14% (≈৳1.4/share) (2025). Yield: 2.2%. Strong 1M momentum (+19.5%).",
+      "reasonBn": "লভ্যাংশ: 14% (≈৳1.4/share) (2025)। ইয়েল্ড: 2.2%। শক্তিশালী ১-মাস গতি (+19.5%)।",
       "signals": [
         "has_dividend",
         "strong_momentum"
@@ -6316,8 +6316,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "At 14th percentile of 5Y range (historically cheap).",
-      "reasonBn": "৫ বছরের 14তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "At 12th percentile of 5Y range (historically cheap).",
+      "reasonBn": "৫ বছরের 12তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -6356,10 +6356,10 @@
       "score": 23,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (87th percentile)"
+        "📊 Near 5Y high (85th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (87তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (85তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -6370,8 +6370,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (11.2x). 38% below NAV (৳11.0). Strong 1M momentum (+51.1%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (11.2x)। NAV-র 38% নিচে (৳11.0)। শক্তিশালী ১-মাস গতি (+51.1%)।",
+      "reason": "Reasonable PE (11.2x). 35% below NAV (৳11.0). Strong 1M momentum (+57.8%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (11.2x)। NAV-র 35% নিচে (৳11.0)। শক্তিশালী ১-মাস গতি (+57.8%)।",
       "signals": [
         "fair_pe",
         "nav_discount",
@@ -6395,8 +6395,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (4.2x) with positive earnings. 70% below NAV (৳24.0). Strong 1M momentum (+44.0%).",
-      "reasonBn": "কম PE (4.2x) ইতিবাচক আয়ের সাথে। NAV-র 70% নিচে (৳24.0)। শক্তিশালী ১-মাস গতি (+44.0%)।",
+      "reason": "Low PE (4.2x) with positive earnings. 70% below NAV (৳24.0). Strong 1M momentum (+42.0%).",
+      "reasonBn": "কম PE (4.2x) ইতিবাচক আয়ের সাথে। NAV-র 70% নিচে (৳24.0)। শক্তিশালী ১-মাস গতি (+42.0%)।",
       "signals": [
         "z_category",
         "cheap_pe",
@@ -6452,8 +6452,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+26.1%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+26.1%)।",
+      "reason": "Strong 1M momentum (+27.4%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+27.4%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum"
@@ -6474,8 +6474,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.2%. Strong 1M momentum (+18.1%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.2%। শক্তিশালী ১-মাস গতি (+18.1%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.2%. Strong 1M momentum (+19.2%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.2%। শক্তিশালী ১-মাস গতি (+19.2%)।",
       "signals": [
         "high_dividend",
         "strong_momentum",
@@ -6493,8 +6493,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.6%. Strong 1M momentum (+58.2%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.6%। শক্তিশালী ১-মাস গতি (+58.2%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.6%. Strong 1M momentum (+60.3%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.6%। শক্তিশালী ১-মাস গতি (+60.3%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
@@ -6505,10 +6505,10 @@
       "score": 11,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (85th percentile)"
+        "📊 Near 5Y high (86th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (85তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (86তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -6568,8 +6568,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 1.8%. Strong 1M momentum (+24.1%).",
-      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 1.8%। শক্তিশালী ১-মাস গতি (+24.1%)।",
+      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 1.8%. Strong 1M momentum (+25.9%).",
+      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 1.8%। শক্তিশালী ১-মাস গতি (+25.9%)।",
       "signals": [
         "b_category",
         "has_dividend",
@@ -6589,25 +6589,28 @@
     "NRBBANK": {
       "ticker": "NRBBANK",
       "name": "NRB Bank PLC.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "46% below NAV (৳12.7). Strong 1M momentum (+15.2%).",
-      "reasonBn": "NAV-র 46% নিচে (৳12.7)। শক্তিশালী ১-মাস গতি (+15.2%)।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "47% below NAV (৳12.7). At 18th percentile of 5Y range (historically cheap). Strong 1M momentum (+13.6%).",
+      "reasonBn": "NAV-র 47% নিচে (৳12.7)। ৫ বছরের 18তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+13.6%)।",
       "signals": [
         "z_category",
         "nav_discount",
+        "undervalued_5y",
         "strong_momentum"
       ],
       "category": "Z",
-      "score": 1,
+      "score": 7,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং"
-      ]
+      ],
+      "duration": "3-6 months (undervalued)",
+      "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
     },
     "NRBCBANK": {
       "ticker": "NRBCBANK",
@@ -6671,8 +6674,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "49% below NAV (৳137.6). Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.1%. Strong 1M momentum (+15.6%).",
-      "reasonBn": "NAV-র 49% নিচে (৳137.6)। লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.1%। শক্তিশালী ১-মাস গতি (+15.6%)।",
+      "reason": "49% below NAV (৳137.6). Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.1%. Strong 1M momentum (+16.1%).",
+      "reasonBn": "NAV-র 49% নিচে (৳137.6)। লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.1%। শক্তিশালী ১-মাস গতি (+16.1%)।",
       "signals": [
         "b_category",
         "nav_discount",
@@ -6695,8 +6698,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "72% below NAV (৳11.2). At 18th percentile of 5Y range (historically cheap). Strong 1M momentum (+14.8%).",
-      "reasonBn": "NAV-র 72% নিচে (৳11.2)। ৫ বছরের 18তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+14.8%)।",
+      "reason": "73% below NAV (৳11.2). At 16th percentile of 5Y range (historically cheap). Strong 1M momentum (+11.1%).",
+      "reasonBn": "NAV-র 73% নিচে (৳11.2)। ৫ বছরের 16তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+11.1%)।",
       "signals": [
         "z_category",
         "nav_discount",
@@ -6757,8 +6760,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "At 15th percentile of 5Y range (historically cheap). Strong 1M momentum (+20.7%).",
-      "reasonBn": "৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+20.7%)।",
+      "reason": "At 14th percentile of 5Y range (historically cheap). Strong 1M momentum (+19.3%).",
+      "reasonBn": "৫ বছরের 14তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+19.3%)।",
       "signals": [
         "z_category",
         "undervalued_5y",
@@ -6846,8 +6849,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "67% below NAV (৳86.1). At 12th percentile of 5Y range (historically cheap). Strong 1M momentum (+12.1%). Potential recovery play: strong value despite risks.",
-      "reasonBn": "NAV-র 67% নিচে (৳86.1)। ৫ বছরের 12তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+12.1%)। সম্ভাব্য পুনরুদ্ধার: ঝুঁকি সত্ত্বেও শক্তিশালী মূল্যায়ন।",
+      "reason": "66% below NAV (৳86.1). At 12th percentile of 5Y range (historically cheap). Strong 1M momentum (+12.5%). Potential recovery play: strong value despite risks.",
+      "reasonBn": "NAV-র 66% নিচে (৳86.1)। ৫ বছরের 12তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+12.5%)। সম্ভাব্য পুনরুদ্ধার: ঝুঁকি সত্ত্বেও শক্তিশালী মূল্যায়ন।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -6875,17 +6878,18 @@
       "ticker": "ORYZAAGRO",
       "name": "Oryza Agro Industries Ltd.",
       "action": "buy",
-      "label": "Strong Buy",
-      "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "54% below NAV (৳19.6). At 9th percentile of 5Y range (historically cheap). Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.8%.",
-      "reasonBn": "NAV-র 54% নিচে (৳19.6)। ৫ বছরের 9তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.8%।",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "55% below NAV (৳19.6). At 7th percentile of 5Y range (historically cheap). Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.8%.",
+      "reasonBn": "NAV-র 55% নিচে (৳19.6)। ৫ বছরের 7তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.8%।",
       "signals": [
+        "weak_momentum",
         "nav_discount",
         "undervalued_5y",
         "has_dividend"
       ],
       "category": "Y",
-      "score": 14,
+      "score": 11,
       "generatedAt": "2026-08-10",
       "duration": "3-6 months (undervalued)",
       "durationBn": "৩-৬ মাস (অবমূল্যায়িত)"
@@ -6941,8 +6945,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.3%. Strong 1M momentum (+25.6%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.3%। শক্তিশালী ১-মাস গতি (+25.6%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.3%. Strong 1M momentum (+26.2%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.3%। শক্তিশালী ১-মাস গতি (+26.2%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
@@ -6964,8 +6968,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "57% below NAV (৳13.6). At 15th percentile of 5Y range (historically cheap). Strong 1M momentum (+13.7%).",
-      "reasonBn": "NAV-র 57% নিচে (৳13.6)। ৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+13.7%)।",
+      "reason": "57% below NAV (৳13.6). At 17th percentile of 5Y range (historically cheap). Strong 1M momentum (+15.7%).",
+      "reasonBn": "NAV-র 57% নিচে (৳13.6)। ৫ বছরের 17তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+15.7%)।",
       "signals": [
         "z_category",
         "nav_discount",
@@ -6994,8 +6998,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 0% (≈৳0.05/share) (2025). Yield: 0.5%. Strong 1M momentum (+16.8%).",
-      "reasonBn": "লভ্যাংশ: 0% (≈৳0.05/share) (2025)। ইয়েল্ড: 0.5%। শক্তিশালী ১-মাস গতি (+16.8%)।",
+      "reason": "Dividend: 0% (≈৳0.05/share) (2025). Yield: 0.5%. Strong 1M momentum (+17.2%).",
+      "reasonBn": "লভ্যাংশ: 0% (≈৳0.05/share) (2025)। ইয়েল্ড: 0.5%। শক্তিশালী ১-মাস গতি (+17.2%)।",
       "signals": [
         "b_category",
         "has_dividend",
@@ -7017,8 +7021,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (14.8x). Dividend: 10% (≈৳1.05/share) (2025). Yield: 2.9%. Strong 1M momentum (+30.1%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.8x)। লভ্যাংশ: 10% (≈৳1.05/share) (2025)। ইয়েল্ড: 2.9%। শক্তিশালী ১-মাস গতি (+30.1%)।",
+      "reason": "Reasonable PE (14.8x). Dividend: 10% (≈৳1.05/share) (2025). Yield: 2.9%. Strong 1M momentum (+29.7%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (14.8x)। লভ্যাংশ: 10% (≈৳1.05/share) (2025)। ইয়েল্ড: 2.9%। শক্তিশালী ১-মাস গতি (+29.7%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
@@ -7042,8 +7046,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+100.0%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+100.0%)।",
+      "reason": "Strong 1M momentum (+101.5%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+101.5%)।",
       "signals": [
         "negative_eps",
         "overvalued_5y",
@@ -7071,8 +7075,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 30% (≈৳3.0/share) (2025). Yield: 0.6%. Strong 1M momentum (+12.6%).",
-      "reasonBn": "লভ্যাংশ: 30% (≈৳3.0/share) (2025)। ইয়েল্ড: 0.6%। শক্তিশালী ১-মাস গতি (+12.6%)।",
+      "reason": "Dividend: 30% (≈৳3.0/share) (2025). Yield: 0.6%. Strong 1M momentum (+13.3%).",
+      "reasonBn": "লভ্যাংশ: 30% (≈৳3.0/share) (2025)। ইয়েল্ড: 0.6%। শক্তিশালী ১-মাস গতি (+13.3%)।",
       "signals": [
         "has_dividend",
         "strong_momentum"
@@ -7168,8 +7172,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (14.9x). Dividend: 25% (≈৳2.5/share) (2025). Yield: 5.3%. Strong 1M momentum (+17.4%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (14.9x)। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 5.3%। শক্তিশালী ১-মাস গতি (+17.4%)।",
+      "reason": "Reasonable PE (14.9x). Dividend: 25% (≈৳2.5/share) (2025). Yield: 5.3%. Strong 1M momentum (+18.0%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (14.9x)। লভ্যাংশ: 25% (≈৳2.5/share) (2025)। ইয়েল্ড: 5.3%। শক্তিশালী ১-মাস গতি (+18.0%)।",
       "signals": [
         "fair_pe",
         "high_dividend",
@@ -7211,10 +7215,10 @@
       "ticker": "POPULAR1MF",
       "name": "Popular Life First Mutual Fund",
       "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "50% below NAV (৳7.6). Strong 1M momentum (+15.2%).",
-      "reasonBn": "NAV-র 50% নিচে (৳7.6)। শক্তিশালী ১-মাস গতি (+15.2%)।",
+      "label": "Hold with Caution",
+      "labelBn": "সতর্কতার সাথে ধরুন",
+      "reason": "49% below NAV (৳7.6). Strong 1M momentum (+18.2%).",
+      "reasonBn": "NAV-র 49% নিচে (৳7.6)। শক্তিশালী ১-মাস গতি (+18.2%)।",
       "signals": [
         "negative_eps",
         "nav_discount",
@@ -7223,7 +7227,7 @@
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 3,
+      "score": -1,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Negative EPS (৳-2.38)",
@@ -7240,8 +7244,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "32% below NAV (৳89.6). Strong 1M momentum (+13.9%).",
-      "reasonBn": "NAV-র 32% নিচে (৳89.6)। শক্তিশালী ১-মাস গতি (+13.9%)।",
+      "reason": "32% below NAV (৳89.6). Strong 1M momentum (+13.3%).",
+      "reasonBn": "NAV-র 32% নিচে (৳89.6)। শক্তিশালী ১-মাস গতি (+13.3%)।",
       "signals": [
         "nav_discount",
         "stale_dividend",
@@ -7264,8 +7268,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "71% below NAV (৳139.3). Strong 1M momentum (+27.2%).",
-      "reasonBn": "NAV-র 71% নিচে (৳139.3)। শক্তিশালী ১-মাস গতি (+27.2%)।",
+      "reason": "71% below NAV (৳139.3). Strong 1M momentum (+27.5%).",
+      "reasonBn": "NAV-র 71% নিচে (৳139.3)। শক্তিশালী ১-মাস গতি (+27.5%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -7305,10 +7309,10 @@
       "score": 5,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (94th percentile)"
+        "📊 Near 5Y high (95th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (94তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (95তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -7343,8 +7347,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "59% below NAV (৳13.6). At 14th percentile of 5Y range (historically cheap). Strong 1M momentum (+36.6%).",
-      "reasonBn": "NAV-র 59% নিচে (৳13.6)। ৫ বছরের 14তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+36.6%)।",
+      "reason": "57% below NAV (৳13.6). At 15th percentile of 5Y range (historically cheap). Strong 1M momentum (+39.0%).",
+      "reasonBn": "NAV-র 57% নিচে (৳13.6)। ৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+39.0%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -7372,17 +7376,18 @@
       "ticker": "PREMIERCEM",
       "name": "Premier Cement Mills PLC",
       "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.0%. Strong 1M momentum (+27.0%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.0%। শক্তিশালী ১-মাস গতি (+27.0%)।",
+      "label": "Strong Buy",
+      "labelBn": "দৃঢ়ভাবে কিনুন",
+      "reason": "25% below NAV (৳64.5). Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.0%. Strong 1M momentum (+26.5%).",
+      "reasonBn": "NAV-র 25% নিচে (৳64.5)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.0%। শক্তিশালী ১-মাস গতি (+26.5%)।",
       "signals": [
+        "nav_discount",
         "has_dividend",
         "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "A",
-      "score": 11,
+      "score": 15,
       "generatedAt": "2026-08-10"
     },
     "PREMIERLEA": {
@@ -7501,8 +7506,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.3%. Strong 1M momentum (+71.8%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.3%। শক্তিশালী ১-মাস গতি (+71.8%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.3%. Strong 1M momentum (+69.7%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.3%। শক্তিশালী ১-মাস গতি (+69.7%)।",
       "signals": [
         "has_dividend",
         "strong_momentum",
@@ -7599,8 +7604,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+64.8%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+64.8%)।",
+      "reason": "Strong 1M momentum (+66.5%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+66.5%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -7640,8 +7645,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (4.5x) with positive earnings. 30% below NAV (৳54.3). Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.2%. Strong 1M momentum (+15.3%).",
-      "reasonBn": "কম PE (4.5x) ইতিবাচক আয়ের সাথে। NAV-র 30% নিচে (৳54.3)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.2%। শক্তিশালী ১-মাস গতি (+15.3%)।",
+      "reason": "Low PE (4.5x) with positive earnings. 30% below NAV (৳54.3). Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.2%. Strong 1M momentum (+15.9%).",
+      "reasonBn": "কম PE (4.5x) ইতিবাচক আয়ের সাথে। NAV-র 30% নিচে (৳54.3)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.2%। শক্তিশালী ১-মাস গতি (+15.9%)।",
       "signals": [
         "overvalued_5y",
         "cheap_pe",
@@ -7679,11 +7684,11 @@
       "score": -1,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (83th percentile)",
+        "📊 Near 5Y high (84th percentile)",
         "⚠️ Last dividend: 10% in 2024 (over a year ago)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (83তম পার্সেন্টাইল)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (84তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 10% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -7693,8 +7698,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+12.6%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+12.6%)।",
+      "reason": "Strong 1M momentum (+12.9%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+12.9%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum"
@@ -7715,8 +7720,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 0% (≈৳0.05/share) (2025). Yield: 0.4%. Strong 1M momentum (+48.8%).",
-      "reasonBn": "লভ্যাংশ: 0% (≈৳0.05/share) (2025)। ইয়েল্ড: 0.4%। শক্তিশালী ১-মাস গতি (+48.8%)।",
+      "reason": "Dividend: 0% (≈৳0.05/share) (2025). Yield: 0.4%. Strong 1M momentum (+49.6%).",
+      "reasonBn": "লভ্যাংশ: 0% (≈৳0.05/share) (2025)। ইয়েল্ড: 0.4%। শক্তিশালী ১-মাস গতি (+49.6%)।",
       "signals": [
         "b_category",
         "has_dividend",
@@ -7739,8 +7744,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "At 10th percentile of 5Y range (historically cheap). Dividend: 2% (≈৳0.2/share) (2025). Yield: 0.2%.",
-      "reasonBn": "৫ বছরের 10তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 0.2%।",
+      "reason": "At 9th percentile of 5Y range (historically cheap). Dividend: 2% (≈৳0.2/share) (2025). Yield: 0.2%.",
+      "reasonBn": "৫ বছরের 9তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 0.2%।",
       "signals": [
         "z_category",
         "weak_momentum",
@@ -7779,8 +7784,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.6%. Strong 1M momentum (+25.5%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+25.5%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.6%. Strong 1M momentum (+25.9%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+25.9%)।",
       "signals": [
         "negative_eps",
         "high_dividend",
@@ -7821,8 +7826,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.5%. Strong 1M momentum (+11.5%).",
-      "reasonBn": "লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.5%। শক্তিশালী ১-মাস গতি (+11.5%)।",
+      "reason": "Dividend: 1% (≈৳0.1/share) (2025). Yield: 0.5%. Strong 1M momentum (+11.9%).",
+      "reasonBn": "লভ্যাংশ: 1% (≈৳0.1/share) (2025)। ইয়েল্ড: 0.5%। শক্তিশালী ১-মাস গতি (+11.9%)।",
       "signals": [
         "b_category",
         "has_dividend",
@@ -7845,8 +7850,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "At 4th percentile of 5Y range (historically cheap). Dividend: 1730% (≈৳173.0/share) (2025). Yield: 5.0%.",
-      "reasonBn": "৫ বছরের 4তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 1730% (≈৳173.0/share) (2025)। ইয়েল্ড: 5.0%।",
+      "reason": "At 2th percentile of 5Y range (historically cheap). Dividend: 1730% (≈৳173.0/share) (2025). Yield: 5.0%.",
+      "reasonBn": "৫ বছরের 2তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 1730% (≈৳173.0/share) (2025)। ইয়েল্ড: 5.0%।",
       "signals": [
         "undervalued_5y",
         "high_dividend"
@@ -7893,8 +7898,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+17.5%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+17.5%)।",
+      "reason": "Strong 1M momentum (+15.5%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+15.5%)।",
       "signals": [
         "negative_eps",
         "stale_dividend",
@@ -7918,8 +7923,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Reasonable PE (13.3x). Dividend: 30% (≈৳3.0/share) (2025). Yield: 4.6%. Strong 1M momentum (+32.3%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (13.3x)। লভ্যাংশ: 30% (≈৳3.0/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+32.3%)।",
+      "reason": "Reasonable PE (13.3x). Dividend: 30% (≈৳3.0/share) (2025). Yield: 4.6%. Strong 1M momentum (+30.0%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.3x)। লভ্যাংশ: 30% (≈৳3.0/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+30.0%)।",
       "signals": [
         "overvalued_5y",
         "fair_pe",
@@ -7931,10 +7936,10 @@
       "score": 16,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (98th percentile)"
+        "📊 Near 5Y high (97th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (98তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (97তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -7945,8 +7950,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "At 15th percentile of 5Y range (historically cheap). Dividend: 55% (≈৳5.5/share) (2025). Yield: 1.1%. Strong 1M momentum (+14.3%).",
-      "reasonBn": "৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 55% (≈৳5.5/share) (2025)। ইয়েল্ড: 1.1%। শক্তিশালী ১-মাস গতি (+14.3%)।",
+      "reason": "At 15th percentile of 5Y range (historically cheap). Dividend: 55% (≈৳5.5/share) (2025). Yield: 1.1%. Strong 1M momentum (+14.4%).",
+      "reasonBn": "৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 55% (≈৳5.5/share) (2025)। ইয়েল্ড: 1.1%। শক্তিশালী ১-মাস গতি (+14.4%)।",
       "signals": [
         "undervalued_5y",
         "has_dividend",
@@ -7964,8 +7969,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+72.1%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+72.1%)।",
+      "reason": "Strong 1M momentum (+70.0%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+70.0%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -8018,8 +8023,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+37.1%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+37.1%)।",
+      "reason": "Strong 1M momentum (+34.3%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+34.3%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -8115,8 +8120,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "28% below NAV (৳66.7). Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.0%. Strong 1M momentum (+21.1%).",
-      "reasonBn": "NAV-র 28% নিচে (৳66.7)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.0%। শক্তিশালী ১-মাস গতি (+21.1%)।",
+      "reason": "29% below NAV (৳66.7). Dividend: 10% (≈৳1.0/share) (2025). Yield: 4.0%. Strong 1M momentum (+19.3%).",
+      "reasonBn": "NAV-র 29% নিচে (৳66.7)। লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 4.0%। শক্তিশালী ১-মাস গতি (+19.3%)।",
       "signals": [
         "nav_discount",
         "has_dividend",
@@ -8135,8 +8140,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "51% below NAV (৳35.0). At 8th percentile of 5Y range (historically cheap).",
-      "reasonBn": "NAV-র 51% নিচে (৳35.0)। ৫ বছরের 8তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "50% below NAV (৳35.0). At 9th percentile of 5Y range (historically cheap).",
+      "reasonBn": "NAV-র 50% নিচে (৳35.0)। ৫ বছরের 9তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "nav_discount",
@@ -8161,8 +8166,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.4%. Strong 1M momentum (+25.4%).",
-      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.4%। শক্তিশালী ১-মাস গতি (+25.4%)।",
+      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.4%. Strong 1M momentum (+27.5%).",
+      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.4%। শক্তিশালী ১-মাস গতি (+27.5%)।",
       "signals": [
         "has_dividend",
         "strong_momentum",
@@ -8222,10 +8227,11 @@
         "z_category",
         "negative_eps",
         "stale_dividend",
+        "positive_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": -18,
+      "score": -16,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
@@ -8244,8 +8250,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Reasonable PE (13.7x). 43% below NAV (৳17.0). Strong 1M momentum (+61.7%).",
-      "reasonBn": "যুক্তিসঙ্গত PE (13.7x)। NAV-র 43% নিচে (৳17.0)। শক্তিশালী ১-মাস গতি (+61.7%)।",
+      "reason": "Reasonable PE (13.7x). 42% below NAV (৳17.0). Strong 1M momentum (+63.3%).",
+      "reasonBn": "যুক্তিসঙ্গত PE (13.7x)। NAV-র 42% নিচে (৳17.0)। শক্তিশালী ১-মাস গতি (+63.3%)।",
       "signals": [
         "z_category",
         "fair_pe",
@@ -8303,8 +8309,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "37% below NAV (৳43.8). Dividend: 6% (≈৳0.6/share) (2025). Yield: 4.5%. Strong 1M momentum (+54.8%).",
-      "reasonBn": "NAV-র 37% নিচে (৳43.8)। লভ্যাংশ: 6% (≈৳0.6/share) (2025)। ইয়েল্ড: 4.5%। শক্তিশালী ১-মাস গতি (+54.8%)।",
+      "reason": "38% below NAV (৳43.8). Dividend: 6% (≈৳0.6/share) (2025). Yield: 4.5%. Strong 1M momentum (+54.2%).",
+      "reasonBn": "NAV-র 38% নিচে (৳43.8)। লভ্যাংশ: 6% (≈৳0.6/share) (2025)। ইয়েল্ড: 4.5%। শক্তিশালী ১-মাস গতি (+54.2%)।",
       "signals": [
         "b_category",
         "overvalued_5y",
@@ -8332,8 +8338,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "33% below NAV (৳18.6). At 12th percentile of 5Y range (historically cheap). Potential recovery play: strong value despite risks.",
-      "reasonBn": "NAV-র 33% নিচে (৳18.6)। ৫ বছরের 12তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। সম্ভাব্য পুনরুদ্ধার: ঝুঁকি সত্ত্বেও শক্তিশালী মূল্যায়ন।",
+      "reason": "32% below NAV (৳18.6). At 12th percentile of 5Y range (historically cheap). Potential recovery play: strong value despite risks.",
+      "reasonBn": "NAV-র 32% নিচে (৳18.6)। ৫ বছরের 12তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। সম্ভাব্য পুনরুদ্ধার: ঝুঁকি সত্ত্বেও শক্তিশালী মূল্যায়ন।",
       "signals": [
         "z_category",
         "weak_momentum",
@@ -8398,13 +8404,13 @@
       "warnings": [
         "⚠️ B-category: elevated risk classification",
         "⚠️ Negative EPS (৳-0.02)",
-        "📊 Near 5Y high (95th percentile)",
+        "📊 Near 5Y high (94th percentile)",
         "⚠️ Last dividend: 0% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
         "⚠️ নেতিবাচক ইপিএস (৳-0.02)",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (95তম পার্সেন্টাইল)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (94তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 0% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -8414,8 +8420,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 0.9%. Strong 1M momentum (+46.3%).",
-      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 0.9%। শক্তিশালী ১-মাস গতি (+46.3%)।",
+      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 0.9%. Strong 1M momentum (+44.1%).",
+      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 0.9%। শক্তিশালী ১-মাস গতি (+44.1%)।",
       "signals": [
         "b_category",
         "overvalued_5y",
@@ -8428,11 +8434,11 @@
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
-        "📊 Near 5Y high (100th percentile)"
+        "📊 Near 5Y high (99th percentile)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (100তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (99তম পার্সেন্টাইল)"
       ]
     },
     "SANDHANINS": {
@@ -8441,8 +8447,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+27.4%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+27.4%)।",
+      "reason": "Strong 1M momentum (+28.8%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+28.8%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -8464,8 +8470,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 18% (≈৳1.8/share) (2025). Yield: 8.4%. Strong 1M momentum (+25.2%).",
-      "reasonBn": "লভ্যাংশ: 18% (≈৳1.8/share) (2025)। ইয়েল্ড: 8.4%। শক্তিশালী ১-মাস গতি (+25.2%)।",
+      "reason": "Dividend: 18% (≈৳1.8/share) (2025). Yield: 8.4%. Strong 1M momentum (+26.2%).",
+      "reasonBn": "লভ্যাংশ: 18% (≈৳1.8/share) (2025)। ইয়েল্ড: 8.4%। শক্তিশালী ১-মাস গতি (+26.2%)।",
       "signals": [
         "overvalued_5y",
         "high_dividend",
@@ -8542,8 +8548,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+12.9%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+12.9%)।",
+      "reason": "Strong 1M momentum (+13.8%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+13.8%)।",
       "signals": [
         "b_category",
         "stale_dividend",
@@ -8585,8 +8591,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+37.0%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+37.0%)।",
+      "reason": "Strong 1M momentum (+42.6%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+42.6%)।",
       "signals": [
         "negative_eps",
         "stale_dividend",
@@ -8611,8 +8617,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+27.4%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+27.4%)।",
+      "reason": "Strong 1M momentum (+29.0%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+29.0%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -8656,8 +8662,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (5.3x) with positive earnings. At 12th percentile of 5Y range (historically cheap). Dividend: 13% (≈৳1.3/share) (2025). Yield: 7.9%.",
-      "reasonBn": "কম PE (5.3x) ইতিবাচক আয়ের সাথে। ৫ বছরের 12তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 13% (≈৳1.3/share) (2025)। ইয়েল্ড: 7.9%।",
+      "reason": "Low PE (5.3x) with positive earnings. At 13th percentile of 5Y range (historically cheap). Dividend: 13% (≈৳1.3/share) (2025). Yield: 7.9%.",
+      "reasonBn": "কম PE (5.3x) ইতিবাচক আয়ের সাথে। ৫ বছরের 13তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 13% (≈৳1.3/share) (2025)। ইয়েল্ড: 7.9%।",
       "signals": [
         "cheap_pe",
         "undervalued_5y",
@@ -8676,8 +8682,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+162.5%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+162.5%)।",
+      "reason": "Strong 1M momentum (+165.6%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+165.6%)।",
       "signals": [
         "b_category",
         "overvalued_5y",
@@ -8705,8 +8711,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "32% below NAV (৳41.8). Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.9%. Strong 1M momentum (+33.0%).",
-      "reasonBn": "NAV-র 32% নিচে (৳41.8)। লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.9%। শক্তিশালী ১-মাস গতি (+33.0%)।",
+      "reason": "31% below NAV (৳41.8). Dividend: 5% (≈৳0.5/share) (2025). Yield: 2.9%. Strong 1M momentum (+34.0%).",
+      "reasonBn": "NAV-র 31% নিচে (৳41.8)। লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 2.9%। শক্তিশালী ১-মাস গতি (+34.0%)।",
       "signals": [
         "b_category",
         "overvalued_5y",
@@ -8720,11 +8726,11 @@
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
-        "📊 Near 5Y high (92th percentile)"
+        "📊 Near 5Y high (93th percentile)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (92তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (93তম পার্সেন্টাইল)"
       ]
     },
     "SHEPHERD": {
@@ -8787,8 +8793,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+111.9%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+111.9%)।",
+      "reason": "Strong 1M momentum (+104.8%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+104.8%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -8802,12 +8808,12 @@
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-50.77)",
-        "📊 Near 5Y high (99th percentile)"
+        "📊 Near 5Y high (98th percentile)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
         "⚠️ নেতিবাচক ইপিএস (৳-50.77)",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (99তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (98তম পার্সেন্টাইল)"
       ]
     },
     "SIBL": {
@@ -8851,19 +8857,20 @@
         "b_category",
         "overvalued_5y",
         "stale_dividend",
+        "positive_momentum",
         "strong_6m_momentum"
       ],
       "category": "B",
-      "score": -8,
+      "score": -6,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
-        "📊 Near 5Y high (86th percentile)",
+        "📊 Near 5Y high (87th percentile)",
         "⚠️ Last dividend: 5% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (86তম পার্সেন্টাইল)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (87তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 5% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -8873,8 +8880,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 1% (≈৳0.11/share) (2025). Yield: 0.7%. Strong 1M momentum (+25.6%).",
-      "reasonBn": "লভ্যাংশ: 1% (≈৳0.11/share) (2025)। ইয়েল্ড: 0.7%। শক্তিশালী ১-মাস গতি (+25.6%)।",
+      "reason": "Dividend: 1% (≈৳0.11/share) (2025). Yield: 0.7%. Strong 1M momentum (+25.0%).",
+      "reasonBn": "লভ্যাংশ: 1% (≈৳0.11/share) (2025)। ইয়েল্ড: 0.7%। শক্তিশালী ১-মাস গতি (+25.0%)।",
       "signals": [
         "b_category",
         "has_dividend",
@@ -8897,8 +8904,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+44.2%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+44.2%)।",
+      "reason": "Strong 1M momentum (+46.0%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+46.0%)।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -8926,8 +8933,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 6.5%. Strong 1M momentum (+14.2%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 6.5%। শক্তিশালী ১-মাস গতি (+14.2%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 6.5%. Strong 1M momentum (+13.8%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 6.5%। শক্তিশালী ১-মাস গতি (+13.8%)।",
       "signals": [
         "overvalued_5y",
         "high_dividend",
@@ -8937,10 +8944,10 @@
       "score": 12,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (95th percentile)"
+        "📊 Near 5Y high (94th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (95তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (94তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -8976,17 +8983,17 @@
     "SINOBANGLA": {
       "ticker": "SINOBANGLA",
       "name": "Sinobangla Industries Ltd.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.4%.",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.4%।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 2.4%. Strong 1M momentum (+10.3%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 2.4%। শক্তিশালী ১-মাস গতি (+10.3%)।",
       "signals": [
         "has_dividend",
-        "positive_momentum"
+        "strong_momentum"
       ],
       "category": "A",
-      "score": 5,
+      "score": 8,
       "generatedAt": "2026-08-10"
     },
     "SIPLC": {
@@ -8995,8 +9002,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 15% (≈৳1.5/share) (2025). Yield: 2.8%. Strong 1M momentum (+78.1%).",
-      "reasonBn": "লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 2.8%। শক্তিশালী ১-মাস গতি (+78.1%)।",
+      "reason": "Dividend: 15% (≈৳1.5/share) (2025). Yield: 2.8%. Strong 1M momentum (+79.7%).",
+      "reasonBn": "লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 2.8%। শক্তিশালী ১-মাস গতি (+79.7%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
@@ -9045,8 +9052,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 15% (≈৳1.5/share) (2025). Yield: 0.9%. Strong 1M momentum (+20.6%).",
-      "reasonBn": "লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 0.9%। শক্তিশালী ১-মাস গতি (+20.6%)।",
+      "reason": "Dividend: 15% (≈৳1.5/share) (2025). Yield: 0.9%. Strong 1M momentum (+20.4%).",
+      "reasonBn": "লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 0.9%। শক্তিশালী ১-মাস গতি (+20.4%)।",
       "signals": [
         "has_dividend",
         "strong_momentum",
@@ -9062,8 +9069,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+20.6%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+20.6%)।",
+      "reason": "Strong 1M momentum (+20.8%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+20.8%)।",
       "signals": [
         "overvalued_5y",
         "stale_dividend",
@@ -9085,17 +9092,17 @@
     "SONALIPAPR": {
       "ticker": "SONALIPAPR",
       "name": "Sonali Paper & Board Mills Ltd.",
-      "action": "hold",
-      "label": "Hold",
-      "labelBn": "ধরে রাখুন",
-      "reason": "Dividend: 40% (≈৳4.0/share) (2025). Yield: 2.9%.",
-      "reasonBn": "লভ্যাংশ: 40% (≈৳4.0/share) (2025)। ইয়েল্ড: 2.9%।",
+      "action": "buy",
+      "label": "Consider Buying",
+      "labelBn": "কেনার কথা ভাবুন",
+      "reason": "Dividend: 40% (≈৳4.0/share) (2025). Yield: 2.9%. Strong 1M momentum (+10.8%).",
+      "reasonBn": "লভ্যাংশ: 40% (≈৳4.0/share) (2025)। ইয়েল্ড: 2.9%। শক্তিশালী ১-মাস গতি (+10.8%)।",
       "signals": [
         "has_dividend",
-        "positive_momentum"
+        "strong_momentum"
       ],
       "category": "A",
-      "score": 5,
+      "score": 8,
       "generatedAt": "2026-08-10"
     },
     "SONARBAINS": {
@@ -9104,8 +9111,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+14.3%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+14.3%)।",
+      "reason": "Strong 1M momentum (+15.9%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+15.9%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -9127,8 +9134,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+225.4%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+225.4%)।",
+      "reason": "Strong 1M momentum (+218.8%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+218.8%)।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -9179,17 +9186,16 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "28% below NAV (৳31.2).",
-      "reasonBn": "NAV-র 28% নিচে (৳31.2)।",
+      "reason": "Strong 1M momentum (+11.4%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+11.4%)।",
       "signals": [
         "b_category",
-        "nav_discount",
         "stale_dividend",
-        "positive_momentum",
+        "strong_momentum",
         "strong_6m_momentum"
       ],
       "category": "B",
-      "score": 1,
+      "score": 0,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
@@ -9262,8 +9268,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "67% below NAV (৳21.7). Strong 1M momentum (+56.5%).",
-      "reasonBn": "NAV-র 67% নিচে (৳21.7)। শক্তিশালী ১-মাস গতি (+56.5%)।",
+      "reason": "67% below NAV (৳21.7). Strong 1M momentum (+54.4%).",
+      "reasonBn": "NAV-র 67% নিচে (৳21.7)। শক্তিশালী ১-মাস গতি (+54.4%)।",
       "signals": [
         "z_category",
         "nav_discount",
@@ -9316,8 +9322,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 12% (≈৳1.2/share) (2025). Yield: 3.4%. Strong 1M momentum (+17.4%).",
-      "reasonBn": "লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 3.4%। শক্তিশালী ১-মাস গতি (+17.4%)।",
+      "reason": "Dividend: 12% (≈৳1.2/share) (2025). Yield: 3.4%. Strong 1M momentum (+18.1%).",
+      "reasonBn": "লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 3.4%। শক্তিশালী ১-মাস গতি (+18.1%)।",
       "signals": [
         "has_dividend",
         "strong_momentum",
@@ -9365,8 +9371,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+19.0%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+19.0%)।",
+      "reason": "Strong 1M momentum (+18.8%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+18.8%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -9427,12 +9433,12 @@
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ B-category: elevated risk classification",
-        "📊 Near 5Y high (82th percentile)",
+        "📊 Near 5Y high (86th percentile)",
         "⚠️ Last dividend: 0% in 2024 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ B-ক্যাটাগরি: উচ্চ ঝুঁকি শ্রেণী",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (82তম পার্সেন্টাইল)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (86তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 0% (2024 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -9442,8 +9448,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.0%. Strong 1M momentum (+61.3%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.0%। শক্তিশালী ১-মাস গতি (+61.3%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.0%. Strong 1M momentum (+61.0%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.0%। শক্তিশালী ১-মাস গতি (+61.0%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
@@ -9466,8 +9472,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "39% below NAV (৳13.3).",
-      "reasonBn": "NAV-র 39% নিচে (৳13.3)।",
+      "reason": "38% below NAV (৳13.3).",
+      "reasonBn": "NAV-র 38% নিচে (৳13.3)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -9488,17 +9494,17 @@
     "TAMIJTEX": {
       "ticker": "TAMIJTEX",
       "name": "Tamijuddin Textile Mills PLC",
-      "action": "buy",
-      "label": "Consider Buying",
-      "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 12% (≈৳1.2/share) (2025). Yield: 1.1%. Strong 1M momentum (+10.3%).",
-      "reasonBn": "লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 1.1%। শক্তিশালী ১-মাস গতি (+10.3%)।",
+      "action": "hold",
+      "label": "Hold",
+      "labelBn": "ধরে রাখুন",
+      "reason": "Dividend: 12% (≈৳1.2/share) (2025). Yield: 1.1%.",
+      "reasonBn": "লভ্যাংশ: 12% (≈৳1.2/share) (2025)। ইয়েল্ড: 1.1%।",
       "signals": [
         "has_dividend",
-        "strong_momentum"
+        "positive_momentum"
       ],
       "category": "A",
-      "score": 8,
+      "score": 5,
       "generatedAt": "2026-08-10"
     },
     "TECHNODRUG": {
@@ -9507,8 +9513,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.6%. Strong 1M momentum (+18.4%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.6%। শক্তিশালী ১-মাস গতি (+18.4%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 3.6%. Strong 1M momentum (+19.9%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 3.6%। শক্তিশালী ১-মাস গতি (+19.9%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
@@ -9519,10 +9525,10 @@
       "score": 11,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (90th percentile)"
+        "📊 Near 5Y high (91th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (90তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (91তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -9533,8 +9539,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+13.2%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+13.2%)।",
+      "reason": "Strong 1M momentum (+14.4%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+14.4%)।",
       "signals": [
         "b_category",
         "stale_dividend",
@@ -9558,8 +9564,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "78% below NAV (৳90.4). Dividend: 2% (≈৳0.2/share) (2025). Yield: 1.0%. Strong 1M momentum (+23.6%).",
-      "reasonBn": "NAV-র 78% নিচে (৳90.4)। লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 1.0%। শক্তিশালী ১-মাস গতি (+23.6%)।",
+      "reason": "78% below NAV (৳90.4). Dividend: 2% (≈৳0.2/share) (2025). Yield: 1.0%. Strong 1M momentum (+24.8%).",
+      "reasonBn": "NAV-র 78% নিচে (৳90.4)। লভ্যাংশ: 2% (≈৳0.2/share) (2025)। ইয়েল্ড: 1.0%। শক্তিশালী ১-মাস গতি (+24.8%)।",
       "signals": [
         "b_category",
         "negative_eps",
@@ -9585,8 +9591,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "26% below NAV (৳31.5). Strong 1M momentum (+29.6%).",
-      "reasonBn": "NAV-র 26% নিচে (৳31.5)। শক্তিশালী ১-মাস গতি (+29.6%)।",
+      "reason": "27% below NAV (৳31.5). Strong 1M momentum (+29.1%).",
+      "reasonBn": "NAV-র 27% নিচে (৳31.5)। শক্তিশালী ১-মাস গতি (+29.1%)।",
       "signals": [
         "b_category",
         "nav_discount",
@@ -9679,8 +9685,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "63% below NAV (৳25.7). At 12th percentile of 5Y range (historically cheap).",
-      "reasonBn": "NAV-র 63% নিচে (৳25.7)। ৫ বছরের 12তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
+      "reason": "63% below NAV (৳25.7). At 13th percentile of 5Y range (historically cheap).",
+      "reasonBn": "NAV-র 63% নিচে (৳25.7)। ৫ বছরের 13তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)।",
       "signals": [
         "z_category",
         "nav_discount",
@@ -9723,8 +9729,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "At 16th percentile of 5Y range (historically cheap). Dividend: 420% (≈৳42.0/share) (2025). Yield: 1.9%.",
-      "reasonBn": "৫ বছরের 16তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 420% (≈৳42.0/share) (2025)। ইয়েল্ড: 1.9%।",
+      "reason": "At 15th percentile of 5Y range (historically cheap). Dividend: 420% (≈৳42.0/share) (2025). Yield: 1.9%.",
+      "reasonBn": "৫ বছরের 15তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 420% (≈৳42.0/share) (2025)। ইয়েল্ড: 1.9%।",
       "signals": [
         "undervalued_5y",
         "has_dividend"
@@ -9772,8 +9778,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "At 18th percentile of 5Y range (historically cheap). Strong 1M momentum (+14.6%).",
-      "reasonBn": "৫ বছরের 18তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+14.6%)।",
+      "reason": "At 19th percentile of 5Y range (historically cheap). Strong 1M momentum (+17.1%).",
+      "reasonBn": "৫ বছরের 19তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। শক্তিশালী ১-মাস গতি (+17.1%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -9801,8 +9807,8 @@
       "action": "hold",
       "label": "Hold",
       "labelBn": "ধরে রাখুন",
-      "reason": "Strong 1M momentum (+53.7%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+53.7%)।",
+      "reason": "Strong 1M momentum (+54.3%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+54.3%)।",
       "signals": [
         "stale_dividend",
         "strong_momentum",
@@ -9824,8 +9830,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (8.4x) with positive earnings. 53% below NAV (৳93.9). Dividend: 16% (≈৳1.6/share) (2025). Yield: 4.6%. Strong 1M momentum (+20.0%).",
-      "reasonBn": "কম PE (8.4x) ইতিবাচক আয়ের সাথে। NAV-র 53% নিচে (৳93.9)। লভ্যাংশ: 16% (≈৳1.6/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+20.0%)।",
+      "reason": "Low PE (8.4x) with positive earnings. 54% below NAV (৳93.9). Dividend: 16% (≈৳1.6/share) (2025). Yield: 4.6%. Strong 1M momentum (+18.9%).",
+      "reasonBn": "কম PE (8.4x) ইতিবাচক আয়ের সাথে। NAV-র 54% নিচে (৳93.9)। লভ্যাংশ: 16% (≈৳1.6/share) (2025)। ইয়েল্ড: 4.6%। শক্তিশালী ১-মাস গতি (+18.9%)।",
       "signals": [
         "cheap_pe",
         "nav_discount",
@@ -9844,8 +9850,8 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 8.7%. Strong 1M momentum (+42.0%).",
-      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 8.7%। শক্তিশালী ১-মাস গতি (+42.0%)।",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 8.7%. Strong 1M momentum (+40.5%).",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 8.7%। শক্তিশালী ১-মাস গতি (+40.5%)।",
       "signals": [
         "overvalued_5y",
         "high_dividend",
@@ -9856,10 +9862,10 @@
       "score": 15,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (84th percentile)"
+        "📊 Near 5Y high (83th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (84তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (83তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -9870,8 +9876,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 15% (≈৳1.5/share) (2025). Yield: 3.7%. Strong 1M momentum (+58.6%).",
-      "reasonBn": "লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 3.7%। শক্তিশালী ১-মাস গতি (+58.6%)।",
+      "reason": "Dividend: 15% (≈৳1.5/share) (2025). Yield: 3.7%. Strong 1M momentum (+60.2%).",
+      "reasonBn": "লভ্যাংশ: 15% (≈৳1.5/share) (2025)। ইয়েল্ড: 3.7%। শক্তিশালী ১-মাস গতি (+60.2%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
@@ -9882,10 +9888,10 @@
       "score": 11,
       "generatedAt": "2026-08-10",
       "warnings": [
-        "📊 Near 5Y high (98th percentile)"
+        "📊 Near 5Y high (99th percentile)"
       ],
       "warningsBn": [
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (98তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (99তম পার্সেন্টাইল)"
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -9896,15 +9902,16 @@
       "action": "buy",
       "label": "Strong Buy",
       "labelBn": "দৃঢ়ভাবে কিনুন",
-      "reason": "Low PE (5.8x) with positive earnings. At 16th percentile of 5Y range (historically cheap). Dividend: 65% (≈৳6.5/share) (2025). Yield: 5.4%.",
-      "reasonBn": "কম PE (5.8x) ইতিবাচক আয়ের সাথে। ৫ বছরের 16তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 65% (≈৳6.5/share) (2025)। ইয়েল্ড: 5.4%।",
+      "reason": "Low PE (5.8x) with positive earnings. At 18th percentile of 5Y range (historically cheap). Dividend: 65% (≈৳6.5/share) (2025). Yield: 5.4%.",
+      "reasonBn": "কম PE (5.8x) ইতিবাচক আয়ের সাথে। ৫ বছরের 18তম পার্সেন্টাইলে (ঐতিহাসিকভাবে সস্তা)। লভ্যাংশ: 65% (≈৳6.5/share) (2025)। ইয়েল্ড: 5.4%।",
       "signals": [
         "cheap_pe",
         "undervalued_5y",
-        "high_dividend"
+        "high_dividend",
+        "positive_momentum"
       ],
       "category": "A",
-      "score": 28,
+      "score": 30,
       "generatedAt": "2026-08-10",
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
@@ -9915,8 +9922,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+70.8%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+70.8%)।",
+      "reason": "Strong 1M momentum (+67.8%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+67.8%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -9930,12 +9937,12 @@
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-5.34)",
-        "📊 Near 5Y high (86th percentile)"
+        "📊 Near 5Y high (85th percentile)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
         "⚠️ নেতিবাচক ইপিএস (৳-5.34)",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (86তম পার্সেন্টাইল)"
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (85তম পার্সেন্টাইল)"
       ]
     },
     "UTTARABANK": {
@@ -10021,8 +10028,8 @@
       "action": "hold",
       "label": "Hold with Caution",
       "labelBn": "সতর্কতার সাথে ধরুন",
-      "reason": "Strong 1M momentum (+39.0%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+39.0%)।",
+      "reason": "Strong 1M momentum (+37.3%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+37.3%)।",
       "signals": [
         "negative_eps",
         "overvalued_5y",
@@ -10035,12 +10042,12 @@
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Negative EPS (৳-0.37)",
-        "📊 Near 5Y high (85th percentile)",
+        "📊 Near 5Y high (84th percentile)",
         "⚠️ Last dividend: 1% in 2023 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ নেতিবাচক ইপিএস (৳-0.37)",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (85তম পার্সেন্টাইল)",
+        "📊 ৫ বছরের সর্বোচ্চের কাছে (84তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 1% (2023 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -10109,8 +10116,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 3.6%. Strong 1M momentum (+44.1%).",
-      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 3.6%। শক্তিশালী ১-মাস গতি (+44.1%)।",
+      "reason": "Dividend: 5% (≈৳0.5/share) (2025). Yield: 3.6%. Strong 1M momentum (+45.5%).",
+      "reasonBn": "লভ্যাংশ: 5% (≈৳0.5/share) (2025)। ইয়েল্ড: 3.6%। শক্তিশালী ১-মাস গতি (+45.5%)।",
       "signals": [
         "overvalued_5y",
         "has_dividend",
@@ -10135,8 +10142,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "37% below NAV (৳16.2). Strong 1M momentum (+24.4%).",
-      "reasonBn": "NAV-র 37% নিচে (৳16.2)। শক্তিশালী ১-মাস গতি (+24.4%)।",
+      "reason": "38% below NAV (৳16.2). Strong 1M momentum (+23.2%).",
+      "reasonBn": "NAV-র 38% নিচে (৳16.2)। শক্তিশালী ১-মাস গতি (+23.2%)।",
       "signals": [
         "z_category",
         "negative_eps",
@@ -10165,8 +10172,8 @@
       "action": "buy",
       "label": "Consider Buying",
       "labelBn": "কেনার কথা ভাবুন",
-      "reason": "Strong 1M momentum (+14.8%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+14.8%)।",
+      "reason": "Strong 1M momentum (+19.9%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+19.9%)।",
       "signals": [
         "strong_momentum",
         "strong_6m_momentum"
@@ -10181,14 +10188,13 @@
       "action": "sell",
       "label": "Sell",
       "labelBn": "বিক্রি করুন",
-      "reason": "Strong 1M momentum (+11.4%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+11.4%)।",
+      "reason": "No strong signals detected.",
+      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
       "signals": [
         "z_category",
         "negative_eps",
-        "overvalued_5y",
         "stale_dividend",
-        "strong_momentum",
+        "positive_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
@@ -10197,13 +10203,11 @@
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
         "⚠️ Negative EPS (৳-0.55)",
-        "📊 Near 5Y high (81th percentile)",
         "⚠️ Last dividend: 1% in 2020 (over a year ago)"
       ],
       "warningsBn": [
         "⚠️ Z-ক্যাটাগরি: মার্জিন লোন নেই, সীমাবদ্ধ ট্রেডিং",
         "⚠️ নেতিবাচক ইপিএস (৳-0.55)",
-        "📊 ৫ বছরের সর্বোচ্চের কাছে (81তম পার্সেন্টাইল)",
         "⚠️ শেষ লভ্যাংশ: 1% (2020 সালে, ১ বছরেরও বেশি আগে)"
       ]
     },
@@ -10261,19 +10265,19 @@
       "ticker": "ZAHINTEX",
       "name": "Zahintex Industries Limited",
       "action": "sell",
-      "label": "Consider Selling",
-      "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+12.5%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+12.5%)।",
+      "label": "Sell",
+      "labelBn": "বিক্রি করুন",
+      "reason": "No strong signals detected.",
+      "reasonBn": "কোনো শক্তিশালী সংকেত নেই।",
       "signals": [
         "z_category",
         "negative_eps",
         "stale_dividend",
-        "strong_momentum",
+        "positive_momentum",
         "strong_6m_momentum"
       ],
       "category": "Z",
-      "score": -13,
+      "score": -16,
       "generatedAt": "2026-08-10",
       "warnings": [
         "⚠️ Z-category: no margin loans, restricted trading",
@@ -10292,8 +10296,8 @@
       "action": "sell",
       "label": "Consider Selling",
       "labelBn": "বিক্রির কথা ভাবুন",
-      "reason": "Strong 1M momentum (+79.0%).",
-      "reasonBn": "শক্তিশালী ১-মাস গতি (+79.0%)।",
+      "reason": "Strong 1M momentum (+78.1%).",
+      "reasonBn": "শক্তিশালী ১-মাস গতি (+78.1%)।",
       "signals": [
         "z_category",
         "negative_eps",
