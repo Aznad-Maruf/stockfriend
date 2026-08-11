@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T08:17:04.049816",
-  "total_analyzed": 423,
-  "stocks_with_signals": 423,
+  "generated_at": "2026-08-11T10:34:24.427063",
+  "total_analyzed": 424,
+  "stocks_with_signals": 424,
   "overrides": {
     "AAMRANET": {
       "ticker": "AAMRANET",
@@ -633,6 +633,22 @@
       ],
       "duration": "Hold for dividend",
       "durationBn": "লভ্যাংশের জন্য ধরুন"
+    },
+    "AMBEEPHA": {
+      "ticker": "AMBEEPHA",
+      "name": "Ambee Pharmaceuticals PLC",
+      "action": "hold",
+      "label": "Hold",
+      "labelBn": "ধরে রাখুন",
+      "reason": "Dividend: 10% (≈৳1.0/share) (2025). Yield: 0.1%.",
+      "reasonBn": "লভ্যাংশ: 10% (≈৳1.0/share) (2025)। ইয়েল্ড: 0.1%।",
+      "signals": [
+        "has_dividend",
+        "positive_momentum"
+      ],
+      "category": "A",
+      "score": 2,
+      "generatedAt": "2026-08-11"
     },
     "AMCL(PRAN)": {
       "ticker": "AMCL(PRAN)",
